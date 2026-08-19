@@ -1,0 +1,101 @@
+{
+  "crop_id": "xiaobaicai",
+  "crop_name": "小白菜",
+  "category": "葉菜類",
+  "region_suitability": {
+    "note": "小白菜生育期短、耐候範圍廣，北中南皆可栽種，主要差異在盛產季節與病蟲害壓力，非「能不能種」的差異。",
+    "north": "四季皆可，夏季設施栽培為主（防豪雨、颱風後復耕作物）",
+    "central": "四季皆可，春秋為主要產季",
+    "south": "四季皆可，高溫期需注意軟腐病與蟲害壓力較大"
+  },
+  "cultivation": [
+    {
+      "field": "適合季節",
+      "value": "四季皆可栽種，以春、秋兩季為佳",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "field": "最適溫度",
+      "value": "20～25℃",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "field": "土壤條件",
+      "value": "肥沃、疏鬆、保水、排水良好之砂質壤土",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "field": "播種方式",
+      "value": "撒播法，種子均勻撒播於土上，覆薄土約0.5公分",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "field": "株距",
+      "value": "約15～20公分（需經1～2次間拔）",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "field": "水分管理",
+      "value": "不耐旱，須保持土壤濕潤，早晚各澆一次水",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "field": "施肥",
+      "value": "種植約10天後視基肥與生長狀況適度追肥，可株間施肥或噴灑有機液肥",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "field": "採收天數",
+      "value": "約25～30天",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=787",
+      "fetched_date": "2026-08-19"
+    }
+  ],
+  "pests": [
+    {
+      "name": "斑潛蠅（畫圖蟲）",
+      "type": "蟲害",
+      "symptom": "在葉片穿刺產卵，幼蟲孵化後在葉片內潛食葉肉，呈現白色不規則線條",
+      "control": "摘除被害葉並清出田外；栽植前後田間淹水48小時；設置黃色黏板誘捕；生物天敵（釉小蜂）；藥劑防治請參考植物保護手冊",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=6139",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "name": "小菜蛾",
+      "type": "蟲害",
+      "symptom": "幼蟲取食葉片，為十字花科蔬菜常見害蟲之一",
+      "control": "苦楝油防治，建議先小量測試100～500倍（可調至1000倍），不建議加展著劑以避免藥害；蘇力菌對小菜蛾與紋白蝶亦有效",
+      "source_name": "桃園區農業改良場（農業知識入口網問答）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=7654",
+      "fetched_date": "2026-08-19"
+    },
+    {
+      "name": "黃條葉蚤",
+      "type": "蟲害",
+      "symptom": "生活習性使其難以防治，屬十字花科蔬菜常見害蟲",
+      "control": "菸葉水防治，建議先小面積測試500或1000倍，須單獨使用不與其他資材混用，注意藥害與尼古丁毒性防護",
+      "source_name": "桃園區農業改良場（農業知識入口網問答）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=7654",
+      "fetched_date": "2026-08-19"
+    }
+  ],
+  "unverified_notes": [
+    "病毒病、軟腐病、霜霉病、黑斑病、蚜蟲、白粉虱、煙粉虱、菜青蟲、甜菜夜蛾等病蟲害在多篇二手資料中被提及，但尚未從官方單一頁面取得防治細節，需另行查證，故未列入正式資料表。"
+  ]
+}

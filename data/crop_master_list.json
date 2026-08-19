@@ -1,0 +1,4002 @@
+[
+ {
+  "CropCode": "11",
+  "CropName": "椰子"
+ },
+ {
+  "CropCode": "119",
+  "CropName": "椰子-進口"
+ },
+ {
+  "CropCode": "12",
+  "CropName": "椰子-剝殼"
+ },
+ {
+  "CropCode": "129",
+  "CropName": "椰子-剝殼進口"
+ },
+ {
+  "CropCode": "22",
+  "CropName": "棗子"
+ },
+ {
+  "CropCode": "229",
+  "CropName": "棗子-進口"
+ },
+ {
+  "CropCode": "30",
+  "CropName": "釋迦-其他"
+ },
+ {
+  "CropCode": "31",
+  "CropName": "釋迦"
+ },
+ {
+  "CropCode": "32",
+  "CropName": "釋迦-鳳梨釋迦"
+ },
+ {
+  "CropCode": "41",
+  "CropName": "梅"
+ },
+ {
+  "CropCode": "42",
+  "CropName": "楊梅"
+ },
+ {
+  "CropCode": "43",
+  "CropName": "桑椹"
+ },
+ {
+  "CropCode": "45",
+  "CropName": "草莓"
+ },
+ {
+  "CropCode": "459",
+  "CropName": "草莓-進口"
+ },
+ {
+  "CropCode": "46",
+  "CropName": "藍莓"
+ },
+ {
+  "CropCode": "469",
+  "CropName": "藍莓-進口"
+ },
+ {
+  "CropCode": "50",
+  "CropName": "百香果-其他"
+ },
+ {
+  "CropCode": "51",
+  "CropName": "百香果-改良種"
+ },
+ {
+  "CropCode": "61",
+  "CropName": "甘蔗-帶皮"
+ },
+ {
+  "CropCode": "62",
+  "CropName": "甘蔗-削皮"
+ },
+ {
+  "CropCode": "70",
+  "CropName": "小番茄-其他"
+ },
+ {
+  "CropCode": "71",
+  "CropName": "小番茄-ㄧ般"
+ },
+ {
+  "CropCode": "72",
+  "CropName": "小番茄-聖女"
+ },
+ {
+  "CropCode": "73",
+  "CropName": "小番茄-嬌女"
+ },
+ {
+  "CropCode": "74",
+  "CropName": "小番茄-玉女"
+ },
+ {
+  "CropCode": "811",
+  "CropName": "紅龍果-白肉"
+ },
+ {
+  "CropCode": "812",
+  "CropName": "紅龍果-紅肉"
+ },
+ {
+  "CropCode": "813",
+  "CropName": "紅龍果-雙色紅龍果"
+ },
+ {
+  "CropCode": "819",
+  "CropName": "紅龍果-進口"
+ },
+ {
+  "CropCode": "82",
+  "CropName": "火龍果-紅肉"
+ },
+ {
+  "CropCode": "829",
+  "CropName": "蜜棗-進口"
+ },
+ {
+  "CropCode": "83",
+  "CropName": "菊芋-雪蓮薯"
+ },
+ {
+  "CropCode": "839",
+  "CropName": "櫻桃-進口"
+ },
+ {
+  "CropCode": "84",
+  "CropName": "石榴"
+ },
+ {
+  "CropCode": "849",
+  "CropName": "石榴-進口"
+ },
+ {
+  "CropCode": "85",
+  "CropName": "榴槤"
+ },
+ {
+  "CropCode": "859",
+  "CropName": "榴槤-進口"
+ },
+ {
+  "CropCode": "86",
+  "CropName": "山竹"
+ },
+ {
+  "CropCode": "869",
+  "CropName": "山竹-進口"
+ },
+ {
+  "CropCode": "87",
+  "CropName": "紅毛丹"
+ },
+ {
+  "CropCode": "879",
+  "CropName": "紅毛丹-進口"
+ },
+ {
+  "CropCode": "88",
+  "CropName": "樹葡萄"
+ },
+ {
+  "CropCode": "91",
+  "CropName": "其他"
+ },
+ {
+  "CropCode": "919",
+  "CropName": "其他-進口"
+ },
+ {
+  "CropCode": "A0",
+  "CropName": "香蕉-其他"
+ },
+ {
+  "CropCode": "A1",
+  "CropName": "香蕉"
+ },
+ {
+  "CropCode": "A2",
+  "CropName": "香蕉-芭蕉紅芭蕉"
+ },
+ {
+  "CropCode": "A3",
+  "CropName": "香蕉-旦蕉"
+ },
+ {
+  "CropCode": "A4",
+  "CropName": "香蕉-越旦"
+ },
+ {
+  "CropCode": "B0",
+  "CropName": "鳳梨-其他"
+ },
+ {
+  "CropCode": "B1",
+  "CropName": "鳳梨-開英"
+ },
+ {
+  "CropCode": "B2",
+  "CropName": "鳳梨-金鑽鳳梨"
+ },
+ {
+  "CropCode": "B3",
+  "CropName": "鳳梨-香水鳳梨"
+ },
+ {
+  "CropCode": "B4",
+  "CropName": "鳳梨-鳳梨花"
+ },
+ {
+  "CropCode": "B5",
+  "CropName": "鳳梨-蘋果鳳梨"
+ },
+ {
+  "CropCode": "B6",
+  "CropName": "鳳梨-甜蜜蜜"
+ },
+ {
+  "CropCode": "B7",
+  "CropName": "鳳梨-牛奶鳳梨"
+ },
+ {
+  "CropCode": "B8",
+  "CropName": "鳳梨-西瓜鳳梨"
+ },
+ {
+  "CropCode": "B9",
+  "CropName": "鳳梨-進口"
+ },
+ {
+  "CropCode": "C0",
+  "CropName": "柑橘-其他"
+ },
+ {
+  "CropCode": "C1",
+  "CropName": "椪柑"
+ },
+ {
+  "CropCode": "C2",
+  "CropName": "茂谷柑"
+ },
+ {
+  "CropCode": "C3",
+  "CropName": "虎頭柑"
+ },
+ {
+  "CropCode": "C4",
+  "CropName": "紅柑-美女柑"
+ },
+ {
+  "CropCode": "C5",
+  "CropName": "溫州柑"
+ },
+ {
+  "CropCode": "C6",
+  "CropName": "佛利蒙柑"
+ },
+ {
+  "CropCode": "C7",
+  "CropName": "豔陽柑"
+ },
+ {
+  "CropCode": "C8",
+  "CropName": "珍珠柑"
+ },
+ {
+  "CropCode": "C9",
+  "CropName": "柑橘-進口"
+ },
+ {
+  "CropCode": "D1",
+  "CropName": "桶柑"
+ },
+ {
+  "CropCode": "D2",
+  "CropName": "海梨柑"
+ },
+ {
+  "CropCode": "E0",
+  "CropName": "甜橙-其他"
+ },
+ {
+  "CropCode": "E1",
+  "CropName": "甜橙-柳橙"
+ },
+ {
+  "CropCode": "E2",
+  "CropName": "甜橙-晚崙西亞"
+ },
+ {
+  "CropCode": "E3",
+  "CropName": "甜橙-紅肉柳橙"
+ },
+ {
+  "CropCode": "E9",
+  "CropName": "甜橙-進口"
+ },
+ {
+  "CropCode": "F0",
+  "CropName": "雜柑-其他"
+ },
+ {
+  "CropCode": "F1",
+  "CropName": "雜柑-檸檬"
+ },
+ {
+  "CropCode": "F2",
+  "CropName": "雜柑-金棗"
+ },
+ {
+  "CropCode": "F4",
+  "CropName": "雜柑-桔子"
+ },
+ {
+  "CropCode": "F5",
+  "CropName": "雜柑-無子檸檬"
+ },
+ {
+  "CropCode": "F6",
+  "CropName": "雜柑-黃金檸檬"
+ },
+ {
+  "CropCode": "F9",
+  "CropName": "雜柑-進口"
+ },
+ {
+  "CropCode": "FA0",
+  "CropName": "其他花類"
+ },
+ {
+  "CropCode": "FA000",
+  "CropName": "康乃馨-中大輪混"
+ },
+ {
+  "CropCode": "FA001",
+  "CropName": "康乃馨-混合色"
+ },
+ {
+  "CropCode": "FA1",
+  "CropName": "黃秋葵"
+ },
+ {
+  "CropCode": "FA100",
+  "CropName": "康乃馨-紅"
+ },
+ {
+  "CropCode": "FA101",
+  "CropName": "康乃馨-清紅"
+ },
+ {
+  "CropCode": "FA102",
+  "CropName": "康乃馨-深紅"
+ },
+ {
+  "CropCode": "FA103",
+  "CropName": "康乃馨-橙紅"
+ },
+ {
+  "CropCode": "FA104",
+  "CropName": "康乃馨-櫻紅"
+ },
+ {
+  "CropCode": "FA120",
+  "CropName": "康乃馨-紅羽毛"
+ },
+ {
+  "CropCode": "FA2",
+  "CropName": "樊花"
+ },
+ {
+  "CropCode": "FA200",
+  "CropName": "康乃馨-橙"
+ },
+ {
+  "CropCode": "FA220",
+  "CropName": "康乃馨-橙羽毛"
+ },
+ {
+  "CropCode": "FA300",
+  "CropName": "康乃馨-黃"
+ },
+ {
+  "CropCode": "FA301",
+  "CropName": "康乃馨-深黃"
+ },
+ {
+  "CropCode": "FA302",
+  "CropName": "康乃馨-淺黃"
+ },
+ {
+  "CropCode": "FA303",
+  "CropName": "康乃馨-橙黃"
+ },
+ {
+  "CropCode": "FA304",
+  "CropName": "康乃馨-雙色金紅"
+ },
+ {
+  "CropCode": "FA320",
+  "CropName": "康乃馨-黃羽毛"
+ },
+ {
+  "CropCode": "FA4",
+  "CropName": "瓊花"
+ },
+ {
+  "CropCode": "FA400",
+  "CropName": "康乃馨-粉"
+ },
+ {
+  "CropCode": "FA401",
+  "CropName": "康乃馨-深粉"
+ },
+ {
+  "CropCode": "FA402",
+  "CropName": "康乃馨-淺粉"
+ },
+ {
+  "CropCode": "FA403",
+  "CropName": "康乃馨-薄粉"
+ },
+ {
+  "CropCode": "FA420",
+  "CropName": "康乃馨-粉羽毛"
+ },
+ {
+  "CropCode": "FA500",
+  "CropName": "康乃馨-綠"
+ },
+ {
+  "CropCode": "FA501",
+  "CropName": "康乃馨-蘋果綠"
+ },
+ {
+  "CropCode": "FA600",
+  "CropName": "康乃馨-白"
+ },
+ {
+  "CropCode": "FA601",
+  "CropName": "康乃馨-清白"
+ },
+ {
+  "CropCode": "FA602",
+  "CropName": "康乃馨-牛奶白"
+ },
+ {
+  "CropCode": "FA603",
+  "CropName": "康乃馨-白帶紅"
+ },
+ {
+  "CropCode": "FA604",
+  "CropName": "康乃馨-黃帶紫"
+ },
+ {
+  "CropCode": "FA605",
+  "CropName": "康乃馨-白帶紫"
+ },
+ {
+  "CropCode": "FA606",
+  "CropName": "康乃馨-黃帶紅"
+ },
+ {
+  "CropCode": "FA607",
+  "CropName": "康乃馨-粉帶紅"
+ },
+ {
+  "CropCode": "FA608",
+  "CropName": "康乃馨-粉帶白"
+ },
+ {
+  "CropCode": "FA609",
+  "CropName": "康乃馨-粉帶紫"
+ },
+ {
+  "CropCode": "FA700",
+  "CropName": "康乃馨-紫"
+ },
+ {
+  "CropCode": "FA701",
+  "CropName": "康乃馨-紫帶白"
+ },
+ {
+  "CropCode": "FA800",
+  "CropName": "康乃馨-多朵(混色)"
+ },
+ {
+  "CropCode": "FA810",
+  "CropName": "康乃馨-多朵紅"
+ },
+ {
+  "CropCode": "FA811",
+  "CropName": "康乃馨-多朵櫻紅"
+ },
+ {
+  "CropCode": "FA812",
+  "CropName": "康乃馨-波斯桃紅"
+ },
+ {
+  "CropCode": "FA813",
+  "CropName": "康乃馨-波列羅"
+ },
+ {
+  "CropCode": "FA814",
+  "CropName": "康乃馨-滿意"
+ },
+ {
+  "CropCode": "FA815",
+  "CropName": "康乃馨-輕吻"
+ },
+ {
+  "CropCode": "FA820",
+  "CropName": "康乃馨-多朵橙"
+ },
+ {
+  "CropCode": "FA830",
+  "CropName": "康乃馨-多朵黃"
+ },
+ {
+  "CropCode": "FA840",
+  "CropName": "康乃馨-多朵粉"
+ },
+ {
+  "CropCode": "FA841",
+  "CropName": "康乃馨-多朵淺粉"
+ },
+ {
+  "CropCode": "FA842",
+  "CropName": "康乃馨-天鵝粉"
+ },
+ {
+  "CropCode": "FA843",
+  "CropName": "康乃馨-拿鐵"
+ },
+ {
+  "CropCode": "FA844",
+  "CropName": "康乃馨-妮娜"
+ },
+ {
+  "CropCode": "FA845",
+  "CropName": "康乃馨-美莉莎"
+ },
+ {
+  "CropCode": "FA851",
+  "CropName": "康乃馨-蘋果綠"
+ },
+ {
+  "CropCode": "FA860",
+  "CropName": "康乃馨-多朵白"
+ },
+ {
+  "CropCode": "FA861",
+  "CropName": "康乃馨-白鐵時諾"
+ },
+ {
+  "CropCode": "FA862",
+  "CropName": "康乃馨-白水晶"
+ },
+ {
+  "CropCode": "FA870",
+  "CropName": "康乃馨-多朵紫"
+ },
+ {
+  "CropCode": "FA871",
+  "CropName": "康乃馨-仙女紫"
+ },
+ {
+  "CropCode": "FA872",
+  "CropName": "康乃馨-史波特"
+ },
+ {
+  "CropCode": "FA881",
+  "CropName": "康乃馨-多朵紅帶白"
+ },
+ {
+  "CropCode": "FA882",
+  "CropName": "康乃馨-多朵紅帶粉"
+ },
+ {
+  "CropCode": "FA883",
+  "CropName": "康乃馨-多朵橙帶紅"
+ },
+ {
+  "CropCode": "FA884",
+  "CropName": "康乃馨-多朵黃帶紅"
+ },
+ {
+  "CropCode": "FA885",
+  "CropName": "康乃馨-多朵黃帶紫"
+ },
+ {
+  "CropCode": "FA886",
+  "CropName": "康乃馨-多朵白帶紅"
+ },
+ {
+  "CropCode": "FA887",
+  "CropName": "康乃馨-多朵白帶紫"
+ },
+ {
+  "CropCode": "FA9",
+  "CropName": "百果-進口"
+ },
+ {
+  "CropCode": "FA900",
+  "CropName": "小可愛-(混色)"
+ },
+ {
+  "CropCode": "FA910",
+  "CropName": "小可愛-紅"
+ },
+ {
+  "CropCode": "FA920",
+  "CropName": "小可愛-橙"
+ },
+ {
+  "CropCode": "FA930",
+  "CropName": "小可愛-黃"
+ },
+ {
+  "CropCode": "FA940",
+  "CropName": "小可愛-粉"
+ },
+ {
+  "CropCode": "FA960",
+  "CropName": "小可愛-白"
+ },
+ {
+  "CropCode": "FA970",
+  "CropName": "小可愛-紫"
+ },
+ {
+  "CropCode": "FA980",
+  "CropName": "美女撫子"
+ },
+ {
+  "CropCode": "FA981",
+  "CropName": "繡球撫子-紅"
+ },
+ {
+  "CropCode": "FA984",
+  "CropName": "繡球撫子-粉"
+ },
+ {
+  "CropCode": "FA985",
+  "CropName": "繡球撫子-綠石竹"
+ },
+ {
+  "CropCode": "FA986",
+  "CropName": "繡球撫子-白"
+ },
+ {
+  "CropCode": "FA987",
+  "CropName": "繡球撫子-紫"
+ },
+ {
+  "CropCode": "FA988",
+  "CropName": "繡球撫子-雙色"
+ },
+ {
+  "CropCode": "FA989",
+  "CropName": "繡球撫子-紫紅"
+ },
+ {
+  "CropCode": "FA990",
+  "CropName": "繡球撫子-紫白"
+ },
+ {
+  "CropCode": "FB0",
+  "CropName": "花椰菜-其他"
+ },
+ {
+  "CropCode": "FB000",
+  "CropName": "火鶴花"
+ },
+ {
+  "CropCode": "FB001",
+  "CropName": "火鶴花-混色"
+ },
+ {
+  "CropCode": "FB1",
+  "CropName": "花椰菜-青梗"
+ },
+ {
+  "CropCode": "FB100",
+  "CropName": "火鶴花-紅色"
+ },
+ {
+  "CropCode": "FB101",
+  "CropName": "火鶴花-紅紅心"
+ },
+ {
+  "CropCode": "FB102",
+  "CropName": "火鶴花-紅黃心"
+ },
+ {
+  "CropCode": "FB103",
+  "CropName": "火鶴花-紅青心"
+ },
+ {
+  "CropCode": "FB104",
+  "CropName": "火鶴花-小耳朵"
+ },
+ {
+  "CropCode": "FB105",
+  "CropName": "火鶴花-紅綠邊"
+ },
+ {
+  "CropCode": "FB106",
+  "CropName": "火鶴花-丘比特"
+ },
+ {
+  "CropCode": "FB107",
+  "CropName": "火鶴花-愛麗絲"
+ },
+ {
+  "CropCode": "FB108",
+  "CropName": "火鶴花-千里達"
+ },
+ {
+  "CropCode": "FB109",
+  "CropName": "火鶴花-朋友"
+ },
+ {
+  "CropCode": "FB11",
+  "CropName": "花椰菜-青梗"
+ },
+ {
+  "CropCode": "FB110",
+  "CropName": "火鶴花-朱比特"
+ },
+ {
+  "CropCode": "FB111",
+  "CropName": "火鶴花-月光"
+ },
+ {
+  "CropCode": "FB112",
+  "CropName": "火鶴花-第一紅"
+ },
+ {
+  "CropCode": "FB113",
+  "CropName": "火鶴花-紅鈴"
+ },
+ {
+  "CropCode": "FB114",
+  "CropName": "火鶴花-紅星"
+ },
+ {
+  "CropCode": "FB115",
+  "CropName": "火鶴花-維納斯"
+ },
+ {
+  "CropCode": "FB12",
+  "CropName": "花椰菜-青梗"
+ },
+ {
+  "CropCode": "FB2",
+  "CropName": "花椰菜-白梗"
+ },
+ {
+  "CropCode": "FB200",
+  "CropName": "火鶴花-橙色"
+ },
+ {
+  "CropCode": "FB201",
+  "CropName": "火鶴花-桔綠邊"
+ },
+ {
+  "CropCode": "FB21",
+  "CropName": "花椰菜-白梗"
+ },
+ {
+  "CropCode": "FB22",
+  "CropName": "花椰菜-白梗"
+ },
+ {
+  "CropCode": "FB301",
+  "CropName": "火鶴花-金龍"
+ },
+ {
+  "CropCode": "FB302",
+  "CropName": "火鶴花-黃瑪莉"
+ },
+ {
+  "CropCode": "FB400",
+  "CropName": "火鶴花-粉色"
+ },
+ {
+  "CropCode": "FB401",
+  "CropName": "火鶴花-夏粉"
+ },
+ {
+  "CropCode": "FB402",
+  "CropName": "火鶴花-荷粉"
+ },
+ {
+  "CropCode": "FB403",
+  "CropName": "火鶴花-珊瑚粉"
+ },
+ {
+  "CropCode": "FB404",
+  "CropName": "火鶴花-粉新娘"
+ },
+ {
+  "CropCode": "FB405",
+  "CropName": "火鶴花-粉綠邊"
+ },
+ {
+  "CropCode": "FB406",
+  "CropName": "火鶴花-粉公主"
+ },
+ {
+  "CropCode": "FB407",
+  "CropName": "火鶴花-夢幻"
+ },
+ {
+  "CropCode": "FB408",
+  "CropName": "火鶴花-粉佳人"
+ },
+ {
+  "CropCode": "FB409",
+  "CropName": "火鶴花-雪碧粉"
+ },
+ {
+  "CropCode": "FB410",
+  "CropName": "火鶴花-女王"
+ },
+ {
+  "CropCode": "FB411",
+  "CropName": "火鶴花-王妃"
+ },
+ {
+  "CropCode": "FB412",
+  "CropName": "火鶴花-總統"
+ },
+ {
+  "CropCode": "FB413",
+  "CropName": "火鶴花-女神"
+ },
+ {
+  "CropCode": "FB415",
+  "CropName": "火鶴花-羅莎"
+ },
+ {
+  "CropCode": "FB416",
+  "CropName": "火鶴花-花仙子"
+ },
+ {
+  "CropCode": "FB417",
+  "CropName": "火鶴花-彩虹"
+ },
+ {
+  "CropCode": "FB418",
+  "CropName": "火鶴花-百香粉"
+ },
+ {
+  "CropCode": "FB419",
+  "CropName": "火鶴花-太極"
+ },
+ {
+  "CropCode": "FB420",
+  "CropName": "火鶴花-小紅莓"
+ },
+ {
+  "CropCode": "FB421",
+  "CropName": "火鶴花-珊娜塔"
+ },
+ {
+  "CropCode": "FB422",
+  "CropName": "火鶴花-情人"
+ },
+ {
+  "CropCode": "FB423",
+  "CropName": "火鶴花-蜜糖佳人"
+ },
+ {
+  "CropCode": "FB424",
+  "CropName": "火鶴花-奇蹟"
+ },
+ {
+  "CropCode": "FB425",
+  "CropName": "火鶴花-吉祥"
+ },
+ {
+  "CropCode": "FB426",
+  "CropName": "火鶴花-粉蕾絲"
+ },
+ {
+  "CropCode": "FB500",
+  "CropName": "火鶴花-翠綠"
+ },
+ {
+  "CropCode": "FB501",
+  "CropName": "火鶴花-蘋果綠"
+ },
+ {
+  "CropCode": "FB502",
+  "CropName": "火鶴花-綠紅心"
+ },
+ {
+  "CropCode": "FB503",
+  "CropName": "火鶴花-綠姑娘"
+ },
+ {
+  "CropCode": "FB504",
+  "CropName": "火鶴花-雷夢娜"
+ },
+ {
+  "CropCode": "FB505",
+  "CropName": "火鶴花-香檳"
+ },
+ {
+  "CropCode": "FB506",
+  "CropName": "火鶴花-綠寶石"
+ },
+ {
+  "CropCode": "FB507",
+  "CropName": "火鶴花-綠精靈"
+ },
+ {
+  "CropCode": "FB508",
+  "CropName": "火鶴花-青龍"
+ },
+ {
+  "CropCode": "FB509",
+  "CropName": "火鶴花-森林"
+ },
+ {
+  "CropCode": "FB600",
+  "CropName": "火鶴花-白色"
+ },
+ {
+  "CropCode": "FB601",
+  "CropName": "火鶴花-白青心"
+ },
+ {
+  "CropCode": "FB602",
+  "CropName": "火鶴花-白黃心"
+ },
+ {
+  "CropCode": "FB603",
+  "CropName": "火鶴花-白紅心"
+ },
+ {
+  "CropCode": "FB604",
+  "CropName": "火鶴花-白綠邊"
+ },
+ {
+  "CropCode": "FB605",
+  "CropName": "火鶴花-嘉年華"
+ },
+ {
+  "CropCode": "FB606",
+  "CropName": "火鶴花-辛巴"
+ },
+ {
+  "CropCode": "FB607",
+  "CropName": "火鶴花-月亮女神"
+ },
+ {
+  "CropCode": "FB608",
+  "CropName": "火鶴花-戀愛"
+ },
+ {
+  "CropCode": "FB700",
+  "CropName": "火鶴花-紫色"
+ },
+ {
+  "CropCode": "FB701",
+  "CropName": "火鶴花-超音速"
+ },
+ {
+  "CropCode": "FB702",
+  "CropName": "火鶴花-凱撒"
+ },
+ {
+  "CropCode": "FB800",
+  "CropName": "火鶴花-咖啡紅"
+ },
+ {
+  "CropCode": "FB801",
+  "CropName": "火鶴花-咖啡條紋"
+ },
+ {
+  "CropCode": "FB802",
+  "CropName": "火鶴花-大地"
+ },
+ {
+  "CropCode": "FB803",
+  "CropName": "火鶴花-巧克"
+ },
+ {
+  "CropCode": "FB804",
+  "CropName": "火鶴花-黑美人"
+ },
+ {
+  "CropCode": "FB805",
+  "CropName": "火鶴花-黑珍珠"
+ },
+ {
+  "CropCode": "FB9",
+  "CropName": "花椰菜-進口"
+ },
+ {
+  "CropCode": "FC000",
+  "CropName": "大菊"
+ },
+ {
+  "CropCode": "FC001",
+  "CropName": "大菊-混合色"
+ },
+ {
+  "CropCode": "FC1",
+  "CropName": "胡瓜-黑刺"
+ },
+ {
+  "CropCode": "FC100",
+  "CropName": "大菊-紅"
+ },
+ {
+  "CropCode": "FC101",
+  "CropName": "大菊-陽炎"
+ },
+ {
+  "CropCode": "FC102",
+  "CropName": "大菊-英國紅"
+ },
+ {
+  "CropCode": "FC103",
+  "CropName": "大菊-德國紅"
+ },
+ {
+  "CropCode": "FC104",
+  "CropName": "大菊-紅初鳳"
+ },
+ {
+  "CropCode": "FC105",
+  "CropName": "大菊-香港紅"
+ },
+ {
+  "CropCode": "FC106",
+  "CropName": "大菊-新力紅"
+ },
+ {
+  "CropCode": "FC107",
+  "CropName": "大菊-紅鳳"
+ },
+ {
+  "CropCode": "FC108",
+  "CropName": "大菊-紅貴妃"
+ },
+ {
+  "CropCode": "FC109",
+  "CropName": "大菊-咖哩紅"
+ },
+ {
+  "CropCode": "FC110",
+  "CropName": "大菊-仙桃光"
+ },
+ {
+  "CropCode": "FC111",
+  "CropName": "大菊-顏之春"
+ },
+ {
+  "CropCode": "FC112",
+  "CropName": "大菊-硬枝紅"
+ },
+ {
+  "CropCode": "FC113",
+  "CropName": "大菊-桃太郎"
+ },
+ {
+  "CropCode": "FC115",
+  "CropName": "大菊-新粉紅"
+ },
+ {
+  "CropCode": "FC116",
+  "CropName": "大菊-花御殿"
+ },
+ {
+  "CropCode": "FC117",
+  "CropName": "大菊-紅秀鳳"
+ },
+ {
+  "CropCode": "FC118",
+  "CropName": "大菊-紅玫瑰"
+ },
+ {
+  "CropCode": "FC130",
+  "CropName": "大菊-麵線菊紅"
+ },
+ {
+  "CropCode": "FC2",
+  "CropName": "胡瓜-改良種"
+ },
+ {
+  "CropCode": "FC200",
+  "CropName": "大菊-金"
+ },
+ {
+  "CropCode": "FC201",
+  "CropName": "大菊-金初鳳"
+ },
+ {
+  "CropCode": "FC202",
+  "CropName": "大菊-精英金"
+ },
+ {
+  "CropCode": "FC204",
+  "CropName": "大菊-妙心"
+ },
+ {
+  "CropCode": "FC205",
+  "CropName": "大菊-金莎"
+ },
+ {
+  "CropCode": "FC206",
+  "CropName": "大菊-金嗓"
+ },
+ {
+  "CropCode": "FC207",
+  "CropName": "大菊-羅莎諾桔"
+ },
+ {
+  "CropCode": "FC208",
+  "CropName": "大菊-煙火桔"
+ },
+ {
+  "CropCode": "FC300",
+  "CropName": "大菊-黃"
+ },
+ {
+  "CropCode": "FC301",
+  "CropName": "大菊-黃秀鳳"
+ },
+ {
+  "CropCode": "FC302",
+  "CropName": "大菊-世界一"
+ },
+ {
+  "CropCode": "FC303",
+  "CropName": "大菊-冬王"
+ },
+ {
+  "CropCode": "FC304",
+  "CropName": "大菊-新王妃"
+ },
+ {
+  "CropCode": "FC305",
+  "CropName": "大菊-雁之妃"
+ },
+ {
+  "CropCode": "FC306",
+  "CropName": "大菊-日本黃"
+ },
+ {
+  "CropCode": "FC307",
+  "CropName": "大菊-木瓜黃"
+ },
+ {
+  "CropCode": "FC308",
+  "CropName": "大菊-新種黃"
+ },
+ {
+  "CropCode": "FC309",
+  "CropName": "大菊-黃東亞"
+ },
+ {
+  "CropCode": "FC310",
+  "CropName": "大菊-新東亞"
+ },
+ {
+  "CropCode": "FC311",
+  "CropName": "大菊-黃月友"
+ },
+ {
+  "CropCode": "FC312",
+  "CropName": "大菊-尖葉黃"
+ },
+ {
+  "CropCode": "FC313",
+  "CropName": "大菊-矮仔黃"
+ },
+ {
+  "CropCode": "FC314",
+  "CropName": "大菊-黃丁字菊"
+ },
+ {
+  "CropCode": "FC315",
+  "CropName": "大菊-青心黃"
+ },
+ {
+  "CropCode": "FC316",
+  "CropName": "大菊-黃精競"
+ },
+ {
+  "CropCode": "FC317",
+  "CropName": "大菊-大頭黃"
+ },
+ {
+  "CropCode": "FC318",
+  "CropName": "大菊-黃東陽"
+ },
+ {
+  "CropCode": "FC319",
+  "CropName": "大菊-金莎黃"
+ },
+ {
+  "CropCode": "FC320",
+  "CropName": "大菊-莎瑪奶油黃"
+ },
+ {
+  "CropCode": "FC330",
+  "CropName": "大菊-黃麵線菊"
+ },
+ {
+  "CropCode": "FC345",
+  "CropName": "大菊-黃斯不列"
+ },
+ {
+  "CropCode": "FC350",
+  "CropName": "大菊-黃乒乓"
+ },
+ {
+  "CropCode": "FC380",
+  "CropName": "大菊-黃八媛"
+ },
+ {
+  "CropCode": "FC400",
+  "CropName": "大菊-粉"
+ },
+ {
+  "CropCode": "FC401",
+  "CropName": "大菊-杏紅"
+ },
+ {
+  "CropCode": "FC402",
+  "CropName": "大菊-精英粉"
+ },
+ {
+  "CropCode": "FC403",
+  "CropName": "大菊-簽粉"
+ },
+ {
+  "CropCode": "FC404",
+  "CropName": "大菊-粉初鳳"
+ },
+ {
+  "CropCode": "FC405",
+  "CropName": "大菊-千台英"
+ },
+ {
+  "CropCode": "FC406",
+  "CropName": "大菊-平頭粉"
+ },
+ {
+  "CropCode": "FC407",
+  "CropName": "大菊-硬枝粉"
+ },
+ {
+  "CropCode": "FC408",
+  "CropName": "大菊-粉乒乓"
+ },
+ {
+  "CropCode": "FC409",
+  "CropName": "大菊-粉皇冠"
+ },
+ {
+  "CropCode": "FC410",
+  "CropName": "大菊-羅莎諾粉"
+ },
+ {
+  "CropCode": "FC411",
+  "CropName": "大菊-羅莎諾粉綠"
+ },
+ {
+  "CropCode": "FC480",
+  "CropName": "大菊-粉八媛"
+ },
+ {
+  "CropCode": "FC500",
+  "CropName": "大菊-綠"
+ },
+ {
+  "CropCode": "FC501",
+  "CropName": "大菊-綠絲菊"
+ },
+ {
+  "CropCode": "FC502",
+  "CropName": "大菊-安娜深綠"
+ },
+ {
+  "CropCode": "FC508",
+  "CropName": "大菊-綠乒乓"
+ },
+ {
+  "CropCode": "FC509",
+  "CropName": "大菊-奇濃綠乒乓"
+ },
+ {
+  "CropCode": "FC600",
+  "CropName": "大菊-白"
+ },
+ {
+  "CropCode": "FC601",
+  "CropName": "大菊-日本白"
+ },
+ {
+  "CropCode": "FC602",
+  "CropName": "大菊-白大將"
+ },
+ {
+  "CropCode": "FC603",
+  "CropName": "大菊-白玉"
+ },
+ {
+  "CropCode": "FC604",
+  "CropName": "大菊-白領"
+ },
+ {
+  "CropCode": "FC605",
+  "CropName": "大菊-白鳳"
+ },
+ {
+  "CropCode": "FC606",
+  "CropName": "大菊-精英白"
+ },
+ {
+  "CropCode": "FC607",
+  "CropName": "大菊-大頭白"
+ },
+ {
+  "CropCode": "FC608",
+  "CropName": "大菊-白乒乓"
+ },
+ {
+  "CropCode": "FC609",
+  "CropName": "大菊-白東洋"
+ },
+ {
+  "CropCode": "FC610",
+  "CropName": "大菊-丁字菊"
+ },
+ {
+  "CropCode": "FC611",
+  "CropName": "大菊-白秀鳳"
+ },
+ {
+  "CropCode": "FC612",
+  "CropName": "大菊-白雪山"
+ },
+ {
+  "CropCode": "FC613",
+  "CropName": "大菊-白天星"
+ },
+ {
+  "CropCode": "FC614",
+  "CropName": "大菊-雲水"
+ },
+ {
+  "CropCode": "FC615",
+  "CropName": "大菊-國王"
+ },
+ {
+  "CropCode": "FC616",
+  "CropName": "大菊-白牡丹"
+ },
+ {
+  "CropCode": "FC617",
+  "CropName": "大菊-梅西"
+ },
+ {
+  "CropCode": "FC618",
+  "CropName": "大菊-萊德尼克"
+ },
+ {
+  "CropCode": "FC619",
+  "CropName": "大菊-大菊蘭布達"
+ },
+ {
+  "CropCode": "FC620",
+  "CropName": "大菊-雷神"
+ },
+ {
+  "CropCode": "FC630",
+  "CropName": "大菊-白麵線菊"
+ },
+ {
+  "CropCode": "FC645",
+  "CropName": "大菊-白斯不列"
+ },
+ {
+  "CropCode": "FC680",
+  "CropName": "大菊-白八媛"
+ },
+ {
+  "CropCode": "FC800",
+  "CropName": "大菊-染色大菊"
+ },
+ {
+  "CropCode": "FC801",
+  "CropName": "染大菊-國王"
+ },
+ {
+  "CropCode": "FC802",
+  "CropName": "染大菊-芭迪卡"
+ },
+ {
+  "CropCode": "FC803",
+  "CropName": "染大菊-牡丹"
+ },
+ {
+  "CropCode": "FC804",
+  "CropName": "染大菊-白天星"
+ },
+ {
+  "CropCode": "FC805",
+  "CropName": "染大菊-白東洋"
+ },
+ {
+  "CropCode": "FC806",
+  "CropName": "染大菊-莎瑪"
+ },
+ {
+  "CropCode": "FC807",
+  "CropName": "染大菊-梅西"
+ },
+ {
+  "CropCode": "FC810",
+  "CropName": "染大菊-羅莎諾"
+ },
+ {
+  "CropCode": "FC818",
+  "CropName": "染大菊-萊德尼克"
+ },
+ {
+  "CropCode": "FC819",
+  "CropName": "染大菊-蘭布達"
+ },
+ {
+  "CropCode": "FC820",
+  "CropName": "染大菊-雷神"
+ },
+ {
+  "CropCode": "FD0",
+  "CropName": "花胡瓜-其他"
+ },
+ {
+  "CropCode": "FD000",
+  "CropName": "小菊"
+ },
+ {
+  "CropCode": "FD001",
+  "CropName": "小菊-混合色"
+ },
+ {
+  "CropCode": "FD1",
+  "CropName": "花胡瓜"
+ },
+ {
+  "CropCode": "FD100",
+  "CropName": "小菊-紅"
+ },
+ {
+  "CropCode": "FD101",
+  "CropName": "小菊-紅鳳"
+ },
+ {
+  "CropCode": "FD102",
+  "CropName": "小菊-紅花娘"
+ },
+ {
+  "CropCode": "FD103",
+  "CropName": "小菊-空心紅"
+ },
+ {
+  "CropCode": "FD104",
+  "CropName": "小菊-紅銅錢"
+ },
+ {
+  "CropCode": "FD105",
+  "CropName": "小菊-紅初朝"
+ },
+ {
+  "CropCode": "FD106",
+  "CropName": "小菊-紅炎"
+ },
+ {
+  "CropCode": "FD107",
+  "CropName": "小菊-大新紅"
+ },
+ {
+  "CropCode": "FD109",
+  "CropName": "小菊-陽炎小紅"
+ },
+ {
+  "CropCode": "FD110",
+  "CropName": "小菊-咖啡小紅"
+ },
+ {
+  "CropCode": "FD111",
+  "CropName": "小菊-咖哩小紅"
+ },
+ {
+  "CropCode": "FD112",
+  "CropName": "小菊-紅雲南菊"
+ },
+ {
+  "CropCode": "FD113",
+  "CropName": "小菊-日本小紅"
+ },
+ {
+  "CropCode": "FD114",
+  "CropName": "小菊-桃太郎"
+ },
+ {
+  "CropCode": "FD115",
+  "CropName": "小菊-紅初鳳"
+ },
+ {
+  "CropCode": "FD116",
+  "CropName": "小菊-林哥紅"
+ },
+ {
+  "CropCode": "FD117",
+  "CropName": "小菊-紅日"
+ },
+ {
+  "CropCode": "FD118",
+  "CropName": "小菊-哈雷紅"
+ },
+ {
+  "CropCode": "FD119",
+  "CropName": "小菊-龍鳳小紅"
+ },
+ {
+  "CropCode": "FD120",
+  "CropName": "小菊-紅天星"
+ },
+ {
+  "CropCode": "FD121",
+  "CropName": "小菊-紅美人"
+ },
+ {
+  "CropCode": "FD122",
+  "CropName": "小菊-湯匙紅"
+ },
+ {
+  "CropCode": "FD123",
+  "CropName": "小菊-鑽石紅"
+ },
+ {
+  "CropCode": "FD124",
+  "CropName": "小菊-龍鳳紫"
+ },
+ {
+  "CropCode": "FD125",
+  "CropName": "小菊-大一點紅"
+ },
+ {
+  "CropCode": "FD126",
+  "CropName": "小菊-百花小紅"
+ },
+ {
+  "CropCode": "FD127",
+  "CropName": "小菊-雙色紅"
+ },
+ {
+  "CropCode": "FD128",
+  "CropName": "小菊-老虎紅"
+ },
+ {
+  "CropCode": "FD129",
+  "CropName": "小菊-小桃紅"
+ },
+ {
+  "CropCode": "FD130",
+  "CropName": "小菊-露水小紅"
+ },
+ {
+  "CropCode": "FD131",
+  "CropName": "小菊-小紅娘"
+ },
+ {
+  "CropCode": "FD132",
+  "CropName": "小菊-珍珠紅"
+ },
+ {
+  "CropCode": "FD133",
+  "CropName": "小菊-日本絨紅"
+ },
+ {
+  "CropCode": "FD134",
+  "CropName": "小菊-紅如意"
+ },
+ {
+  "CropCode": "FD135",
+  "CropName": "小菊-紅玫"
+ },
+ {
+  "CropCode": "FD136",
+  "CropName": "小菊-法國小紅"
+ },
+ {
+  "CropCode": "FD137",
+  "CropName": "小菊-小老虎紅"
+ },
+ {
+  "CropCode": "FD138",
+  "CropName": "小菊-卡洛琳"
+ },
+ {
+  "CropCode": "FD139",
+  "CropName": "小菊-阿拉莫斯黃"
+ },
+ {
+  "CropCode": "FD145",
+  "CropName": "小菊-紅斯不列"
+ },
+ {
+  "CropCode": "FD150",
+  "CropName": "小菊-紅風車"
+ },
+ {
+  "CropCode": "FD157",
+  "CropName": "小菊-西維亞洋紅"
+ },
+ {
+  "CropCode": "FD200",
+  "CropName": "小菊-金"
+ },
+ {
+  "CropCode": "FD201",
+  "CropName": "小菊-金咖啡"
+ },
+ {
+  "CropCode": "FD202",
+  "CropName": "小菊-淺小金"
+ },
+ {
+  "CropCode": "FD203",
+  "CropName": "小菊-金小菊"
+ },
+ {
+  "CropCode": "FD204",
+  "CropName": "小菊-小金紅"
+ },
+ {
+  "CropCode": "FD205",
+  "CropName": "小菊-金初鳳"
+ },
+ {
+  "CropCode": "FD206",
+  "CropName": "小菊-雙色金紅"
+ },
+ {
+  "CropCode": "FD207",
+  "CropName": "小菊-雙色金黃"
+ },
+ {
+  "CropCode": "FD208",
+  "CropName": "小菊-金孔雀"
+ },
+ {
+  "CropCode": "FD209",
+  "CropName": "小菊-椪柑"
+ },
+ {
+  "CropCode": "FD210",
+  "CropName": "小菊-吉祥金"
+ },
+ {
+  "CropCode": "FD211",
+  "CropName": "小菊-德國風車"
+ },
+ {
+  "CropCode": "FD212",
+  "CropName": "小菊-坦博拉"
+ },
+ {
+  "CropCode": "FD232",
+  "CropName": "小菊-珍珠金"
+ },
+ {
+  "CropCode": "FD235",
+  "CropName": "小菊-林克小金"
+ },
+ {
+  "CropCode": "FD245",
+  "CropName": "小菊-金斯不列"
+ },
+ {
+  "CropCode": "FD250",
+  "CropName": "小菊-金風車"
+ },
+ {
+  "CropCode": "FD300",
+  "CropName": "小菊-黃"
+ },
+ {
+  "CropCode": "FD301",
+  "CropName": "小菊-黃金月"
+ },
+ {
+  "CropCode": "FD302",
+  "CropName": "小菊-黃銅錢"
+ },
+ {
+  "CropCode": "FD303",
+  "CropName": "小菊-空心黃"
+ },
+ {
+  "CropCode": "FD304",
+  "CropName": "小菊-聖誕球"
+ },
+ {
+  "CropCode": "FD305",
+  "CropName": "小菊-黃初朝"
+ },
+ {
+  "CropCode": "FD306",
+  "CropName": "小菊-多朵秀鳳"
+ },
+ {
+  "CropCode": "FD307",
+  "CropName": "小菊-黃乒乓"
+ },
+ {
+  "CropCode": "FD308",
+  "CropName": "小菊-黃丁字菊"
+ },
+ {
+  "CropCode": "FD309",
+  "CropName": "小菊-日本黃"
+ },
+ {
+  "CropCode": "FD310",
+  "CropName": "小菊-青心黃"
+ },
+ {
+  "CropCode": "FD311",
+  "CropName": "小菊-木瓜黃"
+ },
+ {
+  "CropCode": "FD312",
+  "CropName": "小菊-黑心小黃"
+ },
+ {
+  "CropCode": "FD313",
+  "CropName": "小菊-湯匙黃"
+ },
+ {
+  "CropCode": "FD314",
+  "CropName": "小菊-鈕扣菊黃"
+ },
+ {
+  "CropCode": "FD315",
+  "CropName": "小菊-黃鑽石"
+ },
+ {
+  "CropCode": "FD316",
+  "CropName": "小菊-冬月小黃"
+ },
+ {
+  "CropCode": "FD317",
+  "CropName": "小菊-跳舞黃"
+ },
+ {
+  "CropCode": "FD318",
+  "CropName": "小菊-小光輝"
+ },
+ {
+  "CropCode": "FD319",
+  "CropName": "小菊-木瓜黃(重瓣)"
+ },
+ {
+  "CropCode": "FD320",
+  "CropName": "小菊-荷蘭黃"
+ },
+ {
+  "CropCode": "FD321",
+  "CropName": "小菊-吉祥黃"
+ },
+ {
+  "CropCode": "FD322",
+  "CropName": "小菊-金絲黃"
+ },
+ {
+  "CropCode": "FD323",
+  "CropName": "小菊-一點黃"
+ },
+ {
+  "CropCode": "FD324",
+  "CropName": "小菊-法國小菊黃"
+ },
+ {
+  "CropCode": "FD325",
+  "CropName": "小菊-黃瑪格麗特"
+ },
+ {
+  "CropCode": "FD326",
+  "CropName": "小菊-蒙那麗莎陽光黃"
+ },
+ {
+  "CropCode": "FD330",
+  "CropName": "小菊-黃麵線小菊"
+ },
+ {
+  "CropCode": "FD345",
+  "CropName": "小菊-黃斯不列"
+ },
+ {
+  "CropCode": "FD350",
+  "CropName": "小菊-黃風車"
+ },
+ {
+  "CropCode": "FD400",
+  "CropName": "小菊-粉"
+ },
+ {
+  "CropCode": "FD401",
+  "CropName": "小菊-秋陽"
+ },
+ {
+  "CropCode": "FD402",
+  "CropName": "小菊-大新粉"
+ },
+ {
+  "CropCode": "FD403",
+  "CropName": "小菊-空心粉"
+ },
+ {
+  "CropCode": "FD404",
+  "CropName": "小菊-花花世界"
+ },
+ {
+  "CropCode": "FD405",
+  "CropName": "小菊-寒初朝"
+ },
+ {
+  "CropCode": "FD406",
+  "CropName": "小菊-阿來粉"
+ },
+ {
+  "CropCode": "FD407",
+  "CropName": "小菊-粉乒乓"
+ },
+ {
+  "CropCode": "FD408",
+  "CropName": "小菊-瓊桃粉"
+ },
+ {
+  "CropCode": "FD409",
+  "CropName": "小菊-炎陽粉"
+ },
+ {
+  "CropCode": "FD410",
+  "CropName": "小菊-林哥粉"
+ },
+ {
+  "CropCode": "FD411",
+  "CropName": "小菊-湯匙粉"
+ },
+ {
+  "CropCode": "FD412",
+  "CropName": "小菊-粉雲南菊"
+ },
+ {
+  "CropCode": "FD413",
+  "CropName": "小菊-粉初鳳"
+ },
+ {
+  "CropCode": "FD414",
+  "CropName": "小菊-大陸粉"
+ },
+ {
+  "CropCode": "FD415",
+  "CropName": "小菊-哈雷粉"
+ },
+ {
+  "CropCode": "FD416",
+  "CropName": "小菊-珍珠粉"
+ },
+ {
+  "CropCode": "FD417",
+  "CropName": "小菊-粉炎"
+ },
+ {
+  "CropCode": "FD418",
+  "CropName": "小菊-粉火焰"
+ },
+ {
+  "CropCode": "FD419",
+  "CropName": "小菊-日月小粉"
+ },
+ {
+  "CropCode": "FD420",
+  "CropName": "小菊-荷蘭粉"
+ },
+ {
+  "CropCode": "FD421",
+  "CropName": "小菊-水玲瓏"
+ },
+ {
+  "CropCode": "FD422",
+  "CropName": "小菊-吉祥小粉"
+ },
+ {
+  "CropCode": "FD423",
+  "CropName": "小菊-粉日記"
+ },
+ {
+  "CropCode": "FD424",
+  "CropName": "小菊-小桃紅"
+ },
+ {
+  "CropCode": "FD425",
+  "CropName": "小菊-瑪格麗特粉"
+ },
+ {
+  "CropCode": "FD426",
+  "CropName": "小菊-香檳哈雷"
+ },
+ {
+  "CropCode": "FD427",
+  "CropName": "小菊-粉佳人"
+ },
+ {
+  "CropCode": "FD428",
+  "CropName": "小菊-日曆小粉"
+ },
+ {
+  "CropCode": "FD429",
+  "CropName": "小菊-桃枝"
+ },
+ {
+  "CropCode": "FD430",
+  "CropName": "小菊-麵線菊粉"
+ },
+ {
+  "CropCode": "FD431",
+  "CropName": "小菊-桃紅雲南菊"
+ },
+ {
+  "CropCode": "FD432",
+  "CropName": "小菊-彩雲"
+ },
+ {
+  "CropCode": "FD433",
+  "CropName": "小菊-芬蘭小粉"
+ },
+ {
+  "CropCode": "FD434",
+  "CropName": "小菊-英國風車"
+ },
+ {
+  "CropCode": "FD435",
+  "CropName": "小菊-林克小粉"
+ },
+ {
+  "CropCode": "FD436",
+  "CropName": "小菊-新秋陽"
+ },
+ {
+  "CropCode": "FD437",
+  "CropName": "雲南菊-雙色粉"
+ },
+ {
+  "CropCode": "FD438",
+  "CropName": "小菊-湳港粉"
+ },
+ {
+  "CropCode": "FD445",
+  "CropName": "小菊-粉斯不列"
+ },
+ {
+  "CropCode": "FD446",
+  "CropName": "小菊-粉觀音"
+ },
+ {
+  "CropCode": "FD450",
+  "CropName": "小菊-粉風車"
+ },
+ {
+  "CropCode": "FD451",
+  "CropName": "小菊-舞風車"
+ },
+ {
+  "CropCode": "FD452",
+  "CropName": "小菊-辛達粉"
+ },
+ {
+  "CropCode": "FD453",
+  "CropName": "小菊-棒棒糖-粉"
+ },
+ {
+  "CropCode": "FD455",
+  "CropName": "小菊-美麗小粉"
+ },
+ {
+  "CropCode": "FD456",
+  "CropName": "小菊-卡洛粉"
+ },
+ {
+  "CropCode": "FD457",
+  "CropName": "小菊-西維亞粉"
+ },
+ {
+  "CropCode": "FD500",
+  "CropName": "小菊-綠"
+ },
+ {
+  "CropCode": "FD501",
+  "CropName": "小菊-如玉"
+ },
+ {
+  "CropCode": "FD502",
+  "CropName": "小菊-綠絲菊"
+ },
+ {
+  "CropCode": "FD503",
+  "CropName": "小菊-鈕扣菊綠"
+ },
+ {
+  "CropCode": "FD504",
+  "CropName": "小菊-貝雷錄"
+ },
+ {
+  "CropCode": "FD505",
+  "CropName": "小菊-福澤"
+ },
+ {
+  "CropCode": "FD509",
+  "CropName": "小菊-奇濃綠乒乓"
+ },
+ {
+  "CropCode": "FD600",
+  "CropName": "小菊-白"
+ },
+ {
+  "CropCode": "FD601",
+  "CropName": "小菊-丁字菊白"
+ },
+ {
+  "CropCode": "FD602",
+  "CropName": "小菊-白銅錢"
+ },
+ {
+  "CropCode": "FD603",
+  "CropName": "小菊-空心白(短瓣)"
+ },
+ {
+  "CropCode": "FD604",
+  "CropName": "小菊-空心白(長瓣)"
+ },
+ {
+  "CropCode": "FD605",
+  "CropName": "小菊-白初朝"
+ },
+ {
+  "CropCode": "FD607",
+  "CropName": "小菊-白乒乓"
+ },
+ {
+  "CropCode": "FD608",
+  "CropName": "小菊-小秋白"
+ },
+ {
+  "CropCode": "FD609",
+  "CropName": "小菊-雞眼小白"
+ },
+ {
+  "CropCode": "FD610",
+  "CropName": "小菊-青心小白"
+ },
+ {
+  "CropCode": "FD611",
+  "CropName": "小菊-新丁字白"
+ },
+ {
+  "CropCode": "FD612",
+  "CropName": "小菊-白雲南菊"
+ },
+ {
+  "CropCode": "FD613",
+  "CropName": "小菊-鈕扣菊白"
+ },
+ {
+  "CropCode": "FD614",
+  "CropName": "小菊-法國小菊白"
+ },
+ {
+  "CropCode": "FD615",
+  "CropName": "小菊-翠玉"
+ },
+ {
+  "CropCode": "FD616",
+  "CropName": "小菊-跳舞白"
+ },
+ {
+  "CropCode": "FD617",
+  "CropName": "小菊-白觀音"
+ },
+ {
+  "CropCode": "FD618",
+  "CropName": "小菊-白鑽石"
+ },
+ {
+  "CropCode": "FD619",
+  "CropName": "小菊-小雪球白"
+ },
+ {
+  "CropCode": "FD620",
+  "CropName": "小菊-荷蘭小白"
+ },
+ {
+  "CropCode": "FD621",
+  "CropName": "小菊-川涼"
+ },
+ {
+  "CropCode": "FD622",
+  "CropName": "小菊-吉祥白"
+ },
+ {
+  "CropCode": "FD623",
+  "CropName": "小菊-相思小白"
+ },
+ {
+  "CropCode": "FD625",
+  "CropName": "小菊-白瑪格麗特"
+ },
+ {
+  "CropCode": "FD630",
+  "CropName": "小菊-白麵線小菊"
+ },
+ {
+  "CropCode": "FD632",
+  "CropName": "小菊-珍珠白"
+ },
+ {
+  "CropCode": "FD633",
+  "CropName": "小菊-芬蘭小白"
+ },
+ {
+  "CropCode": "FD635",
+  "CropName": "小菊-林克小白"
+ },
+ {
+  "CropCode": "FD645",
+  "CropName": "小菊-白斯不列"
+ },
+ {
+  "CropCode": "FD646",
+  "CropName": "小菊-邦白"
+ },
+ {
+  "CropCode": "FD657",
+  "CropName": "小菊-西維亞白"
+ },
+ {
+  "CropCode": "FD700",
+  "CropName": "小菊-紫"
+ },
+ {
+  "CropCode": "FD712",
+  "CropName": "小菊-紫雲南菊"
+ },
+ {
+  "CropCode": "FD752",
+  "CropName": "小菊-辛達紫紅"
+ },
+ {
+  "CropCode": "FD800",
+  "CropName": "小菊-染色小菊"
+ },
+ {
+  "CropCode": "FD801",
+  "CropName": "染小菊-芬蘭"
+ },
+ {
+  "CropCode": "FD802",
+  "CropName": "染小菊-白鑽石"
+ },
+ {
+  "CropCode": "FD9",
+  "CropName": "花胡瓜-進口"
+ },
+ {
+  "CropCode": "FD900",
+  "CropName": "小菊-迷你翠菊"
+ },
+ {
+  "CropCode": "FE0",
+  "CropName": "冬瓜-其他"
+ },
+ {
+  "CropCode": "FE000",
+  "CropName": "非洲菊"
+ },
+ {
+  "CropCode": "FE001",
+  "CropName": "非洲菊-混合色"
+ },
+ {
+  "CropCode": "FE1",
+  "CropName": "冬瓜-白皮"
+ },
+ {
+  "CropCode": "FE100",
+  "CropName": "非洲菊-紅"
+ },
+ {
+  "CropCode": "FE101",
+  "CropName": "非洲菊-雙色紅"
+ },
+ {
+  "CropCode": "FE102",
+  "CropName": "非洲菊-達利奇"
+ },
+ {
+  "CropCode": "FE103",
+  "CropName": "非洲菊-紅水晶"
+ },
+ {
+  "CropCode": "FE104",
+  "CropName": "非洲菊-雷諾"
+ },
+ {
+  "CropCode": "FE105",
+  "CropName": "非洲菊-希蘿"
+ },
+ {
+  "CropCode": "FE106",
+  "CropName": "非洲菊-蘿瑞托"
+ },
+ {
+  "CropCode": "FE107",
+  "CropName": "非洲菊-華麗"
+ },
+ {
+  "CropCode": "FE108",
+  "CropName": "非洲菊-紅巴黎"
+ },
+ {
+  "CropCode": "FE109",
+  "CropName": "非洲菊-哈比"
+ },
+ {
+  "CropCode": "FE110",
+  "CropName": "非洲菊-卡布"
+ },
+ {
+  "CropCode": "FE111",
+  "CropName": "非洲菊-上海紅"
+ },
+ {
+  "CropCode": "FE112",
+  "CropName": "非洲菊-天籟"
+ },
+ {
+  "CropCode": "FE113",
+  "CropName": "非洲菊-萊星頓"
+ },
+ {
+  "CropCode": "FE2",
+  "CropName": "冬瓜-青皮"
+ },
+ {
+  "CropCode": "FE200",
+  "CropName": "非洲菊-橙"
+ },
+ {
+  "CropCode": "FE201",
+  "CropName": "非洲菊-太陽神"
+ },
+ {
+  "CropCode": "FE202",
+  "CropName": "非洲菊-沙丘"
+ },
+ {
+  "CropCode": "FE203",
+  "CropName": "非洲菊-歐林"
+ },
+ {
+  "CropCode": "FE204",
+  "CropName": "非洲菊-梅蘿絲"
+ },
+ {
+  "CropCode": "FE205",
+  "CropName": "非洲菊-哈利熊"
+ },
+ {
+  "CropCode": "FE3",
+  "CropName": "冬瓜-毛瓜"
+ },
+ {
+  "CropCode": "FE300",
+  "CropName": "非洲菊-黃"
+ },
+ {
+  "CropCode": "FE301",
+  "CropName": "非洲菊-熱浪"
+ },
+ {
+  "CropCode": "FE302",
+  "CropName": "非洲菊-金爵"
+ },
+ {
+  "CropCode": "FE400",
+  "CropName": "非洲菊-粉"
+ },
+ {
+  "CropCode": "FE401",
+  "CropName": "非洲菊-伊斯瑪拉"
+ },
+ {
+  "CropCode": "FE402",
+  "CropName": "非洲菊-瑪露西亞"
+ },
+ {
+  "CropCode": "FE403",
+  "CropName": "非洲菊-多尼卡"
+ },
+ {
+  "CropCode": "FE404",
+  "CropName": "非洲菊-慕尼拉"
+ },
+ {
+  "CropCode": "FE405",
+  "CropName": "非洲菊-羅莎琳"
+ },
+ {
+  "CropCode": "FE406",
+  "CropName": "非洲菊-粉佳人"
+ },
+ {
+  "CropCode": "FE407",
+  "CropName": "非洲菊-火花"
+ },
+ {
+  "CropCode": "FE408",
+  "CropName": "非洲菊-粉紅佳人"
+ },
+ {
+  "CropCode": "FE409",
+  "CropName": "非洲菊-粉紅魅力"
+ },
+ {
+  "CropCode": "FE410",
+  "CropName": "非洲菊-南丁格爾"
+ },
+ {
+  "CropCode": "FE411",
+  "CropName": "非洲菊-莉朵"
+ },
+ {
+  "CropCode": "FE412",
+  "CropName": "非洲菊-拿破崙"
+ },
+ {
+  "CropCode": "FE413",
+  "CropName": "非洲菊-飛兒"
+ },
+ {
+  "CropCode": "FE415",
+  "CropName": "非洲菊-粉美麗"
+ },
+ {
+  "CropCode": "FE416",
+  "CropName": "非洲菊-熱情粉"
+ },
+ {
+  "CropCode": "FE600",
+  "CropName": "非洲菊-白"
+ },
+ {
+  "CropCode": "FE601",
+  "CropName": "非洲菊-白雪"
+ },
+ {
+  "CropCode": "FE602",
+  "CropName": "非洲菊-瑪利亞"
+ },
+ {
+  "CropCode": "FE603",
+  "CropName": "非洲菊-比安可"
+ },
+ {
+  "CropCode": "FE604",
+  "CropName": "非洲菊-白熊"
+ },
+ {
+  "CropCode": "FE605",
+  "CropName": "非洲菊-冰山"
+ },
+ {
+  "CropCode": "FE606",
+  "CropName": "非洲菊-骰子"
+ },
+ {
+  "CropCode": "FE700",
+  "CropName": "非洲菊-紫"
+ },
+ {
+  "CropCode": "FE701",
+  "CropName": "非洲菊-紫王子"
+ },
+ {
+  "CropCode": "FE702",
+  "CropName": "非洲菊-盧布"
+ },
+ {
+  "CropCode": "FE703",
+  "CropName": "非洲菊-法老王"
+ },
+ {
+  "CropCode": "FE704",
+  "CropName": "非洲菊-女王"
+ },
+ {
+  "CropCode": "FE801",
+  "CropName": "非洲菊-波波"
+ },
+ {
+  "CropCode": "FE9",
+  "CropName": "冬瓜-進口"
+ },
+ {
+  "CropCode": "FE900",
+  "CropName": "非洲菊-迷你混色"
+ },
+ {
+  "CropCode": "FE910",
+  "CropName": "非洲菊-迷你紅"
+ },
+ {
+  "CropCode": "FE920",
+  "CropName": "非洲菊-迷你橙"
+ },
+ {
+  "CropCode": "FE930",
+  "CropName": "非洲菊-迷你黃"
+ },
+ {
+  "CropCode": "FE940",
+  "CropName": "非洲菊-迷你粉"
+ },
+ {
+  "CropCode": "FE960",
+  "CropName": "非洲菊-迷你白"
+ },
+ {
+  "CropCode": "FE970",
+  "CropName": "非洲菊-迷你紫"
+ },
+ {
+  "CropCode": "FF0",
+  "CropName": "絲瓜-其他"
+ },
+ {
+  "CropCode": "FF1",
+  "CropName": "絲瓜"
+ },
+ {
+  "CropCode": "FF2",
+  "CropName": "絲瓜-角瓜"
+ },
+ {
+  "CropCode": "FF3",
+  "CropName": "絲瓜-白瓜"
+ },
+ {
+  "CropCode": "FF4",
+  "CropName": "絲瓜-長絲瓜"
+ },
+ {
+  "CropCode": "FF9",
+  "CropName": "絲瓜-進口"
+ },
+ {
+  "CropCode": "FG0",
+  "CropName": "苦瓜-其他"
+ },
+ {
+  "CropCode": "FG000",
+  "CropName": "劍蘭"
+ },
+ {
+  "CropCode": "FG001",
+  "CropName": "劍蘭-混合色"
+ },
+ {
+  "CropCode": "FG1",
+  "CropName": "苦瓜-白大米"
+ },
+ {
+  "CropCode": "FG100",
+  "CropName": "劍蘭-紅"
+ },
+ {
+  "CropCode": "FG101",
+  "CropName": "劍蘭-４號"
+ },
+ {
+  "CropCode": "FG102",
+  "CropName": "劍蘭-１３號"
+ },
+ {
+  "CropCode": "FG103",
+  "CropName": "劍蘭-４２號"
+ },
+ {
+  "CropCode": "FG104",
+  "CropName": "劍蘭-２２３號"
+ },
+ {
+  "CropCode": "FG105",
+  "CropName": "劍蘭-２３５號"
+ },
+ {
+  "CropCode": "FG106",
+  "CropName": "劍蘭-馬得利"
+ },
+ {
+  "CropCode": "FG107",
+  "CropName": "劍蘭-黑骨"
+ },
+ {
+  "CropCode": "FG108",
+  "CropName": "劍蘭-櫻紅"
+ },
+ {
+  "CropCode": "FG109",
+  "CropName": "劍蘭-胭脂紅"
+ },
+ {
+  "CropCode": "FG110",
+  "CropName": "劍蘭-玫瑰紅"
+ },
+ {
+  "CropCode": "FG111",
+  "CropName": "劍蘭-４３號"
+ },
+ {
+  "CropCode": "FG112",
+  "CropName": "劍蘭-新櫻紅"
+ },
+ {
+  "CropCode": "FG113",
+  "CropName": "劍蘭-新種紅"
+ },
+ {
+  "CropCode": "FG114",
+  "CropName": "劍蘭-新２２３號"
+ },
+ {
+  "CropCode": "FG115",
+  "CropName": "劍蘭-２４３號"
+ },
+ {
+  "CropCode": "FG116",
+  "CropName": "劍蘭-雙色金紅"
+ },
+ {
+  "CropCode": "FG118",
+  "CropName": "劍蘭-２７８號"
+ },
+ {
+  "CropCode": "FG119",
+  "CropName": "劍蘭-２７９號"
+ },
+ {
+  "CropCode": "FG120",
+  "CropName": "劍蘭-黑骨紅"
+ },
+ {
+  "CropCode": "FG121",
+  "CropName": "劍蘭-２６５號"
+ },
+ {
+  "CropCode": "FG122",
+  "CropName": "劍蘭-康威"
+ },
+ {
+  "CropCode": "FG123",
+  "CropName": "劍蘭-艷紫紅"
+ },
+ {
+  "CropCode": "FG2",
+  "CropName": "苦瓜-青大米"
+ },
+ {
+  "CropCode": "FG200",
+  "CropName": "劍蘭-橙"
+ },
+ {
+  "CropCode": "FG201",
+  "CropName": "劍蘭-橙粉"
+ },
+ {
+  "CropCode": "FG3",
+  "CropName": "苦瓜-山苦瓜"
+ },
+ {
+  "CropCode": "FG300",
+  "CropName": "劍蘭-黃"
+ },
+ {
+  "CropCode": "FG301",
+  "CropName": "劍蘭-深黃"
+ },
+ {
+  "CropCode": "FG302",
+  "CropName": "劍蘭-淺黃"
+ },
+ {
+  "CropCode": "FG303",
+  "CropName": "劍蘭-黃紅心"
+ },
+ {
+  "CropCode": "FG4",
+  "CropName": "苦瓜-翠綠"
+ },
+ {
+  "CropCode": "FG400",
+  "CropName": "劍蘭-粉"
+ },
+ {
+  "CropCode": "FG401",
+  "CropName": "劍蘭-新粉"
+ },
+ {
+  "CropCode": "FG402",
+  "CropName": "劍蘭-司胖"
+ },
+ {
+  "CropCode": "FG403",
+  "CropName": "劍蘭-馬粉"
+ },
+ {
+  "CropCode": "FG404",
+  "CropName": "劍蘭-桃粉"
+ },
+ {
+  "CropCode": "FG405",
+  "CropName": "劍蘭-薄粉"
+ },
+ {
+  "CropCode": "FG406",
+  "CropName": "劍蘭-青殼粉"
+ },
+ {
+  "CropCode": "FG407",
+  "CropName": "劍蘭-粉紅心"
+ },
+ {
+  "CropCode": "FG408",
+  "CropName": "劍蘭-５１２號"
+ },
+ {
+  "CropCode": "FG409",
+  "CropName": "劍蘭-５１３號"
+ },
+ {
+  "CropCode": "FG410",
+  "CropName": "劍蘭-５１５號"
+ },
+ {
+  "CropCode": "FG411",
+  "CropName": "劍蘭-粉紅佳人"
+ },
+ {
+  "CropCode": "FG412",
+  "CropName": "劍蘭-粉巨人"
+ },
+ {
+  "CropCode": "FG413",
+  "CropName": "劍蘭-新司胖"
+ },
+ {
+  "CropCode": "FG414",
+  "CropName": "劍蘭-美國粉"
+ },
+ {
+  "CropCode": "FG415",
+  "CropName": "劍蘭-夏日玫瑰"
+ },
+ {
+  "CropCode": "FG416",
+  "CropName": "劍蘭-４４３６號"
+ },
+ {
+  "CropCode": "FG417",
+  "CropName": "劍蘭-法都"
+ },
+ {
+  "CropCode": "FG418",
+  "CropName": "劍蘭-４３７號"
+ },
+ {
+  "CropCode": "FG419",
+  "CropName": "劍蘭-維多利亞"
+ },
+ {
+  "CropCode": "FG501",
+  "CropName": "劍蘭-６１０號"
+ },
+ {
+  "CropCode": "FG600",
+  "CropName": "劍蘭-白"
+ },
+ {
+  "CropCode": "FG601",
+  "CropName": "劍蘭-大白"
+ },
+ {
+  "CropCode": "FG602",
+  "CropName": "劍蘭-阿姆斯特丹"
+ },
+ {
+  "CropCode": "FG603",
+  "CropName": "劍蘭-白紅心"
+ },
+ {
+  "CropCode": "FG700",
+  "CropName": "劍蘭-紫"
+ },
+ {
+  "CropCode": "FG701",
+  "CropName": "劍蘭-深紫"
+ },
+ {
+  "CropCode": "FG702",
+  "CropName": "劍蘭-淺紫"
+ },
+ {
+  "CropCode": "FG703",
+  "CropName": "劍蘭-深絨紫"
+ },
+ {
+  "CropCode": "FG704",
+  "CropName": "劍蘭-黑紫"
+ },
+ {
+  "CropCode": "FG705",
+  "CropName": "劍蘭-紫藍"
+ },
+ {
+  "CropCode": "FG706",
+  "CropName": "劍蘭-紫白心"
+ },
+ {
+  "CropCode": "FG9",
+  "CropName": "苦瓜-進口"
+ },
+ {
+  "CropCode": "FH0",
+  "CropName": "扁蒲-其他"
+ },
+ {
+  "CropCode": "FH000",
+  "CropName": "其它花卉"
+ },
+ {
+  "CropCode": "FH002",
+  "CropName": "拍賣花朵"
+ },
+ {
+  "CropCode": "FH003",
+  "CropName": "柔麗絲"
+ },
+ {
+  "CropCode": "FH004",
+  "CropName": "八卦草(黃河)"
+ },
+ {
+  "CropCode": "FH005",
+  "CropName": "金鎚花"
+ },
+ {
+  "CropCode": "FH006",
+  "CropName": "黃梔花"
+ },
+ {
+  "CropCode": "FH007",
+  "CropName": "松蟲草"
+ },
+ {
+  "CropCode": "FH008",
+  "CropName": "洋甘菊"
+ },
+ {
+  "CropCode": "FH009",
+  "CropName": "萬壽菊"
+ },
+ {
+  "CropCode": "FH048",
+  "CropName": "連翹"
+ },
+ {
+  "CropCode": "FH050",
+  "CropName": "水仙百合-混色"
+ },
+ {
+  "CropCode": "FH051",
+  "CropName": "水仙百合-紅"
+ },
+ {
+  "CropCode": "FH052",
+  "CropName": "水仙百合-橙"
+ },
+ {
+  "CropCode": "FH053",
+  "CropName": "水仙百合-黃"
+ },
+ {
+  "CropCode": "FH054",
+  "CropName": "水仙百合-粉"
+ },
+ {
+  "CropCode": "FH055",
+  "CropName": "水仙百合-綠"
+ },
+ {
+  "CropCode": "FH056",
+  "CropName": "水仙百合-白"
+ },
+ {
+  "CropCode": "FH057",
+  "CropName": "水仙百合-紫"
+ },
+ {
+  "CropCode": "FH061",
+  "CropName": "水仙百合-紫紅"
+ },
+ {
+  "CropCode": "FH062",
+  "CropName": "水仙百合-雙色"
+ },
+ {
+  "CropCode": "FH063",
+  "CropName": "水仙百合-白帶紅"
+ },
+ {
+  "CropCode": "FH071",
+  "CropName": "石蒜-紅花"
+ },
+ {
+  "CropCode": "FH072",
+  "CropName": "石蒜-金花"
+ },
+ {
+  "CropCode": "FH073",
+  "CropName": "石蒜-黃花"
+ },
+ {
+  "CropCode": "FH074",
+  "CropName": "石蒜-粉花"
+ },
+ {
+  "CropCode": "FH080",
+  "CropName": "萱草"
+ },
+ {
+  "CropCode": "FH090",
+  "CropName": "針墊花"
+ },
+ {
+  "CropCode": "FH1",
+  "CropName": "扁蒲-長形"
+ },
+ {
+  "CropCode": "FH101",
+  "CropName": "天堂鳥"
+ },
+ {
+  "CropCode": "FH111",
+  "CropName": "小天堂鳥-紅"
+ },
+ {
+  "CropCode": "FH112",
+  "CropName": "小天堂鳥-桔帶紅"
+ },
+ {
+  "CropCode": "FH113",
+  "CropName": "小天堂鳥-黃"
+ },
+ {
+  "CropCode": "FH114",
+  "CropName": "小天堂鳥-粉紅"
+ },
+ {
+  "CropCode": "FH120",
+  "CropName": "羽毛花"
+ },
+ {
+  "CropCode": "FH121",
+  "CropName": "紅金鳥"
+ },
+ {
+  "CropCode": "FH123",
+  "CropName": "黃金鳥"
+ },
+ {
+  "CropCode": "FH124",
+  "CropName": "翡翠鳥"
+ },
+ {
+  "CropCode": "FH125",
+  "CropName": "翠珠花"
+ },
+ {
+  "CropCode": "FH127",
+  "CropName": "鶴蕉-黑美人"
+ },
+ {
+  "CropCode": "FH128",
+  "CropName": "十日垂蕉"
+ },
+ {
+  "CropCode": "FH129",
+  "CropName": "錦鳳垂蕉"
+ },
+ {
+  "CropCode": "FH130",
+  "CropName": "文珠蘭"
+ },
+ {
+  "CropCode": "FH131",
+  "CropName": "鶴焦"
+ },
+ {
+  "CropCode": "FH132",
+  "CropName": "小鶴蕉"
+ },
+ {
+  "CropCode": "FH133",
+  "CropName": "鶴蕉紅美人"
+ },
+ {
+  "CropCode": "FH134",
+  "CropName": "紅娘垂蕉"
+ },
+ {
+  "CropCode": "FH135",
+  "CropName": "垂焦"
+ },
+ {
+  "CropCode": "FH136",
+  "CropName": "白蓮蕉"
+ },
+ {
+  "CropCode": "FH137",
+  "CropName": "觀音蓮"
+ },
+ {
+  "CropCode": "FH138",
+  "CropName": "美人蕉"
+ },
+ {
+  "CropCode": "FH139",
+  "CropName": "石玫瑰"
+ },
+ {
+  "CropCode": "FH140",
+  "CropName": "薑荷花"
+ },
+ {
+  "CropCode": "FH145",
+  "CropName": "金盞花"
+ },
+ {
+  "CropCode": "FH152",
+  "CropName": "野薑花-橙"
+ },
+ {
+  "CropCode": "FH156",
+  "CropName": "野薑花-白"
+ },
+ {
+  "CropCode": "FH158",
+  "CropName": "紅薑花"
+ },
+ {
+  "CropCode": "FH159",
+  "CropName": "球薑花"
+ },
+ {
+  "CropCode": "FH164",
+  "CropName": "火炬花"
+ },
+ {
+  "CropCode": "FH170",
+  "CropName": "狐尾百合"
+ },
+ {
+  "CropCode": "FH180",
+  "CropName": "宮燈百合"
+ },
+ {
+  "CropCode": "FH185",
+  "CropName": "嘉蘭(火焰百合)"
+ },
+ {
+  "CropCode": "FH190",
+  "CropName": "鳴子百合"
+ },
+ {
+  "CropCode": "FH195",
+  "CropName": "玉蘭花"
+ },
+ {
+  "CropCode": "FH2",
+  "CropName": "扁蒲-圓形"
+ },
+ {
+  "CropCode": "FH201",
+  "CropName": "貓柳-直支"
+ },
+ {
+  "CropCode": "FH202",
+  "CropName": "珍珠柳-直支"
+ },
+ {
+  "CropCode": "FH203",
+  "CropName": "貓柳-開叉"
+ },
+ {
+  "CropCode": "FH204",
+  "CropName": "珍珠柳-開叉"
+ },
+ {
+  "CropCode": "FH210",
+  "CropName": "夕霧草"
+ },
+ {
+  "CropCode": "FH215",
+  "CropName": "段菊"
+ },
+ {
+  "CropCode": "FH220",
+  "CropName": "羽扇豆"
+ },
+ {
+  "CropCode": "FH225",
+  "CropName": "帝王花"
+ },
+ {
+  "CropCode": "FH230",
+  "CropName": "夜來香"
+ },
+ {
+  "CropCode": "FH231",
+  "CropName": "夜來香-單瓣"
+ },
+ {
+  "CropCode": "FH232",
+  "CropName": "夜來香-重瓣"
+ },
+ {
+  "CropCode": "FH240",
+  "CropName": "麥桿菊"
+ },
+ {
+  "CropCode": "FH245",
+  "CropName": "初雪草"
+ },
+ {
+  "CropCode": "FH251",
+  "CropName": "秀線"
+ },
+ {
+  "CropCode": "FH256",
+  "CropName": "白秀線"
+ },
+ {
+  "CropCode": "FH260",
+  "CropName": "丹頂(蔥花)"
+ },
+ {
+  "CropCode": "FH270",
+  "CropName": "千日紅"
+ },
+ {
+  "CropCode": "FH280",
+  "CropName": "古代稀"
+ },
+ {
+  "CropCode": "FH293",
+  "CropName": "向日葵-單瓣"
+ },
+ {
+  "CropCode": "FH294",
+  "CropName": "向日葵-重瓣"
+ },
+ {
+  "CropCode": "FH295",
+  "CropName": "向日葵-金色陽光"
+ },
+ {
+  "CropCode": "FH296",
+  "CropName": "向日葵-金鑽"
+ },
+ {
+  "CropCode": "FH297",
+  "CropName": "向日葵-達冠七號"
+ },
+ {
+  "CropCode": "FH298",
+  "CropName": "向日葵-太陽神"
+ },
+ {
+  "CropCode": "FH3",
+  "CropName": "扁蒲-花蒲"
+ },
+ {
+  "CropCode": "FH301",
+  "CropName": "波斯菊"
+ },
+ {
+  "CropCode": "FH302",
+  "CropName": "矢車菊"
+ },
+ {
+  "CropCode": "FH303",
+  "CropName": "琉璃菊"
+ },
+ {
+  "CropCode": "FH304",
+  "CropName": "鱗托菊"
+ },
+ {
+  "CropCode": "FH305",
+  "CropName": "白友禪菊"
+ },
+ {
+  "CropCode": "FH306",
+  "CropName": "白日草"
+ },
+ {
+  "CropCode": "FH307",
+  "CropName": "瓜葉菊"
+ },
+ {
+  "CropCode": "FH308",
+  "CropName": "白藍菊"
+ },
+ {
+  "CropCode": "FH309",
+  "CropName": "牡丹花"
+ },
+ {
+  "CropCode": "FH310",
+  "CropName": "大理花-混色"
+ },
+ {
+  "CropCode": "FH311",
+  "CropName": "大理花-紅色"
+ },
+ {
+  "CropCode": "FH312",
+  "CropName": "大理花-橘色"
+ },
+ {
+  "CropCode": "FH313",
+  "CropName": "大理花-黃色"
+ },
+ {
+  "CropCode": "FH314",
+  "CropName": "大理花-粉色"
+ },
+ {
+  "CropCode": "FH316",
+  "CropName": "大理花-白色"
+ },
+ {
+  "CropCode": "FH317",
+  "CropName": "大理花-紫色"
+ },
+ {
+  "CropCode": "FH318",
+  "CropName": "大理花-雙色"
+ },
+ {
+  "CropCode": "FH320",
+  "CropName": "薊花(紅花)"
+ },
+ {
+  "CropCode": "FH330",
+  "CropName": "雞冠花"
+ },
+ {
+  "CropCode": "FH331",
+  "CropName": "雞冠花-清紅"
+ },
+ {
+  "CropCode": "FH332",
+  "CropName": "雞冠花-暗紅"
+ },
+ {
+  "CropCode": "FH333",
+  "CropName": "雞冠花-黃"
+ },
+ {
+  "CropCode": "FH334",
+  "CropName": "雞冠花-綠"
+ },
+ {
+  "CropCode": "FH335",
+  "CropName": "槍型雞冠花"
+ },
+ {
+  "CropCode": "FH336",
+  "CropName": "垂雞冠"
+ },
+ {
+  "CropCode": "FH337",
+  "CropName": "雞冠花-紫紅"
+ },
+ {
+  "CropCode": "FH338",
+  "CropName": "雞冠花-黃綠"
+ },
+ {
+  "CropCode": "FH339",
+  "CropName": "雞冠花-粉"
+ },
+ {
+  "CropCode": "FH340",
+  "CropName": "火焰雞冠花"
+ },
+ {
+  "CropCode": "FH341",
+  "CropName": "火焰雞冠花-紅"
+ },
+ {
+  "CropCode": "FH342",
+  "CropName": "火焰雞冠花-橘"
+ },
+ {
+  "CropCode": "FH343",
+  "CropName": "火焰雞冠花-黃"
+ },
+ {
+  "CropCode": "FH344",
+  "CropName": "火焰雞冠花-粉"
+ },
+ {
+  "CropCode": "FH350",
+  "CropName": "夢幻草"
+ },
+ {
+  "CropCode": "FH355",
+  "CropName": "鳳梨花"
+ },
+ {
+  "CropCode": "FH356",
+  "CropName": "觀果鳳梨花"
+ },
+ {
+  "CropCode": "FH357",
+  "CropName": "觀花鳳梨花"
+ },
+ {
+  "CropCode": "FH358",
+  "CropName": "珊瑚鳳梨"
+ },
+ {
+  "CropCode": "FH360",
+  "CropName": "金魚草-混色"
+ },
+ {
+  "CropCode": "FH361",
+  "CropName": "金魚草-紅色"
+ },
+ {
+  "CropCode": "FH363",
+  "CropName": "金魚草-黃色"
+ },
+ {
+  "CropCode": "FH364",
+  "CropName": "金魚草-粉色"
+ },
+ {
+  "CropCode": "FH366",
+  "CropName": "金魚草-白色"
+ },
+ {
+  "CropCode": "FH368",
+  "CropName": "金魚草-雙色"
+ },
+ {
+  "CropCode": "FH370",
+  "CropName": "千鳥草"
+ },
+ {
+  "CropCode": "FH375",
+  "CropName": "大飛燕草"
+ },
+ {
+  "CropCode": "FH376",
+  "CropName": "小飛燕草"
+ },
+ {
+  "CropCode": "FH380",
+  "CropName": "鳳尾草"
+ },
+ {
+  "CropCode": "FH381",
+  "CropName": "麒麟草"
+ },
+ {
+  "CropCode": "FH390",
+  "CropName": "泡盛草"
+ },
+ {
+  "CropCode": "FH395",
+  "CropName": "虎尾花"
+ },
+ {
+  "CropCode": "FH4",
+  "CropName": "扁蒲-梨子蒲"
+ },
+ {
+  "CropCode": "FH410",
+  "CropName": "愛麗絲-混色"
+ },
+ {
+  "CropCode": "FH413",
+  "CropName": "愛麗絲-黃色"
+ },
+ {
+  "CropCode": "FH416",
+  "CropName": "愛麗絲-白色"
+ },
+ {
+  "CropCode": "FH417",
+  "CropName": "愛麗絲-淺藍色"
+ },
+ {
+  "CropCode": "FH418",
+  "CropName": "愛麗絲-深藍色"
+ },
+ {
+  "CropCode": "FH420",
+  "CropName": "孤挺花"
+ },
+ {
+  "CropCode": "FH421",
+  "CropName": "桃樂西孤挺花"
+ },
+ {
+  "CropCode": "FH434",
+  "CropName": "鬱金-粉"
+ },
+ {
+  "CropCode": "FH440",
+  "CropName": "小蒼蘭-混色"
+ },
+ {
+  "CropCode": "FH441",
+  "CropName": "小蒼蘭-紅色"
+ },
+ {
+  "CropCode": "FH442",
+  "CropName": "小蒼蘭-橙色"
+ },
+ {
+  "CropCode": "FH443",
+  "CropName": "小蒼蘭-黃色"
+ },
+ {
+  "CropCode": "FH444",
+  "CropName": "小蒼蘭-粉色"
+ },
+ {
+  "CropCode": "FH446",
+  "CropName": "小蒼蘭-白色"
+ },
+ {
+  "CropCode": "FH447",
+  "CropName": "小蒼蘭-紫色"
+ },
+ {
+  "CropCode": "FH450",
+  "CropName": "紫羅蘭-單瓣"
+ },
+ {
+  "CropCode": "FH451",
+  "CropName": "紫羅蘭-重瓣"
+ },
+ {
+  "CropCode": "FH452",
+  "CropName": "紫羅蘭-重瓣桃紅"
+ },
+ {
+  "CropCode": "FH454",
+  "CropName": "紫羅蘭-重瓣粉"
+ },
+ {
+  "CropCode": "FH456",
+  "CropName": "紫羅蘭-重瓣白"
+ },
+ {
+  "CropCode": "FH457",
+  "CropName": "紫羅蘭-重瓣淺紫"
+ },
+ {
+  "CropCode": "FH458",
+  "CropName": "紫羅蘭-重瓣深紫"
+ },
+ {
+  "CropCode": "FH460",
+  "CropName": "繡球花"
+ },
+ {
+  "CropCode": "FH461",
+  "CropName": "繡球花-紅"
+ },
+ {
+  "CropCode": "FH464",
+  "CropName": "繡球花-粉"
+ },
+ {
+  "CropCode": "FH465",
+  "CropName": "繡球花-綠色"
+ },
+ {
+  "CropCode": "FH466",
+  "CropName": "繡球花-白"
+ },
+ {
+  "CropCode": "FH467",
+  "CropName": "繡球花-藍"
+ },
+ {
+  "CropCode": "FH468",
+  "CropName": "繡球花-水藍"
+ },
+ {
+  "CropCode": "FH470",
+  "CropName": "仙丹花"
+ },
+ {
+  "CropCode": "FH480",
+  "CropName": "龍膽"
+ },
+ {
+  "CropCode": "FH485",
+  "CropName": "風鈴花"
+ },
+ {
+  "CropCode": "FH490",
+  "CropName": "白頭翁"
+ },
+ {
+  "CropCode": "FH495",
+  "CropName": "陸蓮花"
+ },
+ {
+  "CropCode": "FH496",
+  "CropName": "陸蓮花-白"
+ },
+ {
+  "CropCode": "FH497",
+  "CropName": "陸蓮花-紅"
+ },
+ {
+  "CropCode": "FH498",
+  "CropName": "陸蓮花-黃"
+ },
+ {
+  "CropCode": "FH499",
+  "CropName": "陸蓮花-粉"
+ },
+ {
+  "CropCode": "FH500",
+  "CropName": "風信子"
+ },
+ {
+  "CropCode": "FH510",
+  "CropName": "蝴蝶陸蓮-混色"
+ },
+ {
+  "CropCode": "FH511",
+  "CropName": "蝴蝶陸蓮-紅"
+ },
+ {
+  "CropCode": "FH512",
+  "CropName": "蝴蝶陸蓮-橙"
+ },
+ {
+  "CropCode": "FH513",
+  "CropName": "蝴蝶陸蓮-黃"
+ },
+ {
+  "CropCode": "FH514",
+  "CropName": "蝴蝶陸蓮-粉"
+ },
+ {
+  "CropCode": "FH516",
+  "CropName": "蝴蝶陸蓮-白"
+ },
+ {
+  "CropCode": "FH521",
+  "CropName": "迥香-黃"
+ },
+ {
+  "CropCode": "FH522",
+  "CropName": "迥香-白"
+ },
+ {
+  "CropCode": "FH580",
+  "CropName": "花菖蒲"
+ },
+ {
+  "CropCode": "FH600",
+  "CropName": "臘梅"
+ },
+ {
+  "CropCode": "FH610",
+  "CropName": "鬱金香-混色"
+ },
+ {
+  "CropCode": "FH611",
+  "CropName": "鬱金香-紅色"
+ },
+ {
+  "CropCode": "FH612",
+  "CropName": "鬱金香-橙色"
+ },
+ {
+  "CropCode": "FH613",
+  "CropName": "鬱金香-黃色"
+ },
+ {
+  "CropCode": "FH614",
+  "CropName": "鬱金香-粉色"
+ },
+ {
+  "CropCode": "FH616",
+  "CropName": "鬱金香-白色"
+ },
+ {
+  "CropCode": "FH617",
+  "CropName": "鬱金香-紫色"
+ },
+ {
+  "CropCode": "FH618",
+  "CropName": "鬱金香-雙色"
+ },
+ {
+  "CropCode": "FH620",
+  "CropName": "水仙花"
+ },
+ {
+  "CropCode": "FH626",
+  "CropName": "白鶴芋"
+ },
+ {
+  "CropCode": "FH630",
+  "CropName": "海芋-混色"
+ },
+ {
+  "CropCode": "FH631",
+  "CropName": "海芋-紅"
+ },
+ {
+  "CropCode": "FH632",
+  "CropName": "海芋-橙"
+ },
+ {
+  "CropCode": "FH633",
+  "CropName": "海芋-黃"
+ },
+ {
+  "CropCode": "FH634",
+  "CropName": "海芋-粉"
+ },
+ {
+  "CropCode": "FH635",
+  "CropName": "海芋-綠"
+ },
+ {
+  "CropCode": "FH636",
+  "CropName": "海芋-白"
+ },
+ {
+  "CropCode": "FH637",
+  "CropName": "海芋-紫"
+ },
+ {
+  "CropCode": "FH638",
+  "CropName": "海芋-乳白"
+ },
+ {
+  "CropCode": "FH640",
+  "CropName": "睡蓮"
+ },
+ {
+  "CropCode": "FH650",
+  "CropName": "荷花"
+ },
+ {
+  "CropCode": "FH660",
+  "CropName": "天鵝絨"
+ },
+ {
+  "CropCode": "FH661",
+  "CropName": "伯利恆之星"
+ },
+ {
+  "CropCode": "FH670",
+  "CropName": "茉莉花"
+ },
+ {
+  "CropCode": "FH673",
+  "CropName": "三角桔梗"
+ },
+ {
+  "CropCode": "FH680",
+  "CropName": "君子蘭"
+ },
+ {
+  "CropCode": "FH690",
+  "CropName": "火球花"
+ },
+ {
+  "CropCode": "FH700",
+  "CropName": "寒丁子(王冠)"
+ },
+ {
+  "CropCode": "FH710",
+  "CropName": "深山櫻"
+ },
+ {
+  "CropCode": "FH717",
+  "CropName": "深山櫻-紫霧"
+ },
+ {
+  "CropCode": "FH720",
+  "CropName": "貝殼花"
+ },
+ {
+  "CropCode": "FH730",
+  "CropName": "黑種草"
+ },
+ {
+  "CropCode": "FH740",
+  "CropName": "金翠花"
+ },
+ {
+  "CropCode": "FH750",
+  "CropName": "百子蓮(愛情花)"
+ },
+ {
+  "CropCode": "FH756",
+  "CropName": "百子蓮大白"
+ },
+ {
+  "CropCode": "FH757",
+  "CropName": "百子蓮大紫"
+ },
+ {
+  "CropCode": "FH760",
+  "CropName": "火炬百合"
+ },
+ {
+  "CropCode": "FH770",
+  "CropName": "非洲鬱金香"
+ },
+ {
+  "CropCode": "FH780",
+  "CropName": "玉米百合"
+ },
+ {
+  "CropCode": "FH790",
+  "CropName": "藍星花"
+ },
+ {
+  "CropCode": "FH794",
+  "CropName": "藍星花-粉色"
+ },
+ {
+  "CropCode": "FH795",
+  "CropName": "藍星花-藍色"
+ },
+ {
+  "CropCode": "FH796",
+  "CropName": "藍星花-白色"
+ },
+ {
+  "CropCode": "FH800",
+  "CropName": "玫瑰-聖誕"
+ },
+ {
+  "CropCode": "FH890",
+  "CropName": "袋鼠花"
+ },
+ {
+  "CropCode": "FH900",
+  "CropName": "紫嬌花"
+ },
+ {
+  "CropCode": "FI0",
+  "CropName": "茄子-其他"
+ },
+ {
+  "CropCode": "FI1",
+  "CropName": "茄子-胭脂茄"
+ },
+ {
+  "CropCode": "FI2",
+  "CropName": "茄子-麻荸茄"
+ },
+ {
+  "CropCode": "FI3",
+  "CropName": "茄子-日本種"
+ },
+ {
+  "CropCode": "FJ0",
+  "CropName": "番茄-其他"
+ },
+ {
+  "CropCode": "FJ1",
+  "CropName": "番茄-黑柿"
+ },
+ {
+  "CropCode": "FJ2",
+  "CropName": "番茄-粉柿"
+ },
+ {
+  "CropCode": "FJ3",
+  "CropName": "番茄-牛番茄"
+ },
+ {
+  "CropCode": "FK0",
+  "CropName": "甜椒-其他"
+ },
+ {
+  "CropCode": "FK000",
+  "CropName": "葵百合"
+ },
+ {
+  "CropCode": "FK001",
+  "CropName": "葵百合-單朵"
+ },
+ {
+  "CropCode": "FK002",
+  "CropName": "葵百合-雙朵"
+ },
+ {
+  "CropCode": "FK003",
+  "CropName": "葵百合-三朵"
+ },
+ {
+  "CropCode": "FK004",
+  "CropName": "葵百合-四朵"
+ },
+ {
+  "CropCode": "FK005",
+  "CropName": "葵百合-五朵"
+ },
+ {
+  "CropCode": "FK009",
+  "CropName": "葵百合-多朵"
+ },
+ {
+  "CropCode": "FK040",
+  "CropName": "葵百合-粉"
+ },
+ {
+  "CropCode": "FK041",
+  "CropName": "葵百合-粉單朵"
+ },
+ {
+  "CropCode": "FK042",
+  "CropName": "葵百合-粉雙朵"
+ },
+ {
+  "CropCode": "FK043",
+  "CropName": "葵百合-粉三朵"
+ },
+ {
+  "CropCode": "FK044",
+  "CropName": "葵百合-粉四朵"
+ },
+ {
+  "CropCode": "FK045",
+  "CropName": "葵百合-粉五朵"
+ },
+ {
+  "CropCode": "FK049",
+  "CropName": "葵百合-粉多朵"
+ },
+ {
+  "CropCode": "FK110",
+  "CropName": "葵百合-蘿拉紅"
+ },
+ {
+  "CropCode": "FK111",
+  "CropName": "葵百合-蘿拉紅單朵"
+ },
+ {
+  "CropCode": "FK112",
+  "CropName": "葵百合-蘿拉紅雙朵"
+ },
+ {
+  "CropCode": "FK113",
+  "CropName": "葵百合-蘿拉紅三朵"
+ },
+ {
+  "CropCode": "FK114",
+  "CropName": "葵百合-蘿拉紅四朵"
+ },
+ {
+  "CropCode": "FK115",
+  "CropName": "葵百合-蘿拉紅五朵"
+ },
+ {
+  "CropCode": "FK119",
+  "CropName": "葵百合-蘿拉紅多朵"
+ },
+ {
+  "CropCode": "FK210",
+  "CropName": "葵百合-奧林匹克紅"
+ },
+ {
+  "CropCode": "FK211",
+  "CropName": "葵百合-奧林匹克紅單朵"
+ },
+ {
+  "CropCode": "FK212",
+  "CropName": "葵百合-奧林匹克紅雙朵"
+ },
+ {
+  "CropCode": "FK213",
+  "CropName": "葵百合-奧林匹克紅三朵"
+ },
+ {
+  "CropCode": "FK214",
+  "CropName": "葵百合-奧林匹克紅四朵"
+ },
+ {
+  "CropCode": "FK215",
+  "CropName": "葵百合-奧林匹克紅五朵"
+ },
+ {
+  "CropCode": "FK219",
+  "CropName": "葵百合-薁林匹克紅多朵"
+ },
+ {
+  "CropCode": "FK3",
+  "CropName": "甜椒-新香"
+ },
+ {
+  "CropCode": "FK310",
+  "CropName": "葵百合-紅"
+ },
+ {
+  "CropCode": "FK311",
+  "CropName": "葵百合-紅單朵"
+ },
+ {
+  "CropCode": "FK312",
+  "CropName": "葵百合-紅雙朵"
+ },
+ {
+  "CropCode": "FK313",
+  "CropName": "葵百合-紅三朵"
+ },
+ {
+  "CropCode": "FK314",
+  "CropName": "葵百合-紅四朵"
+ },
+ {
+  "CropCode": "FK315",
+  "CropName": "葵百合-紅五朵"
+ },
+ {
+  "CropCode": "FK319",
+  "CropName": "葵百合-紅多朵"
+ },
+ {
+  "CropCode": "FK340",
+  "CropName": "葵百合-瑪麗粉"
+ },
+ {
+  "CropCode": "FK341",
+  "CropName": "葵百合-瑪麗粉單朵"
+ },
+ {
+  "CropCode": "FK342",
+  "CropName": "葵百合-瑪麗粉雙朵"
+ },
+ {
+  "CropCode": "FK343",
+  "CropName": "葵百合-瑪麗粉三朵"
+ },
+ {
+  "CropCode": "FK344",
+  "CropName": "葵百合-瑪麗粉四朵"
+ },
+ {
+  "CropCode": "FK345",
+  "CropName": "葵百合-瑪麗粉五朵"
+ },
+ {
+  "CropCode": "FK349",
+  "CropName": "葵百合-瑪麗粉多朵"
+ },
+ {
+  "CropCode": "FK4",
+  "CropName": "甜椒-彩色種"
+ },
+ {
+  "CropCode": "FK40",
+  "CropName": "甜椒-彩色種 其他"
+ },
+ {
+  "CropCode": "FK41",
+  "CropName": "甜椒-彩色種 紅色"
+ },
+ {
+  "CropCode": "FK410",
+  "CropName": "葵百合-阿卡波克紅"
+ },
+ {
+  "CropCode": "FK411",
+  "CropName": "葵百合-阿卡波克紅單朵"
+ },
+ {
+  "CropCode": "FK412",
+  "CropName": "葵百合-阿卡波克紅雙朵"
+ },
+ {
+  "CropCode": "FK413",
+  "CropName": "葵百合-阿卡波克紅三朵"
+ },
+ {
+  "CropCode": "FK414",
+  "CropName": "葵百合-阿卡波克紅四朵"
+ },
+ {
+  "CropCode": "FK415",
+  "CropName": "葵百合-阿卡波克紅五朵"
+ },
+ {
+  "CropCode": "FK419",
+  "CropName": "葵百合-阿卡波克紅多朵"
+ },
+ {
+  "CropCode": "FK42",
+  "CropName": "甜椒-彩色種 黃色"
+ },
+ {
+  "CropCode": "FK420",
+  "CropName": "葵百合-阿提亞"
+ },
+ {
+  "CropCode": "FK421",
+  "CropName": "葵百合-阿提亞單朵"
+ },
+ {
+  "CropCode": "FK422",
+  "CropName": "葵百合-阿提亞雙朵"
+ },
+ {
+  "CropCode": "FK423",
+  "CropName": "葵百合-阿提亞三朵"
+ },
+ {
+  "CropCode": "FK429",
+  "CropName": "葵百合-阿提亞多朵"
+ },
+ {
+  "CropCode": "FK43",
+  "CropName": "甜椒-彩色種 橘色"
+ },
+ {
+  "CropCode": "FK430",
+  "CropName": "葵百合-瑪麗之星"
+ },
+ {
+  "CropCode": "FK431",
+  "CropName": "葵百合-瑪麗之星單朵"
+ },
+ {
+  "CropCode": "FK432",
+  "CropName": "葵百合-瑪麗之星雙朵"
+ },
+ {
+  "CropCode": "FK433",
+  "CropName": "葵百合-瑪麗之星三朵"
+ }
+]
