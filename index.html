@@ -253,26 +253,38 @@
   }
   .block-title .count { font-family: ui-monospace, Consolas, monospace; font-size: 0.72rem; color: var(--ink-soft); font-weight: 400; }
 
-  table { width: 100%; border-collapse: collapse; }
-  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); }
-  th {
-    text-align: left;
+  .fact-list { display: flex; flex-direction: column; gap: 0.6rem; }
+  .fact-card {
+    border: 1px solid var(--line);
+    background: var(--surface);
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .fact-field { font-weight: 700; font-size: 0.92rem; }
+  .fact-field.pest-name { color: var(--warn); }
+  .fact-value { font-size: 0.88rem; color: var(--ink); }
+  .fact-row { display: flex; flex-direction: column; gap: 0.15rem; }
+  .fact-label {
     font-family: ui-monospace, Consolas, monospace;
-    font-size: 0.68rem;
-    letter-spacing: 0.08em;
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--ink-soft);
-    background: var(--surface-2);
-    padding: 0.55rem 0.8rem;
-    border-bottom: 1px solid var(--line);
-    white-space: nowrap;
   }
-  td { padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--line); font-size: 0.88rem; vertical-align: top; }
-  tr:last-child td { border-bottom: none; }
-  td.field-name { font-weight: 600; white-space: nowrap; }
-  td.pest-name { font-weight: 600; color: var(--warn); white-space: nowrap; }
+  .fact-empty { color: var(--ink-soft); font-size: 0.86rem; margin: 0; }
 
-  .src-cell { display: flex; flex-direction: column; gap: 0.3rem; align-items: flex-start; }
+  .src-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: flex-start;
+    margin-top: 0.2rem;
+    padding-top: 0.55rem;
+    border-top: 1px dashed var(--line);
+  }
   .src-link {
     display: inline-flex;
     align-items: center;
@@ -485,19 +497,19 @@ function renderCrop(cropId) {
     : `<div class="regions"><div class="region-note" style="grid-column:1/-1;border-top:none;">${esc(crop.region_note)}</div></div>`;
 
   const cultRows = cultivation.map(r => `
-    <tr>
-      <td class="field-name">${esc(r.field)}</td>
-      <td>${esc(r.value)}</td>
-      <td style="width:24%">${srcCell(r)}</td>
-    </tr>`).join("") || `<tr><td colspan="3" style="color:var(--ink-soft)">尚無資料</td></tr>`;
+    <div class="fact-card">
+      <div class="fact-field">${esc(r.field)}</div>
+      <div class="fact-value">${esc(r.value)}</div>
+      ${srcCell(r)}
+    </div>`).join("") || `<p class="fact-empty">尚無資料</p>`;
 
   const pestRows = pests.map(r => `
-    <tr>
-      <td class="pest-name">${esc(r.name)}</td>
-      <td>${esc(r.symptom)}</td>
-      <td>${esc(r.control)}</td>
-      <td style="width:22%">${srcCell(r)}</td>
-    </tr>`).join("") || `<tr><td colspan="4" style="color:var(--ink-soft)">尚無資料</td></tr>`;
+    <div class="fact-card">
+      <div class="fact-field pest-name">${esc(r.name)}</div>
+      <div class="fact-row"><span class="fact-label">症狀</span><span class="fact-value">${esc(r.symptom)}</span></div>
+      <div class="fact-row"><span class="fact-label">防治方法</span><span class="fact-value">${esc(r.control)}</span></div>
+      ${srcCell(r)}
+    </div>`).join("") || `<p class="fact-empty">尚無資料</p>`;
 
   const notesBlock = notes.length ? `
     <div class="unverified">
@@ -517,17 +529,11 @@ function renderCrop(cropId) {
     ${regions}
     <section class="block">
       <h2 class="block-title">栽培條件 <span class="count">${cultivation.length} 項</span></h2>
-      <div class="table-wrap"><table>
-        <thead><tr><th style="width:18%">項目</th><th>內容</th><th>資料來源</th></tr></thead>
-        <tbody>${cultRows}</tbody>
-      </table></div>
+      <div class="fact-list">${cultRows}</div>
     </section>
     <section class="block">
       <h2 class="block-title">病蟲害與防治 <span class="count">${pests.length} 項</span></h2>
-      <div class="table-wrap"><table>
-        <thead><tr><th style="width:14%">名稱</th><th style="width:26%">症狀</th><th>防治方法</th><th>資料來源</th></tr></thead>
-        <tbody>${pestRows}</tbody>
-      </table></div>
+      <div class="fact-list">${pestRows}</div>
     </section>
     ${notesBlock}
   `;
