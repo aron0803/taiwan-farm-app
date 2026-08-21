@@ -57,14 +57,14 @@
   }
 
   * { box-sizing: border-box; }
-  html { -webkit-tap-highlight-color: transparent; }
+  html { -webkit-tap-highlight-color: transparent; font-size: 19px; }
   body {
     margin: 0;
     background: var(--bg);
     color: var(--ink);
     font-family: -apple-system, "Segoe UI", "Noto Sans TC", sans-serif;
     padding: 0 0 3rem;
-    line-height: 1.6;
+    line-height: 1.65;
   }
   .page { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; }
 
@@ -231,12 +231,12 @@
     display: block;
     margin-bottom: 0.3rem;
   }
-  .region-cell .r-text { font-size: 0.86rem; color: var(--ink-soft); }
+  .region-cell .r-text { font-size: 1rem; color: var(--ink-soft); }
   .region-note {
     grid-column: 1 / -1;
     background: var(--surface-2);
     padding: 0.7rem 1rem;
-    font-size: 0.82rem;
+    font-size: 0.95rem;
     color: var(--ink-soft);
     border-top: 1px solid var(--line);
   }
@@ -263,9 +263,9 @@
     flex-direction: column;
     gap: 0.35rem;
   }
-  .fact-field { font-weight: 700; font-size: 0.92rem; }
+  .fact-field { font-weight: 700; font-size: 1.08rem; }
   .fact-field.pest-name { color: var(--warn); }
-  .fact-value { font-size: 0.88rem; color: var(--ink); }
+  .fact-value { font-size: 1.02rem; color: var(--ink); }
   .fact-row { display: flex; flex-direction: column; gap: 0.15rem; }
   .fact-label {
     font-family: ui-monospace, Consolas, monospace;
@@ -289,7 +289,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.3rem;
-    font-size: 0.78rem;
+    font-size: 0.92rem;
     color: var(--accent);
     text-decoration: none;
     border-bottom: 1px solid transparent;
@@ -319,10 +319,10 @@
     gap: 0.5rem;
   }
   .unverified .head { font-family: ui-monospace, Consolas, monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--warn); }
-  .unverified ul { margin: 0; padding-left: 1.1rem; font-size: 0.82rem; }
+  .unverified ul { margin: 0; padding-left: 1.1rem; font-size: 0.95rem; }
   .unverified li + li { margin-top: 0.35rem; }
 
-  footer { border-top: 1px solid var(--line); padding-top: 0.9rem; font-size: 0.76rem; color: var(--ink-soft); font-family: ui-monospace, Consolas, monospace; }
+  footer { border-top: 1px solid var(--line); padding-top: 0.9rem; font-size: 0.85rem; color: var(--ink-soft); font-family: ui-monospace, Consolas, monospace; line-height: 1.7; }
 
   .progress-bar {
     display: flex;
@@ -377,7 +377,7 @@
 
   .now-head { display: flex; flex-direction: column; gap: 0.3rem; }
   .now-head .month { font-family: Georgia, "Noto Serif TC", serif; font-size: 1.9rem; font-weight: 700; }
-  .now-head .sub { color: var(--ink-soft); font-size: 0.86rem; }
+  .now-head .sub { color: var(--ink-soft); font-size: 1rem; }
 
   .now-category { display: flex; flex-direction: column; gap: 0.6rem; }
   .now-cat-title {
@@ -432,7 +432,7 @@
   .now-card .nc-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
   .now-card .nc-name { font-family: Georgia, "Noto Serif TC", serif; font-size: 1.1rem; font-weight: 700; }
   .now-card .nc-cat { font-family: ui-monospace, Consolas, monospace; font-size: 0.64rem; color: var(--leaf); background: var(--leaf-soft); border-radius: 3px; padding: 0.1rem 0.4rem; white-space: nowrap; }
-  .now-card .nc-season { font-size: 0.78rem; color: var(--ink-soft); flex: 1; }
+  .now-card .nc-season { font-size: 0.92rem; color: var(--ink-soft); flex: 1; }
   .now-card .nc-arrow { font-family: ui-monospace, Consolas, monospace; font-size: 0.72rem; color: var(--accent); align-self: flex-end; }
 
   .pending-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
