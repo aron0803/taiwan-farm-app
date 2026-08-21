@@ -163,17 +163,22 @@
   .back-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
-    background: none;
-    border: none;
-    color: var(--ink-soft);
-    font-size: 0.86rem;
+    gap: 0.4rem;
+    align-self: flex-start;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--ink);
+    font-weight: 600;
+    font-size: 1rem;
     font-family: inherit;
-    padding: 0;
-    margin-bottom: 0.2rem;
+    padding: 0.55rem 1.1rem 0.55rem 0.85rem;
+    margin-bottom: 0.3rem;
     cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
   }
-  .back-btn:hover, .back-btn:focus-visible { color: var(--leaf); outline: none; }
+  .back-btn:hover, .back-btn:focus-visible { border-color: var(--leaf); color: var(--leaf); outline: none; }
+  .back-btn:active { transform: translateY(1px); }
 
   .sheet { display: flex; flex-direction: column; gap: 1.5rem; }
 
