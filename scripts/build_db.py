@@ -272,6 +272,11 @@ REGISTRY = [
     # 第二十批（新增：菇蕈類/特用作物）
     ("houtougu", "猴頭菇", "菇蕈類", "collected"),
     ("midiexiang", "迷迭香", "特用作物", "collected"),
+    # 第二十一批（新增：菇蕈類/特用作物/果菜類）
+    ("shanhugu", "珊瑚菇", "菇蕈類", "collected"),
+    ("lingzhi", "靈芝", "菇蕈類", "collected"),
+    ("tianju", "甜菊", "特用作物", "collected"),
+    ("mubieguo", "木鱉果", "果菜類", "collected"),
 ]
 
 def M(*months):
@@ -1220,6 +1225,28 @@ CROPS = [
          region_note="唇形科多年生木本香草，喜高冷地環境，不適合台灣平地高溫多濕氣候；種子繁殖以春季播種發芽率較佳，扦插則取1年生枝條，全年可進行但以春季為佳。",
          season_months_north=M(3,4), season_months_central=M(3,4), season_months_south=M(3,4),
          season_label="種子繁殖以春季播種為佳（發芽率偏低，需3～4個月育苗期）；扦插取1年生枝條約5公分，去除基部葉片後扦插，約45～60天發根；生長適溫15～25℃，夏季需適度遮蔭"),
+    # 第二十一批（新增）
+    dict(crop_id="shanhugu", name="珊瑚菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文明確指出栽培條件範圍廣，適合台灣平地各地區、不分季節栽培，故此筆季節欄位標示為全年皆可栽培，與四季皆可栽種的蔬菜類作物（如小白菜、空心菜）處理方式相同。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="適合台灣平地各地區、不分季節栽培；菌絲生長適溫23～27℃，pH5.0～6.5"),
+    dict(crop_id="lingzhi", name="靈芝", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="靈芝多以蔗渣太空包、木屑瓶栽或木屑太空包法栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；太空包法產出之子實體較段木栽培法小。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包/瓶栽為控制環境生產，全年皆可進行，非露地看天田作物；栽培方式包括蔗渣太空包法、木屑瓶栽法、木屑太空包法，隨產量提升價格亦隨之下降"),
+    dict(crop_id="tianju", name="甜菊", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="菊科多年生草本，別名甜草、甜葉菊；官方藥用植物主題館明確列出種子繁殖的播種季節，資料完整度佳。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="以種子播種或扦插繁殖，播種期為春季（3～4月）與秋季（9～10月）；花果期8～10月；葉片為甜味劑及降血糖利用部位"),
+    dict(crop_id="mubieguo", name="木鱉果", category="果菜類",
+         region_north=None, region_central=None,
+         region_south="花東地區原住民常於自家庭院栽培採收嫩果，長濱、成功等鄉鎮亦有零星栽培",
+         region_note="多年生草質藤本植物，生長快速、抗病蟲害，但不耐低溫與強風，每年冬後地上部逐漸枯萎進入休眠，翌年春暖後再萌發；雌雄異株，需同時栽種雄株與雌株才能結果。",
+         season_months_north=None, season_months_central=None, season_months_south=M(3,4),
+         season_label="種子繁殖：去殼後於3～4月種植，採棚架栽培；花期5～6月，果實9～11月成熟；亦可扦插繁殖"),
 ]
 
 CULTIVATION = [
@@ -2217,6 +2244,26 @@ CULTIVATION = [
     ("midiexiang", "適合溫度", "生長適溫約15～25℃，夏季建議適度遮蔭協助度過酷暑", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
     ("midiexiang", "繁殖方式", "扦插取1年生枝條約5公分，去除基部葉片後扦插，可用發根粉促進生根，約45～60天發根即可移植；種子繁殖以春季播種為佳，但發芽率偏低，需3～4個月育苗期", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
     ("midiexiang", "施肥與修剪", "每月施肥一次（自晚秋至春季），盆栽建議每2～3年換土一次；植株生長緩慢、再生能力弱，修剪時避免一次剪去枝條長度一半以上，否則不易再生", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+
+    # 珊瑚菇 - 農業知識入口網
+    ("shanhugu", "適合季節與地區", "適合台灣平地各地區、不分季節栽培", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=372", "official", "2026-08-23"),
+    ("shanhugu", "菌絲生長條件", "菌絲生長適溫23～27℃，pH5.0～6.5", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=372", "official", "2026-08-23"),
+
+    # 靈芝 - 農業知識入口網 菇類與植物工廠
+    ("lingzhi", "栽培方式", "常見栽培方式包括蔗渣太空包法、木屑瓶栽法、木屑太空包法；太空包法產出之子實體較傳統段木栽培法小", "農業知識入口網（靈芝與其有機栽培）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35703", "official", "2026-08-23"),
+    ("lingzhi", "產業現況", "已可用太空包法人工栽培，隨產量提升，市場價格亦隨之下降", "農業知識入口網（靈芝栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55038", "official", "2026-08-23"),
+
+    # 甜菊 - 農業知識入口網 藥用植物主題館
+    ("tianju", "植物特性", "菊科多年生草本，株高100～150公分，莖直立圓形、基部木質化多分枝；葉對生，橢圓形或倒披針形，上半部葉緣有鋸齒", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+    ("tianju", "花果期", "花序頭狀花序呈繖房狀排列於枝端，由5朵管狀白色小花組成；花果期8～10月", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+    ("tianju", "繁殖方式", "以種子播種或扦插繁殖；播種期為春季3～4月、秋季9～10月", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+    ("tianju", "利用部位", "利用部位為葉片，作為甜味劑及降血糖用途，甜度極高，可作天然代糖，鮮葉、乾葉皆可直接使用", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+
+    # 木鱉果 - 農業知識入口網 原住民族農產業主題館
+    ("mubieguo", "植物特性", "多年生草質藤本植物，生長快速、抗病蟲害，但不耐低溫與強風；每年冬後地上部逐漸枯萎進入休眠，翌年春暖後再萌發", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
+    ("mubieguo", "主要產地", "目前長濱、成功等鄉鎮農民零星栽培，花東地區原住民常於自家庭院栽培採收嫩果", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
+    ("mubieguo", "花果期", "花期5～6月，果實於9～11月成熟", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
+    ("mubieguo", "土壤條件與繁殖", "適合富含有機質之壤土至砂質壤土，土質過重或排水不良地區不適合栽培；種子須去殼後於3～4月種植，採棚架栽培，亦可扦插繁殖；雌雄異株，需同時栽種雄株與雌株才能結果", "農業知識入口網（苦瓜主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=38149", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2846,6 +2893,10 @@ UNVERIFIED = [
     ("jiabaoguo", "本次補充查得適合溫度、種子發芽天數與施肥時程等資料（原第十四批entries已收錄基本資料），已一併更新至cultivation_facts；病蟲害資料仍未查得，需另行補齊。"),
     ("houtougu", "傳統菇舍冬季栽培的具體月份範圍為推估值（11～12月、1～2月），非官方逐月公告，需另行查證；太空包配方、病蟲害資料本次未查得，需另行補齊。"),
     ("midiexiang", "適合的台灣高冷地產區資料未取得；土壤pH以外的詳細條件、病蟲害資料本次均未查得，需另行補齊。"),
+    ("shanhugu", "土壤（太空包基質）配方、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("lingzhi", "本表season欄位留空是因太空包/瓶栽為控制環境周年生產，非露地看天田作物，並非資料查證不足；具體太空包配方、栽培溫度、病蟲害資料本次未查得，需另行補齊；靈芝兼具食用與藥用（保健食品原料）用途，之後在UI呈現時可補充說明。"),
+    ("tianju", "土壤條件、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；甜菊為天然代糖植物而非一般食用作物，之後在UI呈現時應說明其用途定位。"),
+    ("mubieguo", "北部、中部是否適合栽培尚待查證（目前僅知花東零星栽培）；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；雌雄異株特性（需同時栽種雄株與雌株才能結果）為重要栽培限制，之後在UI呈現時應加以說明。"),
 ]
 
 
