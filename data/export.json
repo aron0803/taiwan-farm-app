@@ -947,6 +947,30 @@
       "name": "劍蘭（唐菖蒲）",
       "category": "花卉類",
       "status": "collected"
+    },
+    {
+      "crop_id": "xiangrikui",
+      "name": "向日葵",
+      "category": "花卉類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "baihe",
+      "name": "百合",
+      "category": "花卉類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yangjiegeng",
+      "name": "洋桔梗",
+      "category": "花卉類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "feizhouju",
+      "name": "非洲菊",
+      "category": "花卉類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3003,6 +3027,58 @@
       "season_months_central": "3,4",
       "season_months_south": "3,4",
       "season_label": "溫帶地區一般於春季種植（此為通則性描述，需另行查證台灣本地實際種植月份）；需全日照且每日日照14小時以上以利花芽分化；生長適溫日溫24～26℃、夜溫13～18℃，低於3℃停止生長、低於-3℃植株死亡"
+    },
+    {
+      "crop_id": "xiangrikui",
+      "name": "向日葵",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "官方花壇植物主題館資料明確列出全年適合的播種月份與應避開的季節，資料完整度佳；觀賞品種（重瓣/單瓣、單花/多花）植株較矮，油用/瓜子用品種植株可達2～3公尺。",
+      "season_months_north": "9,10,2,3",
+      "season_months_central": "9,10,2,3",
+      "season_months_south": "9,10,2,3",
+      "season_label": "最佳播種期為9～10月，其次為2～3月；應避開6～7月颱風雨季；發芽適溫15～25℃，生長適溫15～35℃（低於5℃有寒害），播種至成熟全期約94～117天"
+    },
+    {
+      "crop_id": "baihe",
+      "name": "百合",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "喜冷涼濕潤、日照充足但略帶遮蔭之環境，怕乾旱與酷熱，耐寒性稍弱；種子繁殖與種球貯藏的溫度條件已查得，但苗木/種球定植的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "定植的確切季節月份原文未給出，需另行查證；生長開花適溫16～24℃，低於5℃或高於30℃生長幾近停滯，需10℃以上才能正常生長，高於25℃生長轉慢"
+    },
+    {
+      "crop_id": "yangjiegeng",
+      "name": "洋桔梗",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": "嘉義新港為主要花卉栽培班之一（採冷房溫室育苗）",
+      "region_south": null,
+      "region_note": "喜涼爽且日照充足環境，台灣平地夏季不易存活，大多作一年生栽培；育苗期高溫易造成簇生化（Rosette）現象，需利用高冷地自然低溫或控溫設備育苗；原文未給出田間定植的確切季節月份，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "田間定植的確切季節月份原文未給出，需另行查證；育苗期需控溫避免簇生化現象，嘉義新港花卉班夏季育苗日溫控制在25℃以下"
+    },
+    {
+      "crop_id": "feizhouju",
+      "name": "非洲菊",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "官方花壇植物主題館明確列出種子繁殖的播種月份與育苗、栽培溫度，資料完整度佳。",
+      "season_months_north": "6,7,8",
+      "season_months_central": "6,7,8",
+      "season_months_south": "6,7,8",
+      "season_label": "種子繁殖播種期為6～8月，發芽適溫約20～24℃，育苗需控溫設施；栽培生長適溫15～25℃，夏季需遮蔭以提升植株生長與切花品質"
     }
   ],
   "cultivation": [
@@ -9345,6 +9421,106 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=11975",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 635,
+      "crop_id": "xiangrikui",
+      "field": "適合季節",
+      "value": "最佳播種期為9～10月，其次為2～3月；應避開6～7月颱風雨季",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14636",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 636,
+      "crop_id": "xiangrikui",
+      "field": "適合溫度",
+      "value": "發芽適溫15～25℃，生長適溫15～35℃，低於5℃有寒害、生長不良",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14636",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 637,
+      "crop_id": "xiangrikui",
+      "field": "播種與生育期",
+      "value": "點播入土約1公分深，約5～7天發芽，4～6片真葉時可移植；全期分五階段，播種至發芽8～11天、發芽至現蕾33～35天、現蕾至初花17～27天、初花至末花6～8天、末花至成熟30～36天，全期約94～117天",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14636",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 638,
+      "crop_id": "baihe",
+      "field": "適合溫度",
+      "value": "生長開花適溫16～24℃，低於5℃或高於30℃生長幾近停滯，需10℃以上才能正常生長，高於25℃生長轉慢",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=90",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 639,
+      "crop_id": "baihe",
+      "field": "栽培環境與土壤",
+      "value": "喜冷涼濕潤、日照充足但略帶遮蔭之環境，忌乾旱酷熱，耐寒性稍弱；土壤宜肥沃、富含腐植質、排水良好之深厚土層，避免硬質黏土，微酸性pH5.5～6.5為佳",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=90",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 640,
+      "crop_id": "baihe",
+      "field": "種子繁殖與種球貯藏",
+      "value": "種子繁殖需土溫不低於12℃，可先浸水48小時、再以45℃溫水處理3小時後消毒；喇叭百合與東方型百合種球貯藏溫度0～5℃，亞洲型百合種球貯藏溫度-2℃，宜於採收後一個月內進行",
+      "source_name": "農業知識入口網（百合之繁殖介紹）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=12815",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 641,
+      "crop_id": "yangjiegeng",
+      "field": "栽培特性",
+      "value": "喜涼爽且日照充足環境，台灣平地夏季不易存活，大多作一年生栽培",
+      "source_name": "農業知識入口網（洋桔梗主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=20113",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 642,
+      "crop_id": "yangjiegeng",
+      "field": "育苗溫度管理",
+      "value": "育苗期高溫易造成簇生化（Rosette）現象，需利用高冷地自然低溫或控溫設備育苗；嘉義新港花卉班採冷房溫室育苗，夏季日溫控制在25℃",
+      "source_name": "農業知識入口網（洋桔梗主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=20113",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 643,
+      "crop_id": "feizhouju",
+      "field": "種子繁殖",
+      "value": "播種期6～8月，發芽適溫約20～24℃，育苗需溫控設施",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14632",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 644,
+      "crop_id": "feizhouju",
+      "field": "栽培環境",
+      "value": "栽培生長適溫15～25℃，土壤宜排水良好、微酸性砂質壤土；夏季需遮蔭以提升植株生長與切花品質",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14632",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -11822,6 +11998,26 @@
       "id": 161,
       "crop_id": "jianlan",
       "note": "「溫帶地區一般於春季種植」為通則性描述，非專屬台灣本地栽培曆的精確月份，season欄位以此推算3～4月僅供參考，需另行查證雲林/台中主要產地的實際種植月份；株距、病蟲害資料本次均未查得，需另行補齊；北部是否適合栽培尚待查證。"
+    },
+    {
+      "id": 162,
+      "crop_id": "xiangrikui",
+      "note": "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 163,
+      "crop_id": "baihe",
+      "note": "苗木/種球定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；株距、施肥、病蟲害資料本次均未查得，需另行補齊；台灣百合切花主要產地（如台中新社）資料未取得，需另行查證。"
+    },
+    {
+      "id": 164,
+      "crop_id": "yangjiegeng",
+      "note": "田間定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度（栽培期）、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、南部產地資料未取得。"
+    },
+    {
+      "id": 165,
+      "crop_id": "feizhouju",
+      "note": "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；主要產地資料未取得。"
     }
   ]
 }
