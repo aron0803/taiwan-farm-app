@@ -1211,6 +1211,24 @@
       "name": "朝鮮薊",
       "category": "花菜類",
       "status": "collected"
+    },
+    {
+      "crop_id": "baoziganlan",
+      "name": "抱子甘藍",
+      "category": "花菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jigua",
+      "name": "櫛瓜",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "mantianxing",
+      "name": "滿天星",
+      "category": "花卉類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3839,6 +3857,45 @@
       "season_months_central": "8,9",
       "season_months_south": null,
       "season_label": "喜全日照冷涼環境，日溫24℃、夜溫13℃下生長最好；農民通常於夏末（約8月）育苗，約一個月後（約9月）定植；經低溫春化作用後於春天抽梗開花，適當條件下可作多年生栽培；臺灣平地產季僅4月，山區（如梨山2,000公尺）品質更佳"
+    },
+    {
+      "crop_id": "baoziganlan",
+      "name": "抱子甘藍",
+      "category": "花菜類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "別名球芽甘藍，十字花科蕓薹屬植物，原產地中海沿岸，食用部位為葉腋間形成的小型芽球；台灣有少量種植但主流資料多為中國大陸農業百科網站（非台灣官方來源），標記為qa等級；為強冷涼性作物，台灣涼季（約10月至翌年3月）栽培為宜，此處月份為涼季的合理區間推算，非原文精確月份。",
+      "season_months_north": "10,11,12,1,2,3",
+      "season_months_central": "10,11,12,1,2,3",
+      "season_months_south": "10,11,12,1,2,3",
+      "season_label": "喜冷涼氣候、耐寒性強，適合生長溫度12～20℃，芽球形成最適溫度7～18℃，台灣涼季栽培為宜（此為合理季節區間推算，非原文精確月份）；定植後約90～120天可逐批採收，台灣涼季通常約100±10天；標準種植密度45×60公分，土壤宜疏鬆排水良好，pH6.5～7.0"
+    },
+    {
+      "crop_id": "jigua",
+      "name": "櫛瓜",
+      "category": "果菜類",
+      "region_north": null,
+      "region_central": "南投仁愛鄉為主要產地，栽培面積約200多公頃，年產量約150～200公噸",
+      "region_south": "台南亦為主要產地",
+      "region_note": "又稱夏南瓜，為美洲南瓜（Cucurbita pepo）之栽培品種，19世紀後期於米蘭育成；官方農業知識入口網有留種資料，加上農傳媒等媒體報導提供播種期資訊，資料完整度佳；雖稱「夏南瓜」，但台灣因夏季過熱，實際以春、秋兩季栽培為宜。",
+      "season_months_north": "9,10,11,12,1,2,3",
+      "season_months_central": "9,10,11,12,1,2,3",
+      "season_months_south": "9,10,11,12,1,2,3",
+      "season_label": "台灣播種期為9月至翌年3月，播種後35～45天可採收第一條瓜，10月起至翌年4月為主要供應期；雖稱夏南瓜，但台灣夏季過熱不適合，實際以春、秋兩季栽培為宜，宜蘭亦有栽培"
+    },
+    {
+      "crop_id": "mantianxing",
+      "name": "滿天星",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "石竹科多年生草本（英名Baby's breath），台灣切花栽培多作二年生方式進行；喜微鹼性富含石灰質土壤，不耐高溫高濕，多於專業溫室栽培以控制溫濕度；台灣已建立平地秋冬產季、高冷地（約海拔500公尺以上）春夏產季的周年輪替生產體系，但原文未給出具體月份數字，需另行查證確認。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "台灣建立平地秋冬產季、高冷地（約500公尺以上）春夏產季之周年輪替生產體系，透過調節可全年供應切花，但原文未給出具體播種/定植月份，需另行查證；生長適溫10～25℃，不耐高溫高濕"
     }
   ],
   "cultivation": [
@@ -11491,6 +11548,96 @@
       "source_url": "https://www.agriharvest.tw/archives/39274",
       "source_type": "qa",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 766,
+      "crop_id": "baoziganlan",
+      "field": "適合溫度",
+      "value": "喜冷涼氣候、耐寒性強，適合生長溫度12～20℃，芽球形成最適溫度7～18℃",
+      "source_name": "中文百科全書（抱子甘藍）",
+      "source_url": "https://www.newton.com.tw/wiki/%E6%8A%B1%E5%AD%90%E7%94%98%E8%97%8D",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 767,
+      "crop_id": "baoziganlan",
+      "field": "栽培週期與株距",
+      "value": "定植後約90～120天可逐批採收，台灣涼季通常約100±10天；標準種植密度45×60公分",
+      "source_name": "中文百科全書（抱子甘藍）",
+      "source_url": "https://www.newton.com.tw/wiki/%E6%8A%B1%E5%AD%90%E7%94%98%E8%97%8D",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 768,
+      "crop_id": "baoziganlan",
+      "field": "土壤條件",
+      "value": "土壤宜疏鬆、排水良好之壤土，pH6.5～7.0",
+      "source_name": "中文百科全書（抱子甘藍）",
+      "source_url": "https://www.newton.com.tw/wiki/%E6%8A%B1%E5%AD%90%E7%94%98%E8%97%8D",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 769,
+      "crop_id": "jigua",
+      "field": "適合季節",
+      "value": "台灣播種期為9月至翌年3月，播種後35～45天可採收第一條瓜，10月起至翌年4月為主要供應期",
+      "source_name": "農傳媒（長年深耕，櫛瓜新故鄉）",
+      "source_url": "https://www.agriharvest.tw/archives/121655/",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 770,
+      "crop_id": "jigua",
+      "field": "栽培特性",
+      "value": "雖稱夏南瓜，但台灣因夏季過熱不適合，實際以春、秋兩季栽培為宜",
+      "source_name": "農傳媒（長年深耕，櫛瓜新故鄉）",
+      "source_url": "https://www.agriharvest.tw/archives/121655/",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 771,
+      "crop_id": "jigua",
+      "field": "主要產地",
+      "value": "南投仁愛鄉栽培面積約200多公頃，年產量約150～200公噸，為主要產地；台南、宜蘭亦有栽培",
+      "source_name": "農傳媒（長年深耕，櫛瓜新故鄉）",
+      "source_url": "https://www.agriharvest.tw/archives/121655/",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 772,
+      "crop_id": "mantianxing",
+      "field": "植物特性",
+      "value": "石竹科多年生草本（英名Baby's breath），台灣切花栽培多作二年生方式進行",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=204",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 773,
+      "crop_id": "mantianxing",
+      "field": "適合環境",
+      "value": "喜微鹼性、富含石灰質之土壤，生長適溫10～25℃，不耐高溫高濕；平地夏季過熱不利存活",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=204",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 774,
+      "crop_id": "mantianxing",
+      "field": "生產體系",
+      "value": "多於專業溫室栽培以控制濕度與溫度；台灣已建立平地秋冬產季、高冷地（約海拔500公尺以上）春夏產季之周年輪替生產體系，可調節全年供應切花",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=204",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -14193,6 +14340,21 @@
       "id": 206,
       "crop_id": "chaoxianji",
       "note": "本表season欄位僅中部（山區）有月份資料，北部、南部是否適合栽培尚待查證；栽培地點受海拔與氣候限制（平地夏季幾乎無法生長），與甜柿、蘋果等高冷地作物性質相近，「現在適合種」邏輯需額外考慮此限制；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；朝鮮薊在台灣栽培規模小眾，多作保健食品原料，之後在UI呈現時可補充說明其小眾定位。"
+    },
+    {
+      "id": 207,
+      "crop_id": "baoziganlan",
+      "note": "本次資料來源均非台灣官方（kmweb農業知識入口網等）頁面，而是中國大陸農業百科網站，標記為qa等級，需另行以台灣官方（如各區農業改良場）資料交叉核實；季節月份為「涼季」的合理區間推算（10月至翌年3月），非原文直接給出的精確月份；施肥、病蟲害資料本次均未查得，需另行補齊；台灣實際栽培產地與規模資料亦缺。"
+    },
+    {
+      "id": 208,
+      "crop_id": "jigua",
+      "note": "資料來源為農傳媒等媒體報導（qa等級），農業知識入口網僅查得留種技術頁面、未含播種期資訊，需另行以官方栽培曆核實；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部分區資料未取得。"
+    },
+    {
+      "id": 209,
+      "crop_id": "mantianxing",
+      "note": "生產體系原文未給出具體播種/定植月份數字，僅描述「平地秋冬、高冷地春夏」的周年輪替架構，season欄位暫留空，需另行查證確切月份；土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；滿天星屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"
     }
   ]
 }
