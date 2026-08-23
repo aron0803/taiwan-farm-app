@@ -265,6 +265,10 @@ REGISTRY = [
     ("baihe", "百合", "花卉類", "collected"),
     ("yangjiegeng", "洋桔梗", "花卉類", "collected"),
     ("feizhouju", "非洲菊", "花卉類", "collected"),
+    # 第十九批（新增：花菜類/蔥蒜類/果菜類）
+    ("jiucaihua", "韭菜花", "花菜類", "collected"),
+    ("jiuhuang", "韭黃", "蔥蒜類", "collected"),
+    ("yumisun", "玉米筍", "果菜類", "collected"),
 ]
 
 def M(*months):
@@ -1184,6 +1188,24 @@ CROPS = [
          region_note="官方花壇植物主題館明確列出種子繁殖的播種月份與育苗、栽培溫度，資料完整度佳。",
          season_months_north=M(6,7,8), season_months_central=M(6,7,8), season_months_south=M(6,7,8),
          season_label="種子繁殖播種期為6～8月，發芽適溫約20～24℃，育苗需控溫設施；栽培生長適溫15～25℃，夏季需遮蔭以提升植株生長與切花品質"),
+    # 第十九批（新增）
+    dict(crop_id="jiucaihua", name="韭菜花", category="花菜類",
+         region_north=None, region_central="彰化縣二林、溪湖等地區為主要產地",
+         region_south=None,
+         region_note="韭菜花與韭菜（jiucai）、韭黃（jiuhuang）為同一植株的不同部位/處理方式：韭菜花為花蕾及花莖，韭菜為葉片；此處月份為韭菜花的產季（採收期），與蓮子/蓮藕、蓮霧等「同株不同產物」作物的處理方式相同，非新植播種月份（新植播種月份請參考韭菜jiucai條目：11月至翌年3月）。",
+         season_months_north=M(8,9,10), season_months_central=M(8,9,10), season_months_south=M(8,9,10),
+         season_label="主要產季為8～10月（此為採收期，非新植播種月份；植株新植播種可參考韭菜jiucai條目：播種適期11月至翌年3月）；花莖抽出但苞片尚未裂開時以人工逐支折斷採收，通常每1～3天採收一次"),
+    dict(crop_id="jiuhuang", name="韭黃", category="蔥蒜類",
+         region_north=None, region_central="彰化縣埔鹽、溪湖、埤頭、竹塘及台中市清水區為主要產地",
+         region_south=None,
+         region_note="韭黃並非另行播種栽培的作物，而是在既有韭菜（jiucai）田上搭設避光棚架（覆蓋不透光鋁箔），阻斷葉綠素形成使葉莖軟化呈金黃色的加工處理方式，故無獨立的「播種月份」概念；栽培面積約150公頃。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="為韭菜經避光軟化處理後的產物，非獨立播種的作物，故無傳統播種月份概念；新植韭菜播種適期可參考韭菜jiucai條目（11月至翌年3月）"),
+    dict(crop_id="yumisun", name="玉米筍", category="果菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="即玉米幼穗（未授粉前採收之嫩玉米），原文明確指出市場價格佳、生育期短，春夏秋冬四季皆可栽培，此處比照四季皆可栽種蔬菜類作物（如小白菜、空心菜）處理方式。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="市場價格佳、生育期短，春夏秋冬四季皆可栽培"),
 ]
 
 CULTIVATION = [
@@ -2154,6 +2176,20 @@ CULTIVATION = [
     # 非洲菊 - 農業知識入口網 花壇植物主題館
     ("feizhouju", "種子繁殖", "播種期6～8月，發芽適溫約20～24℃，育苗需溫控設施", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14632", "official", "2026-08-23"),
     ("feizhouju", "栽培環境", "栽培生長適溫15～25℃，土壤宜排水良好、微酸性砂質壤土；夏季需遮蔭以提升植株生長與切花品質", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14632", "official", "2026-08-23"),
+
+    # 韭菜花 - 農業知識入口網
+    ("jiucaihua", "與韭菜/韭黃的區別", "韭菜花與韭菜、韭黃為同一植株的不同部位：韭菜花是花蕾及花莖，韭菜是葉片，韭黃是避光軟化處理後的葉莖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiucaihua", "產季", "主要產季為8～10月，主要產地為彰化縣二林、溪湖等地區", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiucaihua", "採收方式", "花莖抽出但苞片尚未裂開時，以人工逐支折斷採收，通常每1～3天採收一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiucaihua", "植株新植栽培", "新植繁殖以播種或分株法，播種為主：播種適期11月至翌年3月，分株法以11～12月為佳；播種先集中育苗，70～90天後定植於菜園，行株距27×24公分，每穴植2～3株；土壤宜富含有機質、排水良好且日照充足之黏質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+
+    # 韭黃 - 農業知識入口網
+    ("jiuhuang", "定義與軟化處理方式", "韭黃是韭菜於避光環境下軟化生長而成：於韭菜田上搭設短竹架，覆蓋不透光厚鋁箔遮光，阻斷葉綠素形成，使葉莖呈淡黃色、質地軟嫩、香氣醇厚", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiuhuang", "主要產地", "栽培面積約150公頃，主要產地集中彰化縣埔鹽、溪湖、埤頭、竹塘及台中市清水區，為中部重要特色蔬菜", "農業知識入口網（韭黃栽培）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=12913&id=366892", "official", "2026-08-23"),
+    ("jiuhuang", "土壤與施肥", "韭菜栽培土壤宜選排水良好、富含有機質之壤土，土壤有機質含量低於1.5%時須補充充分腐熟之有機肥", "農業知識入口網（韭菜/韭黃之肥培管理技術）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=295272", "official", "2026-08-23"),
+
+    # 玉米筍 - 農業知識入口網
+    ("yumisun", "植物特性與市場", "即玉米幼穗（未授粉前採收之嫩玉米），市場價格佳、生育期短，春夏秋冬四季皆可栽培", "農業知識入口網（玉米筍現有品種介紹及栽培管理注意事項）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=413520", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2777,6 +2813,9 @@ UNVERIFIED = [
     ("baihe", "苗木/種球定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；株距、施肥、病蟲害資料本次均未查得，需另行補齊；台灣百合切花主要產地（如台中新社）資料未取得，需另行查證。"),
     ("yangjiegeng", "田間定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度（栽培期）、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、南部產地資料未取得。"),
     ("feizhouju", "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；主要產地資料未取得。"),
+    ("jiucaihua", "南部產地資料未取得；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("jiuhuang", "本表season欄位留空是因韭黃並非獨立播種的作物、而是韭菜的避光軟化處理產物，並非資料查證不足；具體軟化處理天數、適合溫度、病蟲害資料本次均未查得，需另行補齊；南部產地資料未取得。"),
+    ("yumisun", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；具體品種介紹（原文標題提及但未展開）需另行查證補齊。"),
 ]
 
 

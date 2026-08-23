@@ -971,6 +971,24 @@
       "name": "非洲菊",
       "category": "花卉類",
       "status": "collected"
+    },
+    {
+      "crop_id": "jiucaihua",
+      "name": "韭菜花",
+      "category": "花菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jiuhuang",
+      "name": "韭黃",
+      "category": "蔥蒜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yumisun",
+      "name": "玉米筍",
+      "category": "果菜類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3079,6 +3097,45 @@
       "season_months_central": "6,7,8",
       "season_months_south": "6,7,8",
       "season_label": "種子繁殖播種期為6～8月，發芽適溫約20～24℃，育苗需控溫設施；栽培生長適溫15～25℃，夏季需遮蔭以提升植株生長與切花品質"
+    },
+    {
+      "crop_id": "jiucaihua",
+      "name": "韭菜花",
+      "category": "花菜類",
+      "region_north": null,
+      "region_central": "彰化縣二林、溪湖等地區為主要產地",
+      "region_south": null,
+      "region_note": "韭菜花與韭菜（jiucai）、韭黃（jiuhuang）為同一植株的不同部位/處理方式：韭菜花為花蕾及花莖，韭菜為葉片；此處月份為韭菜花的產季（採收期），與蓮子/蓮藕、蓮霧等「同株不同產物」作物的處理方式相同，非新植播種月份（新植播種月份請參考韭菜jiucai條目：11月至翌年3月）。",
+      "season_months_north": "8,9,10",
+      "season_months_central": "8,9,10",
+      "season_months_south": "8,9,10",
+      "season_label": "主要產季為8～10月（此為採收期，非新植播種月份；植株新植播種可參考韭菜jiucai條目：播種適期11月至翌年3月）；花莖抽出但苞片尚未裂開時以人工逐支折斷採收，通常每1～3天採收一次"
+    },
+    {
+      "crop_id": "jiuhuang",
+      "name": "韭黃",
+      "category": "蔥蒜類",
+      "region_north": null,
+      "region_central": "彰化縣埔鹽、溪湖、埤頭、竹塘及台中市清水區為主要產地",
+      "region_south": null,
+      "region_note": "韭黃並非另行播種栽培的作物，而是在既有韭菜（jiucai）田上搭設避光棚架（覆蓋不透光鋁箔），阻斷葉綠素形成使葉莖軟化呈金黃色的加工處理方式，故無獨立的「播種月份」概念；栽培面積約150公頃。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "為韭菜經避光軟化處理後的產物，非獨立播種的作物，故無傳統播種月份概念；新植韭菜播種適期可參考韭菜jiucai條目（11月至翌年3月）"
+    },
+    {
+      "crop_id": "yumisun",
+      "name": "玉米筍",
+      "category": "果菜類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "即玉米幼穗（未授粉前採收之嫩玉米），原文明確指出市場價格佳、生育期短，春夏秋冬四季皆可栽培，此處比照四季皆可栽種蔬菜類作物（如小白菜、空心菜）處理方式。",
+      "season_months_north": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "season_months_central": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "season_months_south": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "season_label": "市場價格佳、生育期短，春夏秋冬四季皆可栽培"
     }
   ],
   "cultivation": [
@@ -9521,6 +9578,86 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14632",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 645,
+      "crop_id": "jiucaihua",
+      "field": "與韭菜/韭黃的區別",
+      "value": "韭菜花與韭菜、韭黃為同一植株的不同部位：韭菜花是花蕾及花莖，韭菜是葉片，韭黃是避光軟化處理後的葉莖",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 646,
+      "crop_id": "jiucaihua",
+      "field": "產季",
+      "value": "主要產季為8～10月，主要產地為彰化縣二林、溪湖等地區",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 647,
+      "crop_id": "jiucaihua",
+      "field": "採收方式",
+      "value": "花莖抽出但苞片尚未裂開時，以人工逐支折斷採收，通常每1～3天採收一次",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 648,
+      "crop_id": "jiucaihua",
+      "field": "植株新植栽培",
+      "value": "新植繁殖以播種或分株法，播種為主：播種適期11月至翌年3月，分株法以11～12月為佳；播種先集中育苗，70～90天後定植於菜園，行株距27×24公分，每穴植2～3株；土壤宜富含有機質、排水良好且日照充足之黏質壤土",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 649,
+      "crop_id": "jiuhuang",
+      "field": "定義與軟化處理方式",
+      "value": "韭黃是韭菜於避光環境下軟化生長而成：於韭菜田上搭設短竹架，覆蓋不透光厚鋁箔遮光，阻斷葉綠素形成，使葉莖呈淡黃色、質地軟嫩、香氣醇厚",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 650,
+      "crop_id": "jiuhuang",
+      "field": "主要產地",
+      "value": "栽培面積約150公頃，主要產地集中彰化縣埔鹽、溪湖、埤頭、竹塘及台中市清水區，為中部重要特色蔬菜",
+      "source_name": "農業知識入口網（韭黃栽培）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=12913&id=366892",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 651,
+      "crop_id": "jiuhuang",
+      "field": "土壤與施肥",
+      "value": "韭菜栽培土壤宜選排水良好、富含有機質之壤土，土壤有機質含量低於1.5%時須補充充分腐熟之有機肥",
+      "source_name": "農業知識入口網（韭菜/韭黃之肥培管理技術）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=295272",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 652,
+      "crop_id": "yumisun",
+      "field": "植物特性與市場",
+      "value": "即玉米幼穗（未授粉前採收之嫩玉米），市場價格佳、生育期短，春夏秋冬四季皆可栽培",
+      "source_name": "農業知識入口網（玉米筍現有品種介紹及栽培管理注意事項）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=413520",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -12018,6 +12155,21 @@
       "id": 165,
       "crop_id": "feizhouju",
       "note": "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；主要產地資料未取得。"
+    },
+    {
+      "id": 166,
+      "crop_id": "jiucaihua",
+      "note": "南部產地資料未取得；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 167,
+      "crop_id": "jiuhuang",
+      "note": "本表season欄位留空是因韭黃並非獨立播種的作物、而是韭菜的避光軟化處理產物，並非資料查證不足；具體軟化處理天數、適合溫度、病蟲害資料本次均未查得，需另行補齊；南部產地資料未取得。"
+    },
+    {
+      "id": 168,
+      "crop_id": "yumisun",
+      "note": "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；具體品種介紹（原文標題提及但未展開）需另行查證補齊。"
     }
   ]
 }
