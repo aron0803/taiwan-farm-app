@@ -1085,6 +1085,18 @@
       "name": "昭和草",
       "category": "葉菜類",
       "status": "collected"
+    },
+    {
+      "crop_id": "mingriye",
+      "name": "明日葉",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jiegeng",
+      "name": "桔梗",
+      "category": "花卉類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3440,6 +3452,32 @@
       "season_months_central": null,
       "season_months_south": null,
       "season_label": "人工栽培播種月份原文未給出，需另行查證；作為野生自播植物，台灣中低海拔全年可見並隨時採摘嫩莖葉食用，經歸類為蔬菜類"
+    },
+    {
+      "crop_id": "mingriye",
+      "name": "明日葉",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "花蓮地區為主要栽培地區",
+      "region_note": "繖形科多年生草本，與當歸（danggui）同屬近緣植物；官方花蓮區農業專訊明確列出當地播種育苗月份，資料完整度佳。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": "7,8",
+      "season_label": "花蓮地區播種育苗適期為7～8月；種子須先於5℃冷藏2個月再均勻播於育苗盤，20℃遮蔭培養約1個月發芽率約50%；喜通風良好、微濕冷涼、避免直射陽光之環境，忌高溫，植株生命力旺盛，今日採葉翌日又長新芽"
+    },
+    {
+      "crop_id": "jiegeng",
+      "name": "桔梗",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "桔梗科多年生草本，具白色乳汁，根呈紡錘狀，兼具藥用（藥用部位為根，具宣肺化痰、利咽排膿功效）與觀賞用途；原文僅提供藥用根部的採收季節，未給出田間定植/播種的確切月份，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "田間定植/播種的確切季節月份原文未給出，需另行查證；藥用根部於春、秋兩季採收，去除細根後削皮或保留外皮，切片曬乾備用"
     }
   ],
   "cultivation": [
@@ -10522,6 +10560,56 @@
       "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=417996",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 709,
+      "crop_id": "mingriye",
+      "field": "播種育苗",
+      "value": "花蓮地區播種育苗適期為7～8月；種子須先於5℃冷藏2個月，再均勻播於育苗盤，以20℃遮蔭培養、避免直射陽光，約1個月後發芽率約50%",
+      "source_name": "農業知識入口網（花蓮地區明日葉栽培技術）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=19990",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 710,
+      "crop_id": "mingriye",
+      "field": "栽培環境",
+      "value": "喜通風良好、微濕冷涼環境，避免直射陽光，忌高溫；土壤宜排水良好之壤土",
+      "source_name": "農業知識入口網（花蓮地區明日葉栽培技術）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=19990",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 711,
+      "crop_id": "mingriye",
+      "field": "植物特性",
+      "value": "生命力旺盛，今日採葉翌日又長新芽（因此得名），株高可達150公分，莖部含黃色汁液",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=130",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 712,
+      "crop_id": "jiegeng",
+      "field": "植物特性",
+      "value": "桔梗科多年生草本，具白色乳汁，根呈紡錘狀（胡蘿蔔狀）",
+      "source_name": "農業知識入口網（藥用植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=37324",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 713,
+      "crop_id": "jiegeng",
+      "field": "藥用部位與採收",
+      "value": "藥用部位為根，具宣肺化痰、利咽排膿功效；春、秋兩季採收，去除細根後削皮或保留外皮，切片曬乾備用",
+      "source_name": "農業知識入口網（藥用植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=37324",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -13119,6 +13207,16 @@
       "id": 185,
       "crop_id": "zhaohecao",
       "note": "人工栽培播種月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；昭和草作為自播性野生植物，其「現在適合種」的判斷邏輯可能與一般栽培作物不同，之後在UI呈現時應加以說明。"
+    },
+    {
+      "id": 186,
+      "crop_id": "mingriye",
+      "note": "北部、中部是否適合栽培尚待查證（僅知花蓮地區資料）；田間定植（非育苗）月份、株距、施肥、病蟲害資料本次均未查得，需另行補齊；明日葉與已收錄的當歸（danggui）同屬繖形科近緣植物，之後在UI呈現時可考慮交叉引用。"
+    },
+    {
+      "id": 187,
+      "crop_id": "jiegeng",
+      "note": "田間定植/播種的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；桔梗兼具藥用與觀賞用途，之後在UI呈現時可補充說明。"
     }
   ]
 }
