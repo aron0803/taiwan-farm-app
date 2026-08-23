@@ -1133,6 +1133,18 @@
       "name": "含笑花",
       "category": "花卉類",
       "status": "collected"
+    },
+    {
+      "crop_id": "qiyiguo",
+      "name": "奇異果",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "maobohe",
+      "name": "貓薄荷",
+      "category": "特用作物",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3592,6 +3604,32 @@
       "season_months_central": null,
       "season_months_south": null,
       "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；生長適溫約23～30℃，屬陽性植物需充足日照，光照不足會減少甚至不開花；土壤宜排水良好、富含腐植質之肥沃壤土；生育期間可適度修剪維持樹形，喜濕潤環境但需避免盆內積水造成爛根"
+    },
+    {
+      "crop_id": "qiyiguo",
+      "name": "奇異果",
+      "category": "果樹",
+      "region_north": "桃園復興區巴拉卡（拉拉山）一帶為特產區，1981年起自日本引進改良品種栽培成功",
+      "region_central": null,
+      "region_south": null,
+      "region_note": "又稱獼猴桃，新竹縣五峰鄉雪霸農場亦栽培成功；為雌雄異株植物，苗木定植的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；喜溫暖濕潤環境，不耐乾旱及積水，需充足日照與濕度，適合背風或半日照坡地，土壤宜疏鬆通氣、富含腐植質之砂質壤土；雌雄異株，每5株雌株應搭配1株雄株以利授粉"
+    },
+    {
+      "crop_id": "maobohe",
+      "name": "貓薄荷",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "唇形科多年生草本，栽培容易、不需頻繁澆水；原文明確指出扦插繁殖最佳季節為立秋後及早春，9、10月亦適合換盆，資料完整度佳。",
+      "season_months_north": "9,10,2,3",
+      "season_months_central": "9,10,2,3",
+      "season_months_south": "9,10,2,3",
+      "season_label": "扦插繁殖最佳季節為立秋後及早春（氣溫下降時取成熟植株莖段扦插，1.5～2個月可發展成株）；9、10月亦適合換盆，生長快速；台灣夏季生長緩慢，接近夏季應摘除花苞避免植株衰弱"
     }
   ],
   "cultivation": [
@@ -10904,6 +10942,56 @@
       "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 732,
+      "crop_id": "qiyiguo",
+      "field": "主要產地",
+      "value": "桃園市復興區巴陵（拉拉山）一帶為特產區，1981年（民國70年）起自日本引進改良品種栽培成功，約2公頃果園栽植600株；新竹縣五峰鄉雪霸農場亦栽培成功",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1838",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 733,
+      "crop_id": "qiyiguo",
+      "field": "栽培環境",
+      "value": "喜溫暖濕潤環境，不耐乾旱及積水，需充足日照與濕度；適合背風或半日照坡地，土層深厚、排水良好；土壤宜疏鬆通氣、富含腐植質之砂質壤土或砂土",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1906",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 734,
+      "crop_id": "qiyiguo",
+      "field": "授粉需求",
+      "value": "為雌雄異株植物，種植時每5株雌株應搭配1株雄株，以確保授粉正常",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=3674",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 735,
+      "crop_id": "maobohe",
+      "field": "繁殖方式",
+      "value": "以扦插繁殖最有效且快速，最佳季節為立秋後及早春；取成熟植株莖段於氣溫下降時扦插，1.5～2個月可發展成兩大盆",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=4693",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 736,
+      "crop_id": "maobohe",
+      "field": "栽培管理",
+      "value": "栽培容易，不需頻繁澆水，土表乾燥時每2～3天澆水一次；9、10月適合換盆，生長快速；台灣夏季生長緩慢，接近夏季應摘除花苞，否則植株易於夏後衰弱難以恢復",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=4693",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -13541,6 +13629,16 @@
       "id": 193,
       "crop_id": "hanxiaohua",
       "note": "苗木定植的確切季節月份、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；含笑花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"
+    },
+    {
+      "id": 194,
+      "crop_id": "qiyiguo",
+      "note": "苗木定植的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點集中北部高海拔山區（拉拉山、雪霸），中南部是否適合栽培尚待查證，「現在適合種」邏輯需額外考慮海拔限制，與甜柿、蘋果等高冷地果樹性質相近。"
+    },
+    {
+      "id": 195,
+      "crop_id": "maobohe",
+      "note": "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；貓薄荷主要作為貓咪玩賞植物栽培而非人類食用，之後在UI呈現時應加以說明其用途定位。"
     }
   ]
 }

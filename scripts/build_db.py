@@ -303,6 +303,9 @@ REGISTRY = [
     # 第二十九批（新增：花卉類）
     ("yulanhua", "玉蘭花", "花卉類", "collected"),
     ("hanxiaohua", "含笑花", "花卉類", "collected"),
+    # 第三十批（新增：果樹/特用作物）
+    ("qiyiguo", "奇異果", "果樹", "collected"),
+    ("maobohe", "貓薄荷", "特用作物", "collected"),
 ]
 
 def M(*months):
@@ -1377,6 +1380,19 @@ CROPS = [
          region_note="木蘭科常綠灌木或小喬木，喜高溫多濕環境；苗木定植的確切季節月份原文未給出，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長適溫約23～30℃，屬陽性植物需充足日照，光照不足會減少甚至不開花；土壤宜排水良好、富含腐植質之肥沃壤土；生育期間可適度修剪維持樹形，喜濕潤環境但需避免盆內積水造成爛根"),
+    # 第三十批（新增）
+    dict(crop_id="qiyiguo", name="奇異果", category="果樹",
+         region_north="桃園復興區巴拉卡（拉拉山）一帶為特產區，1981年起自日本引進改良品種栽培成功",
+         region_central=None,
+         region_south=None,
+         region_note="又稱獼猴桃，新竹縣五峰鄉雪霸農場亦栽培成功；為雌雄異株植物，苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；喜溫暖濕潤環境，不耐乾旱及積水，需充足日照與濕度，適合背風或半日照坡地，土壤宜疏鬆通氣、富含腐植質之砂質壤土；雌雄異株，每5株雌株應搭配1株雄株以利授粉"),
+    dict(crop_id="maobohe", name="貓薄荷", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生草本，栽培容易、不需頻繁澆水；原文明確指出扦插繁殖最佳季節為立秋後及早春，9、10月亦適合換盆，資料完整度佳。",
+         season_months_north=M(9,10,2,3), season_months_central=M(9,10,2,3), season_months_south=M(9,10,2,3),
+         season_label="扦插繁殖最佳季節為立秋後及早春（氣溫下降時取成熟植株莖段扦插，1.5～2個月可發展成株）；9、10月亦適合換盆，生長快速；台灣夏季生長緩慢，接近夏季應摘除花苞避免植株衰弱"),
 ]
 
 CULTIVATION = [
@@ -2488,6 +2504,15 @@ CULTIVATION = [
     ("hanxiaohua", "適合溫度", "生長適溫約23～30℃，喜高溫多濕環境", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
     ("hanxiaohua", "日照與土壤", "屬陽性植物需充足日照，光照不足會減少甚至不開花；土壤宜排水良好、富含腐植質之肥沃壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
     ("hanxiaohua", "水分管理與修剪", "喜濕潤環境，夏季露天栽培須勤澆水，盆栽建議每日澆水並噴霧增加空氣濕度，但須避免盆內積水造成爛根；生育期間可適度修剪維持樹形", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
+
+    # 奇異果 - 農業知識入口網
+    ("qiyiguo", "主要產地", "桃園市復興區巴陵（拉拉山）一帶為特產區，1981年（民國70年）起自日本引進改良品種栽培成功，約2公頃果園栽植600株；新竹縣五峰鄉雪霸農場亦栽培成功", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1838", "official", "2026-08-23"),
+    ("qiyiguo", "栽培環境", "喜溫暖濕潤環境，不耐乾旱及積水，需充足日照與濕度；適合背風或半日照坡地，土層深厚、排水良好；土壤宜疏鬆通氣、富含腐植質之砂質壤土或砂土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1906", "official", "2026-08-23"),
+    ("qiyiguo", "授粉需求", "為雌雄異株植物，種植時每5株雌株應搭配1株雄株，以確保授粉正常", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3674", "official", "2026-08-23"),
+
+    # 貓薄荷 - 農業知識入口網
+    ("maobohe", "繁殖方式", "以扦插繁殖最有效且快速，最佳季節為立秋後及早春；取成熟植株莖段於氣溫下降時扦插，1.5～2個月可發展成兩大盆", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4693", "official", "2026-08-23"),
+    ("maobohe", "栽培管理", "栽培容易，不需頻繁澆水，土表乾燥時每2～3天澆水一次；9、10月適合換盆，生長快速；台灣夏季生長緩慢，接近夏季應摘除花苞，否則植株易於夏後衰弱難以恢復", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4693", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -3139,6 +3164,8 @@ UNVERIFIED = [
     ("fanxing", "適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；番杏與已收錄的皇宮菜（huanggongcai）、川七（chuanqi）皆為藤蔓/匍匐性葉菜但科屬不同，之後在UI呈現時可考慮加以區別說明。"),
     ("yulanhua", "苗木定植的確切季節月份原文未給出，season欄位暫留空（此表月份改採盛花期呈現，非種植月份），需另行查證；株距、病蟲害資料本次均未查得，需另行補齊；玉蘭花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
     ("hanxiaohua", "苗木定植的確切季節月份、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；含笑花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("qiyiguo", "苗木定植的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點集中北部高海拔山區（拉拉山、雪霸），中南部是否適合栽培尚待查證，「現在適合種」邏輯需額外考慮海拔限制，與甜柿、蘋果等高冷地果樹性質相近。"),
+    ("maobohe", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；貓薄荷主要作為貓咪玩賞植物栽培而非人類食用，之後在UI呈現時應加以說明其用途定位。"),
 ]
 
 
