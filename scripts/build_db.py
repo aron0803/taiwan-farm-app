@@ -309,6 +309,13 @@ REGISTRY = [
     # 第三十一批（新增：果樹）
     ("shuimitao", "水蜜桃", "果樹", "collected"),
     ("shuili", "水梨", "果樹", "collected"),
+    # 第三十二批（新增：特用作物/豆菜類/雜糧/花卉類，來自種苗商店品項比對）
+    ("baxili", "巴西利", "特用作物", "collected"),
+    ("huixiang", "茴香", "特用作物", "collected"),
+    ("yidou", "翼豆", "豆菜類", "collected"),
+    ("yingzuidou", "鷹嘴豆", "雜糧", "collected"),
+    ("xunyicao", "薰衣草", "花卉類", "collected"),
+    ("shiluo", "蒔蘿", "特用作物", "collected"),
 ]
 
 def M(*months):
@@ -1411,6 +1418,38 @@ CROPS = [
          region_note="台灣現栽培低需冷量品種（主要為橫山梨，適合低海拔栽培）與高接梨（利用日本品種新興梨、豐水梨、新世紀梨等接穗嫁接於本地梨樹，栽培於高冷地）兩類；此處月份為採收期而非苗木定植/嫁接月份，原文未給出後者確切月份，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="採收期：豐水梨、新世紀梨等高接梨品種5～7月採收，高冷地栽培品種8～9月採收，晚熟品種（雪梨）12月採收（此為採收期非苗木定植/高接嫁接月份，需另行查證後者）"),
+    # 第三十二批（新增）
+    dict(crop_id="baxili", name="巴西利", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="繖形科二年生草本，又稱荷蘭芹；官方資料明確列出播種季節與穴播規格，資料完整度佳。",
+         season_months_north=M(9,10,3,4), season_months_central=M(9,10,3,4), season_months_south=M(9,10,3,4),
+         season_label="以種子繁殖為主，秋、春兩季較適合播種；穴播間距20公分以上，每穴2～3粒種子，覆薄土；最適生育環境為半日陰、排水良好且略潮濕之土壤"),
+    dict(crop_id="huixiang", name="茴香", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="繖形科植物，兼具蔬菜與辛香料用途；官方資料明確列出播種季節與適合溫度，資料完整度佳。",
+         season_months_north=M(9,10,11,12,1,2), season_months_central=M(9,10,11,12,1,2), season_months_south=M(9,10,11,12,1,2),
+         season_label="秋冬播種，生長至隔年春夏開花；耐寒，生長適溫15～25℃，株高約50～150公分"),
+    dict(crop_id="yidou", name="翼豆", category="豆菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="豆科植物，果莢具四稜翼狀突起（又稱楊桃豆），對環境適應性極廣、土壤要求不嚴；官方保健植物（香藥草）主題館明確列出台灣栽培月份，資料完整度佳。",
+         season_months_north=M(8,9), season_months_central=M(8,9), season_months_south=M(8,9),
+         season_label="台灣常作一年生栽培，8～9月間以直播或育苗方式栽培；播種前宜先浸種8～12小時，播種後3～4天發芽；開花結莢約15天後可陸續採收，播種至採收期結束長達4～5個月"),
+    dict(crop_id="yingzuidou", name="鷹嘴豆", category="雜糧",
+         region_north=None, region_central=None, region_south="台東地區有地方試作紀錄",
+         region_note="又稱雪蓮子，豆科一年生或多年生攀緣草本，富含植物蛋白（純蛋白質含量28%以上）；台東區農業改良場曾進行地方試作春作觀察，屬試驗階段而非成熟商業栽培模式，播種月份僅知為春作，未查得精確月份數字，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="台東區農業改良場曾試作觀察「春作」，但精確播種月份原文未給出，需另行查證；目前屬地方試作階段，非已成熟之商業栽培模式"),
+    dict(crop_id="xunyicao", name="薰衣草", category="花卉類",
+         region_north=None, region_central=None,
+         region_south="花蓮地區適應性最強",
+         region_note="台灣適合冷涼氣候，不耐夏季濕熱，作多年生栽培較困難；甜薰衣草、齒葉薰衣草於花蓮地區展現最強適應性，株高株幅可逾60公分，花期可達3個月；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；不耐夏季濕熱，露地栽培須混入珍珠石、蛭石或輕石等增加排水性之介質，盆器建議使用陶土盆"),
+    dict(crop_id="shiluo", name="蒔蘿", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="繖形科植物，兼具食用、藥用與冬季景觀栽培用途；官方資料明確指出台灣稻作後之秋冬季為最適種植生育期，資料完整度佳。",
+         season_months_north=M(10,11,12,1), season_months_central=M(10,11,12,1), season_months_south=M(10,11,12,1),
+         season_label="台灣稻作收穫後之秋冬裡作為最適種植生育期；直播每公頃約10台斤種子，發芽後疏苗至株距20～30公分；發芽後50～60天開花，種子產量約每公頃1,019～1,427公斤"),
 ]
 
 CULTIVATION = [
@@ -2541,6 +2580,32 @@ CULTIVATION = [
     ("shuili", "產業沿革", "1975年台中東勢果農張榕生首創高接梨生產技術，此後台灣梨產業蓬勃發展，主要產區分布台中、苗栗、宜蘭、嘉義", "農業知識入口網（高接梨之生產流程）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25193", "official", "2026-08-23"),
     ("shuili", "品種類型", "台灣現栽培兩類：低需冷量品種（主要為橫山梨，適合低海拔栽培）與高接梨（將日本品種新興梨、新世紀梨、豐水梨等接穗嫁接於本地梨樹，栽培於高冷地）", "農業知識入口網（臺灣梨之來源）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25184", "official", "2026-08-23"),
     ("shuili", "採收期", "高接梨品種（豐水梨、新世紀梨等）5～7月採收，高冷地栽培品種8～9月採收，晚熟品種（雪梨）12月採收", "農業知識入口網（高接梨之生產流程）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25193", "official", "2026-08-23"),
+
+    # 巴西利 - 農業知識入口網
+    ("baxili", "適合季節與土壤", "秋、春兩季較適合播種；最適生育環境為半日陰、排水良好且略潮濕之土壤", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13069", "official", "2026-08-23"),
+    ("baxili", "播種方式", "以種子繁殖，穴播間距20公分以上，每穴2～3粒種子，覆薄土；通常先撒播於穴盤，發芽後長成3～4片葉時移植至45格穴盤，最後定植於5吋盆或土壤中", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13069", "official", "2026-08-23"),
+
+    # 茴香 - 農業知識入口網
+    ("huixiang", "適合季節與溫度", "秋冬播種，生長至隔年春夏開花；耐寒，生長適溫15～25℃，株高約50～150公分", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=69", "official", "2026-08-23"),
+
+    # 翼豆 - 農業知識入口網 保健植物（香藥草）主題館
+    ("yidou", "適合季節", "台灣常作一年生栽培，8～9月間以直播或育苗方式栽培", "農業知識入口網（保健植物香藥草主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=18016", "official", "2026-08-23"),
+    ("yidou", "栽培環境", "適合溫暖乾燥氣候，對環境適應性極廣，對土壤要求不嚴", "農業知識入口網（保健植物香藥草主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=18016", "official", "2026-08-23"),
+    ("yidou", "播種與採收", "播種前宜先浸種8～12小時，播種後3～4天發芽；開花結莢約15天後可陸續採收，播種至採收期結束長達4～5個月", "農業知識入口網（保健植物香藥草主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=18016", "official", "2026-08-23"),
+
+    # 鷹嘴豆 - 農業知識入口網 台東區農業專訊
+    ("yingzuidou", "植物特性", "又稱雪蓮子，豆科一年生或多年生攀緣草本，純蛋白質含量28%以上，並含脂肪、碳水化合物、纖維及鈣、鎂、鐵等成分", "農業知識入口網（台東區農業專訊）", "https://kmweb.moa.gov.tw/files/document/386424/456122f2207453896746ba7c2618198a_v2.pdf", "official", "2026-08-23"),
+    ("yingzuidou", "台灣試作現況", "台東區農業改良場曾進行地方試作春作觀察，屬試驗階段，尚非成熟商業栽培模式", "農業知識入口網（第114期農業專訊-鷹嘴豆地方試作春作觀察）", "https://kmweb.moa.gov.tw/knowledgebase.php?type=12815&id=410231", "official", "2026-08-23"),
+
+    # 薰衣草 - 農業知識入口網
+    ("xunyicao", "適合環境", "台灣適合冷涼氣候，不耐夏季濕熱，作多年生栽培較困難；甜薰衣草、齒葉薰衣草於花蓮地區展現最強適應性，株高株幅可逾60公分，花期可達3個月", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4278", "official", "2026-08-23"),
+    ("xunyicao", "栽培介質", "露地栽培須混入珍珠石、蛭石或輕石等增加排水性之介質，盆器建議使用陶土盆", "農業知識入口網（薰衣草栽培與利用）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=12821&id=243843", "official", "2026-08-23"),
+
+    # 蒔蘿 - 農業知識入口網
+    ("shiluo", "適合季節", "台灣稻作收穫後之秋冬裡作為最適種植生育期", "農業知識入口網（兼具食用、藥用與冬季景觀栽培的香藥草～蒔蘿）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=52828", "official", "2026-08-23"),
+    ("shiluo", "土壤條件", "喜日照，適合排水良好之壤土或砂質壤土，土壤pH中性至微酸（5.0～8.2，平均6.5）", "農業知識入口網（兼具食用、藥用與冬季景觀栽培的香藥草～蒔蘿）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=52828", "official", "2026-08-23"),
+    ("shiluo", "播種與產量", "直播每公頃約10台斤種子，發芽後疏苗至株距20～30公分；發芽後50～60天開花，種子產量約每公頃1,019～1,427公斤", "農業知識入口網（兼具食用、藥用與冬季景觀栽培的香藥草～蒔蘿）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=52828", "official", "2026-08-23"),
+    ("shiluo", "主要病蟲害", "主要病害為白粉病、根腐病、莖腐病及萎凋病；主要蟲害為金花蟲幼蟲及蚜蟲", "農業知識入口網（兼具食用、藥用與冬季景觀栽培的香藥草～蒔蘿）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=52828", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -3196,6 +3261,12 @@ UNVERIFIED = [
     ("maobohe", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；貓薄荷主要作為貓咪玩賞植物栽培而非人類食用，之後在UI呈現時應加以說明其用途定位。"),
     ("shuimitao", "苗木定植的確切季節月份原文未給出（僅知冬季修剪期），season欄位暫留空，需另行查證；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點受海拔與需冷量限制，「現在適合種」邏輯需額外考慮此因素，與甜柿、蘋果等高冷地果樹性質相近；此前資料庫遺漏此重要溫帶水果，現已補上。"),
     ("shuili", "本表season欄位所填為採收期而非苗木定植/高接嫁接的季節月份，原文未給出後者確切月份，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；此前資料庫遺漏此重要溫帶水果，現已補上；高接梨為特殊產業技術（嫁接日本品種穗於本地梨樹），與一般果樹新植定植的概念不同，之後在UI呈現時應加以說明。"),
+    ("baxili", "適合溫度、土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("huixiang", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；茴香兼具蔬菜與辛香料兩種用途，之後在UI呈現時可補充說明。"),
+    ("yidou", "適合溫度、土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("yingzuidou", "本作物目前僅有台東地區地方試作觀察紀錄，非成熟商業栽培模式，播種月份僅知為春作但精確月份原文未給出，season欄位暫留空；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；之後在UI呈現時應說明其試驗階段性質，避免誤導使用者其為成熟作物。"),
+    ("xunyicao", "苗木定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；薰衣草屬觀賞/香草花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("shiluo", "株距以外的施肥細節本次未查得，需另行補齊；北中南分區資料未取得。"),
 ]
 
 
