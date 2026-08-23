@@ -228,6 +228,10 @@ REGISTRY = [
     ("sangshen", "桑椹", "果樹", "collected"),
     ("luhui", "蘆薈", "特用作物", "collected"),
     ("xiuzhengu", "秀珍菇", "菇蕈類", "collected"),
+    # 第十一批（新增：雜糧/葉菜類/果樹）
+    ("shuidao", "水稻", "雜糧", "collected"),
+    ("zigalan", "紫甘藍", "葉菜類", "collected"),
+    ("banli", "板栗", "果樹", "collected"),
 ]
 
 def M(*months):
@@ -979,6 +983,23 @@ CROPS = [
          region_note="秀珍菇（蠔菇）多以太空包於菇舍栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；對環境變化相當敏感，需維持穩定的風、溫度、濕度條件。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；出菇刺激期需相對濕度90%以上，菇體生長至約2公分後濕度可降至85～90%；高溫期可調降出菇室設定溫度2～3℃協助除濕"),
+    # 第十一批（新增）
+    dict(crop_id="shuidao", name="水稻", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣稻作分一期作、二期作兩期，原文以「一期作1～6月、二期作7～8月」描述整體生育期範圍（非單指移植/插秧月份）；本次未區分北中南分區資料，需另行查證各分區實際插秧月份差異。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="一期作生育期約1～6月（插秧至收穫需120天以上），二期作生育期約7～8月起算（插秧至收穫需100天以上）；此為整體生育期範圍描述，非單指插秧月份，需另行查證各地區實際插秧月份"),
+    dict(crop_id="zigalan", name="紫甘藍", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="紫甘藍（Brassica oleracea L. var. rubra DC.）與甘藍（高麗菜）、皺葉甘藍並列台灣栽培的三大甘藍類型；原文指出「僅冬季生產，透過低溫貯藏調節市場供需」，此處月份為冬季的合理區間推算（10月至翌年2月），非原文直接給出的精確月份，需另行查證確認。",
+         season_months_north=M(10,11,12,1,2), season_months_central=M(10,11,12,1,2), season_months_south=M(10,11,12,1,2),
+         season_label="僅冬季生產，透過低溫貯藏調節市場供需（此處月份為冬季的合理區間推算，非原文精確月份）；生長適溫15～25℃，高於30℃時光合產物多消耗於呼吸作用，延遲結球且結球鬆散、產量降低"),
+    dict(crop_id="banli", name="板栗", category="果樹",
+         region_north=None, region_central=None,
+         region_south="嘉義縣中埔鄉為台灣唯一大規模栽培板栗（中國栗）的鄉鎮，每逢產季供不應求",
+         region_note="殼斗科落葉喬木，台灣稱「板栗」者多為中國栗品種；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；適合年均溫10.5～21.8℃地區，土壤宜選擇較厚、肥沃、近中性pH之砂質壤土，地勢平坦、排水良好、日照充足、坡度平緩處為佳"),
 ]
 
 CULTIVATION = [
@@ -1801,6 +1822,20 @@ CULTIVATION = [
     ("xiuzhengu", "環境管理", "對環境變化相當敏感，需維持穩定的風、溫度、濕度條件；可用挑高設計降低室內溫度、屋頂通風器創造對流效應", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
     ("xiuzhengu", "濕度控制", "出菇刺激期需相對濕度90%以上，菇體生長至約2公分後濕度可降至85～90%；原則為減少水膜、水珠停留在菇體上的時間以降低細菌感染風險", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
     ("xiuzhengu", "病蟲害防範設施", "高溫期可調降出菇室設定溫度2～3℃協助除濕；採雙重門設計與64目紗網防止病蟲害侵入", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
+
+    # 水稻 - 農業知識入口網
+    ("shuidao", "生育期", "一期作為1月至6月，二期作為7月至8月；一期作插秧至收穫需120天以上，二期作需100天以上", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=pedia&sub_theme=km&id=1309", "official", "2026-08-23"),
+    ("shuidao", "育苗", "台灣採插秧栽培法，一期作播種後18～20天、二期作播種後10～12天即可達適齡秧苗（2.5～3葉）供移植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7432", "official", "2026-08-23"),
+    ("shuidao", "施肥", "一期作於插秧後12～15天施第一次追肥，二期作於插秧後8～10天施第一次追肥", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7432", "official", "2026-08-23"),
+    ("shuidao", "分蘗期", "一期作插秧後15天開始分蘗，二期作插秧後10天開始分蘗", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9895", "official", "2026-08-23"),
+
+    # 紫甘藍 - 農業知識入口網
+    ("zigalan", "作物分類", "與甘藍（高麗菜）、皺葉甘藍並列台灣栽培的三大甘藍類型之一", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=365196", "official", "2026-08-23"),
+    ("zigalan", "適合季節與溫度", "僅冬季生產，透過低溫貯藏調節市場供需；生長適溫15～25℃，高於30℃時光合產物多消耗於呼吸作用，延遲結球、結球鬆散、產量降低", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=365196", "official", "2026-08-23"),
+
+    # 板栗 - 農業知識入口網
+    ("banli", "主要產地", "嘉義縣中埔鄉為台灣唯一大規模栽培板栗的鄉鎮，每逢產季供不應求", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=167734", "official", "2026-08-23"),
+    ("banli", "適合環境", "適合年均溫10.5～21.8℃地區；土壤宜選擇較厚、肥沃、近中性pH之砂質壤土，地勢平坦、排水良好、日照充足、坡度平緩處為佳", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8460", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2395,6 +2430,9 @@ UNVERIFIED = [
     ("sangshen", "扦插/定植的確切月份原文未給出（僅知第二年開花結果），season欄位暫留空，需另行查證；株距、病蟲害資料本次均未查得，需另行補齊。"),
     ("luhui", "適合溫度、株距、病蟲害資料本次均未查得，需另行補齊；蘆薈兼具食用（保健飲品）與藥用/美容用途，之後在UI呈現時可考慮說明其多元用途定位。"),
     ("xiuzhengu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；太空包基質配方、具體培養溫度數值、病蟲害資料本次未查得，需另行補齊。"),
+    ("shuidao", "「一期作1～6月、二期作7～8月」為整體生育期範圍描述，非單指插秧月份，season欄位暫留空以避免誤導使用者「現在適合種」的判斷，需另行查證各地區實際插秧月份（一般一期作插秧約1～2月、二期作插秧約7～8月）；北中南分區資料、土壤條件、病蟲害資料本次均未查得，需另行補齊；水稻為台灣最重要的糧食作物，此前資料庫竟未收錄，應優先補齊完整資料。"),
+    ("zigalan", "季節月份為「冬季」的合理區間推算（10月至翌年2月），非原文直接給出的精確月份，需另行查證核實；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("banli", "苗木定植的確切季節月份、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否可栽培尚待查證（目前僅知嘉義中埔為唯一大規模產地）。"),
 ]
 
 
