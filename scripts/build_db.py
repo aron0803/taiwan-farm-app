@@ -208,6 +208,13 @@ REGISTRY = [
     ("tiandou", "甜豆", "豆菜類", "collected"),
     ("keke", "可可", "特用作物", "collected"),
     ("hudielan", "蝴蝶蘭", "花卉類", "collected"),
+    # 第八批（新增：筍類/特用作物/菇蕈類/花卉類）
+    ("guizhusun", "桂竹筍", "筍類", "collected"),
+    ("binglang", "檳榔", "特用作物", "collected"),
+    ("xingbaogu", "杏鮑菇", "菇蕈類", "collected"),
+    ("jinzhengu", "金針菇", "菇蕈類", "collected"),
+    ("juemingzi", "決明子", "特用作物", "collected"),
+    ("wenxinlan", "文心蘭", "花卉類", "collected"),
 ]
 
 def M(*months):
@@ -865,6 +872,39 @@ CROPS = [
          region_note="蝴蝶蘭為盆花產業，多於溫室控制環境栽培，透過人工調節夜溫誘導花芽分化，可全年任何時期催花生產，故無傳統露地「播種/定植月份」概念；台灣為全球重要蝴蝶蘭種苗與切花外銷產地。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="溫室控制環境栽培，全年皆可透過低溫處理催花生產，非露地看天田作物；營養生長適溫25～30℃，生殖生長期需日溫25℃／夜溫20℃以下誘導花芽分化，10℃以下停止生長，開花對低溫敏感"),
+    # 第八批（新增）
+    dict(crop_id="guizhusun", name="桂竹筍", category="筍類",
+         region_north="台灣中北部栽培較多",
+         region_central="台灣中北部栽培較多",
+         region_south="栽培較少",
+         region_note="桂竹為台灣固有種，栽培於海拔300～1,000公尺之間，台灣中北部較多、南部較少；本次未查得明確產季（生產期）月份資料，需另行查證（綠竹筍產季為端午節至雙十節間，桂竹筍是否相同尚待確認）。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="產季月份原文未查得，需另行查證；栽培於海拔300～1,000公尺之間，中北部較多、南部較少，筍皮光滑無毛、有黑褐色斑點，肉質稍硬纖維較多，多用以製造桶筍"),
+    dict(crop_id="binglang", name="檳榔", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="檳榔為熱帶棕櫚科多年生作物，政府對檳榔產業採「三不政策」（不鼓勵、不輔導、不禁止），因嚼食檳榔有害健康、致口腔癌，但檳榔仍為合法栽培作物；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；乾旱季節無灌溉設施不宜種植（耐旱性差、蒸散量大），株距不宜小於9台尺，土層深度以10台尺為佳，栽培初期常以香蕉間作遮蔭"),
+    dict(crop_id="xingbaogu", name="杏鮑菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="杏鮑菇多以太空包栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；栽培流程含木屑堆積、裝袋、滅菌、冷卻、接種、培養、刺激出菇、採收，全程約60天。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；22℃培養10天菌絲長滿，30天後覆土並降溫至17～19℃刺激出菇，全程約60天"),
+    dict(crop_id="jinzhengu", name="金針菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="金針菇栽培需低溫環境（菌絲培養16～18℃、子實體發育需冷藏室約5℃），台灣多以環控設施周年生產（如台中梧棲一帶的環控菇場），屬控制環境生產模式，非露地看天田作物。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="環控設施栽培為控制環境生產，全年皆可進行，非露地看天田作物；菌絲培養適溫16～18℃、濕度約75%，子實體發育需於約5℃冷藏室環境進行"),
+    dict(crop_id="juemingzi", name="決明子", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="決明為豆科決明屬一年生亞灌木狀草本，分布台灣平地至低海拔地區；開花與結果期原文有給出月份，但播種月份原文未直接給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種月份原文未直接給出，需另行查證；開花期7～9月（成對黃色花朵），果莢於9～10月成熟，每莢含種子20～30粒，株高可達1～2公尺"),
+    dict(crop_id="wenxinlan", name="文心蘭", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="文心蘭為盆花／切花產業，多於溫室栽培，對低溫的忍受度較蝴蝶蘭強，栽培容易；台灣常見品種週年均可開花，故無傳統露地「播種/定植月份」概念，苗木定植確切月份原文亦未給出。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="溫室栽培，多品種週年均可開花，非露地看天田作物；較佳生長溫度20～25℃，高於30℃生育不良、開花易有「一條龍」現象，低於10℃生長停滯；南西（Gower Ramsey）品種溫度適應範圍廣，15～35℃皆可良好生長"),
 ]
 
 CULTIVATION = [
@@ -1596,6 +1636,37 @@ CULTIVATION = [
     ("hudielan", "生長溫度", "可生長環境溫度範圍10～38℃，適應生長溫度20～30℃，營養生長最適溫度25～30℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1477", "official", "2026-08-23"),
     ("hudielan", "溫度耐受", "夏季高於35℃、冬季低於10℃生長停止，無法忍受15℃以下低溫；花朵對低溫極敏感，12℃下3天即輕微寒害，10℃下7天會縮短切花瓶插壽命", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1477", "official", "2026-08-23"),
     ("hudielan", "花期調節", "生殖生長期需日溫25℃／夜溫20℃以下誘導花芽分化；催花可用20～25℃涼溫處理約一個月促進花梗長出，再移回25～30℃溫室，可見小花苞後提高至日30℃／夜25℃利於開花；低溫處理不足則營養芽比例增加、花朵數減少，但溫度過低會使花梗發育變慢、花朵畸形", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8918", "official", "2026-08-23"),
+
+    # 桂竹筍 - 農業知識入口網 綠竹筍主題館
+    ("guizhusun", "植物特性與栽培環境", "台灣固有種，栽培於海拔300～1,000公尺之間，台灣中北部較多、南部較少；筍皮光滑無毛、筍籜薄、有黑褐色斑點，肉質稍硬、纖維較多", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21443", "official", "2026-08-23"),
+    ("guizhusun", "用途", "大部分桂竹筍用以製造桶筍（加工保存）", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21443", "official", "2026-08-23"),
+    ("guizhusun", "採收方式", "選擇長度約30公分左右的筍，於底部輕輕一折即可採收", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=98", "official", "2026-08-23"),
+
+    # 檳榔 - 農業知識入口網 檳榔主題館
+    ("binglang", "種植規劃", "株距不宜小於9台尺（約3公尺），土層深度以10台尺為佳；土層淺薄難以達到商業生產水準，土層深度低於3台尺不建議種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=914", "official", "2026-08-23"),
+    ("binglang", "灌溉需求", "為熱帶植物，蒸散量大；乾旱季節若無灌溉設施不宜種植，否則可能面臨嚴重生長困難甚至死亡", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=914", "official", "2026-08-23"),
+    ("binglang", "整地方式", "選擇土層深厚、排水良好且有水源之地點；建議先種植遮蔭作物（以香蕉最理想），沿等高線以2吋塑膠管架設滴灌系統，種植穴直徑與深度各約2台尺", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=914", "official", "2026-08-23"),
+    ("binglang", "政府政策", "政府對檳榔產業採「三不政策」：不鼓勵、不輔導、不禁止，因嚼食檳榔有害健康、致口腔癌，但檳榔仍為合法作物", "農業知識入口網（檳榔主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21214", "official", "2026-08-23"),
+
+    # 杏鮑菇 - 農業知識入口網
+    ("xingbaogu", "栽培流程", "包含木屑堆積、基質裝袋、滅菌、冷卻、接種、培養、刺激出菇及採收，全程約需60天", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54785", "official", "2026-08-23"),
+    ("xingbaogu", "溫度管理", "22℃培養10天菌絲即可長滿，30天後覆以泥炭土與紅土之混合物，並降溫至17～19℃以刺激出菇", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54785", "official", "2026-08-23"),
+    ("xingbaogu", "基質與水分", "常壓滅菌之養分添加不超過基質乾重30%，高溫高壓滅菌可達50%；含水量以60～65%最適宜，過乾菌絲生長慢、過濕通氣性不良", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54786", "official", "2026-08-23"),
+
+    # 金針菇 - 農業知識入口網
+    ("jinzhengu", "菌絲培養", "菌絲培養適溫16～18℃，栽培環境濕度維持約75%", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=113023", "official", "2026-08-23"),
+    ("jinzhengu", "子實體發育", "子實體發育過程於約5℃冷藏室環境進行", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=113023", "official", "2026-08-23"),
+    ("jinzhengu", "生產模式", "台灣（如台中梧棲一帶）多以環控設施周年生產，透過溫度控制達到全年穩定產量，不受外界氣候影響", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=113023", "official", "2026-08-23"),
+
+    # 決明子 - 農業知識入口網 藥用植物主題館
+    ("juemingzi", "植物特性", "豆科決明屬一年生亞灌木狀草本，株高可達1～2公尺，複葉互生，分布台灣平地至低海拔地區", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37205", "official", "2026-08-23"),
+    ("juemingzi", "開花結果期", "花期7～9月，開成對黃色花朵；果莢於9～10月成熟，每莢含種子20～30粒", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37205", "official", "2026-08-23"),
+    ("juemingzi", "繁殖方式", "以種子繁殖，成熟種子供藥用（明目、清肝、潤便等傳統用途）", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37205", "official", "2026-08-23"),
+
+    # 文心蘭 - 農業知識入口網 文心蘭主題館
+    ("wenxinlan", "適合溫度", "較佳生長溫度20～25℃，高於30℃植株生育明顯不良且開花易有「一條龍」現象，低於10℃生長停滯、開花速率延宕", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13629", "official", "2026-08-23"),
+    ("wenxinlan", "品種溫度適應性", "南西（Oncidium Gower Ramsey）品種溫度適應範圍廣，15～35℃植株皆生長良好，週年均可開花", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13629", "official", "2026-08-23"),
+    ("wenxinlan", "栽培特性", "台灣常見品種多屬栽培容易，對低溫的忍受度較蝴蝶蘭強", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13635", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2173,6 +2244,12 @@ UNVERIFIED = [
     ("tiandou", "季節月份為「秋冬季節」的合理區間推算（9～12月），非原文直接給出的精確月份，需另行查證核實；株距、施肥、採收天數、病蟲害資料本次均未查得，需另行補齊。"),
     ("keke", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；可可為台灣近十年興起的新興特用作物，栽培規模與資料完整度仍在發展中，之後應持續追蹤官方資料更新。"),
     ("hudielan", "本表season欄位留空是因蝴蝶蘭為溫室控制環境周年生產、可全年催花，非露地看天田作物，並非資料查證不足；土壤（介質）條件、施肥、病蟲害（介殼蟲、軟腐病等）資料本次未查得，需另行補齊；蝴蝶蘭屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("guizhusun", "產季（生產期）月份本次未查得，season欄位暫留空，需另行查證（綠竹筍產季為端午節至雙十節間，桂竹筍是否相同尚待確認）；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("binglang", "苗木定植的確切季節月份、適合溫度、株距（僅知不宜小於9台尺）以外的具體規格、病蟲害資料本次均未查得，需另行補齊；檳榔為具健康爭議的合法作物（政府採「三不政策」），之後在UI呈現時應如實說明其健康風險與政策定位，避免誤導使用者。"),
+    ("xingbaogu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
+    ("jinzhengu", "本表season欄位留空是因環控設施為控制環境周年生產，非露地看天田作物，並非資料查證不足；太空包配方、病蟲害資料本次未查得，需另行補齊。"),
+    ("juemingzi", "播種月份原文未直接給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；決明子為藥用植物而非一般食用作物，之後在UI呈現時應加以說明用途定位。"),
+    ("wenxinlan", "本表season欄位留空是因文心蘭為溫室栽培、多品種週年可開花，非露地看天田作物，並非資料查證不足；土壤（介質）條件、施肥、病蟲害資料本次未查得，需另行補齊；文心蘭屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
 ]
 
 
