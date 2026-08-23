@@ -300,6 +300,9 @@ REGISTRY = [
     # 第二十八批（新增：葉菜類）
     ("binghua", "冰花", "葉菜類", "collected"),
     ("fanxing", "番杏", "葉菜類", "collected"),
+    # 第二十九批（新增：花卉類）
+    ("yulanhua", "玉蘭花", "花卉類", "collected"),
+    ("hanxiaohua", "含笑花", "花卉類", "collected"),
 ]
 
 def M(*months):
@@ -1363,6 +1366,17 @@ CROPS = [
          region_note="番杏科植物，別名紐西蘭菠菜、白番杏，原生於海灘，耐鹽、耐乾熱高溫；官方資料明確列出播種月份，資料完整度佳。",
          season_months_north=M(2,3,4,5,6,7,8), season_months_central=M(2,3,4,5,6,7,8), season_months_south=M(2,3,4,5,6,7,8),
          season_label="播種適期為2～8月；以有機質豐富、保水保肥力強之壤土種植生長較好，行株距15～25×15～25公分"),
+    # 第二十九批（新增）
+    dict(crop_id="yulanhua", name="玉蘭花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="木蘭科常綠喬木，台灣溫帶氣候極適合栽培，植株生長勢強、對土壤適應性廣、病蟲害少，栽培容易；苗木定植的確切季節月份原文未給出，需另行查證，此處月份為盛花期而非種植月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；盛花期為4～7月（此為開花期非種植月份）；生長適溫23～30℃，需全日照，土壤宜排水良好、保水佳、富含有機質之微酸性壤土；春、秋兩季各施一次腐熟天然肥料或三要素化學肥料"),
+    dict(crop_id="hanxiaohua", name="含笑花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="木蘭科常綠灌木或小喬木，喜高溫多濕環境；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長適溫約23～30℃，屬陽性植物需充足日照，光照不足會減少甚至不開花；土壤宜排水良好、富含腐植質之肥沃壤土；生育期間可適度修剪維持樹形，喜濕潤環境但需避免盆內積水造成爛根"),
 ]
 
 CULTIVATION = [
@@ -2464,6 +2478,16 @@ CULTIVATION = [
     ("fanxing", "植物特性", "番杏科植物，別名紐西蘭菠菜、白番杏，原生於海灘，具耐鹽、耐乾熱高溫環境之特性", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
     ("fanxing", "適合季節與土壤", "播種適期為2～8月；以有機質豐富、保水保肥力強之壤土種植生長較好", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
     ("fanxing", "株距", "行株距15～25公分×15～25公分", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
+
+    # 玉蘭花 - 農業知識入口網
+    ("yulanhua", "花期", "盛花期為4～7月", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=172", "official", "2026-08-23"),
+    ("yulanhua", "栽培環境", "台灣溫帶氣候極適合栽培，生長勢強、對土壤適應性廣，栽培容易且病蟲害少；土壤宜排水良好、保水佳、富含有機質之微酸性壤土，需全日照，生長適溫23～30℃；家庭盆栽建議以限根方式矮化，盆器直徑須達30公分以上", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=172", "official", "2026-08-23"),
+    ("yulanhua", "施肥", "春、秋兩季各施一次腐熟天然肥料或含氮磷鉀三要素之化學肥料", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=172", "official", "2026-08-23"),
+
+    # 含笑花 - 農業知識入口網
+    ("hanxiaohua", "適合溫度", "生長適溫約23～30℃，喜高溫多濕環境", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
+    ("hanxiaohua", "日照與土壤", "屬陽性植物需充足日照，光照不足會減少甚至不開花；土壤宜排水良好、富含腐植質之肥沃壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
+    ("hanxiaohua", "水分管理與修剪", "喜濕潤環境，夏季露天栽培須勤澆水，盆栽建議每日澆水並噴霧增加空氣濕度，但須避免盆內積水造成爛根；生育期間可適度修剪維持樹形", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -3113,6 +3137,8 @@ UNVERIFIED = [
     ("bosiju", "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("binghua", "季節月份為生育適溫範圍（5～25℃）對應秋冬早春之合理推算，非原文直接給出的精確播種月份，需另行查證核實；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("fanxing", "適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；番杏與已收錄的皇宮菜（huanggongcai）、川七（chuanqi）皆為藤蔓/匍匐性葉菜但科屬不同，之後在UI呈現時可考慮加以區別說明。"),
+    ("yulanhua", "苗木定植的確切季節月份原文未給出，season欄位暫留空（此表月份改採盛花期呈現，非種植月份），需另行查證；株距、病蟲害資料本次均未查得，需另行補齊；玉蘭花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("hanxiaohua", "苗木定植的確切季節月份、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；含笑花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
 ]
 
 
