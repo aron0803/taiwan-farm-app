@@ -255,6 +255,11 @@ REGISTRY = [
     ("mizao", "蜜棗", "果樹", "collected"),
     ("pobuzi", "破布子", "果樹", "collected"),
     ("shankui", "山葵", "特用作物", "collected"),
+    # 第十七批（新增：特用作物/花卉類）
+    ("turougui", "土肉桂", "特用作物", "collected"),
+    ("daoshouxiang", "到手香", "特用作物", "collected"),
+    ("meigui", "玫瑰", "花卉類", "collected"),
+    ("jianlan", "劍蘭（唐菖蒲）", "花卉類", "collected"),
 ]
 
 def M(*months):
@@ -1130,6 +1135,28 @@ CROPS = [
          region_note="十字花科多年生草本，日治時期日人引進阿里山大規模栽培，近年基於森林保育考量逐漸轉向設施內栽培；苗木定植的確切季節月份原文未給出，需另行查證；栽培地點受海拔限制，與甜柿、蘋果、愛玉等高冷地作物性質相近。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="苗木定植的確切季節月份原文未給出，需另行查證；傳統栽培地點需海拔2,000公尺以上（嘉義竹崎至阿里山），近年因森林保育考量逐漸轉向設施內栽培；可用種子、分株、根段等方式繁殖"),
+    # 第十七批（新增）
+    dict(crop_id="turougui", name="土肉桂", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣原生種，分布於全台海拔500～1,500公尺闊葉林中；以扦插繁殖為主，但原文未給出扦插/定植的確切季節月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="扦插/定植的確切季節月份原文未給出，需另行查證；以健壯1年生枝條（約10公分、至少2節3葉）扦插育苗，待生根發新芽後移植田間；行株距約150×120公分"),
+    dict(crop_id="daoshouxiang", name="到手香", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生肉質草本（又稱左手香），原文明確指出全年皆可生長，此處比照四季皆可栽種蔬菜類作物（如小白菜、空心菜）處理方式。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="全年皆可生長；以扦插繁殖為主，取8～10公分枝條、去除最下節葉片即可扦插；耐旱不耐高濕與淹水，冬天低溫易有寒害現象"),
+    dict(crop_id="meigui", name="玫瑰", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文指出玫瑰生長、繁殖與種植以春、秋兩季氣候最為適合，夏季高溫花質不佳；此處月份為春秋兩季的合理區間推算（3～4月、10～11月），非原文直接給出的精確月份，需另行查證確認。",
+         season_months_north=M(3,4,10,11), season_months_central=M(3,4,10,11), season_months_south=M(3,4,10,11),
+         season_label="春、秋兩季氣候最適合生長、繁殖與種植，夏季高溫花質不佳（此為合理季節區間推算，非原文精確月份）；生長適溫15～25℃，日溫21～29℃、夜溫15～18℃，每日需5～6小時以上日照；7～9月天氣過熱不適合生長"),
+    dict(crop_id="jianlan", name="劍蘭（唐菖蒲）", category="花卉類",
+         region_north=None, region_central="台中市后里區為主要產地，其次為彰化縣、雲林縣",
+         region_south="屏東縣亦為主要產地",
+         region_note="原文指出溫帶地區一般於春季種植，夏秋開花品種在冬季日照較短時進入休眠，此描述較偏向一般溫帶氣候通則、非專屬台灣本地栽培曆，需另行查證台灣實際種植月份；雲林縣為全國劍蘭主要產地之一，栽培面積約617公頃。",
+         season_months_north=M(3,4), season_months_central=M(3,4), season_months_south=M(3,4),
+         season_label="溫帶地區一般於春季種植（此為通則性描述，需另行查證台灣本地實際種植月份）；需全日照且每日日照14小時以上以利花芽分化；生長適溫日溫24～26℃、夜溫13～18℃，低於3℃停止生長、低於-3℃植株死亡"),
 ]
 
 CULTIVATION = [
@@ -2059,6 +2086,29 @@ CULTIVATION = [
     ("shankui", "植物特性", "十字花科多年生草本，天然分布自俄羅斯庫頁島至日本九州；具獨特香氣、辛辣與甘甜風味，在日本為珍貴稀有的蔬菜與辛香料作物", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
     ("shankui", "產業沿革", "日治時期日人引進阿里山大規模栽培；近年基於森林保育考量，逐漸轉向設施內栽培；嘉義縣竹崎鄉至阿里山海拔2,000公尺以上地區仍有大面積栽培", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
     ("shankui", "繁殖方式", "可用種子、分株、根段等方式繁殖，但存在品質不一、種苗退化、病原污染等問題，優質種苗供應為產業瓶頸；已有組織培養技術（以花梗芽為外植體）研發，消毒成功率達71.4%，平均每外植體可形成2.4個以上芽體", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
+
+    # 土肉桂 - 農業知識入口網
+    ("turougui", "植物特性與分布", "台灣原生種，分布於全台海拔500～1,500公尺闊葉林中", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+    ("turougui", "繁殖方式", "以扦插繁殖為主，取健壯1年生枝條約10公分、至少2節3葉，去除半數葉片後於苗床發根，生根發新芽後移植田間", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+    ("turougui", "栽培環境與株距", "栽培環境需排水良好、通風佳之壤土；整地時可施用有機肥並深耕，覆蓋塑膠布有助保濕除草；行株距依用途調整，田間栽培一般約150×120公分，整地時每公頃施有機肥約6,000公斤", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+    ("turougui", "種子貯藏", "種子最適貯藏條件為4℃濕藏，發芽力可維持18個月以內", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+
+    # 到手香 - 農業知識入口網
+    ("daoshouxiang", "適合季節", "全年皆可生長", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=37223", "official", "2026-08-23"),
+    ("daoshouxiang", "繁殖方式", "以扦插繁殖為主，取8～10公分枝條，去除最下節位葉片後扦插於介質中，成活後生長勢旺盛", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10905", "official", "2026-08-23"),
+    ("daoshouxiang", "栽培環境", "喜溫暖且水分較少的環境，耐旱但不喜高濕及淹水；土壤以排水良好之壤土及砂質壤土最佳；種植環境為半日照至全日照；冬天低溫生長不良會有寒害現象", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7553", "official", "2026-08-23"),
+    ("daoshouxiang", "施肥與管理", "需肥量不高，春天補充緩效性肥料，每季施用一次即可；應經常摘除頂端花苞或葉片以促進分枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7553", "official", "2026-08-23"),
+
+    # 玫瑰 - 農業知識入口網 玫瑰主題館
+    ("meigui", "適合季節", "春、秋兩季氣候最適合玫瑰生長、繁殖與種植；夏季高溫花質不佳，晚春至初秋應避開正午直射陽光（7～9月天氣過熱尤其不適合）", "農業知識入口網（玫瑰主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=12248", "official", "2026-08-23"),
+    ("meigui", "適合溫度與日照", "生長適溫15～25℃，日溫約21～29℃、夜溫約15～18℃；每日需至少5～6小時日照才能開出優質花朵", "農業知識入口網（玫瑰主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=12248", "official", "2026-08-23"),
+    ("meigui", "土壤條件", "喜肥沃、排水良好之中性或微酸性砂質壤土", "農業知識入口網（玫瑰主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=12248", "official", "2026-08-23"),
+
+    # 劍蘭（唐菖蒲）- 農業知識入口網
+    ("jianlan", "日照需求", "需全日照，每日日照14小時以上有助花芽分化；夏秋開花品種在冬季日照較短時進入休眠", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
+    ("jianlan", "適合溫度", "生長適溫日溫24～26℃、夜溫13～18℃；低於3℃停止生長，低於-3℃植株死亡；高濕與充足水分供應下可耐高溫，但高溫合併乾旱則無法良好開花", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
+    ("jianlan", "土壤與施肥", "需良好排水之富含有機質土壤；建議每月施用一次腐熟有機肥作追肥", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
+    ("jianlan", "主要產地", "全國栽培面積約617公頃，主要分布台中市后里區，其次為彰化縣、雲林縣、屏東縣", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2674,6 +2724,10 @@ UNVERIFIED = [
     ("mizao", "適合溫度、土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
     ("pobuzi", "苗木定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("shankui", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點受海拔限制（傳統產區2,000公尺以上），與甜柿、蘋果、愛玉等高冷地作物相同，「現在適合種」邏輯需額外考慮海拔限制；此為本資料庫第三次嘗試查證山葵資料，前兩次因來源品質不足（PDF無法解析、搜尋摘要未經WebFetch核實）而未收錄，本次改以官方「山葵組織培養技術之研發」一文的產業沿革與繁殖方式資訊為主，仍建議日後查證官方山葵主題館補齊播種月份等細節。"),
+    ("turougui", "扦插/定植的確切季節月份、適合溫度、病蟲害資料本次均未查得，需另行補齊；土肉桂精油具肉桂醛成分，兼具香藥草與精油產業用途，之後在UI呈現時可補充說明其多元用途。"),
+    ("daoshouxiang", "土壤pH、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("meigui", "季節月份為「春、秋兩季」的合理區間推算（3～4月、10～11月），非原文直接給出的精確月份，需另行查證核實；株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("jianlan", "「溫帶地區一般於春季種植」為通則性描述，非專屬台灣本地栽培曆的精確月份，season欄位以此推算3～4月僅供參考，需另行查證雲林/台中主要產地的實際種植月份；株距、病蟲害資料本次均未查得，需另行補齊；北部是否適合栽培尚待查證。"),
 ]
 
 
