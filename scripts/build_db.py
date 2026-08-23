@@ -250,6 +250,11 @@ REGISTRY = [
     ("lianzi", "蓮子", "根莖類", "collected"),
     ("hongfengcai", "紅鳳菜", "葉菜類", "collected"),
     ("longkui", "龍葵", "葉菜類", "collected"),
+    # 第十六批（新增：特用作物/果樹）
+    ("bohe", "薄荷", "特用作物", "collected"),
+    ("mizao", "蜜棗", "果樹", "collected"),
+    ("pobuzi", "破布子", "果樹", "collected"),
+    ("shankui", "山葵", "特用作物", "collected"),
 ]
 
 def M(*months):
@@ -1103,6 +1108,28 @@ CROPS = [
          region_note="原文指出人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；另有敘述「龍葵可全年栽種」，兩者並不完全一致，此處以較具體的「秋冬春最適合」季節資料為主，需另行查證確認精確播種月份。",
          season_months_north=M(9,10,11,12,1,2,3,4), season_months_central=M(9,10,11,12,1,2,3,4), season_months_south=M(9,10,11,12,1,2,3,4),
          season_label="人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；生長適溫20～32℃；種子繁殖：9～10月採集成熟果實陰乾腐熟果皮，翌年春季取種、4月播種，株距33×3公分、深約3公分"),
+    # 第十六批（新增）
+    dict(crop_id="bohe", name="薄荷", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生草本，對土壤要求不嚴（以砂質壤土、沖積土為佳），喜日照充足、排水良好環境；原文明確給出播種與扦插的季節，資料完整度佳。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="春季播種，春、秋兩季可行頂芽扦插繁殖；生長適溫20～26℃；定植後14～20天可採收，一年可採收4～5次"),
+    dict(crop_id="mizao", name="蜜棗", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="即印度棗（台灣改良品種），常見品種有蜜棗、天蜜、翠蜜等；原文明確指出可從春季至秋季種植，資料完整度佳。",
+         season_months_north=M(3,4,5,6,7,8,9,10), season_months_central=M(3,4,5,6,7,8,9,10), season_months_south=M(3,4,5,6,7,8,9,10),
+         season_label="可從春季至秋季種植；行株距6×6公尺（每公頃240～270株，新植可先加倍密植、翌年或第三年疏伐）；種植後第二年開始結果，4～5年進入盛產期"),
+    dict(crop_id="pobuzi", name="破布子", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="紫草科落葉小喬木，別稱破布木、樹子仔，原產中國南方（廣東、福建、海南島）及台灣；栽培容易但苗木定植的確切季節月份原文未給出，需另行查證；一年有兩次落葉現象，第一次落葉為既有植株的自然物候，非新植定植月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；適應pH7以上之石灰岩、山坡地等貧瘠土壤；植株每年1～2月間第一次落葉，隨後2～3月間開淡紫色或黃白色小花（此為既有植株物候現象，非新植定植月份）"),
+    dict(crop_id="shankui", name="山葵", category="特用作物",
+         region_north=None, region_central=None,
+         region_south="嘉義縣竹崎鄉至阿里山海拔2,000公尺以上地區仍有大面積栽培",
+         region_note="十字花科多年生草本，日治時期日人引進阿里山大規模栽培，近年基於森林保育考量逐漸轉向設施內栽培；苗木定植的確切季節月份原文未給出，需另行查證；栽培地點受海拔限制，與甜柿、蘋果、愛玉等高冷地作物性質相近。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；傳統栽培地點需海拔2,000公尺以上（嘉義竹崎至阿里山），近年因森林保育考量逐漸轉向設施內栽培；可用種子、分株、根段等方式繁殖"),
 ]
 
 CULTIVATION = [
@@ -2012,6 +2039,26 @@ CULTIVATION = [
     ("longkui", "適合季節與溫度", "人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；生長適溫20～32℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
     ("longkui", "土壤條件", "栽培土壤可為砂礫質至黏質，以富含有機質、排水良好之壤土為佳，pH6.5～7.0最適宜", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
     ("longkui", "種子繁殖", "9～10月採集成熟果實，置於陰涼潮濕處使果皮自然腐解，翌年春季取種搓洗乾淨後於4月播種，株距33×3公分、播種深度約3公分", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
+
+    # 薄荷 - 農業知識入口網
+    ("bohe", "適合季節與溫度", "春季播種，春、秋兩季可行頂芽扦插繁殖；生長適溫20～26℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=847", "official", "2026-08-23"),
+    ("bohe", "栽培環境", "對土壤要求不嚴，以砂質壤土、沖積土為佳；喜日照充足、排水良好，屬喜光植物，直射光亦無妨；非常喜水，露天陽台種植可天天澆水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6743", "official", "2026-08-23"),
+    ("bohe", "採收", "定植後14～20天可採收，一年可採收4～5次", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=city_farming&id=101", "official", "2026-08-23"),
+
+    # 蜜棗 - 農業知識入口網 棗主題館
+    ("mizao", "適合季節", "可從春季至秋季種植", "農業知識入口網（棗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25059", "official", "2026-08-23"),
+    ("mizao", "種植規劃", "行株距6×6公尺（每公頃約240～270株），可先加倍密植、翌年或第三年疏伐；種植穴直徑60～100公分，混入10公斤堆肥與土壤回填，生長期間需架設棚架支撐枝條並防風害", "農業知識入口網（棗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25059", "official", "2026-08-23"),
+    ("mizao", "品種與生長週期", "常見品種有蜜棗、天蜜、翠蜜；種植後第二年開始結果，4～5年進入盛產期；花為雌雄同株、雄蕊先熟，不同品種花朵開放時段不同（如蜜棗午後開花、高朗1號上午開花）", "農業知識入口網（棗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25059", "official", "2026-08-23"),
+
+    # 破布子 - 農業知識入口網
+    ("pobuzi", "植物特性", "紫草科落葉小喬木，別稱破布木、樹子仔，原產中國南方（廣東、福建、海南島）及台灣", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=274", "official", "2026-08-23"),
+    ("pobuzi", "栽培環境", "生長勢強，適應pH7以上之石灰岩、山坡地等貧瘠土壤；栽培容易，但須慎選不易積水處，株距至少3公尺以上以供成株時枝葉伸展", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=274", "official", "2026-08-23"),
+    ("pobuzi", "落葉與開花物候", "一年有兩次落葉現象，第一次於1～2月間落葉，隨後2～3月間開淡紫色或黃白色小花；亦可於1～2月使用尿素等稀釋液進行人工落葉處理", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=274", "official", "2026-08-23"),
+
+    # 山葵 - 農業知識入口網
+    ("shankui", "植物特性", "十字花科多年生草本，天然分布自俄羅斯庫頁島至日本九州；具獨特香氣、辛辣與甘甜風味，在日本為珍貴稀有的蔬菜與辛香料作物", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
+    ("shankui", "產業沿革", "日治時期日人引進阿里山大規模栽培；近年基於森林保育考量，逐漸轉向設施內栽培；嘉義縣竹崎鄉至阿里山海拔2,000公尺以上地區仍有大面積栽培", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
+    ("shankui", "繁殖方式", "可用種子、分株、根段等方式繁殖，但存在品質不一、種苗退化、病原污染等問題，優質種苗供應為產業瓶頸；已有組織培養技術（以花梗芽為外植體）研發，消毒成功率達71.4%，平均每外植體可形成2.4個以上芽體", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2623,6 +2670,10 @@ UNVERIFIED = [
     ("lianzi", "北部、中部種植期資料未取得（僅知南部2月中旬至4月中旬）；施肥、病蟲害資料本次均未查得，需另行補齊；蓮子與已收錄的蓮藕（lianou）為同一蓮花植物的不同產物/用途，之後在UI呈現時可考慮合併說明或交叉引用。"),
     ("hongfengcai", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("longkui", "「秋冬春最適合」與「可全年栽種」兩種敘述並存但不完全一致，此處採用較具體的秋冬春季節資料，需另行查證確認精確播種月份；株距已查得（種子繁殖法），但施肥、病蟲害資料本次未查得，需另行補齊；龍葵為野菜，食用前需確認其成熟果實（未熟果實含茄鹼類毒素）與正確食用部位，之後在UI呈現時應加以提醒。"),
+    ("bohe", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("mizao", "適合溫度、土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("pobuzi", "苗木定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("shankui", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點受海拔限制（傳統產區2,000公尺以上），與甜柿、蘋果、愛玉等高冷地作物相同，「現在適合種」邏輯需額外考慮海拔限制；此為本資料庫第三次嘗試查證山葵資料，前兩次因來源品質不足（PDF無法解析、搜尋摘要未經WebFetch核實）而未收錄，本次改以官方「山葵組織培養技術之研發」一文的產業沿革與繁殖方式資訊為主，仍建議日後查證官方山葵主題館補齊播種月份等細節。"),
 ]
 
 
