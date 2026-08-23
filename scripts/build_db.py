@@ -269,6 +269,9 @@ REGISTRY = [
     ("jiucaihua", "韭菜花", "花菜類", "collected"),
     ("jiuhuang", "韭黃", "蔥蒜類", "collected"),
     ("yumisun", "玉米筍", "果菜類", "collected"),
+    # 第二十批（新增：菇蕈類/特用作物）
+    ("houtougu", "猴頭菇", "菇蕈類", "collected"),
+    ("midiexiang", "迷迭香", "特用作物", "collected"),
 ]
 
 def M(*months):
@@ -1206,6 +1209,17 @@ CROPS = [
          region_note="即玉米幼穗（未授粉前採收之嫩玉米），原文明確指出市場價格佳、生育期短，春夏秋冬四季皆可栽培，此處比照四季皆可栽種蔬菜類作物（如小白菜、空心菜）處理方式。",
          season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
          season_label="市場價格佳、生育期短，春夏秋冬四季皆可栽培"),
+    # 第二十批（新增）
+    dict(crop_id="houtougu", name="猴頭菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="國內菇農傳統多於冬季以傳統菇舍栽培，環控菇舍雖可周年生產，仍需良好通風使菌絲充分佈滿菇體；此處月份採傳統栽培的冬季產季，環控生產則不受季節限制。",
+         season_months_north=M(11,12,1,2), season_months_central=M(11,12,1,2), season_months_south=M(11,12,1,2),
+         season_label="傳統菇舍多於冬季栽培；環控菇舍可周年生產，不受季節限制；栽培溫度須控制在22℃以下，相對濕度85～95%，並需良好通風"),
+    dict(crop_id="midiexiang", name="迷迭香", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生木本香草，喜高冷地環境，不適合台灣平地高溫多濕氣候；種子繁殖以春季播種發芽率較佳，扦插則取1年生枝條，全年可進行但以春季為佳。",
+         season_months_north=M(3,4), season_months_central=M(3,4), season_months_south=M(3,4),
+         season_label="種子繁殖以春季播種為佳（發芽率偏低，需3～4個月育苗期）；扦插取1年生枝條約5公分，去除基部葉片後扦插，約45～60天發根；生長適溫15～25℃，夏季需適度遮蔭"),
 ]
 
 CULTIVATION = [
@@ -2003,6 +2017,9 @@ CULTIVATION = [
     ("jiabaoguo", "水分管理", "根系淺、極不耐旱，栽培期間須充足水分灌溉；可耐長期多雨，但栽培土壤須排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13066", "official", "2026-08-23"),
     ("jiabaoguo", "土壤與施肥", "適合弱酸性土壤pH5.5～6.5，以深厚、排水良好之砂質壤土為佳；施肥於樹幹周圍挖環狀溝（寬深各15公分），均勻撒施有機肥後覆土，或以硫酸銨、過磷酸鈣、氯化鉀依1:2:1比例施用", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3386", "official", "2026-08-23"),
     ("jiabaoguo", "修剪", "生長緩慢不宜強剪，密生過多枝條宜於秋冬季輕剪；欲控制株高需留意修剪頂端枝條，修剪傷口癒合良好、之後會長出新枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=227955", "official", "2026-08-23"),
+    ("jiabaoguo", "適合溫度", "生長適溫22～35℃，喜酸性土壤", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13066", "official", "2026-08-23"),
+    ("jiabaoguo", "種子發芽與嫁接", "種子播種後約20～40天發芽；嫁接可縮短幼年期，嫁接苗約3年即可結果（實生苗需6～10年）", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10621", "official", "2026-08-23"),
+    ("jiabaoguo", "施肥時程", "主要生長期（11月至翌年2月）每15～20天施用一次氮磷鉀均衡肥；開花期（2～4月及7～10月）每7～10天施用一次磷鉀肥", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=17069", "official", "2026-08-23"),
 
     # 油茶 - 農業知識入口網
     ("youcha", "適合環境", "原產溫暖濕潤氣候，年均溫14～24℃、相對濕度74～85%、年雨量1,000毫米以上、年日照1,800～2,000小時；台灣除沿海地區外多適合栽培，對土壤要求富彈性", "農業知識入口網（油茶栽培與利用）", "https://kmweb.moa.gov.tw/redirect_files.php?id=10935", "official", "2026-08-23"),
@@ -2190,6 +2207,16 @@ CULTIVATION = [
 
     # 玉米筍 - 農業知識入口網
     ("yumisun", "植物特性與市場", "即玉米幼穗（未授粉前採收之嫩玉米），市場價格佳、生育期短，春夏秋冬四季皆可栽培", "農業知識入口網（玉米筍現有品種介紹及栽培管理注意事項）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=413520", "official", "2026-08-23"),
+
+    # 猴頭菇 - 農業知識入口網
+    ("houtougu", "栽培溫濕度", "栽培溫度須控制在22℃以下，相對濕度85～95%", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?theme=knowledgebase&id=226266", "official", "2026-08-23"),
+    ("houtougu", "生產模式", "國內菇農傳統多於冬季以傳統菇舍栽培；環控菇舍雖可周年生產，仍需良好通風使菌絲充分佈滿菇體", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?theme=knowledgebase&id=226266", "official", "2026-08-23"),
+
+    # 迷迭香 - 農業知識入口網
+    ("midiexiang", "適合環境", "喜高冷地環境，不適合台灣平地高溫多濕氣候；喜充足日照與排水良好之鹼性、疏鬆肥沃腐植土或砂質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+    ("midiexiang", "適合溫度", "生長適溫約15～25℃，夏季建議適度遮蔭協助度過酷暑", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+    ("midiexiang", "繁殖方式", "扦插取1年生枝條約5公分，去除基部葉片後扦插，可用發根粉促進生根，約45～60天發根即可移植；種子繁殖以春季播種為佳，但發芽率偏低，需3～4個月育苗期", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+    ("midiexiang", "施肥與修剪", "每月施肥一次（自晚秋至春季），盆栽建議每2～3年換土一次；植株生長緩慢、再生能力弱，修剪時避免一次剪去枝條長度一半以上，否則不易再生", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2816,6 +2843,9 @@ UNVERIFIED = [
     ("jiucaihua", "南部產地資料未取得；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("jiuhuang", "本表season欄位留空是因韭黃並非獨立播種的作物、而是韭菜的避光軟化處理產物，並非資料查證不足；具體軟化處理天數、適合溫度、病蟲害資料本次均未查得，需另行補齊；南部產地資料未取得。"),
     ("yumisun", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；具體品種介紹（原文標題提及但未展開）需另行查證補齊。"),
+    ("jiabaoguo", "本次補充查得適合溫度、種子發芽天數與施肥時程等資料（原第十四批entries已收錄基本資料），已一併更新至cultivation_facts；病蟲害資料仍未查得，需另行補齊。"),
+    ("houtougu", "傳統菇舍冬季栽培的具體月份範圍為推估值（11～12月、1～2月），非官方逐月公告，需另行查證；太空包配方、病蟲害資料本次未查得，需另行補齊。"),
+    ("midiexiang", "適合的台灣高冷地產區資料未取得；土壤pH以外的詳細條件、病蟲害資料本次均未查得，需另行補齊。"),
 ]
 
 
