@@ -189,6 +189,126 @@ REGISTRY = [
     ("ganzhe", "甘蔗", "雜糧", "collected"),
     ("huma", "胡麻（芝麻）", "雜糧", "collected"),
     ("hangju", "杭菊", "特用作物", "collected"),
+    # 第五批（新增：雜糧/筍類/特用作物，新增「筍類」分類）
+    ("lvdou", "綠豆", "雜糧", "collected"),
+    ("heidou", "黑豆", "雜糧", "collected"),
+    ("lvzhusun", "綠竹筍", "筍類", "collected"),
+    ("aiyu", "愛玉", "特用作物", "collected"),
+    # 第六批（新增：特用作物/根莖類/雜糧/葉菜類/菇蕈類，新增「菇蕈類」分類）
+    ("cha", "茶", "特用作物", "collected"),
+    ("shushu", "樹薯", "根莖類", "collected"),
+    ("gaoliang", "高粱", "雜糧", "collected"),
+    ("chuanqi", "川七", "葉菜類", "collected"),
+    ("xianggu", "香菇", "菇蕈類", "collected"),
+    ("muer", "黑木耳", "菇蕈類", "collected"),
+    # 第七批（新增：雜糧/筍類/豆菜類/特用作物/花卉類，新增「花卉類」分類）
+    ("xiaomai", "小麥", "雜糧", "collected"),
+    ("qiaomai", "蕎麥", "雜糧", "collected"),
+    ("mazhusun", "麻竹筍", "筍類", "collected"),
+    ("tiandou", "甜豆", "豆菜類", "collected"),
+    ("keke", "可可", "特用作物", "collected"),
+    ("hudielan", "蝴蝶蘭", "花卉類", "collected"),
+    # 第八批（新增：筍類/特用作物/菇蕈類/花卉類）
+    ("guizhusun", "桂竹筍", "筍類", "collected"),
+    ("binglang", "檳榔", "特用作物", "collected"),
+    ("xingbaogu", "杏鮑菇", "菇蕈類", "collected"),
+    ("jinzhengu", "金針菇", "菇蕈類", "collected"),
+    ("juemingzi", "決明子", "特用作物", "collected"),
+    ("wenxinlan", "文心蘭", "花卉類", "collected"),
+    # 第九批（新增：雜糧/特用作物/花卉類/果樹）
+    ("yiyi", "薏苡（薏仁）", "雜糧", "collected"),
+    ("xiangmao", "香茅", "特用作物", "collected"),
+    ("zisu", "紫蘇", "特用作物", "collected"),
+    ("huohehua", "火鶴花", "花卉類", "collected"),
+    ("juhua", "菊花", "花卉類", "collected"),
+    ("jiabaoguo", "嘉寶果（樹葡萄）", "果樹", "collected"),
+    # 第十批（新增：特用作物/菇蕈類/果樹）
+    ("youcha", "油茶", "特用作物", "collected"),
+    ("baimuer", "白木耳", "菇蕈類", "collected"),
+    ("sangshen", "桑椹", "果樹", "collected"),
+    ("luhui", "蘆薈", "特用作物", "collected"),
+    ("xiuzhengu", "秀珍菇", "菇蕈類", "collected"),
+    # 第十一批（新增：雜糧/葉菜類/果樹）
+    ("shuidao", "水稻", "雜糧", "collected"),
+    ("zigalan", "紫甘藍", "葉菜類", "collected"),
+    ("banli", "板栗", "果樹", "collected"),
+    # 第十二批（新增：果樹/蔥蒜類）
+    ("lizi", "李子", "果樹", "collected"),
+    ("meizi", "梅子", "果樹", "collected"),
+    ("zhucong", "珠蔥（分蔥）", "蔥蒜類", "collected"),
+    ("luqiao", "蕗蕎", "蔥蒜類", "collected"),
+    # 第十三批（新增：葉菜類/豆菜類）
+    ("jieqiuwoju", "結球萵苣", "葉菜類", "collected"),
+    ("helandou", "荷蘭豆", "豆菜類", "collected"),
+    ("quedou", "鵲豆", "豆菜類", "collected"),
+    # 第十四批（新增：根莖類/筍類/果樹）
+    ("douvu", "豆薯", "根莖類", "collected"),
+    ("mengzongzhusun", "孟宗竹筍（冬筍）", "筍類", "collected"),
+    ("shufanqie", "樹番茄", "果樹", "collected"),
+    # 第十五批（新增：果樹/根莖類/葉菜類）
+    ("yangmei", "楊梅", "果樹", "collected"),
+    ("lianzi", "蓮子", "根莖類", "collected"),
+    ("hongfengcai", "紅鳳菜", "葉菜類", "collected"),
+    ("longkui", "龍葵", "葉菜類", "collected"),
+    # 第十六批（新增：特用作物/果樹）
+    ("bohe", "薄荷", "特用作物", "collected"),
+    ("mizao", "蜜棗", "果樹", "collected"),
+    ("pobuzi", "破布子", "果樹", "collected"),
+    ("shankui", "山葵", "特用作物", "collected"),
+    # 第十七批（新增：特用作物/花卉類）
+    ("turougui", "土肉桂", "特用作物", "collected"),
+    ("daoshouxiang", "到手香", "特用作物", "collected"),
+    ("meigui", "玫瑰", "花卉類", "collected"),
+    ("jianlan", "劍蘭（唐菖蒲）", "花卉類", "collected"),
+    # 第十八批（新增：花卉類）
+    ("xiangrikui", "向日葵", "花卉類", "collected"),
+    ("baihe", "百合", "花卉類", "collected"),
+    ("yangjiegeng", "洋桔梗", "花卉類", "collected"),
+    ("feizhouju", "非洲菊", "花卉類", "collected"),
+    # 第十九批（新增：花菜類/蔥蒜類/果菜類）
+    ("jiucaihua", "韭菜花", "花菜類", "collected"),
+    ("jiuhuang", "韭黃", "蔥蒜類", "collected"),
+    ("yumisun", "玉米筍", "果菜類", "collected"),
+    # 第二十批（新增：菇蕈類/特用作物）
+    ("houtougu", "猴頭菇", "菇蕈類", "collected"),
+    ("midiexiang", "迷迭香", "特用作物", "collected"),
+    # 第二十一批（新增：菇蕈類/特用作物/果菜類）
+    ("shanhugu", "珊瑚菇", "菇蕈類", "collected"),
+    ("lingzhi", "靈芝", "菇蕈類", "collected"),
+    ("tianju", "甜菊", "特用作物", "collected"),
+    ("mubieguo", "木鱉果", "果菜類", "collected"),
+    # 第二十二批（新增：果樹）
+    ("boluomi", "波羅蜜", "果樹", "collected"),
+    ("renxinguo", "人心果", "果樹", "collected"),
+    ("mianbaoguo", "麵包果（麵包樹）", "果樹", "collected"),
+    # 第二十三批（新增：果菜類/果樹）
+    ("foshougua", "佛手瓜", "果菜類", "collected"),
+    ("nuoliguo", "諾麗果", "果樹", "collected"),
+    # 第二十四批（新增：葉菜類/花卉類）
+    ("shilianhua", "石蓮花", "葉菜類", "collected"),
+    ("yejianghua", "野薑花", "花卉類", "collected"),
+    # 第二十五批（新增：特用作物/葉菜類）
+    ("danggui", "當歸", "特用作物", "collected"),
+    ("maimendong", "麥門冬", "特用作物", "collected"),
+    ("zhaohecao", "昭和草", "葉菜類", "collected"),
+    # 第二十六批（新增：特用作物/花卉類）
+    ("mingriye", "明日葉", "特用作物", "collected"),
+    ("jiegeng", "桔梗", "花卉類", "collected"),
+    # 第二十七批（新增：特用作物/花卉類）
+    ("ningmengxiangfengcao", "檸檬香蜂草", "特用作物", "collected"),
+    ("bosiju", "波斯菊", "花卉類", "collected"),
+    # 第二十八批（新增：葉菜類）
+    ("binghua", "冰花", "葉菜類", "collected"),
+    ("fanxing", "番杏", "葉菜類", "collected"),
+    # 第二十九批（新增：花卉類）
+    ("yulanhua", "玉蘭花", "花卉類", "collected"),
+    ("hanxiaohua", "含笑花", "花卉類", "collected"),
+    # 第三十批（新增：果樹/特用作物）
+    ("qiyiguo", "奇異果", "果樹", "collected"),
+    ("maobohe", "貓薄荷", "特用作物", "collected"),
+    # 第三十一批（新增：果樹）
+    ("shuimitao", "水蜜桃", "果樹", "collected"),
+    ("shuili", "水梨", "果樹", "collected"),
 ]
 
 def M(*months):
@@ -755,6 +875,542 @@ CROPS = [
          region_note="農業部「地方特色作物」清單將杭菊列為苗栗縣區域特色作物；主要產地在苗栗銅鑼；種植月份來自搜尋摘要整理（qa等級），田間定植規格已以WebFetch核實官方原文。",
          season_months_north=M(4,5,6,7), season_months_central=M(4,5,6,7), season_months_south=M(4,5,6,7),
          season_label="一般於4月清明節後開始種植，最晚可於7月前；花期11～12月；生長適溫15～28℃，耐旱不耐淹水"),
+    # 第五批（新增）
+    dict(crop_id="lvdou", name="綠豆", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="兩篇官方文章對播種期的敘述不一致：一篇指2～3月播種、產期4～6月、盛產期8～9月，另一篇僅泛稱可春、夏、秋三作但未給出具體月份；本土栽培集中台南市佳里區等地，市面上多為進口綠豆，尚未取得北中南分區資料。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種月份兩篇官方資料互相矛盾（2～3月播種 vs 春夏秋三作皆可），需另行查證後才能標示月份；生長期短，約60～75天即可收成"),
+    dict(crop_id="heidou", name="黑豆", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="官方栽培管理示範會紀實依整地方式區分播種時機（作畦栽培適合春夏作或颱風雨水多地區提早於秋作播種；撒播開溝栽培適合颱風雨水較少時延後於秋作播種），但未給出具體月份數字，也未區分北中南地區。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="依整地方式分早晚：作畦栽培適合春、夏作或颱風雨水多地區提早於秋作播種；撒播開溝栽培適合延後於秋作、颱風雨水較少時播種；原文未給出精確月份，需另行查證"),
+    dict(crop_id="lvzhusun", name="綠竹筍", category="筍類",
+         region_north="新北（三峽、五股、八里等）、台北（木柵、南港等）、桃園、新竹、基隆亦有栽培",
+         region_central="台中亦有栽培",
+         region_south="台南、屏東亦有栽培",
+         region_note="綠竹為多年生竹類，農民新植多以高壓、分株法繁殖既有竹叢，而非年年播種，原文未給出繁殖/定植的確切月份；此處月份採用「產季（採收期）」而非播種月份，與果樹類作物的處理方式相同。",
+         season_months_north=M(3,4,5,6,7,8,9,10), season_months_central=M(3,4,5,6,7,8,9,10), season_months_south=M(3,4,5,6,7,8,9,10),
+         season_label="全年產季約3～10月，以5～7月為盛產期；南部4月下旬至5月下旬（正筍期）、7月中旬（秋仔筍期）為兩個高峰，北部盛產高峰在6月中旬至7月中旬及8月下旬；此為採收期而非新植繁殖月份"),
+    dict(crop_id="aiyu", name="愛玉", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣特有山地植物，原產於海拔800～1,800公尺山區，栽培地點受海拔限制，與甜柿、蘋果等高冷地果樹性質相近；農業部苗栗區農業改良場已育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種。此處月份為隱花果產季（採收期）而非苗木定植月份，原文未給出定植的確切月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="隱花果主要產季集中於8～10月（由開花到可採收約需4～5個月）；苗木定植適期原文未給出確切月份，需另行查證；栽培地點受海拔限制（傳統產區800～1,800公尺），低海拔栽培品種已有苗栗1號、2號可選"),
+    # 第六批（新增）
+    dict(crop_id="cha", name="茶", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="茶樹為多年生常綠木本植物，主要以扦插苗建立新茶園，繁殖育苗需時多年，原文未給出苗木定植的確切月份；適合環境條件（氣候、地形）已查得，但北中南分區資料尚未取得。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植適期原文未給出確切月份，需另行查證；適合雨量充沛、多雲霧、濕度高、排水良好之丘陵地栽培，生育適溫20～30℃、相對濕度80～90%"),
+    dict(crop_id="shushu", name="樹薯", category="根莖類",
+         region_north=None, region_central="台中以南各縣普遍栽培", region_south="台中以南各縣普遍栽培，花蓮亦有栽培",
+         region_note="原文說明樹薯為一年生或多年生灌木，耐貧瘠乾旱土壤，主要栽培於台中以南各縣及花蓮，並歸化生長於全台平地至丘陵地，但未給出具體播種/扦插月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="原文未明確標示播種/扦插月份，需另行查證；喜高溫多濕，耐性強，可生長於貧瘠、乾旱土壤"),
+    dict(crop_id="gaoliang", name="高粱", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="我國高粱主要栽培於金門（栽培面積約1,700公頃），與小麥、花生輪作（高粱110天、接續小麥120天、再留地力予花生）；原文說明播種期早於花生，但未給出具體月份數字，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="主要栽培於金門，與小麥、花生輪作，生育期約110天；播種期早於花生但原文未給出確切月份，需另行查證；主要品種為台中5號（飼料兼釀酒用）"),
+    dict(crop_id="chuanqi", name="川七", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文為官方栽培技術頁面，提供株距、施肥等具體規格，但未明確標示適合播種/扦插的季節月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="原文未明確標示適合播種/扦插季節，需另行查證；土壤適應性廣，商業栽培以排水良好之砂質壤土較佳，需立支架栽培"),
+    dict(crop_id="xianggu", name="香菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="香菇多以太空包（木屑填充太空包）栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；子實體生長需低溫環境，此為出菇溫度條件而非「現在適合種」的種植月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；菌絲生長適溫22～26℃，子實體發育需較低溫（5～24℃，約15℃最佳），低於12℃菇體厚實品質佳，約4℃時菇傘易龜裂成「花菇」為最高等級"),
+    dict(crop_id="muer", name="黑木耳", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="黑木耳亦多以太空包栽培（木屑78%、米糠20%、碳酸鈣1%、蔗糖1%），屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；接種後28～30天可出菇。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；栽培溫度25±2℃、濕度60～85%，每日澆水1～2次，接種後約28～30天可採收"),
+    # 第七批（新增）
+    dict(crop_id="xiaomai", name="小麥", category="雜糧",
+         region_north=None, region_central=None,
+         region_south=None,
+         region_note="台灣小麥主要栽培於金門（每年約1,700～1,800公頃，為單一縣市栽培面積最高地區），主要作為金門高粱酒製曲原料；本島栽培資料尚未取得，此筆月份資料僅代表金門地區。",
+         season_months_north=None, season_months_central=None, season_months_south=M(11),
+         season_label="金門地區通常於11月中旬播種，生育期約145～153天，隔年4～5月間收穫；主要品種為台中選2號"),
+    dict(crop_id="qiaomai", name="蕎麥", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣主要作冬期裡作栽培，甜蕎常兼作冬季景觀作物與蜜蜂冬季蜜源；原文未給出精確播種月份數字（僅引用古代農書「五月耕地」等非台灣本地資料），需另行查證台灣官方播種曆。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="台灣主要作冬期裡作栽培，原文未給出精確播種月份，需另行查證；生育期不超過90天，常見品種為甜蕎、苦蕎"),
+    dict(crop_id="mazhusun", name="麻竹筍", category="筍類",
+         region_north="基隆亦有栽培（單位面積收量全國最低）",
+         region_central="台中、雲林、南投為主要產地",
+         region_south="台南市南化區為最主要產區，嘉義縣產量亦高",
+         region_note="麻竹為多年生竹類，與綠竹筍同屬「筍類」但為不同竹種，官方產期資料以「產季（採收期）」呈現，非新植繁殖月份；南化地區筍農雖4月起有產期，但當地主要生產筍絲、筍乾等加工原料而非鮮筍，5、6月才開始大量收成。",
+         season_months_north=M(6,7,8,9), season_months_central=M(6,7,8,9), season_months_south=M(6,7,8,9),
+         season_label="官方標示產期為6～9月；主要產地台南市南化區、雲林縣、嘉義縣、台中市、南投縣、基隆市；此為採收期而非新植繁殖月份"),
+    dict(crop_id="tiandou", name="甜豆", category="豆菜類",
+         region_north="冬季寒冷多雨，栽培困難",
+         region_central="彰化縣栽培面積最大（福興、秀水、埔鹽、二林等地），因秋冬氣候溫涼適合豌豆生育，栽培最多",
+         region_south="氣溫較高，栽培較少",
+         region_note="甜豌豆耐寒不耐熱，多於秋冬季節播種栽培；原文以「秋冬季節」描述，此處月份為秋冬季節的合理區間推算（9～12月），非原文直接給出的精確月份，需另行查證確認。",
+         season_months_north=M(9,10,11,12), season_months_central=M(9,10,11,12), season_months_south=M(9,10,11,12),
+         season_label="多於秋冬季節播種栽培（耐寒不耐熱），此為合理月份區間推算，非原文精確月份；生長適溫9～23℃，超過25℃生長不良、結莢減少；幼苗可耐-4℃低溫"),
+    dict(crop_id="keke", name="可可", category="特用作物",
+         region_north=None, region_central=None,
+         region_south="屏東縣為台灣最大可可產區，栽培面積近300公頃，分布內埔、高樹、里港、鹽埔、九如、長治、屏東市、麟洛、竹田、萬巒、潮州、東港、恆春等鄉鎮，以客庄鄉鎮較集中",
+         region_note="可可苗畏強光，多以檳榔樹或香蕉樹遮蔭間作栽培，3～4年後部分砍除檳榔樹以增加光照利於結果；此為既有栽培模式描述，苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；栽培以檳榔園或香蕉園間作遮蔭方式為主，3～4年後逐漸增加光照"),
+    dict(crop_id="hudielan", name="蝴蝶蘭", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="蝴蝶蘭為盆花產業，多於溫室控制環境栽培，透過人工調節夜溫誘導花芽分化，可全年任何時期催花生產，故無傳統露地「播種/定植月份」概念；台灣為全球重要蝴蝶蘭種苗與切花外銷產地。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="溫室控制環境栽培，全年皆可透過低溫處理催花生產，非露地看天田作物；營養生長適溫25～30℃，生殖生長期需日溫25℃／夜溫20℃以下誘導花芽分化，10℃以下停止生長，開花對低溫敏感"),
+    # 第八批（新增）
+    dict(crop_id="guizhusun", name="桂竹筍", category="筍類",
+         region_north="台灣中北部栽培較多",
+         region_central="台灣中北部栽培較多",
+         region_south="栽培較少",
+         region_note="桂竹為台灣固有種，栽培於海拔300～1,000公尺之間，台灣中北部較多、南部較少；本次未查得明確產季（生產期）月份資料，需另行查證（綠竹筍產季為端午節至雙十節間，桂竹筍是否相同尚待確認）。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="產季月份原文未查得，需另行查證；栽培於海拔300～1,000公尺之間，中北部較多、南部較少，筍皮光滑無毛、有黑褐色斑點，肉質稍硬纖維較多，多用以製造桶筍"),
+    dict(crop_id="binglang", name="檳榔", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="檳榔為熱帶棕櫚科多年生作物，政府對檳榔產業採「三不政策」（不鼓勵、不輔導、不禁止），因嚼食檳榔有害健康、致口腔癌，但檳榔仍為合法栽培作物；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；乾旱季節無灌溉設施不宜種植（耐旱性差、蒸散量大），株距不宜小於9台尺，土層深度以10台尺為佳，栽培初期常以香蕉間作遮蔭"),
+    dict(crop_id="xingbaogu", name="杏鮑菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="杏鮑菇多以太空包栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；栽培流程含木屑堆積、裝袋、滅菌、冷卻、接種、培養、刺激出菇、採收，全程約60天。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；22℃培養10天菌絲長滿，30天後覆土並降溫至17～19℃刺激出菇，全程約60天"),
+    dict(crop_id="jinzhengu", name="金針菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="金針菇栽培需低溫環境（菌絲培養16～18℃、子實體發育需冷藏室約5℃），台灣多以環控設施周年生產（如台中梧棲一帶的環控菇場），屬控制環境生產模式，非露地看天田作物。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="環控設施栽培為控制環境生產，全年皆可進行，非露地看天田作物；菌絲培養適溫16～18℃、濕度約75%，子實體發育需於約5℃冷藏室環境進行"),
+    dict(crop_id="juemingzi", name="決明子", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="決明為豆科決明屬一年生亞灌木狀草本，分布台灣平地至低海拔地區；開花與結果期原文有給出月份，但播種月份原文未直接給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種月份原文未直接給出，需另行查證；開花期7～9月（成對黃色花朵），果莢於9～10月成熟，每莢含種子20～30粒，株高可達1～2公尺"),
+    dict(crop_id="wenxinlan", name="文心蘭", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="文心蘭為盆花／切花產業，多於溫室栽培，對低溫的忍受度較蝴蝶蘭強，栽培容易；台灣常見品種週年均可開花，故無傳統露地「播種/定植月份」概念，苗木定植確切月份原文亦未給出。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="溫室栽培，多品種週年均可開花，非露地看天田作物；較佳生長溫度20～25℃，高於30℃生育不良、開花易有「一條龍」現象，低於10℃生長停滯；南西（Gower Ramsey）品種溫度適應範圍廣，15～35℃皆可良好生長"),
+    # 第九批（新增）
+    dict(crop_id="yiyi", name="薏苡（薏仁）", category="雜糧",
+         region_north=None, region_central="南投縣草屯鎮、台中市大雅區、彰化縣二林鎮為主要產地",
+         region_south="嘉義縣朴子市為主要產地",
+         region_note="薏苡（Coix lacryma-jobi L.）為禾本科一年生草本植物，原產於越南、緬甸、泰國及印度等東南亞地區；栽培方式分旱田直播與水田移植兩種，本次查得詳細的直播栽培流程與施肥用量，但未取得明確播種月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種月份原文未直接給出，需另行查證；旱田直播栽培以條播為主，行株距50×20或60×15公分，每公頃播種量約50公斤"),
+    dict(crop_id="xiangmao", name="香茅", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原產亞洲熱帶地區（印度、斯里蘭卡、印尼等），台灣自1950～1960年代曾大規模栽培提煉香茅油外銷，1960年代後因化學合成香料興起而競爭力下降、栽培面積大幅萎縮；分株繁殖月份已明確查得，但目前主要栽培地區資料未取得。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="分株繁殖適期為春季（3～4月）與秋季（9～10月），取健壯成熟植株、莖部剪短至6～10公分"),
+    dict(crop_id="zisu", name="紫蘇", category="特用作物",
+         region_north=None, region_central="南投縣國姓鄉為主要產地之一",
+         region_south="嘉義縣水上鄉為主要產地之一（全株根莖葉入藥）",
+         region_note="1978年自日本引進苗栗縣公館鄉試種，1990年代栽培達鼎盛，主產地在苗栗公館、大湖及嘉義水上，因中國大陸等地低價競爭而栽培面積大幅減少；原文說明「春、秋兩季適合栽培」但未給精確月份，此處以3～4月、9～10月的合理區間表示，需另行查證確認。",
+         season_months_north=None, season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="春、秋兩季適合栽培（此為合理月份區間推算，非原文精確月份）；發芽適溫18～23℃，莖葉生長適溫20～26℃，開花適溫26～28℃；採收盛期約5月下旬至8月上旬，每5～7天可採收一次"),
+    dict(crop_id="huohehua", name="火鶴花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣因具備火鶴花喜好的溫暖高濕環境（如南投埔里一帶），生產深具競爭優勢；多於溫室栽培，屬多年生觀賞花卉，苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長適溫日溫25～32℃、夜溫21～24℃，高於35℃葉片易灼傷、佛焰苞褪色，多數品種低於18℃即有寒害，夜溫低於15℃嚴重寒害；溫度高於30℃或低於15℃易導致落蕾"),
+    dict(crop_id="juhua", name="菊花", category="花卉類",
+         region_north=None, region_central="彰化縣為主要產地，占全國栽培面積94%，集中田尾、永靖、北斗等鄉鎮",
+         region_south=None,
+         region_note="菊花為短日植物，自然狀態下於日照漸短的秋冬季進行花芽分化與開花；商業栽培透過秋季夜間電照延長日照以維持營養生長，或夏季覆蓋黑布縮短日照以促進開花，藉此調節花期達到週年生產，故無傳統露地「播種/定植月份」概念。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="商業栽培以電照/遮光技術調節花期，可週年生產，非露地看天田作物；自然花期在秋冬季（短日誘導開花）；繁殖以頂芽扦插為主，取5～7公分、4～6片葉、莖粗0.3公分以上的嫩莖"),
+    dict(crop_id="jiabaoguo", name="嘉寶果（樹葡萄）", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原產巴西的熱帶葡萄，生長緩慢，實生苗需6～10年才會結果，嫁接苗可縮短此幼年期；根系淺、極不耐旱，栽培土壤須排水良好；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長緩慢不宜強剪，密生過多枝條宜於秋冬季輕剪；適合弱酸性土壤pH5.5～6.5，需充足水分灌溉但排水須良好"),
+    # 第十批（新增）
+    dict(crop_id="youcha", name="油茶", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="山茶科山茶屬常綠小喬木，種子榨油即為苦茶油；原產溫暖濕潤氣候（年均溫14～24℃、相對濕度74～85%、年雨量1,000毫米以上、年日照1,800～2,000小時），台灣除沿海地區外多適合栽培，對土壤要求富彈性；種子繁殖時間與果實採收期連動，原文未給出明確定植月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；種子繁殖：果實採收後於通風室內陰乾3～5天，待果皮開裂即可取種即時播種；定植後第4年可開始少量採收種子，第8年顯著增產，第12年後穩定量產"),
+    dict(crop_id="baimuer", name="白木耳", category="菇蕈類",
+         region_north=None, region_central="台中亦有栽培（次要產地）",
+         region_south="台南為主要產地",
+         region_note="白木耳（銀耳）為台灣重要食藥用菇類，具潤肺養陰、化痰生津等傳統用途；台灣早期以段木栽培法少量生產，因近年取得段木困難、價格高昂已停產，目前市售白木耳多為中國大陸進口；台灣亦已開發本產白木耳及彩色木耳品種，可採段木或塑膠瓶罐栽培法生產，但具體溫度、太空包配方等技術細節本次未能從官方原文查證，需另行補齊。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="栽培技術細節（溫度、配方等）本次未查得，需另行查證；歷史上以段木栽培為主，現多改採塑膠瓶罐栽培法，屬控制環境生產模式"),
+    dict(crop_id="sangshen", name="桑椹", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="桑樹耐性強、病蟲害少；喜溫帶至熱帶氣候、海拔1,000公尺以下地區；扦插繁殖方法明確，但原文未給出扦插/定植的確切月份（僅知第二年即可開花結果），需另行查證確切種植季節。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="扦插/定植的確切月份原文未給出，需另行查證；生長適溫23～27℃，年雨量600～2,500毫米，日照9～13小時；扦插後30～45天發芽，第二年開花結果；施肥於12月（落葉後、萌芽前）或5月（修剪後）進行"),
+    dict(crop_id="luhui", name="蘆薈", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文明確指出可全年以分株法繁殖，故此筆季節欄位標示為全年皆可栽培，與四季皆可栽種的蔬菜類作物（如小白菜、空心菜）處理方式相同；喜全日照溫暖環境、耐旱怕積水。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="可全年以分株法繁殖（取母株基部帶莖幼株，切口陰乾後種植）；亦可扦插繁殖，取成熟植株7～10公分枝條陰乾4～5天後插入砂質土，20～30天生根"),
+    dict(crop_id="xiuzhengu", name="秀珍菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="秀珍菇（蠔菇）多以太空包於菇舍栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；對環境變化相當敏感，需維持穩定的風、溫度、濕度條件。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；出菇刺激期需相對濕度90%以上，菇體生長至約2公分後濕度可降至85～90%；高溫期可調降出菇室設定溫度2～3℃協助除濕"),
+    # 第十一批（新增）
+    dict(crop_id="shuidao", name="水稻", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣稻作分一期作、二期作兩期，原文以「一期作1～6月、二期作7～8月」描述整體生育期範圍（非單指移植/插秧月份）；本次未區分北中南分區資料，需另行查證各分區實際插秧月份差異。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="一期作生育期約1～6月（插秧至收穫需120天以上），二期作生育期約7～8月起算（插秧至收穫需100天以上）；此為整體生育期範圍描述，非單指插秧月份，需另行查證各地區實際插秧月份"),
+    dict(crop_id="zigalan", name="紫甘藍", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="紫甘藍（Brassica oleracea L. var. rubra DC.）與甘藍（高麗菜）、皺葉甘藍並列台灣栽培的三大甘藍類型；原文指出「僅冬季生產，透過低溫貯藏調節市場供需」，此處月份為冬季的合理區間推算（10月至翌年2月），非原文直接給出的精確月份，需另行查證確認。",
+         season_months_north=M(10,11,12,1,2), season_months_central=M(10,11,12,1,2), season_months_south=M(10,11,12,1,2),
+         season_label="僅冬季生產，透過低溫貯藏調節市場供需（此處月份為冬季的合理區間推算，非原文精確月份）；生長適溫15～25℃，高於30℃時光合產物多消耗於呼吸作用，延遲結球且結球鬆散、產量降低"),
+    dict(crop_id="banli", name="板栗", category="果樹",
+         region_north=None, region_central=None,
+         region_south="嘉義縣中埔鄉為台灣唯一大規模栽培板栗（中國栗）的鄉鎮，每逢產季供不應求",
+         region_note="殼斗科落葉喬木，台灣稱「板栗」者多為中國栗品種；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；適合年均溫10.5～21.8℃地區，土壤宜選擇較厚、肥沃、近中性pH之砂質壤土，地勢平坦、排水良好、日照充足、坡度平緩處為佳"),
+    # 第十二批（新增）
+    dict(crop_id="lizi", name="李子", category="果樹",
+         region_north=None, region_central="需冷量低之台灣品種可栽培",
+         region_south="需冷量低之台灣品種可栽培",
+         region_note="李樹需冷量因品種而異，台灣栽培品種需冷量甚低，中南部即可種植；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；喜日照，對土壤要求不嚴（肥沃或貧瘠土壤皆可正常生長），栽培環境需通風良好、日照充足、排水佳；行株距建議5×5至7×7公尺，坡地貧瘠土壤可縮小為4×4公尺"),
+    dict(crop_id="meizi", name="梅子", category="果樹",
+         region_north=None, region_central="南投縣仁愛鄉、信義鄉為主要產地",
+         region_south="台東縣、台中市亦為主要產地",
+         region_note="日治時期日人引進大規模栽培，1961年信義鄉果農由蕉園轉作梅園；主要分布中南部及東部海拔300～1,000公尺地區；此處月份為採收期（產季）而非種植定植月份，原文未給出定植的確切月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="採收期（產季）約在3月中旬至4月下旬；苗木定植的確切季節月份原文未給出，需另行查證；適合中南部及東部海拔300～1,000公尺、土壤肥沃排水良好、氣候冷涼且日夜溫差大之地區"),
+    dict(crop_id="zhucong", name="珠蔥（分蔥）", category="蔥蒜類",
+         region_north=None, region_central=None,
+         region_south="台南、嘉義兩縣為主要產地，占全台總產量約96%",
+         region_note="原產西亞敘利亞一帶，栽培歷史悠久；可作蔥葉（50～75天採收，供炒食）或蔥球（成熟後採收，供炸食、煮湯、填餡、調味）兩種用途；繁殖方式（分株法／播種法）已明確查得，但原文未給出具體播種/分株月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種/分株的確切月份原文未給出，需另行查證；分株法約90天可採收，播種法約270天可採收"),
+    dict(crop_id="luqiao", name="蕗蕎", category="蔥蒜類",
+         region_north="新竹亦為主要產地之一",
+         region_central=None,
+         region_south="花蓮、雲林亦為主要產地",
+         region_note="石蒜科蔥屬多年生草本，別名薤、蕎頭、火蔥、小蒜、野蒜；以小鱗莖（種球）無性繁殖為主，栽培為二年生作物；有農諺「七蔥、八蒜、九蕗蕎，九九重陽以前就要種入土」，故以農曆9月（約國曆9～10月）作為播種適期。",
+         season_months_north=M(8,9,10), season_months_central=M(8,9,10), season_months_south=M(8,9,10),
+         season_label="秋冬季（約8～10月，農諺「九蕗蕎」須於農曆九月重陽節前種入土）播種，翌年3～6月地上莖葉枯萎、地下鱗莖膨大停止生長時採收；喜冷涼氣候，高於25℃則進入休眠停止生長"),
+    # 第十三批（新增）
+    dict(crop_id="jieqiuwoju", name="結球萵苣", category="葉菜類",
+         region_north=None, region_central=None, region_south="高冷地夏季亦可栽培",
+         region_note="官方萵苣主題館依「嫩莖萵苣／不結球萵苣／結球萵苣／葉萵苣」四種類型分別提供栽培資料，結球萵苣為其中一種；原文未進一步細分北中南分區，但明確標示播種期範圍與行株距。",
+         season_months_north=M(9,10,11,12,1,2,3), season_months_central=M(9,10,11,12,1,2,3), season_months_south=M(9,10,11,12,1,2,3),
+         season_label="播種期為每年9月至翌年3月（涼爽秋冬季），高冷地夏季亦可栽培；早秋或晚春播種植株較小，且較易產生抽苔現象"),
+    dict(crop_id="helandou", name="荷蘭豆", category="豆菜類",
+         region_north=None, region_central="彰化縣為最大產地",
+         region_south=None,
+         region_note="荷蘭豆（豌豆之扁莢食用類型）喜冷涼乾燥氣候，目前以冬季裡作為主，中部地區為主要產地；官方資料明確列出播種期與盛產月份。",
+         season_months_north=M(10,11,12,1,2,3), season_months_central=M(10,11,12,1,2,3), season_months_south=M(10,11,12,1,2,3),
+         season_label="播種期為10月至翌年3月，發芽適溫20～30℃，盛產期12月至翌年3月；生長適溫9～23℃，超過25℃生長不良、著莢率降低，開花適溫約15℃，幼苗可耐-4℃低溫"),
+    dict(crop_id="quedou", name="鵲豆", category="豆菜類",
+         region_north="適合播種期為4月上旬至9月上旬",
+         region_central="適合播種期為3月上旬至10月上旬",
+         region_south="適合播種期為3月上旬至10月上旬",
+         region_note="荷蘭統治時期引進台灣栽培之說，原住民與漢人其後廣泛栽培利用；因環境適應力強，逐漸馴化，低海拔丘陵地偶可見野生族群；種植時應避開梅雨季與颱風季。",
+         season_months_north=M(4,5,6,7,8,9), season_months_central=M(3,4,5,6,7,8,9,10), season_months_south=M(3,4,5,6,7,8,9,10),
+         season_label="北部播種適期4月上旬至9月上旬，中南部3月上旬至10月上旬，種植應避開梅雨季與颱風季；多具短日性，通常11月至翌年2月間開花"),
+    # 第十四批（新增）
+    dict(crop_id="douvu", name="豆薯", category="根莖類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="草質藤本植物，塊根可食用，但藤蔓的莖、葉與種子含劇毒魚藤酮類化合物，不可誤食；喜溫暖氣候（25～30℃最適合），適合春、夏溫暖季節種植，原文未進一步標示北中南分區差異。",
+         season_months_north=M(3,4,5,6,7,8), season_months_central=M(3,4,5,6,7,8), season_months_south=M(3,4,5,6,7,8),
+         season_label="適合春、夏溫暖季節種植，適溫25～30℃；自播種至塊根收穫約需150～180天"),
+    dict(crop_id="mengzongzhusun", name="孟宗竹筍（冬筍）", category="筍類",
+         region_central="南投縣為主要栽培地區",
+         region_south="嘉義縣為主要栽培地區",
+         region_north=None,
+         region_note="孟宗竹原產中國長江以南，台灣以南投縣及嘉義縣栽培為主；同一竹種依季節分為「春筍」（2～5月萌發）與「冬筍」（12月至翌年2月萌發），冬季其他竹種多不產筍，故冬筍產量少、價格高；此為採收期而非新植繁殖月份，與綠竹筍、桂竹筍、麻竹筍等其他筍類作物處理方式相同。",
+         season_months_north=None, season_months_central=M(12,1,2,3,4,5), season_months_south=M(12,1,2,3,4,5),
+         season_label="春筍於2～5月萌發，冬筍於12月至翌年2月萌發（冬季其他竹種多不產筍，故冬筍產量少、價格高）；此為採收期而非新植繁殖月份"),
+    dict(crop_id="shufanqie", name="樹番茄", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="茄科多年生半木質常綠植物，原產秘魯安地斯山脈，栽培需海拔1,000公尺以上高冷地；扦插苗於生根後在春季移植，但原文未給出移植的確切月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="扦插生根後於春季移植，原文未給出確切月份，需另行查證；栽培需海拔1,000公尺以上高冷地，定植後2年內可開始結果、3～4年進入盛產期，開花後5～6個月果實成熟"),
+    # 第十五批（新增）
+    dict(crop_id="yangmei", name="楊梅", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="楊梅科常綠喬木，台灣原生兩種：尖葉楊梅與小葉楊梅（恆春楊梅）；植株強健、耐風耐污染耐病蟲害、耐旱；苗木定植/播種的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植/播種的確切季節月份原文未給出，需另行查證；喜溫暖至炎熱氣候，需排水良好與充足日照；果實於春夏之際成熟（此為結果期，非播種定植月份）"),
+    dict(crop_id="lianzi", name="蓮子", category="根莖類",
+         region_north=None, region_central=None,
+         region_south="南部適合種植期為2月中旬至4月中旬",
+         region_note="蓮子（種子）繁殖須於春夏完成，秋天以後不能再種；蓮藕/蓮花商業栽培則以根莖（藕節）繁殖較為便利，一節可延伸出20～30公尺蓮田；蓮子與已收錄的蓮藕（lianou）同為蓮花不同部位/用途的產物，之後可考慮在UI呈現時說明兩者關聯。",
+         season_months_north=None, season_months_central=None, season_months_south=M(2,3,4),
+         season_label="種子繁殖須於春夏完成，秋天以後不可再種；南部適合種植期為2月中旬至4月中旬（根莖繁殖法）；蓮花喜高溫（年均溫20～30℃）、微酸性土壤、全日照、無風環境"),
+    dict(crop_id="hongfengcai", name="紅鳳菜", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文明確指出全年皆可種植與採收（1月至12月皆可扦插），為都市農耕（頂樓、陽台、窗台）推薦的年度栽培蔬菜之一，故此筆季節欄位標示為全年皆可栽種，與四季皆可栽種的蔬菜類作物（如小白菜、空心菜）處理方式相同。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="全年皆可種植，以15公分嫩莖扦插繁殖，生長期約25～30天，全年皆可採收"),
+    dict(crop_id="longkui", name="龍葵", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文指出人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；另有敘述「龍葵可全年栽種」，兩者並不完全一致，此處以較具體的「秋冬春最適合」季節資料為主，需另行查證確認精確播種月份。",
+         season_months_north=M(9,10,11,12,1,2,3,4), season_months_central=M(9,10,11,12,1,2,3,4), season_months_south=M(9,10,11,12,1,2,3,4),
+         season_label="人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；生長適溫20～32℃；種子繁殖：9～10月採集成熟果實陰乾腐熟果皮，翌年春季取種、4月播種，株距33×3公分、深約3公分"),
+    # 第十六批（新增）
+    dict(crop_id="bohe", name="薄荷", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生草本，對土壤要求不嚴（以砂質壤土、沖積土為佳），喜日照充足、排水良好環境；原文明確給出播種與扦插的季節，資料完整度佳。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="春季播種，春、秋兩季可行頂芽扦插繁殖；生長適溫20～26℃；定植後14～20天可採收，一年可採收4～5次"),
+    dict(crop_id="mizao", name="蜜棗", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="即印度棗（台灣改良品種），常見品種有蜜棗、天蜜、翠蜜等；原文明確指出可從春季至秋季種植，資料完整度佳。",
+         season_months_north=M(3,4,5,6,7,8,9,10), season_months_central=M(3,4,5,6,7,8,9,10), season_months_south=M(3,4,5,6,7,8,9,10),
+         season_label="可從春季至秋季種植；行株距6×6公尺（每公頃240～270株，新植可先加倍密植、翌年或第三年疏伐）；種植後第二年開始結果，4～5年進入盛產期"),
+    dict(crop_id="pobuzi", name="破布子", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="紫草科落葉小喬木，別稱破布木、樹子仔，原產中國南方（廣東、福建、海南島）及台灣；栽培容易但苗木定植的確切季節月份原文未給出，需另行查證；一年有兩次落葉現象，第一次落葉為既有植株的自然物候，非新植定植月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；適應pH7以上之石灰岩、山坡地等貧瘠土壤；植株每年1～2月間第一次落葉，隨後2～3月間開淡紫色或黃白色小花（此為既有植株物候現象，非新植定植月份）"),
+    dict(crop_id="shankui", name="山葵", category="特用作物",
+         region_north=None, region_central=None,
+         region_south="嘉義縣竹崎鄉至阿里山海拔2,000公尺以上地區仍有大面積栽培",
+         region_note="十字花科多年生草本，日治時期日人引進阿里山大規模栽培，近年基於森林保育考量逐漸轉向設施內栽培；苗木定植的確切季節月份原文未給出，需另行查證；栽培地點受海拔限制，與甜柿、蘋果、愛玉等高冷地作物性質相近。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；傳統栽培地點需海拔2,000公尺以上（嘉義竹崎至阿里山），近年因森林保育考量逐漸轉向設施內栽培；可用種子、分株、根段等方式繁殖"),
+    # 第十七批（新增）
+    dict(crop_id="turougui", name="土肉桂", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣原生種，分布於全台海拔500～1,500公尺闊葉林中；以扦插繁殖為主，但原文未給出扦插/定植的確切季節月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="扦插/定植的確切季節月份原文未給出，需另行查證；以健壯1年生枝條（約10公分、至少2節3葉）扦插育苗，待生根發新芽後移植田間；行株距約150×120公分"),
+    dict(crop_id="daoshouxiang", name="到手香", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生肉質草本（又稱左手香），原文明確指出全年皆可生長，此處比照四季皆可栽種蔬菜類作物（如小白菜、空心菜）處理方式。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="全年皆可生長；以扦插繁殖為主，取8～10公分枝條、去除最下節葉片即可扦插；耐旱不耐高濕與淹水，冬天低溫易有寒害現象"),
+    dict(crop_id="meigui", name="玫瑰", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文指出玫瑰生長、繁殖與種植以春、秋兩季氣候最為適合，夏季高溫花質不佳；此處月份為春秋兩季的合理區間推算（3～4月、10～11月），非原文直接給出的精確月份，需另行查證確認。",
+         season_months_north=M(3,4,10,11), season_months_central=M(3,4,10,11), season_months_south=M(3,4,10,11),
+         season_label="春、秋兩季氣候最適合生長、繁殖與種植，夏季高溫花質不佳（此為合理季節區間推算，非原文精確月份）；生長適溫15～25℃，日溫21～29℃、夜溫15～18℃，每日需5～6小時以上日照；7～9月天氣過熱不適合生長"),
+    dict(crop_id="jianlan", name="劍蘭（唐菖蒲）", category="花卉類",
+         region_north=None, region_central="台中市后里區為主要產地，其次為彰化縣、雲林縣",
+         region_south="屏東縣亦為主要產地",
+         region_note="原文指出溫帶地區一般於春季種植，夏秋開花品種在冬季日照較短時進入休眠，此描述較偏向一般溫帶氣候通則、非專屬台灣本地栽培曆，需另行查證台灣實際種植月份；雲林縣為全國劍蘭主要產地之一，栽培面積約617公頃。",
+         season_months_north=M(3,4), season_months_central=M(3,4), season_months_south=M(3,4),
+         season_label="溫帶地區一般於春季種植（此為通則性描述，需另行查證台灣本地實際種植月份）；需全日照且每日日照14小時以上以利花芽分化；生長適溫日溫24～26℃、夜溫13～18℃，低於3℃停止生長、低於-3℃植株死亡"),
+    # 第十八批（新增）
+    dict(crop_id="xiangrikui", name="向日葵", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="官方花壇植物主題館資料明確列出全年適合的播種月份與應避開的季節，資料完整度佳；觀賞品種（重瓣/單瓣、單花/多花）植株較矮，油用/瓜子用品種植株可達2～3公尺。",
+         season_months_north=M(9,10,2,3), season_months_central=M(9,10,2,3), season_months_south=M(9,10,2,3),
+         season_label="最佳播種期為9～10月，其次為2～3月；應避開6～7月颱風雨季；發芽適溫15～25℃，生長適溫15～35℃（低於5℃有寒害），播種至成熟全期約94～117天"),
+    dict(crop_id="baihe", name="百合", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="喜冷涼濕潤、日照充足但略帶遮蔭之環境，怕乾旱與酷熱，耐寒性稍弱；種子繁殖與種球貯藏的溫度條件已查得，但苗木/種球定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="定植的確切季節月份原文未給出，需另行查證；生長開花適溫16～24℃，低於5℃或高於30℃生長幾近停滯，需10℃以上才能正常生長，高於25℃生長轉慢"),
+    dict(crop_id="yangjiegeng", name="洋桔梗", category="花卉類",
+         region_north=None, region_central="嘉義新港為主要花卉栽培班之一（採冷房溫室育苗）",
+         region_south=None,
+         region_note="喜涼爽且日照充足環境，台灣平地夏季不易存活，大多作一年生栽培；育苗期高溫易造成簇生化（Rosette）現象，需利用高冷地自然低溫或控溫設備育苗；原文未給出田間定植的確切季節月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="田間定植的確切季節月份原文未給出，需另行查證；育苗期需控溫避免簇生化現象，嘉義新港花卉班夏季育苗日溫控制在25℃以下"),
+    dict(crop_id="feizhouju", name="非洲菊", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="官方花壇植物主題館明確列出種子繁殖的播種月份與育苗、栽培溫度，資料完整度佳。",
+         season_months_north=M(6,7,8), season_months_central=M(6,7,8), season_months_south=M(6,7,8),
+         season_label="種子繁殖播種期為6～8月，發芽適溫約20～24℃，育苗需控溫設施；栽培生長適溫15～25℃，夏季需遮蔭以提升植株生長與切花品質"),
+    # 第十九批（新增）
+    dict(crop_id="jiucaihua", name="韭菜花", category="花菜類",
+         region_north=None, region_central="彰化縣二林、溪湖等地區為主要產地",
+         region_south=None,
+         region_note="韭菜花與韭菜（jiucai）、韭黃（jiuhuang）為同一植株的不同部位/處理方式：韭菜花為花蕾及花莖，韭菜為葉片；此處月份為韭菜花的產季（採收期），與蓮子/蓮藕、蓮霧等「同株不同產物」作物的處理方式相同，非新植播種月份（新植播種月份請參考韭菜jiucai條目：11月至翌年3月）。",
+         season_months_north=M(8,9,10), season_months_central=M(8,9,10), season_months_south=M(8,9,10),
+         season_label="主要產季為8～10月（此為採收期，非新植播種月份；植株新植播種可參考韭菜jiucai條目：播種適期11月至翌年3月）；花莖抽出但苞片尚未裂開時以人工逐支折斷採收，通常每1～3天採收一次"),
+    dict(crop_id="jiuhuang", name="韭黃", category="蔥蒜類",
+         region_north=None, region_central="彰化縣埔鹽、溪湖、埤頭、竹塘及台中市清水區為主要產地",
+         region_south=None,
+         region_note="韭黃並非另行播種栽培的作物，而是在既有韭菜（jiucai）田上搭設避光棚架（覆蓋不透光鋁箔），阻斷葉綠素形成使葉莖軟化呈金黃色的加工處理方式，故無獨立的「播種月份」概念；栽培面積約150公頃。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="為韭菜經避光軟化處理後的產物，非獨立播種的作物，故無傳統播種月份概念；新植韭菜播種適期可參考韭菜jiucai條目（11月至翌年3月）"),
+    dict(crop_id="yumisun", name="玉米筍", category="果菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="即玉米幼穗（未授粉前採收之嫩玉米），原文明確指出市場價格佳、生育期短，春夏秋冬四季皆可栽培，此處比照四季皆可栽種蔬菜類作物（如小白菜、空心菜）處理方式。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="市場價格佳、生育期短，春夏秋冬四季皆可栽培"),
+    # 第二十批（新增）
+    dict(crop_id="houtougu", name="猴頭菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="國內菇農傳統多於冬季以傳統菇舍栽培，環控菇舍雖可周年生產，仍需良好通風使菌絲充分佈滿菇體；此處月份採傳統栽培的冬季產季，環控生產則不受季節限制。",
+         season_months_north=M(11,12,1,2), season_months_central=M(11,12,1,2), season_months_south=M(11,12,1,2),
+         season_label="傳統菇舍多於冬季栽培；環控菇舍可周年生產，不受季節限制；栽培溫度須控制在22℃以下，相對濕度85～95%，並需良好通風"),
+    dict(crop_id="midiexiang", name="迷迭香", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生木本香草，喜高冷地環境，不適合台灣平地高溫多濕氣候；種子繁殖以春季播種發芽率較佳，扦插則取1年生枝條，全年可進行但以春季為佳。",
+         season_months_north=M(3,4), season_months_central=M(3,4), season_months_south=M(3,4),
+         season_label="種子繁殖以春季播種為佳（發芽率偏低，需3～4個月育苗期）；扦插取1年生枝條約5公分，去除基部葉片後扦插，約45～60天發根；生長適溫15～25℃，夏季需適度遮蔭"),
+    # 第二十一批（新增）
+    dict(crop_id="shanhugu", name="珊瑚菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文明確指出栽培條件範圍廣，適合台灣平地各地區、不分季節栽培，故此筆季節欄位標示為全年皆可栽培，與四季皆可栽種的蔬菜類作物（如小白菜、空心菜）處理方式相同。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="適合台灣平地各地區、不分季節栽培；菌絲生長適溫23～27℃，pH5.0～6.5"),
+    dict(crop_id="lingzhi", name="靈芝", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="靈芝多以蔗渣太空包、木屑瓶栽或木屑太空包法栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；太空包法產出之子實體較段木栽培法小。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包/瓶栽為控制環境生產，全年皆可進行，非露地看天田作物；栽培方式包括蔗渣太空包法、木屑瓶栽法、木屑太空包法，隨產量提升價格亦隨之下降"),
+    dict(crop_id="tianju", name="甜菊", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="菊科多年生草本，別名甜草、甜葉菊；官方藥用植物主題館明確列出種子繁殖的播種季節，資料完整度佳。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="以種子播種或扦插繁殖，播種期為春季（3～4月）與秋季（9～10月）；花果期8～10月；葉片為甜味劑及降血糖利用部位"),
+    dict(crop_id="mubieguo", name="木鱉果", category="果菜類",
+         region_north=None, region_central=None,
+         region_south="花東地區原住民常於自家庭院栽培採收嫩果，長濱、成功等鄉鎮亦有零星栽培",
+         region_note="多年生草質藤本植物，生長快速、抗病蟲害，但不耐低溫與強風，每年冬後地上部逐漸枯萎進入休眠，翌年春暖後再萌發；雌雄異株，需同時栽種雄株與雌株才能結果。",
+         season_months_north=None, season_months_central=None, season_months_south=M(3,4),
+         season_label="種子繁殖：去殼後於3～4月種植，採棚架栽培；花期5～6月，果實9～11月成熟；亦可扦插繁殖"),
+    # 第二十二批（新增）
+    dict(crop_id="boluomi", name="波羅蜜", category="果樹",
+         region_north=None, region_central=None,
+         region_south="以中南部種植產量較多",
+         region_note="桑科常綠喬木，原產印度、東南亞；台灣平地及低海拔山區皆可種植，但苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；適合全日或半日照溫暖環境，喜溫暖潮濕、較耐寒，土壤適應廣、耐鹽但忌淹水；繁殖用播種、空中壓條、嫁接法"),
+    dict(crop_id="renxinguo", name="人心果", category="果樹",
+         region_north=None, region_central=None,
+         region_south="嘉義、台南、雲林為主要栽培地區",
+         region_note="山欖科常綠喬木，原產熱帶美洲；主要繁殖法（圈枝育苗）全年皆可進行，但因發根需高溫多濕環境，以7～8月最適宜，此為繁殖適期而非苗木定植的季節。",
+         season_months_north=None, season_months_central=None, season_months_south=M(7,8),
+         season_label="圈枝育苗（空中壓條）全年皆可進行，但發根需高溫多濕環境，以7～8月最適宜；對土壤要求不嚴，耐鹽性強適合沿海地區栽培"),
+    dict(crop_id="mianbaoguo", name="麵包果（麵包樹）", category="果樹",
+         region_north=None, region_central=None,
+         region_south="花蓮、台東為主要栽培地區，蘭嶼達悟族傳統於祖靈地混植栽培",
+         region_note="桑科常綠大喬木，全株含乳汁；達悟族傳統栽培於父系團體林地，與龍眼、樹漆、大葉肉豆蔻、蘭嶼紅心木等混植；苗木定植的確切季節月份原文未給出，需另行查證，此處月份為果實成熟期（採收期）。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；果實成熟期為7～8月（此為採收期非播種月份），成熟果實外皮黃綠色，澱粉含量豐富但不可生食，需經烤、蒸、炸或煮湯（常見與魚乾同煮）"),
+    # 第二十三批（新增）
+    dict(crop_id="foshougua", name="佛手瓜", category="果菜類",
+         region_north=None, region_central="南投埔里為主要栽培地區之一",
+         region_south="嘉義、高雄淺山坡地亦有栽培",
+         region_note="佛手瓜與已收錄的龍鬚菜（longxucai）為同一葫蘆科植物：佛手瓜為其果實，龍鬚菜為其嫩莖採收後的稱呼；1935年自日本引進台灣，主要栽培於花蓮吉安、南投埔里、嘉義、高雄等淺山坡地；此筆播種/定植月份與龍鬚菜條目相同（同一植株），供交叉參考。",
+         season_months_north=M(11,12,1,2,3), season_months_central=M(11,12,1,2,3), season_months_south=M(11,12,1,2,3),
+         season_label="最佳種植季節為11月至翌年3月，高溫期生長不良、易死亡；生長適溫18～28℃，低於12℃停止生長、高於30℃生長衰弱；以成熟果實半埋沙中壓條繁殖，約兩週後自芽眼萌發新芽"),
+    dict(crop_id="nuoliguo", name="諾麗果", category="果樹",
+         region_north=None, region_central=None, region_south="國內有原生種，主要種植於南部區域",
+         region_note="檄樹的果實，原生分布遍及太平洋群島、東南亞、澳洲及印度，台灣南部亦有原生種；北部因冬季低溫一般無法安全越冬，需良好保溫措施，此為適合栽培的溫度限制而非確切播種月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="種子播種至開花結果約需1.5～2年，量產需3年以上；種子發芽適溫28～35℃，植株生育適溫25～35℃，低於15℃生長停止，低於10℃寒害甚至死亡，北部一般無法安全越冬需良好保溫措施；種子取出洗淨曬乾或陰乾後，需靜置2週以上休眠才可播種"),
+    # 第二十四批（新增）
+    dict(crop_id="shilianhua", name="石蓮花", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="景天科多肉植物，原產墨西哥，現已全球廣泛栽培；原文明確指出以分株或葉插繁殖，春夏兩季最適合，但全年皆可繁殖，此處採全年可繁殖之敘述比照四季皆可栽種蔬菜類作物處理方式。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="以分株或葉插繁殖，春、夏兩季最適合，但全年皆可繁殖；生長適溫15～35℃，需充足日照，強光下葉片較小厚實、節間短，遮蔭下葉片較大但較薄"),
+    dict(crop_id="yejianghua", name="野薑花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="薑科多年生草本，株高約1公尺，具肥厚地下根莖；官方花壇植物主題館明確列出種植月份，資料完整度佳。",
+         season_months_north=M(2,3), season_months_central=M(2,3), season_months_south=M(2,3),
+         season_label="以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；花期6～11月，以7～8月為盛花期；生長適溫22～30℃，喜高溫多濕環境"),
+    # 第二十五批（新增）
+    dict(crop_id="danggui", name="當歸", category="特用作物",
+         region_north=None, region_central=None,
+         region_south="花蓮、台東及部分山區為主要栽培地區，已有50年以上栽培歷史",
+         region_note="台灣栽培品種為大和當歸（日本當歸），1964年自日本引進；官方當歸主題館明確列出栽培環境與播種月份，資料完整度佳。",
+         season_months_north=None, season_months_central=None, season_months_south=M(10,11),
+         season_label="最適播種期為每年10～11月；喜冷涼濕潤氣候，忌高溫直射，最適栽培海拔500～800公尺；可直播或育苗移植"),
+    dict(crop_id="maimendong", name="麥門冬", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="百合科多年生草本，台灣中低海拔山區原生野生草種，常作地被植物；原文指出分株繁殖適期為春至夏季，但未給出精確月份，此處以3～6月合理區間表示，需另行查證確認。",
+         season_months_north=M(3,4,5,6), season_months_central=M(3,4,5,6), season_months_south=M(3,4,5,6),
+         season_label="以地下根莖分株繁殖，適期為春至夏季（此為合理月份區間推算，非原文精確月份）；耐陰、耐旱、耐貧瘠，生長適溫18～28℃，可於潮濕陰涼林蔭下生長"),
+    dict(crop_id="zhaohecao", name="昭和草", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="菊科一年生草本，原產南美洲及非洲，主要分布台灣中低海拔地區，為常見野菜，全株可食、風味似茼蒿，亦常作青草茶原料；作為自播性野生植物，原文未提供明確人工栽培播種月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="人工栽培播種月份原文未給出，需另行查證；作為野生自播植物，台灣中低海拔全年可見並隨時採摘嫩莖葉食用，經歸類為蔬菜類"),
+    # 第二十六批（新增）
+    dict(crop_id="mingriye", name="明日葉", category="特用作物",
+         region_north=None, region_central=None,
+         region_south="花蓮地區為主要栽培地區",
+         region_note="繖形科多年生草本，與當歸（danggui）同屬近緣植物；官方花蓮區農業專訊明確列出當地播種育苗月份，資料完整度佳。",
+         season_months_north=None, season_months_central=None, season_months_south=M(7,8),
+         season_label="花蓮地區播種育苗適期為7～8月；種子須先於5℃冷藏2個月再均勻播於育苗盤，20℃遮蔭培養約1個月發芽率約50%；喜通風良好、微濕冷涼、避免直射陽光之環境，忌高溫，植株生命力旺盛，今日採葉翌日又長新芽"),
+    dict(crop_id="jiegeng", name="桔梗", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="桔梗科多年生草本，具白色乳汁，根呈紡錘狀，兼具藥用（藥用部位為根，具宣肺化痰、利咽排膿功效）與觀賞用途；原文僅提供藥用根部的採收季節，未給出田間定植/播種的確切月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="田間定植/播種的確切季節月份原文未給出，需另行查證；藥用根部於春、秋兩季採收，去除細根後削皮或保留外皮，切片曬乾備用"),
+    # 第二十七批（新增）
+    dict(crop_id="ningmengxiangfengcao", name="檸檬香蜂草", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生草本香草，耐寒、栽培容易，較其他香草更耐熱，適應台灣濕熱夏季；官方資料明確列出分株、播種的季節，資料完整度佳。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="分株繁殖適期為春、秋兩季；播種適期為春季；亦可扦插或壓條繁殖，扦插取5公分頂芽約2～3週可發根"),
+    dict(crop_id="bosiju", name="波斯菊", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="菊科一年生草本，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀；官方花壇植物主題館明確列出適合播種季節，資料完整度佳。",
+         season_months_north=M(9,10,11,12,1,2), season_months_central=M(9,10,11,12,1,2), season_months_south=M(9,10,11,12,1,2),
+         season_label="秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花"),
+    # 第二十八批（新增）
+    dict(crop_id="binghua", name="冰花", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="番杏科松葉菊屬雙子葉一年生植物，原產東非與南非；原文列出生育與育苗適溫，但未給出明確播種月份數字，此處以生育適溫範圍（5～25℃，即秋、冬、早春）合理推算，需另行查證確認；夏季氣溫超出適溫範圍，水耕栽培須加裝降溫設備。",
+         season_months_north=M(10,11,12,1,2,3,4), season_months_central=M(10,11,12,1,2,3,4), season_months_south=M(10,11,12,1,2,3,4),
+         season_label="生育適溫5～25℃、育苗適溫20℃（此處月份為適溫範圍對應秋冬早春之合理推算，非原文精確月份）；夏季水耕栽培須加裝降溫設備；可土耕或盆植於溫室，播種後約2個月成熟可採收"),
+    dict(crop_id="fanxing", name="番杏", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="番杏科植物，別名紐西蘭菠菜、白番杏，原生於海灘，耐鹽、耐乾熱高溫；官方資料明確列出播種月份，資料完整度佳。",
+         season_months_north=M(2,3,4,5,6,7,8), season_months_central=M(2,3,4,5,6,7,8), season_months_south=M(2,3,4,5,6,7,8),
+         season_label="播種適期為2～8月；以有機質豐富、保水保肥力強之壤土種植生長較好，行株距15～25×15～25公分"),
+    # 第二十九批（新增）
+    dict(crop_id="yulanhua", name="玉蘭花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="木蘭科常綠喬木，台灣溫帶氣候極適合栽培，植株生長勢強、對土壤適應性廣、病蟲害少，栽培容易；苗木定植的確切季節月份原文未給出，需另行查證，此處月份為盛花期而非種植月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；盛花期為4～7月（此為開花期非種植月份）；生長適溫23～30℃，需全日照，土壤宜排水良好、保水佳、富含有機質之微酸性壤土；春、秋兩季各施一次腐熟天然肥料或三要素化學肥料"),
+    dict(crop_id="hanxiaohua", name="含笑花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="木蘭科常綠灌木或小喬木，喜高溫多濕環境；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長適溫約23～30℃，屬陽性植物需充足日照，光照不足會減少甚至不開花；土壤宜排水良好、富含腐植質之肥沃壤土；生育期間可適度修剪維持樹形，喜濕潤環境但需避免盆內積水造成爛根"),
+    # 第三十批（新增）
+    dict(crop_id="qiyiguo", name="奇異果", category="果樹",
+         region_north="桃園復興區巴拉卡（拉拉山）一帶為特產區，1981年起自日本引進改良品種栽培成功",
+         region_central=None,
+         region_south=None,
+         region_note="又稱獼猴桃，新竹縣五峰鄉雪霸農場亦栽培成功；為雌雄異株植物，苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；喜溫暖濕潤環境，不耐乾旱及積水，需充足日照與濕度，適合背風或半日照坡地，土壤宜疏鬆通氣、富含腐植質之砂質壤土；雌雄異株，每5株雌株應搭配1株雄株以利授粉"),
+    dict(crop_id="maobohe", name="貓薄荷", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生草本，栽培容易、不需頻繁澆水；原文明確指出扦插繁殖最佳季節為立秋後及早春，9、10月亦適合換盆，資料完整度佳。",
+         season_months_north=M(9,10,2,3), season_months_central=M(9,10,2,3), season_months_south=M(9,10,2,3),
+         season_label="扦插繁殖最佳季節為立秋後及早春（氣溫下降時取成熟植株莖段扦插，1.5～2個月可發展成株）；9、10月亦適合換盆，生長快速；台灣夏季生長緩慢，接近夏季應摘除花苞避免植株衰弱"),
+    # 第三十一批（新增）
+    dict(crop_id="shuimitao", name="水蜜桃", category="果樹",
+         region_north="拉拉山（海拔1,000～1,400公尺）為代表性栽培區",
+         region_central=None,
+         region_south=None,
+         region_note="薔薇科落葉小喬木，台灣水蜜桃集中於中部以北山地，分布於海拔300～2,400公尺；栽培成功關鍵在依海拔適地適種（不同海拔需冷量不同），代表性栽培區包括武陵農場（高海拔）與拉拉山（中海拔）；苗木定植的確切季節月份原文未給出，僅知冬季修剪期為11月上中旬至翌年1月中旬，需另行查證定植月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；依海拔需冷量不同：高海拔（如武陵農場，約1,950公尺）需冷量約850小時，中海拔（如拉拉山，1,000～1,400公尺）需冷量300～500小時，低海拔（85～500公尺）需冷量100～250小時；冬季修剪期為11月上中旬至翌年1月中旬"),
+    dict(crop_id="shuili", name="水梨", category="果樹",
+         region_north="宜蘭亦為主要產地",
+         region_central="台中東勢、苗栗大湖為主要產地，1975年東勢果農張榕生首創高接梨技術",
+         region_south="嘉義亦為主要產地",
+         region_note="台灣現栽培低需冷量品種（主要為橫山梨，適合低海拔栽培）與高接梨（利用日本品種新興梨、豐水梨、新世紀梨等接穗嫁接於本地梨樹，栽培於高冷地）兩類；此處月份為採收期而非苗木定植/嫁接月份，原文未給出後者確切月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="採收期：豐水梨、新世紀梨等高接梨品種5～7月採收，高冷地栽培品種8～9月採收，晚熟品種（雪梨）12月採收（此為採收期非苗木定植/高接嫁接月份，需另行查證後者）"),
 ]
 
 CULTIVATION = [
@@ -1400,6 +2056,491 @@ CULTIVATION = [
     ("hangju", "土壤條件", "排水良好、pH5.2～6.7的砂質壤土為佳；耐旱不耐淹水", "農業知識入口網（機能作物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=40308", "official", "2026-08-19"),
     ("hangju", "作畦與定植", "畦高30公分以上（減少萎凋病發生），畦寬約105～110公分、畦溝寬約45公分；採雙行三角種植，行株距約60×60公分，以分株苗為主", "農業知識入口網（機能作物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=40309", "official", "2026-08-19"),
     ("hangju", "花期與採收", "花期11～12月，於花序舌狀花展開7～8分時採摘，可分3～4次採收", "農業知識入口網（機能作物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=40309", "official", "2026-08-19"),
+
+    # 綠豆 - 農業知識入口網 食材你好/主題新聞
+    ("lvdou", "生長期", "生長期短，約60～75天即可收成，一年可有春作、夏作、秋作三次栽培期", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54231", "official", "2026-08-23"),
+    ("lvdou", "播種與採收（一說）", "有資料指2～3月播種，約三個月可採收，產期4～6月、盛產期8～9月；採收時拔取全株曬乾的成熟種子，打落種子並簸淨雜質後即可上市", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54294", "official", "2026-08-23"),
+    ("lvdou", "產地與市場現況", "本土栽培有限，主要產地之一為台南市佳里區；市面上多屬進口綠豆，本土豆因採收人力成本高、與進口低價競爭而產量受限", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54231", "official", "2026-08-23"),
+
+    # 黑豆 - 農業知識入口網（栽培管理示範會紀實／問答）
+    ("heidou", "作物分類", "為大豆的一種，依種皮顏色分為青仁黑豆、黃仁黑豆兩類", "農業知識入口網（使用者問答）", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8631", "qa", "2026-08-23"),
+    ("heidou", "播種期（依整地方式而異）", "作畦栽培建議於春、夏作種植，或颱風雨水較多地區提早於秋作播種；撒播開溝栽培建議延後於秋作、颱風雨水較少時播種", "農業知識入口網（黑豆台南3號栽培管理示範會紀實）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=13194&id=266781", "official", "2026-08-23"),
+    ("heidou", "施肥", "若前期種植綠肥植物，後期作施肥量可減少約一半，有助降低栽培成本", "農業知識入口網（黑豆台南3號栽培管理示範會紀實）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=13194&id=266781", "official", "2026-08-23"),
+
+    # 綠竹筍 - 農業知識入口網 綠竹筍主題館 subject id=2518/2521
+    ("lvzhusun", "適合環境", "喜溫暖潮濕，主要栽培於平地及海拔500公尺以下坡度不大之山坡地、溪畔等地；根系淺，不耐乾旱及強風", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2518", "official", "2026-08-23"),
+    ("lvzhusun", "土壤條件", "土層深厚、土質疏鬆、排水良好", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2518", "official", "2026-08-23"),
+    ("lvzhusun", "主要產地", "全台栽培面積約7,575公頃，主要分布新北市（三峽、五股、八里等）、台北市（木柵、南港等），以及桃園、新竹、基隆、台中、台南、屏東等地", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2518", "official", "2026-08-23"),
+    ("lvzhusun", "產季", "全年產季約3～10月，以5～7月為盛產期；南部4月下旬至5月下旬（正筍期）、7月中旬（秋仔筍期）為兩個高峰，北部盛產高峰在6月中旬至7月中旬及8月下旬", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2521", "official", "2026-08-23"),
+    ("lvzhusun", "採收方式", "應於清晨採收，觀察土面稍有龜裂、筍尖略有水氣潤濕土面時挖掘，在筍最肥大處上方1～2公分處切斷以避免損傷基部芽體；延誤採收使筍露出地面見光會產生「出青」苦味（煮沸可分解，不影響食用安全）", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2521", "official", "2026-08-23"),
+
+    # 愛玉 - 農業知識入口網 愛玉姑娘的家／種子世界館
+    ("aiyu", "植物特性", "桑科榕屬台灣特有山地植物，氣根多，易纏繞於岩石或樹幹上，常攀附高大喬木", "農業知識入口網（種子世界館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=26230", "official", "2026-08-23"),
+    ("aiyu", "適合環境", "原產於海拔800～1,800公尺山區，適應山區冷涼氣候", "農業知識入口網（種子世界館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=26230", "official", "2026-08-23"),
+    ("aiyu", "果實發育", "隱花果從授粉到成熟約需90～130天，發育分5階段，第4期（瘦果成熟期）為採收最佳時期", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/subject.php?id=24507", "official", "2026-08-23"),
+    ("aiyu", "產季", "主要產季集中於8～10月", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/subject.php?id=24507", "official", "2026-08-23"),
+    ("aiyu", "採收時機", "由開花到可採收約需4～5個月，需在隱花果由暗綠色轉為紫色時採收，過早或過晚採收皆會使凝膠能力較差", "農業知識入口網（種子世界館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=26230", "official", "2026-08-23"),
+    ("aiyu", "低海拔栽培品種", "農業部苗栗區農業改良場歷經15年育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種，可有機栽培量產", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/news.php?id=2805&news_id=19393", "official", "2026-08-23"),
+
+    # 茶 - 農業知識入口網 茶葉主題館
+    ("cha", "植物特性", "常綠木本植物，適應力強，生長、產量與品質皆與氣候、土壤、地形等環境條件密切相關", "農業知識入口網（茶葉主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=7154", "official", "2026-08-23"),
+    ("cha", "適合環境", "適合雨量充沛、多雲霧、濕度高、排水良好之丘陵地栽培，生育適溫20～30℃、相對濕度80～90%", "農業知識入口網（茶葉主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=7154", "official", "2026-08-23"),
+    ("cha", "繁殖方式", "茶樹育種為多年期工作，扦插為簡便經濟、廣泛用於大量茶苗繁殖的方法", "農業知識入口網（茶葉主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=7155", "official", "2026-08-23"),
+
+    # 樹薯 - 農業知識入口網 原住民族農產業主題館
+    ("shushu", "植物特性", "一年生或多年生灌木，喜高溫多濕，耐性強，可生長於貧瘠、乾旱土壤", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39501", "official", "2026-08-23"),
+    ("shushu", "主要產地", "台中以南各縣及花蓮普遍栽培，並歸化生長於全台平地至丘陵地帶", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39501", "official", "2026-08-23"),
+    ("shushu", "栽培沿革", "日治時代以前僅少量栽培，1902年引進新品種試種後逐漸普遍；戰後因味精工業、製酒、飼料市場及養鰻事業需求，栽培面積大幅增加", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39501", "official", "2026-08-23"),
+
+    # 高粱 - 農業知識入口網
+    ("gaoliang", "主要產地", "我國高粱主要栽培於金門，現栽培面積約1,700公頃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3157", "official", "2026-08-23"),
+    ("gaoliang", "輪作與生育期", "金門與小麥、花生輪作：高粱生育期約110天，接續種植小麥約120天，最後留地力予紅土花生；播種期早於花生", "農業知識入口網（酒鄉高粱情）", "https://kmweb.moa.gov.tw/theme_data.php?theme=agri_story&id=98", "official", "2026-08-23"),
+    ("gaoliang", "主要品種", "目前金門種植品種以「台中5號」為主，飼料兼釀酒用，耐旱、抗病、機器容易採收，單位面積產量較高", "農業知識入口網（酒鄉高粱情）", "https://kmweb.moa.gov.tw/theme_data.php?theme=agri_story&id=98", "official", "2026-08-23"),
+    ("gaoliang", "播種方式", "撒播為主，播種後待長成幼苗時進行疏苗，刪除多餘株苗、留住壯碩主苗，再加以灌溉、施肥", "農業知識入口網（酒鄉高粱情）", "https://kmweb.moa.gov.tw/theme_data.php?theme=agri_story&id=98", "official", "2026-08-23"),
+
+    # 川七 - 農業知識入口網
+    ("chuanqi", "土壤條件", "土壤適應性廣，容易栽培；商業栽培以排水良好之砂質壤土較佳", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+    ("chuanqi", "種植方式", "需立支架栽培，採雙行立支架方式較便利，行距80或75公分、株距45或60公分，每分地約需種苗2,220～2,800株", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+    ("chuanqi", "整枝", "植株高約20公分時開始第一次摘心，之後每生長20公分即再摘心一次，以增加分枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+    ("chuanqi", "施肥", "整地時應重施有機肥，每分地至少施用600公斤，並配合化學肥料（如台肥1號複合肥20-5-10）每次施用40公斤", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+
+    # 香菇 - 農業知識入口網 菇類與植物工廠主題館
+    ("xianggu", "菌絲生長溫度", "菌絲生長溫度範圍5～34℃，以22～26℃最適宜", "農業知識入口網（菇類與植物工廠主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35701", "official", "2026-08-23"),
+    ("xianggu", "子實體發育溫度", "子實體發育需較低溫，範圍5～24℃，以約15℃最適宜；20℃以上生長快但菇體薄、柄長品質較差，12℃以下生長較慢但菇體厚實品質佳，約4℃時菇傘易龜裂成花瓣狀「花菇」為最高等級", "農業知識入口網（菇類與植物工廠主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35701", "official", "2026-08-23"),
+    ("xianggu", "太空包栽培流程", "太空包割包澆水後維持濕度85%以上，約3.5個月可出菇；採收後「扣包」休養，7～10天後可再次出菇，反覆採收6～8次", "農業知識入口網（菇類與植物工廠主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35701", "official", "2026-08-23"),
+
+    # 黑木耳 - 農業知識入口網
+    ("muer", "太空包配方", "木屑78%、米糠20%、碳酸鈣1%、蔗糖1%，栽培溫度25±2℃、濕度60～85%", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55306", "official", "2026-08-23"),
+    ("muer", "栽培用材", "主要使用楓香、相思樹、樟樹等闊葉樹木屑，棉籽殼、玉米芯、稻草等亦適用", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55306", "official", "2026-08-23"),
+    ("muer", "水分管理", "每日澆水1～2次，接種後約28～30天可出菇採收", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1106", "official", "2026-08-23"),
+
+    # 小麥 - 農業知識入口網
+    ("xiaomai", "適合季節", "金門地區通常於11月中旬播種，生育期145～153天，隔年4～5月間收穫", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3157", "official", "2026-08-23"),
+    ("xiaomai", "主要產地", "金門縣每年平均種植約1,700～1,800公頃小麥，為單一縣市栽培面積最高地區，主要作為金門高粱酒製曲原料", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3157", "official", "2026-08-23"),
+    ("xiaomai", "主要品種", "目前金門地區種植品種均為台中選2號", "農業知識入口網（小麥主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39079", "official", "2026-08-23"),
+
+    # 蕎麥 - 農業知識入口網
+    ("qiaomai", "植物特性", "蓼科一年生草本植物，常見栽培品種為甜蕎、苦蕎，生育期皆不超過90天", "農業知識入口網（雜糧新寵兒-蕎麥）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=&type=13194&keyword=&id=427196", "official", "2026-08-23"),
+    ("qiaomai", "台灣栽培方式", "主要作冬期裡作栽培，甜蕎常兼作冬季景觀作物及蜜蜂冬季蜜源，平均每公頃約可產1,000～1,200公斤種子", "農業知識入口網（雜糧新寵兒-蕎麥）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=&type=13194&keyword=&id=427196", "official", "2026-08-23"),
+
+    # 麻竹筍 - 農業知識入口網
+    ("mazhusun", "主要產地", "全國產地包括台南市南化區、台中市、雲林縣、南投縣、基隆市，南化區為最主要產區；114年統計產量最高三縣市為雲林縣、嘉義縣、台南市", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=110", "official", "2026-08-23"),
+    ("mazhusun", "產季", "官方標示產期為6～9月；南化地區筍農雖4月起有產期，但5、6月才開始大量收成，因當地主要生產筍絲、筍乾等加工原料而非鮮筍", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=110", "official", "2026-08-23"),
+    ("mazhusun", "各地收量", "宜蘭縣公頃收量最高（約18,720公斤/公頃），基隆市最低（約4,538公斤/公頃），各地差異明顯", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=110", "official", "2026-08-23"),
+
+    # 甜豆 - 農業知識入口網
+    ("tiandou", "適合季節", "耐寒不耐熱，多於秋冬季節播種栽培", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+    ("tiandou", "適合溫度", "生長適溫9～23℃，幼苗可耐-4℃低溫，超過25℃時生長不良、結莢減少", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+    ("tiandou", "區域分布", "栽培集中中部地區，因秋冬氣候溫涼適合豌豆生育；彰化縣栽培面積最大，主要集中福興、秀水、埔鹽、二林等地；北部冬季寒冷多雨栽培困難，南部氣溫較高栽培較少", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+    ("tiandou", "土壤條件", "需良好排水，不耐濕，土壤pH值宜5.5～6.7；開花結莢期需充足光照", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+
+    # 可可 - 農業知識入口網
+    ("keke", "主要產地", "屏東縣為台灣最大可可產區，栽培面積近300公頃，分布內埔、高樹、里港、鹽埔、九如、長治、屏東市、麟洛、竹田、萬巒、潮州、東港、恆春等鄉鎮，客庄鄉鎮較集中", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=56261", "official", "2026-08-23"),
+    ("keke", "栽培方式", "可可苗畏強光，多以檳榔樹遮蔭或種植於香蕉樹旁間作栽培，3～4年後部分砍除檳榔樹以增加光照，利於可可結出飽滿果實", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=56261", "official", "2026-08-23"),
+
+    # 蝴蝶蘭 - 農業知識入口網
+    ("hudielan", "生長溫度", "可生長環境溫度範圍10～38℃，適應生長溫度20～30℃，營養生長最適溫度25～30℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1477", "official", "2026-08-23"),
+    ("hudielan", "溫度耐受", "夏季高於35℃、冬季低於10℃生長停止，無法忍受15℃以下低溫；花朵對低溫極敏感，12℃下3天即輕微寒害，10℃下7天會縮短切花瓶插壽命", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1477", "official", "2026-08-23"),
+    ("hudielan", "花期調節", "生殖生長期需日溫25℃／夜溫20℃以下誘導花芽分化；催花可用20～25℃涼溫處理約一個月促進花梗長出，再移回25～30℃溫室，可見小花苞後提高至日30℃／夜25℃利於開花；低溫處理不足則營養芽比例增加、花朵數減少，但溫度過低會使花梗發育變慢、花朵畸形", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8918", "official", "2026-08-23"),
+
+    # 桂竹筍 - 農業知識入口網 綠竹筍主題館
+    ("guizhusun", "植物特性與栽培環境", "台灣固有種，栽培於海拔300～1,000公尺之間，台灣中北部較多、南部較少；筍皮光滑無毛、筍籜薄、有黑褐色斑點，肉質稍硬、纖維較多", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21443", "official", "2026-08-23"),
+    ("guizhusun", "用途", "大部分桂竹筍用以製造桶筍（加工保存）", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21443", "official", "2026-08-23"),
+    ("guizhusun", "採收方式", "選擇長度約30公分左右的筍，於底部輕輕一折即可採收", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=98", "official", "2026-08-23"),
+
+    # 檳榔 - 農業知識入口網 檳榔主題館
+    ("binglang", "種植規劃", "株距不宜小於9台尺（約3公尺），土層深度以10台尺為佳；土層淺薄難以達到商業生產水準，土層深度低於3台尺不建議種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=914", "official", "2026-08-23"),
+    ("binglang", "灌溉需求", "為熱帶植物，蒸散量大；乾旱季節若無灌溉設施不宜種植，否則可能面臨嚴重生長困難甚至死亡", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=914", "official", "2026-08-23"),
+    ("binglang", "整地方式", "選擇土層深厚、排水良好且有水源之地點；建議先種植遮蔭作物（以香蕉最理想），沿等高線以2吋塑膠管架設滴灌系統，種植穴直徑與深度各約2台尺", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=914", "official", "2026-08-23"),
+    ("binglang", "政府政策", "政府對檳榔產業採「三不政策」：不鼓勵、不輔導、不禁止，因嚼食檳榔有害健康、致口腔癌，但檳榔仍為合法作物", "農業知識入口網（檳榔主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21214", "official", "2026-08-23"),
+
+    # 杏鮑菇 - 農業知識入口網
+    ("xingbaogu", "栽培流程", "包含木屑堆積、基質裝袋、滅菌、冷卻、接種、培養、刺激出菇及採收，全程約需60天", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54785", "official", "2026-08-23"),
+    ("xingbaogu", "溫度管理", "22℃培養10天菌絲即可長滿，30天後覆以泥炭土與紅土之混合物，並降溫至17～19℃以刺激出菇", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54785", "official", "2026-08-23"),
+    ("xingbaogu", "基質與水分", "常壓滅菌之養分添加不超過基質乾重30%，高溫高壓滅菌可達50%；含水量以60～65%最適宜，過乾菌絲生長慢、過濕通氣性不良", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54786", "official", "2026-08-23"),
+
+    # 金針菇 - 農業知識入口網
+    ("jinzhengu", "菌絲培養", "菌絲培養適溫16～18℃，栽培環境濕度維持約75%", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=113023", "official", "2026-08-23"),
+    ("jinzhengu", "子實體發育", "子實體發育過程於約5℃冷藏室環境進行", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=113023", "official", "2026-08-23"),
+    ("jinzhengu", "生產模式", "台灣（如台中梧棲一帶）多以環控設施周年生產，透過溫度控制達到全年穩定產量，不受外界氣候影響", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=113023", "official", "2026-08-23"),
+
+    # 決明子 - 農業知識入口網 藥用植物主題館
+    ("juemingzi", "植物特性", "豆科決明屬一年生亞灌木狀草本，株高可達1～2公尺，複葉互生，分布台灣平地至低海拔地區", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37205", "official", "2026-08-23"),
+    ("juemingzi", "開花結果期", "花期7～9月，開成對黃色花朵；果莢於9～10月成熟，每莢含種子20～30粒", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37205", "official", "2026-08-23"),
+    ("juemingzi", "繁殖方式", "以種子繁殖，成熟種子供藥用（明目、清肝、潤便等傳統用途）", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37205", "official", "2026-08-23"),
+
+    # 文心蘭 - 農業知識入口網 文心蘭主題館
+    ("wenxinlan", "適合溫度", "較佳生長溫度20～25℃，高於30℃植株生育明顯不良且開花易有「一條龍」現象，低於10℃生長停滯、開花速率延宕", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13629", "official", "2026-08-23"),
+    ("wenxinlan", "品種溫度適應性", "南西（Oncidium Gower Ramsey）品種溫度適應範圍廣，15～35℃植株皆生長良好，週年均可開花", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13629", "official", "2026-08-23"),
+    ("wenxinlan", "栽培特性", "台灣常見品種多屬栽培容易，對低溫的忍受度較蝴蝶蘭強", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13635", "official", "2026-08-23"),
+
+    # 薏苡（薏仁）- 農業知識入口網 薏苡主題館
+    ("yiyi", "植物特性與產地", "禾本科一年生草本植物，原產東南亞（越南、緬甸、泰國、印度）；台灣主要栽培於南投縣草屯鎮、台中市大雅區、彰化縣二林鎮及嘉義縣朴子市", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=57884", "official", "2026-08-23"),
+    ("yiyi", "旱田直播栽培", "種子消毒清洗後浸泡3日（早晚換水），再催芽1晝夜；可用曳引機附掛播種機條播，行株距50×20或60×15公分，每公頃播種量約50公斤", "農業知識入口網（薏苡主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39198", "official", "2026-08-23"),
+    ("yiyi", "施肥", "生育所需肥料每公頃氮素150～200公斤、磷90公斤、鉀135公斤", "農業知識入口網（薏苡主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39198", "official", "2026-08-23"),
+
+    # 香茅 - 農業知識入口網
+    ("xiangmao", "植物特性", "多年生草本，株高可達2公尺，具檸檬香氣；喜溫暖氣候與充足日照", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+    ("xiangmao", "土壤條件", "喜疏鬆、肥沃、排水良好之砂質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+    ("xiangmao", "繁殖方式", "以分株法繁殖，春季（3～4月）與秋季（9～10月）為適期，選健壯成熟植株、莖部剪短至6～10公分", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+    ("xiangmao", "產業沿革", "台灣1950～1960年代曾大規模栽培提煉香茅油外銷，其後因化學合成香料興起、市場競爭力下降，栽培面積大幅萎縮", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+
+    # 紫蘇 - 農業知識入口網 原住民族農產業主題館
+    ("zisu", "產業沿革", "1978年自日本引進苗栗縣公館鄉試種，1990年代栽培達鼎盛（苗栗公館、南投國姓一帶約10公頃），現主要栽培於苗栗公館、大湖及嘉義水上，因中國大陸等地低價競爭栽培面積大幅減少", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39509", "official", "2026-08-23"),
+    ("zisu", "適合溫度", "發芽適溫18～23℃，莖葉生長適溫20～26℃，開花適溫26～28℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9931", "official", "2026-08-23"),
+    ("zisu", "栽培要點", "土壤適應性強不挑土，以排水良好、肥沃土壤為佳；喜溫暖氣候、耐熱性佳；播種後需日照並注意保溫，生育初期宜勤鬆土、高溫期需適度遮蔭", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9931", "official", "2026-08-23"),
+    ("zisu", "採收方式", "枝梢長出2對嫩葉（一心四葉）即可採收，剪枝後約1週可再採收，盛產期約5月下旬至8月上旬，每5～7天採收一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9931", "official", "2026-08-23"),
+
+    # 火鶴花 - 農業知識入口網 火鶴花主題館
+    ("huohehua", "適合溫度", "生長適溫日溫25～32℃、夜溫21～24℃", "農業知識入口網（火鶴花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14757", "official", "2026-08-23"),
+    ("huohehua", "溫度極端影響", "高於35℃導致葉片灼傷、佛焰苞褪色、切花壽命縮短；多數品種低於18℃即有寒害（產量減少、佛焰苞畸形），夜溫低於15℃時多數品種嚴重寒害（新葉皺縮、葉柄斑點、佛焰苞嚴重畸形、下位葉黃化）", "農業知識入口網（火鶴花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14757", "official", "2026-08-23"),
+    ("huohehua", "落蕾問題", "溫度高於30℃或低於15℃皆容易導致落蕾，為溫度逆境所致的主要問題", "農業知識入口網（火鶴花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14757", "official", "2026-08-23"),
+    ("huohehua", "生產優勢", "台灣具備火鶴花喜好的溫暖高濕環境，生產深具競爭優勢", "農業知識入口網（天南星科主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13256", "official", "2026-08-23"),
+
+    # 菊花 - 農業知識入口網 菊花主題館
+    ("juhua", "主要產地", "彰化縣為國內切花栽培面積最大縣市，占全國94%，集中田尾、永靖、北斗等鄉鎮；2013年全台栽培面積745公頃、產量逾1,769萬把，為切花銷售之首", "農業知識入口網（花之隱士）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=304466", "official", "2026-08-23"),
+    ("juhua", "生長習性", "為短日植物，日照漸短的秋冬季進行花芽分化與開花", "農業知識入口網（菊花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=19982", "official", "2026-08-23"),
+    ("juhua", "花期調節", "商業栽培以品種輪替搭配電照技術達週年生產：秋季夜間電照延長日照以維持營養生長並延後開花，夏季覆蓋黑布縮短日照以促進開花提早", "農業知識入口網（菊花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=19983", "official", "2026-08-23"),
+    ("juhua", "繁殖方式", "商業栽培以頂芽扦插為主，取5～7公分、4～6片葉、莖粗0.3公分以上的嫩莖，最容易發根", "農業知識入口網（菊花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=19982", "official", "2026-08-23"),
+
+    # 嘉寶果（樹葡萄）- 農業知識入口網
+    ("jiabaoguo", "生長特性", "原產巴西的熱帶葡萄，生長緩慢，實生苗需6～10年才會結果，嫁接苗可縮短幼年期", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=366291", "official", "2026-08-23"),
+    ("jiabaoguo", "水分管理", "根系淺、極不耐旱，栽培期間須充足水分灌溉；可耐長期多雨，但栽培土壤須排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13066", "official", "2026-08-23"),
+    ("jiabaoguo", "土壤與施肥", "適合弱酸性土壤pH5.5～6.5，以深厚、排水良好之砂質壤土為佳；施肥於樹幹周圍挖環狀溝（寬深各15公分），均勻撒施有機肥後覆土，或以硫酸銨、過磷酸鈣、氯化鉀依1:2:1比例施用", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3386", "official", "2026-08-23"),
+    ("jiabaoguo", "修剪", "生長緩慢不宜強剪，密生過多枝條宜於秋冬季輕剪；欲控制株高需留意修剪頂端枝條，修剪傷口癒合良好、之後會長出新枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=227955", "official", "2026-08-23"),
+    ("jiabaoguo", "適合溫度", "生長適溫22～35℃，喜酸性土壤", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13066", "official", "2026-08-23"),
+    ("jiabaoguo", "種子發芽與嫁接", "種子播種後約20～40天發芽；嫁接可縮短幼年期，嫁接苗約3年即可結果（實生苗需6～10年）", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10621", "official", "2026-08-23"),
+    ("jiabaoguo", "施肥時程", "主要生長期（11月至翌年2月）每15～20天施用一次氮磷鉀均衡肥；開花期（2～4月及7～10月）每7～10天施用一次磷鉀肥", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=17069", "official", "2026-08-23"),
+
+    # 油茶 - 農業知識入口網
+    ("youcha", "適合環境", "原產溫暖濕潤氣候，年均溫14～24℃、相對濕度74～85%、年雨量1,000毫米以上、年日照1,800～2,000小時；台灣除沿海地區外多適合栽培，對土壤要求富彈性", "農業知識入口網（油茶栽培與利用）", "https://kmweb.moa.gov.tw/redirect_files.php?id=10935", "official", "2026-08-23"),
+    ("youcha", "種子繁殖", "果實採收後於通風室內陰乾（避免日曬），3～5天後果皮開裂即可取種立即播種", "農業知識入口網（油茶栽培與利用）", "https://kmweb.moa.gov.tw/redirect_files.php?id=10935", "official", "2026-08-23"),
+    ("youcha", "產量週期", "定植後第4年可開始少量採收種子，第8年顯著增產，第12年後穩定量產", "農業知識入口網（油茶栽培與利用）", "https://kmweb.moa.gov.tw/redirect_files.php?id=10935", "official", "2026-08-23"),
+
+    # 白木耳 - 農業知識入口網
+    ("baimuer", "產業現況", "台灣早期以段木栽培法少量生產白木耳，因近年取得段木困難、價格高昂已停產，目前市售白木耳多為中國大陸進口", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=35702", "qa", "2026-08-23"),
+    ("baimuer", "本產品種與栽培法", "台灣已開發本產白木耳及彩色木耳品種，可採段木栽培法或塑膠瓶罐栽培法生產，主要產地分布台南縣，次為台中縣", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=35702", "qa", "2026-08-23"),
+
+    # 桑椹 - 農業知識入口網 蠶桑館
+    ("sangshen", "適合環境", "喜溫帶至熱帶氣候、海拔1,000公尺以下地區；生長適溫23～27℃，年雨量600～2,500毫米，日照9～13小時", "農業知識入口網（蠶桑館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14132", "official", "2026-08-23"),
+    ("sangshen", "土壤條件", "以深厚、肥沃、排水良好之砂質壤土或壤土為佳，pH6.2～6.8", "農業知識入口網（蠶桑館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14132", "official", "2026-08-23"),
+    ("sangshen", "繁殖方式", "以種子或扦插、高壓等無性繁殖為主；扦插取15公分枝條（老枝5～6芽或新枝帶2片新葉），插入土中5公分深，保持濕潤、充足日照、疏鬆土壤，30～45天發芽，第二年開花結果", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7108", "official", "2026-08-23"),
+    ("sangshen", "施肥", "12月（落葉後、萌芽前）或5月（修剪後）施肥，每公頃施有機肥500公斤；桑椹結果時另施1,700公斤複合肥（16-8-12）", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9864", "official", "2026-08-23"),
+
+    # 蘆薈 - 農業知識入口網
+    ("luhui", "土壤條件", "喜排水良好、不積水之砂質土壤，忌潮濕積水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=36", "official", "2026-08-23"),
+    ("luhui", "繁殖方式", "可全年以分株法繁殖，取母株基部帶莖幼株，切口陰乾後種植；亦可扦插繁殖，取成熟植株7～10公分枝條陰乾4～5天後插入砂質土，保持濕潤20～30天生根", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6198", "official", "2026-08-23"),
+    ("luhui", "水肥管理", "耐旱、不需高量肥料，栽培介質混入有機肥作基肥，生長季（春至秋）每月施用稀釋1,000倍液肥一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10555", "official", "2026-08-23"),
+
+    # 秀珍菇 - 農業知識入口網
+    ("xiuzhengu", "環境管理", "對環境變化相當敏感，需維持穩定的風、溫度、濕度條件；可用挑高設計降低室內溫度、屋頂通風器創造對流效應", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
+    ("xiuzhengu", "濕度控制", "出菇刺激期需相對濕度90%以上，菇體生長至約2公分後濕度可降至85～90%；原則為減少水膜、水珠停留在菇體上的時間以降低細菌感染風險", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
+    ("xiuzhengu", "病蟲害防範設施", "高溫期可調降出菇室設定溫度2～3℃協助除濕；採雙重門設計與64目紗網防止病蟲害侵入", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
+
+    # 水稻 - 農業知識入口網
+    ("shuidao", "生育期", "一期作為1月至6月，二期作為7月至8月；一期作插秧至收穫需120天以上，二期作需100天以上", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=pedia&sub_theme=km&id=1309", "official", "2026-08-23"),
+    ("shuidao", "育苗", "台灣採插秧栽培法，一期作播種後18～20天、二期作播種後10～12天即可達適齡秧苗（2.5～3葉）供移植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7432", "official", "2026-08-23"),
+    ("shuidao", "施肥", "一期作於插秧後12～15天施第一次追肥，二期作於插秧後8～10天施第一次追肥", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7432", "official", "2026-08-23"),
+    ("shuidao", "分蘗期", "一期作插秧後15天開始分蘗，二期作插秧後10天開始分蘗", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9895", "official", "2026-08-23"),
+
+    # 紫甘藍 - 農業知識入口網
+    ("zigalan", "作物分類", "與甘藍（高麗菜）、皺葉甘藍並列台灣栽培的三大甘藍類型之一", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=365196", "official", "2026-08-23"),
+    ("zigalan", "適合季節與溫度", "僅冬季生產，透過低溫貯藏調節市場供需；生長適溫15～25℃，高於30℃時光合產物多消耗於呼吸作用，延遲結球、結球鬆散、產量降低", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=365196", "official", "2026-08-23"),
+
+    # 板栗 - 農業知識入口網
+    ("banli", "主要產地", "嘉義縣中埔鄉為台灣唯一大規模栽培板栗的鄉鎮，每逢產季供不應求", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=167734", "official", "2026-08-23"),
+    ("banli", "適合環境", "適合年均溫10.5～21.8℃地區；土壤宜選擇較厚、肥沃、近中性pH之砂質壤土，地勢平坦、排水良好、日照充足、坡度平緩處為佳", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8460", "official", "2026-08-23"),
+
+    # 李子 - 農業知識入口網
+    ("lizi", "需冷量", "不同品種需冷量差異大，部分品種可耐-35～-40℃低溫；台灣栽培品種需冷量甚低，中南部即可種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=424284", "official", "2026-08-23"),
+    ("lizi", "栽培環境", "喜日照，對土壤要求不嚴，肥沃或貧瘠土壤皆可正常生長；栽培環境需通風良好、日照充足、排水佳", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=424284", "official", "2026-08-23"),
+    ("lizi", "株距", "行株距建議5×5至7×7公尺；坡地貧瘠土壤可縮小為4×4公尺", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=424284", "official", "2026-08-23"),
+
+    # 梅子 - 農業知識入口網 梅子主題館
+    ("meizi", "主要產地", "主要分布中南部及東部海拔300～1,000公尺地區，南投縣仁愛鄉、信義鄉、台東縣、台中市為主要產地", "農業知識入口網（梅子主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=33477", "official", "2026-08-23"),
+    ("meizi", "產業沿革", "日治時期日人開始大規模栽培，1961年信義鄉果農由蕉園轉作梅園；早期採人工採收（樹下鋪帆布以竹竿敲擊落果，或攀樹逐一摘採）", "農業知識入口網（梅子主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=33477", "official", "2026-08-23"),
+    ("meizi", "採收期", "採收期（產季）約3月中旬至4月下旬", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=27", "official", "2026-08-23"),
+
+    # 珠蔥（分蔥）- 農業知識入口網 青蔥主題館
+    ("zhucong", "植物特性與用途", "原產西亞敘利亞一帶；可作蔥葉（50～75天採收，供炒食）或蔥球（成熟後採收，供炸食、煮湯、填餡、調味）兩種用途", "農業知識入口網（青蔥主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=23366", "official", "2026-08-23"),
+    ("zhucong", "主要產地", "台南、嘉義兩縣為主要產地，占全台總產量約96%", "農業知識入口網（青蔥主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=23366", "official", "2026-08-23"),
+    ("zhucong", "繁殖方式", "以播種或分株法繁殖，分株法產量有限，適合小規模自家栽培；分株法約90天可採收，播種法約270天可採收", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8578", "official", "2026-08-23"),
+
+    # 蕗蕎 - 農業知識入口網
+    ("luqiao", "植物特性", "石蒜科蔥屬多年生草本，別名薤、蕎頭、火蔥、小蒜、野蒜；喜冷涼氣候，高於25℃進入休眠停止生長", "農業知識入口網（蕗蕎與蒜傻傻分不清楚）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39630", "official", "2026-08-23"),
+    ("luqiao", "主要產地", "主要產地為花蓮、新竹、雲林", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54809", "official", "2026-08-23"),
+    ("luqiao", "繁殖與栽培", "以小鱗莖（種球）無性繁殖，栽培為二年生作物；農諺「七蔥、八蒜、九蕗蕎，九九重陽以前就要種入土」，播種後約3～4個月可採收", "農業知識入口網（原生蔬菜栽培繁殖及料理應用介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=315876", "official", "2026-08-23"),
+    ("luqiao", "採收方式", "地上莖葉枯萎、地下鱗莖膨大停止生長時為採收適期，可自農曆春節持續採收至4月", "農業知識入口網（原生蔬菜栽培繁殖及料理應用介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=315876", "official", "2026-08-23"),
+
+    # 結球萵苣 - 農業知識入口網 萵苣主題館
+    ("jieqiuwoju", "適合季節", "播種期為每年9月至翌年3月，高冷地夏季亦可栽培", "農業知識入口網（萵苣主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=8568", "official", "2026-08-23"),
+    ("jieqiuwoju", "株距", "行株距約40～45×25～30公分", "農業知識入口網（萵苣主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=8568", "official", "2026-08-23"),
+    ("jieqiuwoju", "季節性狀況", "早秋或晚春播種時植株較小，且較易產生抽苔現象", "農業知識入口網（萵苣主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=8568", "official", "2026-08-23"),
+
+    # 荷蘭豆 - 農業知識入口網
+    ("helandou", "適合季節", "播種期10月至翌年3月，盛產期12月至翌年3月，目前以冬季裡作為主", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=177", "official", "2026-08-23"),
+    ("helandou", "適合溫度", "發芽適溫20～30℃，生長適溫9～23℃，開花適溫約15℃；超過25℃生長不良、著莢率降低，幼苗可耐-4℃低溫", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=177", "official", "2026-08-23"),
+    ("helandou", "區域分布與土壤", "中部地區為主要產地，彰化縣栽培面積最大；喜冷涼乾燥氣候，不耐濕，排水不良地區不宜栽培，適合砂質或黏質壤土，土壤pH宜5.5～6.7", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=177", "official", "2026-08-23"),
+
+    # 鵲豆 - 農業知識入口網 原住民族農產業主題館
+    ("quedou", "別名與沿革", "別名藕豆、肉豆、峨眉豆、扁豆、延籬豆、藤豆；相傳荷治時期引進台灣栽培，其後原住民與漢人廣泛栽培利用，因環境適應力強逐漸馴化", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
+    ("quedou", "生長習性", "喜溫暖氣候，多具短日性，通常於11月至翌年2月間開花，花色淡紫、淡紫紅或白色；耐旱性強，貧瘠土壤亦可穩定生產", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
+    ("quedou", "播種方式", "北部適合播種期4月上旬至9月上旬，中南部3月上旬至10月上旬，種植應避開梅雨季與颱風季；一般旱田採撒播或條播，撒播用種量每公頃60～70公斤、條播40～50公斤", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
+
+    # 豆薯 - 農業知識入口網
+    ("douvu", "適合季節與溫度", "喜溫暖氣候，適溫25～30℃，適合春、夏溫暖季節種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=16107", "official", "2026-08-23"),
+    ("douvu", "栽培環境", "喜充足陽光，土壤宜富含有機質且排水良好，早晨或傍晚澆水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=16107", "official", "2026-08-23"),
+    ("douvu", "採收天數", "自播種至塊根收穫約需150～180天", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=16107", "official", "2026-08-23"),
+    ("douvu", "食用安全", "塊根可食用，但藤蔓的莖、葉與種子含劇毒魚藤酮類化合物，不可讓人與家畜誤食", "農業知識入口網（豆薯種子吃不得）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54739", "official", "2026-08-23"),
+
+    # 孟宗竹筍（冬筍）- 農業知識入口網 綠竹筍主題館
+    ("mengzongzhusun", "產季", "春筍於2～5月萌發，冬筍於12月至翌年2月萌發；冬季其他竹種多不產筍，故冬筍產量少、價格高", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21442", "official", "2026-08-23"),
+    ("mengzongzhusun", "主要產地", "原產中國長江以南，台灣以南投縣及嘉義縣栽培為主", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21442", "official", "2026-08-23"),
+
+    # 樹番茄 - 農業知識入口網
+    ("shufanqie", "栽培環境", "栽培需海拔1,000公尺以上高冷地，土壤宜疏鬆、肥沃、排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
+    ("shufanqie", "繁殖方式", "選健康的1～2年生枝條，剪取約20公分插穗育苗，待生根後於春季移植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
+    ("shufanqie", "生長週期與株距", "定植後2年內可開始結果，3～4年進入盛產期，開花後5～6個月果實成熟；株距約3～4公尺；品種分黃色與紅色兩類", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
+
+    # 楊梅 - 農業知識入口網
+    ("yangmei", "植物特性", "常綠喬木，株高可達15公尺，台灣原生尖葉楊梅與小葉楊梅（恆春楊梅）兩種；植株強健，耐風、耐污染、耐病蟲害、耐旱", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=15317", "official", "2026-08-23"),
+    ("yangmei", "適合環境", "喜溫暖至炎熱氣候，需排水良好與充足日照", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=15317", "official", "2026-08-23"),
+    ("yangmei", "繁殖方式", "可用播種或扦插法繁殖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3769", "official", "2026-08-23"),
+    ("yangmei", "結果期", "春夏之際結出紅色或暗紅色球形核果，外皮似草莓般凹凸，果肉酸甜可鮮食、加工蜜餞或釀酒", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2629", "official", "2026-08-23"),
+
+    # 蓮子 - 農業知識入口網 蓮主題館
+    ("lianzi", "種子繁殖方式", "種子（黑色種皮較圓端）須先鑿開種皮、小心去除外層不傷及生長點，浸水並每日換水，待水面展開2～3片葉後移植入土；整個種植過程須在春夏完成，秋天以後不能再種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10909", "official", "2026-08-23"),
+    ("lianzi", "根莖繁殖方式", "以根莖及藕節苗繁殖較便利，一節可延伸出20～30公尺蓮田；種植每公頃約需1,000～1,200節（約500公斤），南部適合種植期為2月中旬至4月中旬", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8978", "official", "2026-08-23"),
+    ("lianzi", "適合環境", "喜高溫（年均溫20～30℃）與微酸性土壤，需全日照，因抗風性弱須種植於無風環境", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8978", "official", "2026-08-23"),
+
+    # 紅鳳菜 - 農業知識入口網
+    ("hongfengcai", "適合溫度與土壤", "生長適溫20～30℃，土壤宜疏鬆、肥沃、富含有機質且排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4317", "official", "2026-08-23"),
+    ("hongfengcai", "繁殖與採收", "以15公分嫩莖扦插繁殖，全年皆可進行，生長期約25～30天，全年皆可採收", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4317", "official", "2026-08-23"),
+    ("hongfengcai", "都市農耕適用性", "為都市農耕（頂樓、陽台、窗台）推薦的全年可栽培蔬菜之一", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=city_farming&id=89", "official", "2026-08-23"),
+
+    # 龍葵 - 農業知識入口網 原住民族農產業主題館
+    ("longkui", "植物特性", "一年生草本植物，株高約40～80公分，葉互生呈卵形或橢圓形，全緣或波狀鋸齒；莖多分枝呈綠色略帶三稜形；聚繖花序腋生，花白色或淡紫色，每花序4～10朵花", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39528", "official", "2026-08-23"),
+    ("longkui", "適合季節與溫度", "人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；生長適溫20～32℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
+    ("longkui", "土壤條件", "栽培土壤可為砂礫質至黏質，以富含有機質、排水良好之壤土為佳，pH6.5～7.0最適宜", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
+    ("longkui", "種子繁殖", "9～10月採集成熟果實，置於陰涼潮濕處使果皮自然腐解，翌年春季取種搓洗乾淨後於4月播種，株距33×3公分、播種深度約3公分", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
+
+    # 薄荷 - 農業知識入口網
+    ("bohe", "適合季節與溫度", "春季播種，春、秋兩季可行頂芽扦插繁殖；生長適溫20～26℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=847", "official", "2026-08-23"),
+    ("bohe", "栽培環境", "對土壤要求不嚴，以砂質壤土、沖積土為佳；喜日照充足、排水良好，屬喜光植物，直射光亦無妨；非常喜水，露天陽台種植可天天澆水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6743", "official", "2026-08-23"),
+    ("bohe", "採收", "定植後14～20天可採收，一年可採收4～5次", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=city_farming&id=101", "official", "2026-08-23"),
+
+    # 蜜棗 - 農業知識入口網 棗主題館
+    ("mizao", "適合季節", "可從春季至秋季種植", "農業知識入口網（棗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25059", "official", "2026-08-23"),
+    ("mizao", "種植規劃", "行株距6×6公尺（每公頃約240～270株），可先加倍密植、翌年或第三年疏伐；種植穴直徑60～100公分，混入10公斤堆肥與土壤回填，生長期間需架設棚架支撐枝條並防風害", "農業知識入口網（棗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25059", "official", "2026-08-23"),
+    ("mizao", "品種與生長週期", "常見品種有蜜棗、天蜜、翠蜜；種植後第二年開始結果，4～5年進入盛產期；花為雌雄同株、雄蕊先熟，不同品種花朵開放時段不同（如蜜棗午後開花、高朗1號上午開花）", "農業知識入口網（棗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25059", "official", "2026-08-23"),
+
+    # 破布子 - 農業知識入口網
+    ("pobuzi", "植物特性", "紫草科落葉小喬木，別稱破布木、樹子仔，原產中國南方（廣東、福建、海南島）及台灣", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=274", "official", "2026-08-23"),
+    ("pobuzi", "栽培環境", "生長勢強，適應pH7以上之石灰岩、山坡地等貧瘠土壤；栽培容易，但須慎選不易積水處，株距至少3公尺以上以供成株時枝葉伸展", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=274", "official", "2026-08-23"),
+    ("pobuzi", "落葉與開花物候", "一年有兩次落葉現象，第一次於1～2月間落葉，隨後2～3月間開淡紫色或黃白色小花；亦可於1～2月使用尿素等稀釋液進行人工落葉處理", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=274", "official", "2026-08-23"),
+
+    # 山葵 - 農業知識入口網
+    ("shankui", "植物特性", "十字花科多年生草本，天然分布自俄羅斯庫頁島至日本九州；具獨特香氣、辛辣與甘甜風味，在日本為珍貴稀有的蔬菜與辛香料作物", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
+    ("shankui", "產業沿革", "日治時期日人引進阿里山大規模栽培；近年基於森林保育考量，逐漸轉向設施內栽培；嘉義縣竹崎鄉至阿里山海拔2,000公尺以上地區仍有大面積栽培", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
+    ("shankui", "繁殖方式", "可用種子、分株、根段等方式繁殖，但存在品質不一、種苗退化、病原污染等問題，優質種苗供應為產業瓶頸；已有組織培養技術（以花梗芽為外植體）研發，消毒成功率達71.4%，平均每外植體可形成2.4個以上芽體", "農業知識入口網（山葵組織培養技術之研發）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=420749", "official", "2026-08-23"),
+
+    # 土肉桂 - 農業知識入口網
+    ("turougui", "植物特性與分布", "台灣原生種，分布於全台海拔500～1,500公尺闊葉林中", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+    ("turougui", "繁殖方式", "以扦插繁殖為主，取健壯1年生枝條約10公分、至少2節3葉，去除半數葉片後於苗床發根，生根發新芽後移植田間", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+    ("turougui", "栽培環境與株距", "栽培環境需排水良好、通風佳之壤土；整地時可施用有機肥並深耕，覆蓋塑膠布有助保濕除草；行株距依用途調整，田間栽培一般約150×120公分，整地時每公頃施有機肥約6,000公斤", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+    ("turougui", "種子貯藏", "種子最適貯藏條件為4℃濕藏，發芽力可維持18個月以內", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6882", "official", "2026-08-23"),
+
+    # 到手香 - 農業知識入口網
+    ("daoshouxiang", "適合季節", "全年皆可生長", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=37223", "official", "2026-08-23"),
+    ("daoshouxiang", "繁殖方式", "以扦插繁殖為主，取8～10公分枝條，去除最下節位葉片後扦插於介質中，成活後生長勢旺盛", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10905", "official", "2026-08-23"),
+    ("daoshouxiang", "栽培環境", "喜溫暖且水分較少的環境，耐旱但不喜高濕及淹水；土壤以排水良好之壤土及砂質壤土最佳；種植環境為半日照至全日照；冬天低溫生長不良會有寒害現象", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7553", "official", "2026-08-23"),
+    ("daoshouxiang", "施肥與管理", "需肥量不高，春天補充緩效性肥料，每季施用一次即可；應經常摘除頂端花苞或葉片以促進分枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7553", "official", "2026-08-23"),
+
+    # 玫瑰 - 農業知識入口網 玫瑰主題館
+    ("meigui", "適合季節", "春、秋兩季氣候最適合玫瑰生長、繁殖與種植；夏季高溫花質不佳，晚春至初秋應避開正午直射陽光（7～9月天氣過熱尤其不適合）", "農業知識入口網（玫瑰主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=12248", "official", "2026-08-23"),
+    ("meigui", "適合溫度與日照", "生長適溫15～25℃，日溫約21～29℃、夜溫約15～18℃；每日需至少5～6小時日照才能開出優質花朵", "農業知識入口網（玫瑰主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=12248", "official", "2026-08-23"),
+    ("meigui", "土壤條件", "喜肥沃、排水良好之中性或微酸性砂質壤土", "農業知識入口網（玫瑰主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=12248", "official", "2026-08-23"),
+
+    # 劍蘭（唐菖蒲）- 農業知識入口網
+    ("jianlan", "日照需求", "需全日照，每日日照14小時以上有助花芽分化；夏秋開花品種在冬季日照較短時進入休眠", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
+    ("jianlan", "適合溫度", "生長適溫日溫24～26℃、夜溫13～18℃；低於3℃停止生長，低於-3℃植株死亡；高濕與充足水分供應下可耐高溫，但高溫合併乾旱則無法良好開花", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
+    ("jianlan", "土壤與施肥", "需良好排水之富含有機質土壤；建議每月施用一次腐熟有機肥作追肥", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
+    ("jianlan", "主要產地", "全國栽培面積約617公頃，主要分布台中市后里區，其次為彰化縣、雲林縣、屏東縣", "農業知識入口網（唐菖蒲主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=11975", "official", "2026-08-23"),
+
+    # 向日葵 - 農業知識入口網 花壇植物主題館
+    ("xiangrikui", "適合季節", "最佳播種期為9～10月，其次為2～3月；應避開6～7月颱風雨季", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14636", "official", "2026-08-23"),
+    ("xiangrikui", "適合溫度", "發芽適溫15～25℃，生長適溫15～35℃，低於5℃有寒害、生長不良", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14636", "official", "2026-08-23"),
+    ("xiangrikui", "播種與生育期", "點播入土約1公分深，約5～7天發芽，4～6片真葉時可移植；全期分五階段，播種至發芽8～11天、發芽至現蕾33～35天、現蕾至初花17～27天、初花至末花6～8天、末花至成熟30～36天，全期約94～117天", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14636", "official", "2026-08-23"),
+
+    # 百合 - 農業知識入口網
+    ("baihe", "適合溫度", "生長開花適溫16～24℃，低於5℃或高於30℃生長幾近停滯，需10℃以上才能正常生長，高於25℃生長轉慢", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=90", "official", "2026-08-23"),
+    ("baihe", "栽培環境與土壤", "喜冷涼濕潤、日照充足但略帶遮蔭之環境，忌乾旱酷熱，耐寒性稍弱；土壤宜肥沃、富含腐植質、排水良好之深厚土層，避免硬質黏土，微酸性pH5.5～6.5為佳", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=90", "official", "2026-08-23"),
+    ("baihe", "種子繁殖與種球貯藏", "種子繁殖需土溫不低於12℃，可先浸水48小時、再以45℃溫水處理3小時後消毒；喇叭百合與東方型百合種球貯藏溫度0～5℃，亞洲型百合種球貯藏溫度-2℃，宜於採收後一個月內進行", "農業知識入口網（百合之繁殖介紹）", "https://kmweb.moa.gov.tw/subject/subject.php?id=12815", "official", "2026-08-23"),
+
+    # 洋桔梗 - 農業知識入口網 洋桔梗主題館
+    ("yangjiegeng", "栽培特性", "喜涼爽且日照充足環境，台灣平地夏季不易存活，大多作一年生栽培", "農業知識入口網（洋桔梗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=20113", "official", "2026-08-23"),
+    ("yangjiegeng", "育苗溫度管理", "育苗期高溫易造成簇生化（Rosette）現象，需利用高冷地自然低溫或控溫設備育苗；嘉義新港花卉班採冷房溫室育苗，夏季日溫控制在25℃", "農業知識入口網（洋桔梗主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=20113", "official", "2026-08-23"),
+
+    # 非洲菊 - 農業知識入口網 花壇植物主題館
+    ("feizhouju", "種子繁殖", "播種期6～8月，發芽適溫約20～24℃，育苗需溫控設施", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14632", "official", "2026-08-23"),
+    ("feizhouju", "栽培環境", "栽培生長適溫15～25℃，土壤宜排水良好、微酸性砂質壤土；夏季需遮蔭以提升植株生長與切花品質", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14632", "official", "2026-08-23"),
+
+    # 韭菜花 - 農業知識入口網
+    ("jiucaihua", "與韭菜/韭黃的區別", "韭菜花與韭菜、韭黃為同一植株的不同部位：韭菜花是花蕾及花莖，韭菜是葉片，韭黃是避光軟化處理後的葉莖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiucaihua", "產季", "主要產季為8～10月，主要產地為彰化縣二林、溪湖等地區", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiucaihua", "採收方式", "花莖抽出但苞片尚未裂開時，以人工逐支折斷採收，通常每1～3天採收一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiucaihua", "植株新植栽培", "新植繁殖以播種或分株法，播種為主：播種適期11月至翌年3月，分株法以11～12月為佳；播種先集中育苗，70～90天後定植於菜園，行株距27×24公分，每穴植2～3株；土壤宜富含有機質、排水良好且日照充足之黏質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+
+    # 韭黃 - 農業知識入口網
+    ("jiuhuang", "定義與軟化處理方式", "韭黃是韭菜於避光環境下軟化生長而成：於韭菜田上搭設短竹架，覆蓋不透光厚鋁箔遮光，阻斷葉綠素形成，使葉莖呈淡黃色、質地軟嫩、香氣醇厚", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1970", "official", "2026-08-23"),
+    ("jiuhuang", "主要產地", "栽培面積約150公頃，主要產地集中彰化縣埔鹽、溪湖、埤頭、竹塘及台中市清水區，為中部重要特色蔬菜", "農業知識入口網（韭黃栽培）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=12913&id=366892", "official", "2026-08-23"),
+    ("jiuhuang", "土壤與施肥", "韭菜栽培土壤宜選排水良好、富含有機質之壤土，土壤有機質含量低於1.5%時須補充充分腐熟之有機肥", "農業知識入口網（韭菜/韭黃之肥培管理技術）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=295272", "official", "2026-08-23"),
+
+    # 玉米筍 - 農業知識入口網
+    ("yumisun", "植物特性與市場", "即玉米幼穗（未授粉前採收之嫩玉米），市場價格佳、生育期短，春夏秋冬四季皆可栽培", "農業知識入口網（玉米筍現有品種介紹及栽培管理注意事項）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=413520", "official", "2026-08-23"),
+
+    # 猴頭菇 - 農業知識入口網
+    ("houtougu", "栽培溫濕度", "栽培溫度須控制在22℃以下，相對濕度85～95%", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?theme=knowledgebase&id=226266", "official", "2026-08-23"),
+    ("houtougu", "生產模式", "國內菇農傳統多於冬季以傳統菇舍栽培；環控菇舍雖可周年生產，仍需良好通風使菌絲充分佈滿菇體", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?theme=knowledgebase&id=226266", "official", "2026-08-23"),
+
+    # 迷迭香 - 農業知識入口網
+    ("midiexiang", "適合環境", "喜高冷地環境，不適合台灣平地高溫多濕氣候；喜充足日照與排水良好之鹼性、疏鬆肥沃腐植土或砂質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+    ("midiexiang", "適合溫度", "生長適溫約15～25℃，夏季建議適度遮蔭協助度過酷暑", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+    ("midiexiang", "繁殖方式", "扦插取1年生枝條約5公分，去除基部葉片後扦插，可用發根粉促進生根，約45～60天發根即可移植；種子繁殖以春季播種為佳，但發芽率偏低，需3～4個月育苗期", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+    ("midiexiang", "施肥與修剪", "每月施肥一次（自晚秋至春季），盆栽建議每2～3年換土一次；植株生長緩慢、再生能力弱，修剪時避免一次剪去枝條長度一半以上，否則不易再生", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?func=1&type=12821&id=243916", "official", "2026-08-23"),
+
+    # 珊瑚菇 - 農業知識入口網
+    ("shanhugu", "適合季節與地區", "適合台灣平地各地區、不分季節栽培", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=372", "official", "2026-08-23"),
+    ("shanhugu", "菌絲生長條件", "菌絲生長適溫23～27℃，pH5.0～6.5", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=372", "official", "2026-08-23"),
+
+    # 靈芝 - 農業知識入口網 菇類與植物工廠
+    ("lingzhi", "栽培方式", "常見栽培方式包括蔗渣太空包法、木屑瓶栽法、木屑太空包法；太空包法產出之子實體較傳統段木栽培法小", "農業知識入口網（靈芝與其有機栽培）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35703", "official", "2026-08-23"),
+    ("lingzhi", "產業現況", "已可用太空包法人工栽培，隨產量提升，市場價格亦隨之下降", "農業知識入口網（靈芝栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55038", "official", "2026-08-23"),
+
+    # 甜菊 - 農業知識入口網 藥用植物主題館
+    ("tianju", "植物特性", "菊科多年生草本，株高100～150公分，莖直立圓形、基部木質化多分枝；葉對生，橢圓形或倒披針形，上半部葉緣有鋸齒", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+    ("tianju", "花果期", "花序頭狀花序呈繖房狀排列於枝端，由5朵管狀白色小花組成；花果期8～10月", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+    ("tianju", "繁殖方式", "以種子播種或扦插繁殖；播種期為春季3～4月、秋季9～10月", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+    ("tianju", "利用部位", "利用部位為葉片，作為甜味劑及降血糖用途，甜度極高，可作天然代糖，鮮葉、乾葉皆可直接使用", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37236", "official", "2026-08-23"),
+
+    # 木鱉果 - 農業知識入口網 原住民族農產業主題館
+    ("mubieguo", "植物特性", "多年生草質藤本植物，生長快速、抗病蟲害，但不耐低溫與強風；每年冬後地上部逐漸枯萎進入休眠，翌年春暖後再萌發", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
+    ("mubieguo", "主要產地", "目前長濱、成功等鄉鎮農民零星栽培，花東地區原住民常於自家庭院栽培採收嫩果", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
+    ("mubieguo", "花果期", "花期5～6月，果實於9～11月成熟", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
+    ("mubieguo", "土壤條件與繁殖", "適合富含有機質之壤土至砂質壤土，土質過重或排水不良地區不適合栽培；種子須去殼後於3～4月種植，採棚架栽培，亦可扦插繁殖；雌雄異株，需同時栽種雄株與雌株才能結果", "農業知識入口網（苦瓜主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=38149", "official", "2026-08-23"),
+
+    # 波羅蜜 - 農業知識入口網
+    ("boluomi", "植物特性", "常綠喬木，株高可達8～20公尺，果實長橢圓形、著生於樹幹（幹生果），具特殊氣味，果肉香甜", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631", "official", "2026-08-23"),
+    ("boluomi", "栽培環境", "適合全日或半日照溫暖環境，台灣平地及低海拔山區皆可種植，以中南部產量較多；土壤須深厚且富含有機質；喜溫暖潮濕、較本屬其他種類耐寒，土壤適應廣、耐鹽但忌淹水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631", "official", "2026-08-23"),
+    ("boluomi", "繁殖方式", "以播種、空中壓條、嫁接法繁殖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631", "official", "2026-08-23"),
+
+    # 人心果 - 農業知識入口網
+    ("renxinguo", "植物特性", "山欖科常綠喬木，原產熱帶美洲", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727", "official", "2026-08-23"),
+    ("renxinguo", "栽培環境", "對土壤要求不嚴，砂質或砂質壤土為佳，石灰質土壤亦可；耐鹽性強，適合沿海地區栽培；目前主要栽培於嘉義、台南、雲林等地", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727", "official", "2026-08-23"),
+    ("renxinguo", "繁殖方式", "以播種、嫁接、空中壓條（圈枝育苗）繁殖；種子取出果實洗淨略乾後播於沙床催芽，苗高15～20公分時小心移植育苗；圈枝育苗為目前主要繁殖法，全年皆可進行，但發根需高溫多濕環境，以7～8月最適宜", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727", "official", "2026-08-23"),
+
+    # 麵包果（麵包樹）- 農業知識入口網 原住民族農產業主題館
+    ("mianbaoguo", "植物特性", "桑科常綠大喬木，株高可達10～15公尺，全株含乳汁", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39530", "official", "2026-08-23"),
+    ("mianbaoguo", "主要產地與傳統利用", "主要栽培於花蓮、台東；蘭嶼達悟族傳統將麵包樹栽培於父系團體林地，與龍眼、樹漆、大葉肉豆蔻、蘭嶼紅心木等混植，木材質輕且具防水性，為達悟族傳統造船材料之一", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39530", "official", "2026-08-23"),
+    ("mianbaoguo", "果實成熟與食用", "果實成熟期為7～8月，成熟果實外皮呈黃綠色；澱粉含量豐富但不可生食，常見料理方式為烤、蒸、炸或煮湯（尤以與魚乾同煮最常見）", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39530", "official", "2026-08-23"),
+
+    # 佛手瓜 - 農業知識入口網
+    ("foshougua", "與龍鬚菜的關係", "佛手瓜（果實）與龍鬚菜（嫩莖）為同一葫蘆科植物的不同部位；別名合掌瓜、佛掌瓜，原產南墨西哥及中美洲，1935年自日本引進台灣", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39534", "official", "2026-08-23"),
+    ("foshougua", "主要產地", "主要栽培於花蓮吉安、南投埔里、嘉義、高雄等淺山坡地", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39534", "official", "2026-08-23"),
+    ("foshougua", "適合季節與溫度", "最佳種植季節為11月至翌年3月，高溫期生長不良、易死亡；生長適溫18～28℃，低於12℃停止生長、高於30℃生長衰弱", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=40", "official", "2026-08-23"),
+    ("foshougua", "繁殖方式", "以成熟果實半埋於沙中進行壓條繁殖，維持濕潤約兩週後自芽眼萌發新芽", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4744", "official", "2026-08-23"),
+    ("foshougua", "採收方式", "食用嫩莖長約15～20公分時採收，夏季約每3天採收一次、冬季約每10天採收一次；定植後45～50天可開始採收嫩莖", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?theme=knowledgebase&id=411253", "official", "2026-08-23"),
+
+    # 諾麗果 - 農業知識入口網
+    ("nuoliguo", "植物特性與分布", "檄樹之果實，原生分布遍及太平洋群島、東南亞、澳洲及印度，台灣南部亦有原生種", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659", "official", "2026-08-23"),
+    ("nuoliguo", "適合溫度", "種子發芽適溫28～35℃，植株生育適溫25～35℃，低於15℃生長停止，低於10℃寒害甚至死亡；台灣北部一般無法安全越冬，須有良好保溫措施", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659", "official", "2026-08-23"),
+    ("nuoliguo", "生長週期", "種子播種至開花結果約需1.5～2年，量產需3年以上；植株本身幾乎無其他病害", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659", "official", "2026-08-23"),
+    ("nuoliguo", "播種方式", "種子取出果實後，洗淨曬乾或陰乾，靜置2週以上使種子休眠後即可播種", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659", "official", "2026-08-23"),
+
+    # 石蓮花 - 農業知識入口網
+    ("shilianhua", "適合溫度與日照", "生長適溫15～35℃，需充足日照；強光下葉片較小厚實、節間短，遮蔭下葉片較大但較薄", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+    ("shilianhua", "土壤條件", "土壤宜肥沃、疏鬆、排水良好之砂質壤土；有機栽培建議選擇空氣清淨、土壤pH中性、水源無污染之環境並全程使用有機肥料", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+    ("shilianhua", "水肥管理", "可每日澆水以促進莖葉生長，但須避免根部積水，水量不宜過多否則花苞易腐爛，澆水應澆於根部；每月施肥一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+    ("shilianhua", "繁殖方式", "以分株或葉插繁殖，春、夏兩季最適合，但全年皆可繁殖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+
+    # 野薑花 - 農業知識入口網 花壇植物主題館
+    ("yejianghua", "植物特性", "薑科多年生草本，株高約1公尺，具肥厚地下根莖，長橢圓形葉片長約30～40公分", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+    ("yejianghua", "適合環境", "喜充足日照與高溫環境，可耐全日照、半遮蔭或遮蔭環境，喜高溫多濕，生長適溫約22～30℃；土壤宜砂質或壤質土，旺盛生長期須有充足水分供應並適度施肥", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+    ("yejianghua", "種植與繁殖", "以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；亦可用種子繁殖", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+    ("yejianghua", "花期與施肥", "花期6～11月，以7～8月為盛花期；種植前施有機肥作基肥，生育初期施高氮肥，中期施高磷鉀肥，冬季應減少澆水", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+
+    # 當歸 - 農業知識入口網 當歸主題館
+    ("danggui", "品種與產業沿革", "台灣栽培品種為大和當歸（日本當歸），1964年自日本引進，於花蓮、台東及部分山區已有50年以上栽培歷史", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34710", "official", "2026-08-23"),
+    ("danggui", "適合環境", "喜冷涼濕潤氣候，忌高溫及直射強光，最適栽培海拔500～800公尺；土壤宜排水良好、富含有機質之砂質壤土，pH5.5～7.5", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34705", "official", "2026-08-23"),
+    ("danggui", "種植方式", "可採直播或育苗移植，最適播種期為每年10～11月", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34705", "official", "2026-08-23"),
+    ("danggui", "近緣植物", "川芎為與當歸相近的繖形科多年生草本植物，具活血行氣、袪風止痛功效", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34911", "official", "2026-08-23"),
+
+    # 麥門冬 - 農業知識入口網
+    ("maimendong", "植物特性", "百合科多年生草本，台灣中低海拔山區原生野生草種，具耐陰、耐旱、耐貧瘠特性，常作地被植物，可於潮濕陰涼林蔭下生長", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223", "official", "2026-08-23"),
+    ("maimendong", "適合溫度與土壤", "生長適溫18～28℃，栽培介質宜富含有機質、排水良好之砂質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223", "official", "2026-08-23"),
+    ("maimendong", "繁殖方式", "以地下根莖分株繁殖為主，適期為春至夏季；因分蘗能力強，地下根莖會不斷延伸，掘取帶葉帶根之新株即可另行種植", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223", "official", "2026-08-23"),
+
+    # 昭和草 - 農業知識入口網
+    ("zhaohecao", "植物特性與分布", "菊科一年生草本，原產南美洲及非洲，主要分布台灣中低海拔地區", "農業知識入口網（民俗藥食同源作物 昭和草介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=417996", "official", "2026-08-23"),
+    ("zhaohecao", "食用方式", "全株可食，風味與茼蒿相近，亦為青草茶常見原料之一，經台灣食品主管機關歸類為蔬菜類", "農業知識入口網（民俗藥食同源作物 昭和草介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=417996", "official", "2026-08-23"),
+
+    # 明日葉 - 農業知識入口網 花蓮區農業專訊
+    ("mingriye", "播種育苗", "花蓮地區播種育苗適期為7～8月；種子須先於5℃冷藏2個月，再均勻播於育苗盤，以20℃遮蔭培養、避免直射陽光，約1個月後發芽率約50%", "農業知識入口網（花蓮地區明日葉栽培技術）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=19990", "official", "2026-08-23"),
+    ("mingriye", "栽培環境", "喜通風良好、微濕冷涼環境，避免直射陽光，忌高溫；土壤宜排水良好之壤土", "農業知識入口網（花蓮地區明日葉栽培技術）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=19990", "official", "2026-08-23"),
+    ("mingriye", "植物特性", "生命力旺盛，今日採葉翌日又長新芽（因此得名），株高可達150公分，莖部含黃色汁液", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=130", "official", "2026-08-23"),
+
+    # 桔梗 - 農業知識入口網 藥用植物主題館
+    ("jiegeng", "植物特性", "桔梗科多年生草本，具白色乳汁，根呈紡錘狀（胡蘿蔔狀）", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37324", "official", "2026-08-23"),
+    ("jiegeng", "藥用部位與採收", "藥用部位為根，具宣肺化痰、利咽排膿功效；春、秋兩季採收，去除細根後削皮或保留外皮，切片曬乾備用", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37324", "official", "2026-08-23"),
+
+    # 檸檬香蜂草 - 農業知識入口網
+    ("ningmengxiangfengcao", "植物特性", "唇形科中型多年生草本，耐寒、栽培容易，株高約30～60公分，葉片卵形有鋸齒，花白色或淡黃色", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740", "official", "2026-08-23"),
+    ("ningmengxiangfengcao", "繁殖方式", "可用分株（春、秋）、扦插、壓條、播種（春）等多種方式繁殖；種子需光發芽，播種後不覆土，發芽率約50%；扦插取5公分頂芽插入乾淨介質，2～3週可發根，因葉薄需勤澆水並施予50%遮蔭", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740", "official", "2026-08-23"),
+    ("ningmengxiangfengcao", "耐候特性", "較其他香草植物更耐熱，即使土壤水分偏多也不易腐爛，適應台灣濕熱夏季氣候", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740", "official", "2026-08-23"),
+
+    # 波斯菊 - 農業知識入口網 花壇植物主題館
+    ("bosiju", "適合季節與溫度", "秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
+    ("bosiju", "植物特性", "株高約50～80公分，花色豐富細緻，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
+    ("bosiju", "播種方式", "以撒播為主，每分地播種量約1公斤；播種後灌溉，並每隔5～6公尺開設排水溝兼助覆土；土壤宜排水良好、日照充足之壤土或砂質壤土，種植地應避開強風處", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
+
+    # 冰花 - 農業知識入口網
+    ("binghua", "植物特性", "番杏科松葉菊屬雙子葉一年生植物，原產東非與南非，葉片表面具晶瑩剔透的囊狀細胞", "農業知識入口網（臺灣冰花番杏你吃過了沒）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=373911", "official", "2026-08-23"),
+    ("binghua", "適合溫度", "生育適溫5～25℃，育苗適溫20℃；台灣夏季以水耕方式栽種需加設降溫設備", "農業知識入口網（臺灣冰花番杏你吃過了沒）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=373911", "official", "2026-08-23"),
+    ("binghua", "栽培方式與採收", "可採土耕或盆栽方式，於塑膠布溫室中栽培；播種後約經2個月生長至成熟期即可採收", "農業知識入口網（臺灣冰花番杏你吃過了沒）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=373911", "official", "2026-08-23"),
+
+    # 番杏 - 農業知識入口網
+    ("fanxing", "植物特性", "番杏科植物，別名紐西蘭菠菜、白番杏，原生於海灘，具耐鹽、耐乾熱高溫環境之特性", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
+    ("fanxing", "適合季節與土壤", "播種適期為2～8月；以有機質豐富、保水保肥力強之壤土種植生長較好", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
+    ("fanxing", "株距", "行株距15～25公分×15～25公分", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
+
+    # 玉蘭花 - 農業知識入口網
+    ("yulanhua", "花期", "盛花期為4～7月", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=172", "official", "2026-08-23"),
+    ("yulanhua", "栽培環境", "台灣溫帶氣候極適合栽培，生長勢強、對土壤適應性廣，栽培容易且病蟲害少；土壤宜排水良好、保水佳、富含有機質之微酸性壤土，需全日照，生長適溫23～30℃；家庭盆栽建議以限根方式矮化，盆器直徑須達30公分以上", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=172", "official", "2026-08-23"),
+    ("yulanhua", "施肥", "春、秋兩季各施一次腐熟天然肥料或含氮磷鉀三要素之化學肥料", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=172", "official", "2026-08-23"),
+
+    # 含笑花 - 農業知識入口網
+    ("hanxiaohua", "適合溫度", "生長適溫約23～30℃，喜高溫多濕環境", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
+    ("hanxiaohua", "日照與土壤", "屬陽性植物需充足日照，光照不足會減少甚至不開花；土壤宜排水良好、富含腐植質之肥沃壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
+    ("hanxiaohua", "水分管理與修剪", "喜濕潤環境，夏季露天栽培須勤澆水，盆栽建議每日澆水並噴霧增加空氣濕度，但須避免盆內積水造成爛根；生育期間可適度修剪維持樹形", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=11981", "official", "2026-08-23"),
+
+    # 奇異果 - 農業知識入口網
+    ("qiyiguo", "主要產地", "桃園市復興區巴陵（拉拉山）一帶為特產區，1981年（民國70年）起自日本引進改良品種栽培成功，約2公頃果園栽植600株；新竹縣五峰鄉雪霸農場亦栽培成功", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1838", "official", "2026-08-23"),
+    ("qiyiguo", "栽培環境", "喜溫暖濕潤環境，不耐乾旱及積水，需充足日照與濕度；適合背風或半日照坡地，土層深厚、排水良好；土壤宜疏鬆通氣、富含腐植質之砂質壤土或砂土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1906", "official", "2026-08-23"),
+    ("qiyiguo", "授粉需求", "為雌雄異株植物，種植時每5株雌株應搭配1株雄株，以確保授粉正常", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3674", "official", "2026-08-23"),
+
+    # 貓薄荷 - 農業知識入口網
+    ("maobohe", "繁殖方式", "以扦插繁殖最有效且快速，最佳季節為立秋後及早春；取成熟植株莖段於氣溫下降時扦插，1.5～2個月可發展成兩大盆", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4693", "official", "2026-08-23"),
+    ("maobohe", "栽培管理", "栽培容易，不需頻繁澆水，土表乾燥時每2～3天澆水一次；9、10月適合換盆，生長快速；台灣夏季生長緩慢，接近夏季應摘除花苞，否則植株易於夏後衰弱難以恢復", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4693", "official", "2026-08-23"),
+
+    # 水蜜桃 - 農業知識入口網 水蜜桃產業之永續經營
+    ("shuimitao", "栽培環境與分布", "台灣水蜜桃集中於中部以北山地，分布於海拔300～2,400公尺；適應性強，山地、平原均可依適宜砧木、品種栽培", "農業知識入口網（水蜜桃產業之永續經營）", "https://kmweb.moa.gov.tw/subject/subject.php?id=32451", "official", "2026-08-23"),
+    ("shuimitao", "需冷量（依海拔）", "高海拔（如武陵農場，約1,950公尺）需冷量約850小時；中海拔（如拉拉山，1,000～1,400公尺）需冷量300～500小時；低海拔（85～500公尺）需冷量100～250小時", "農業知識入口網（水蜜桃產業之永續經營）", "https://kmweb.moa.gov.tw/subject/subject.php?id=32451", "official", "2026-08-23"),
+    ("shuimitao", "修剪時期", "冬季修剪期為11月上中旬至翌年1月中旬", "農業知識入口網（水蜜桃產業之永續經營）", "https://kmweb.moa.gov.tw/subject/subject.php?id=32451", "official", "2026-08-23"),
+
+    # 水梨 - 農業知識入口網 梨主題館
+    ("shuili", "產業沿革", "1975年台中東勢果農張榕生首創高接梨生產技術，此後台灣梨產業蓬勃發展，主要產區分布台中、苗栗、宜蘭、嘉義", "農業知識入口網（高接梨之生產流程）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25193", "official", "2026-08-23"),
+    ("shuili", "品種類型", "台灣現栽培兩類：低需冷量品種（主要為橫山梨，適合低海拔栽培）與高接梨（將日本品種新興梨、新世紀梨、豐水梨等接穗嫁接於本地梨樹，栽培於高冷地）", "農業知識入口網（臺灣梨之來源）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25184", "official", "2026-08-23"),
+    ("shuili", "採收期", "高接梨品種（豐水梨、新世紀梨等）5～7月採收，高冷地栽培品種8～9月採收，晚熟品種（雪梨）12月採收", "農業知識入口網（高接梨之生產流程）", "https://kmweb.moa.gov.tw/subject/subject.php?id=25193", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -1961,6 +3102,100 @@ UNVERIFIED = [
     ("ganzhe", "適合溫度、土壤詳細條件、株距、施肥、病蟲害等資料均缺，需另行補齊。"),
     ("huma", "播種月份為依生育期(80～90天)反推的估算值，非原文直接給出的精確月份，需另行查證核實；適合溫度、土壤條件、株距、施肥、病蟲害等資料均缺。"),
     ("hangju", "種植月份(4月清明後至7月前)來自搜尋摘要整理，未經WebFetch單一官方頁面直接核實，標記為qa；施肥、病蟲害等資料均缺，需另行補齊。"),
+    ("lvdou", "兩篇官方文章對播種月份的敘述不一致（2～3月播種 vs 春夏秋三作皆可但未給月份），season欄位暫留空；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("heidou", "播種月份僅知依整地方式分早晚（作畦栽培偏早、撒播開溝栽培偏晚），未取得具體月份數字，season欄位暫留空；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("lvzhusun", "綠竹為多年生竹類，新植多以高壓、分株法繁殖既有竹叢，定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與果樹類作物處理方式相同；病蟲害資料本次僅由主題館索引頁查得名稱列表（蟲害如竹葉蟎、臺灣大象鼻蟲、長角緣椿象等17種，病害如黑斑病、銹病、竹白絹病等9種），未逐一查證症狀與防治方法原文，需另行補齊。"),
+    ("aiyu", "苗木定植的確切月份、適合溫度、土壤條件、株距、施肥等基本欄位本次均未查得；愛玉授粉依賴專一的愛玉小蜂共生關係，此非一般病蟲害概念，病蟲害資料（如「愛玉子的病與蟲」頁面所列項目）本次未查證，需另行補齊；栽培地點受海拔限制（傳統產區800～1,800公尺），與甜柿、蘋果等高冷地果樹相同，「現在適合種」邏輯需額外考慮海拔限制。"),
+    ("cha", "苗木定植的確切月份、土壤pH條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺；茶為台灣重要經濟作物，品種與製茶方式（綠茶、包種、烏龍、紅茶等）差異大，之後可考慮依茶種細分資料。"),
+    ("shushu", "播種/扦插的確切月份、適合溫度、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺，僅知主要栽培於台中以南及花蓮。"),
+    ("gaoliang", "播種月份僅知早於花生，未取得具體月份數字，season欄位暫留空；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；金門與台灣本島氣候不同，此筆資料是否適用本島種植尚待查證。"),
+    ("chuanqi", "播種/扦插的確切季節月份、適合溫度、採收天數、病蟲害資料本次均未查得，需另行補齊；川七（藤三七/落葵薯）與皇宮菜（落葵）為不同科屬但外型與食用方式相近的植物，容易混淆，之後可考慮在UI呈現時加以區別說明。"),
+    ("xianggu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；適合太空包基質配方、露地段木栽培法、病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
+    ("muer", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；適合pH條件、病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
+    ("xiaomai", "本筆資料僅代表金門地區栽培情況，台灣本島栽培資料尚未取得；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("qiaomai", "播種月份原文未給出精確數字（僅泛稱冬期裡作，及引用古代農書「五月耕地」等非台灣本地資料），season欄位暫留空，需另行查證台灣官方播種曆；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("mazhusun", "定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與綠竹筍、果樹類作物處理方式相同；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("tiandou", "季節月份為「秋冬季節」的合理區間推算（9～12月），非原文直接給出的精確月份，需另行查證核實；株距、施肥、採收天數、病蟲害資料本次均未查得，需另行補齊。"),
+    ("keke", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；可可為台灣近十年興起的新興特用作物，栽培規模與資料完整度仍在發展中，之後應持續追蹤官方資料更新。"),
+    ("hudielan", "本表season欄位留空是因蝴蝶蘭為溫室控制環境周年生產、可全年催花，非露地看天田作物，並非資料查證不足；土壤（介質）條件、施肥、病蟲害（介殼蟲、軟腐病等）資料本次未查得，需另行補齊；蝴蝶蘭屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("guizhusun", "產季（生產期）月份本次未查得，season欄位暫留空，需另行查證（綠竹筍產季為端午節至雙十節間，桂竹筍是否相同尚待確認）；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("binglang", "苗木定植的確切季節月份、適合溫度、株距（僅知不宜小於9台尺）以外的具體規格、病蟲害資料本次均未查得，需另行補齊；檳榔為具健康爭議的合法作物（政府採「三不政策」），之後在UI呈現時應如實說明其健康風險與政策定位，避免誤導使用者。"),
+    ("xingbaogu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
+    ("jinzhengu", "本表season欄位留空是因環控設施為控制環境周年生產，非露地看天田作物，並非資料查證不足；太空包配方、病蟲害資料本次未查得，需另行補齊。"),
+    ("juemingzi", "播種月份原文未直接給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；決明子為藥用植物而非一般食用作物，之後在UI呈現時應加以說明用途定位。"),
+    ("wenxinlan", "本表season欄位留空是因文心蘭為溫室栽培、多品種週年可開花，非露地看天田作物，並非資料查證不足；土壤（介質）條件、施肥、病蟲害資料本次未查得，需另行補齊；文心蘭屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("yiyi", "播種月份原文未直接給出，season欄位暫留空，需另行查證；適合溫度、水田移植栽培的細節、病蟲害資料本次均未查得，需另行補齊。"),
+    ("xiangmao", "目前主要栽培地區資料未取得（僅知1950～60年代曾大規模栽培外銷），適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("zisu", "季節月份為「春、秋兩季」的合理區間推算（3～4月、9～10月），非原文直接給出的精確月份，需另行查證核實；北部分區資料未取得；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("huohehua", "苗木定植的確切季節月份、土壤（介質）條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；火鶴花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("juhua", "本表season欄位留空是因商業栽培以電照/遮光技術調節花期、可週年生產，非露地看天田作物，並非資料查證不足；北部、南部分區資料未取得；土壤條件、施肥、病蟲害資料本次未查得，需另行補齊；菊花屬觀賞花卉而非食用作物（不同於食用的杭菊），之後在UI呈現時應加以區別說明，避免與杭菊混淆。"),
+    ("jiabaoguo", "苗木定植的確切季節月份、適合溫度、株距、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("youcha", "苗木定植的確切季節月份、適合溫度、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("baimuer", "本次未能從官方原文取得具體的太空包配方、栽培溫度等技術細節（僅查得產業沿革與產地摘要），標記為qa等級，需另行以官方原文補齊並提升為official；台灣目前市售白木耳多為進口，本土栽培規模與資料完整度均待查證更新。"),
+    ("sangshen", "扦插/定植的確切月份原文未給出（僅知第二年開花結果），season欄位暫留空，需另行查證；株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("luhui", "適合溫度、株距、病蟲害資料本次均未查得，需另行補齊；蘆薈兼具食用（保健飲品）與藥用/美容用途，之後在UI呈現時可考慮說明其多元用途定位。"),
+    ("xiuzhengu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；太空包基質配方、具體培養溫度數值、病蟲害資料本次未查得，需另行補齊。"),
+    ("shuidao", "「一期作1～6月、二期作7～8月」為整體生育期範圍描述，非單指插秧月份，season欄位暫留空以避免誤導使用者「現在適合種」的判斷，需另行查證各地區實際插秧月份（一般一期作插秧約1～2月、二期作插秧約7～8月）；北中南分區資料、土壤條件、病蟲害資料本次均未查得，需另行補齊；水稻為台灣最重要的糧食作物，此前資料庫竟未收錄，應優先補齊完整資料。"),
+    ("zigalan", "季節月份為「冬季」的合理區間推算（10月至翌年2月），非原文直接給出的精確月份，需另行查證核實；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("banli", "苗木定植的確切季節月份、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否可栽培尚待查證（目前僅知嘉義中埔為唯一大規模產地）。"),
+    ("lizi", "苗木定植的確切季節月份、適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；北部是否可栽培尚待查證（僅知中南部品種需冷量低可種植）。"),
+    ("meizi", "本表season欄位所填為採收期（產季）而非種植/定植月份，苗木定植的確切季節月份原文未給出，需另行查證；適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("zhucong", "播種/分株的確切月份原文未給出，season欄位暫留空，需另行查證；北部、中部產地資料未取得（僅知南部台南嘉義占96%）；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("luqiao", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；中部產地資料未取得；播種月份依農諺「九蕗蕎」推算為農曆9月（約國曆9～10月），非官方精確公告月份，建議日後查證官方播種曆核實。"),
+    ("jieqiuwoju", "適合溫度、土壤條件、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺（僅知高冷地夏季亦可栽培）；結球萵苣與已收錄的A菜（葉萵苣類型）同屬萵苣主題館資料，之後可考慮在UI呈現時說明兩者為同一作物的不同類型。"),
+    ("helandou", "北部、南部分區資料未取得（僅知中部彰化為最大產地）；株距、施肥、病蟲害資料本次均未查得，需另行補齊；荷蘭豆（扁莢）與已收錄的甜豆（圓莢，tiandou）、豌豆（wandou）為近緣但不同食用類型的豌豆，之後可考慮在UI呈現時加以區別說明。"),
+    ("quedou", "適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；鵲豆兼具食用與觀賞價值，之後在UI呈現時可補充說明其雙重用途。"),
+    ("douvu", "北中南分區資料未取得；土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；食用安全資訊（藤蔓莖葉種子有毒）已於cultivation_facts補齊，UI呈現時應保留此警示。"),
+    ("mengzongzhusun", "定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與綠竹筍、桂竹筍、麻竹筍等其他筍類作物處理方式相同；土壤條件、施肥、病蟲害資料本次均未查得，需另行補齊；北部分區資料未取得。"),
+    ("shufanqie", "移植的確切季節月份僅知「春季」，原文未給精確數字，season欄位暫留空，需另行查證；土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊；栽培受海拔限制（需1,000公尺以上高冷地），與甜柿、蘋果等高冷地果樹相同，「現在適合種」邏輯需額外考慮海拔限制。"),
+    ("yangmei", "苗木定植/播種的確切季節月份原文未給出，season欄位暫留空，需另行查證；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("lianzi", "北部、中部種植期資料未取得（僅知南部2月中旬至4月中旬）；施肥、病蟲害資料本次均未查得，需另行補齊；蓮子與已收錄的蓮藕（lianou）為同一蓮花植物的不同產物/用途，之後在UI呈現時可考慮合併說明或交叉引用。"),
+    ("hongfengcai", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("longkui", "「秋冬春最適合」與「可全年栽種」兩種敘述並存但不完全一致，此處採用較具體的秋冬春季節資料，需另行查證確認精確播種月份；株距已查得（種子繁殖法），但施肥、病蟲害資料本次未查得，需另行補齊；龍葵為野菜，食用前需確認其成熟果實（未熟果實含茄鹼類毒素）與正確食用部位，之後在UI呈現時應加以提醒。"),
+    ("bohe", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("mizao", "適合溫度、土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("pobuzi", "苗木定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("shankui", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點受海拔限制（傳統產區2,000公尺以上），與甜柿、蘋果、愛玉等高冷地作物相同，「現在適合種」邏輯需額外考慮海拔限制；此為本資料庫第三次嘗試查證山葵資料，前兩次因來源品質不足（PDF無法解析、搜尋摘要未經WebFetch核實）而未收錄，本次改以官方「山葵組織培養技術之研發」一文的產業沿革與繁殖方式資訊為主，仍建議日後查證官方山葵主題館補齊播種月份等細節。"),
+    ("turougui", "扦插/定植的確切季節月份、適合溫度、病蟲害資料本次均未查得，需另行補齊；土肉桂精油具肉桂醛成分，兼具香藥草與精油產業用途，之後在UI呈現時可補充說明其多元用途。"),
+    ("daoshouxiang", "土壤pH、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("meigui", "季節月份為「春、秋兩季」的合理區間推算（3～4月、10～11月），非原文直接給出的精確月份，需另行查證核實；株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("jianlan", "「溫帶地區一般於春季種植」為通則性描述，非專屬台灣本地栽培曆的精確月份，season欄位以此推算3～4月僅供參考，需另行查證雲林/台中主要產地的實際種植月份；株距、病蟲害資料本次均未查得，需另行補齊；北部是否適合栽培尚待查證。"),
+    ("xiangrikui", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("baihe", "苗木/種球定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；株距、施肥、病蟲害資料本次均未查得，需另行補齊；台灣百合切花主要產地（如台中新社）資料未取得，需另行查證。"),
+    ("yangjiegeng", "田間定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度（栽培期）、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、南部產地資料未取得。"),
+    ("feizhouju", "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；主要產地資料未取得。"),
+    ("jiucaihua", "南部產地資料未取得；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("jiuhuang", "本表season欄位留空是因韭黃並非獨立播種的作物、而是韭菜的避光軟化處理產物，並非資料查證不足；具體軟化處理天數、適合溫度、病蟲害資料本次均未查得，需另行補齊；南部產地資料未取得。"),
+    ("yumisun", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；具體品種介紹（原文標題提及但未展開）需另行查證補齊。"),
+    ("jiabaoguo", "本次補充查得適合溫度、種子發芽天數與施肥時程等資料（原第十四批entries已收錄基本資料），已一併更新至cultivation_facts；病蟲害資料仍未查得，需另行補齊。"),
+    ("houtougu", "傳統菇舍冬季栽培的具體月份範圍為推估值（11～12月、1～2月），非官方逐月公告，需另行查證；太空包配方、病蟲害資料本次未查得，需另行補齊。"),
+    ("midiexiang", "適合的台灣高冷地產區資料未取得；土壤pH以外的詳細條件、病蟲害資料本次均未查得，需另行補齊。"),
+    ("shanhugu", "土壤（太空包基質）配方、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("lingzhi", "本表season欄位留空是因太空包/瓶栽為控制環境周年生產，非露地看天田作物，並非資料查證不足；具體太空包配方、栽培溫度、病蟲害資料本次未查得，需另行補齊；靈芝兼具食用與藥用（保健食品原料）用途，之後在UI呈現時可補充說明。"),
+    ("tianju", "土壤條件、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；甜菊為天然代糖植物而非一般食用作物，之後在UI呈現時應說明其用途定位。"),
+    ("mubieguo", "北部、中部是否適合栽培尚待查證（目前僅知花東零星栽培）；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；雌雄異株特性（需同時栽種雄株與雌株才能結果）為重要栽培限制，之後在UI呈現時應加以說明。"),
+    ("boluomi", "苗木定植的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部是否適合栽培尚待查證（僅知中南部產量較多）。"),
+    ("renxinguo", "苗木定植（非繁殖育苗）的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證。"),
+    ("mianbaoguo", "苗木定植的確切季節月份原文未給出，season欄位改採果實成熟期（採收期）呈現，與其他果樹類作物「同株不同產物」處理方式一致；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證（目前僅知花蓮台東栽培）。"),
+    ("foshougua", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；與龍鬚菜（longxucai）為同一植株的不同產物，之後在UI呈現時可考慮合併說明或交叉引用，避免重複判定為兩種不同作物。"),
+    ("nuoliguo", "播種/定植的確切月份僅知需符合發芽適溫（28～35℃）條件，原文未給出具體月份，season欄位暫留空，需另行查證；土壤條件、株距、施肥資料本次均未查得，需另行補齊。"),
+    ("shilianhua", "株距、病蟲害資料本次均未查得，需另行補齊；石蓮花兼具食用（生食、打汁）與觀賞用途，之後在UI呈現時可補充說明其雙重用途。"),
+    ("yejianghua", "病蟲害資料本次未查得，需另行補齊；野薑花根莖與花朵亦有食用/香料用途（如包粽、提取香精），之後在UI呈現時可補充說明。"),
+    ("danggui", "北部、中部是否適合栽培尚待查證（僅知花蓮、台東及部分山區栽培）；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("maimendong", "分株繁殖月份為「春至夏季」的合理區間推算（3～6月），非原文直接給出的精確月份，需另行查證核實；土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("zhaohecao", "人工栽培播種月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；昭和草作為自播性野生植物，其「現在適合種」的判斷邏輯可能與一般栽培作物不同，之後在UI呈現時應加以說明。"),
+    ("mingriye", "北部、中部是否適合栽培尚待查證（僅知花蓮地區資料）；田間定植（非育苗）月份、株距、施肥、病蟲害資料本次均未查得，需另行補齊；明日葉與已收錄的當歸（danggui）同屬繖形科近緣植物，之後在UI呈現時可考慮交叉引用。"),
+    ("jiegeng", "田間定植/播種的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；桔梗兼具藥用與觀賞用途，之後在UI呈現時可補充說明。"),
+    ("ningmengxiangfengcao", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("bosiju", "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("binghua", "季節月份為生育適溫範圍（5～25℃）對應秋冬早春之合理推算，非原文直接給出的精確播種月份，需另行查證核實；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("fanxing", "適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；番杏與已收錄的皇宮菜（huanggongcai）、川七（chuanqi）皆為藤蔓/匍匐性葉菜但科屬不同，之後在UI呈現時可考慮加以區別說明。"),
+    ("yulanhua", "苗木定植的確切季節月份原文未給出，season欄位暫留空（此表月份改採盛花期呈現，非種植月份），需另行查證；株距、病蟲害資料本次均未查得，需另行補齊；玉蘭花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("hanxiaohua", "苗木定植的確切季節月份、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；含笑花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("qiyiguo", "苗木定植的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點集中北部高海拔山區（拉拉山、雪霸），中南部是否適合栽培尚待查證，「現在適合種」邏輯需額外考慮海拔限制，與甜柿、蘋果等高冷地果樹性質相近。"),
+    ("maobohe", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；貓薄荷主要作為貓咪玩賞植物栽培而非人類食用，之後在UI呈現時應加以說明其用途定位。"),
+    ("shuimitao", "苗木定植的確切季節月份原文未給出（僅知冬季修剪期），season欄位暫留空，需另行查證；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點受海拔與需冷量限制，「現在適合種」邏輯需額外考慮此因素，與甜柿、蘋果等高冷地果樹性質相近；此前資料庫遺漏此重要溫帶水果，現已補上。"),
+    ("shuili", "本表season欄位所填為採收期而非苗木定植/高接嫁接的季節月份，原文未給出後者確切月份，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；此前資料庫遺漏此重要溫帶水果，現已補上；高接梨為特殊產業技術（嫁接日本品種穗於本地梨樹），與一般果樹新植定植的概念不同，之後在UI呈現時應加以說明。"),
 ]
 
 
