@@ -1055,6 +1055,18 @@
       "name": "諾麗果",
       "category": "果樹",
       "status": "collected"
+    },
+    {
+      "crop_id": "shilianhua",
+      "name": "石蓮花",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yejianghua",
+      "name": "野薑花",
+      "category": "花卉類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3345,6 +3357,32 @@
       "season_months_central": null,
       "season_months_south": null,
       "season_label": "種子播種至開花結果約需1.5～2年，量產需3年以上；種子發芽適溫28～35℃，植株生育適溫25～35℃，低於15℃生長停止，低於10℃寒害甚至死亡，北部一般無法安全越冬需良好保溫措施；種子取出洗淨曬乾或陰乾後，需靜置2週以上休眠才可播種"
+    },
+    {
+      "crop_id": "shilianhua",
+      "name": "石蓮花",
+      "category": "葉菜類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "景天科多肉植物，原產墨西哥，現已全球廣泛栽培；原文明確指出以分株或葉插繁殖，春夏兩季最適合，但全年皆可繁殖，此處採全年可繁殖之敘述比照四季皆可栽種蔬菜類作物處理方式。",
+      "season_months_north": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "season_months_central": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "season_months_south": "1,2,3,4,5,6,7,8,9,10,11,12",
+      "season_label": "以分株或葉插繁殖，春、夏兩季最適合，但全年皆可繁殖；生長適溫15～35℃，需充足日照，強光下葉片較小厚實、節間短，遮蔭下葉片較大但較薄"
+    },
+    {
+      "crop_id": "yejianghua",
+      "name": "野薑花",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "薑科多年生草本，株高約1公尺，具肥厚地下根莖；官方花壇植物主題館明確列出種植月份，資料完整度佳。",
+      "season_months_north": "2,3",
+      "season_months_central": "2,3",
+      "season_months_south": "2,3",
+      "season_label": "以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；花期6～11月，以7～8月為盛花期；生長適溫22～30℃，喜高溫多濕環境"
     }
   ],
   "cultivation": [
@@ -10257,6 +10295,86 @@
       "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 692,
+      "crop_id": "shilianhua",
+      "field": "適合溫度與日照",
+      "value": "生長適溫15～35℃，需充足日照；強光下葉片較小厚實、節間短，遮蔭下葉片較大但較薄",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 693,
+      "crop_id": "shilianhua",
+      "field": "土壤條件",
+      "value": "土壤宜肥沃、疏鬆、排水良好之砂質壤土；有機栽培建議選擇空氣清淨、土壤pH中性、水源無污染之環境並全程使用有機肥料",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 694,
+      "crop_id": "shilianhua",
+      "field": "水肥管理",
+      "value": "可每日澆水以促進莖葉生長，但須避免根部積水，水量不宜過多否則花苞易腐爛，澆水應澆於根部；每月施肥一次",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 695,
+      "crop_id": "shilianhua",
+      "field": "繁殖方式",
+      "value": "以分株或葉插繁殖，春、夏兩季最適合，但全年皆可繁殖",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 696,
+      "crop_id": "yejianghua",
+      "field": "植物特性",
+      "value": "薑科多年生草本，株高約1公尺，具肥厚地下根莖，長橢圓形葉片長約30～40公分",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14703",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 697,
+      "crop_id": "yejianghua",
+      "field": "適合環境",
+      "value": "喜充足日照與高溫環境，可耐全日照、半遮蔭或遮蔭環境，喜高溫多濕，生長適溫約22～30℃；土壤宜砂質或壤質土，旺盛生長期須有充足水分供應並適度施肥",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14703",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 698,
+      "crop_id": "yejianghua",
+      "field": "種植與繁殖",
+      "value": "以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；亦可用種子繁殖",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14703",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 699,
+      "crop_id": "yejianghua",
+      "field": "花期與施肥",
+      "value": "花期6～11月，以7～8月為盛花期；種植前施有機肥作基肥，生育初期施高氮肥，中期施高磷鉀肥，冬季應減少澆水",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14703",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -12829,6 +12947,16 @@
       "id": 180,
       "crop_id": "nuoliguo",
       "note": "播種/定植的確切月份僅知需符合發芽適溫（28～35℃）條件，原文未給出具體月份，season欄位暫留空，需另行查證；土壤條件、株距、施肥資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 181,
+      "crop_id": "shilianhua",
+      "note": "株距、病蟲害資料本次均未查得，需另行補齊；石蓮花兼具食用（生食、打汁）與觀賞用途，之後在UI呈現時可補充說明其雙重用途。"
+    },
+    {
+      "id": 182,
+      "crop_id": "yejianghua",
+      "note": "病蟲害資料本次未查得，需另行補齊；野薑花根莖與花朵亦有食用/香料用途（如包粽、提取香精），之後在UI呈現時可補充說明。"
     }
   ]
 }

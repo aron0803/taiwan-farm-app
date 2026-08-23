@@ -284,6 +284,9 @@ REGISTRY = [
     # 第二十三批（新增：果菜類/果樹）
     ("foshougua", "佛手瓜", "果菜類", "collected"),
     ("nuoliguo", "諾麗果", "果樹", "collected"),
+    # 第二十四批（新增：葉菜類/花卉類）
+    ("shilianhua", "石蓮花", "葉菜類", "collected"),
+    ("yejianghua", "野薑花", "花卉類", "collected"),
 ]
 
 def M(*months):
@@ -1285,6 +1288,17 @@ CROPS = [
          region_note="檄樹的果實，原生分布遍及太平洋群島、東南亞、澳洲及印度，台灣南部亦有原生種；北部因冬季低溫一般無法安全越冬，需良好保溫措施，此為適合栽培的溫度限制而非確切播種月份。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="種子播種至開花結果約需1.5～2年，量產需3年以上；種子發芽適溫28～35℃，植株生育適溫25～35℃，低於15℃生長停止，低於10℃寒害甚至死亡，北部一般無法安全越冬需良好保溫措施；種子取出洗淨曬乾或陰乾後，需靜置2週以上休眠才可播種"),
+    # 第二十四批（新增）
+    dict(crop_id="shilianhua", name="石蓮花", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="景天科多肉植物，原產墨西哥，現已全球廣泛栽培；原文明確指出以分株或葉插繁殖，春夏兩季最適合，但全年皆可繁殖，此處採全年可繁殖之敘述比照四季皆可栽種蔬菜類作物處理方式。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="以分株或葉插繁殖，春、夏兩季最適合，但全年皆可繁殖；生長適溫15～35℃，需充足日照，強光下葉片較小厚實、節間短，遮蔭下葉片較大但較薄"),
+    dict(crop_id="yejianghua", name="野薑花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="薑科多年生草本，株高約1公尺，具肥厚地下根莖；官方花壇植物主題館明確列出種植月份，資料完整度佳。",
+         season_months_north=M(2,3), season_months_central=M(2,3), season_months_south=M(2,3),
+         season_label="以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；花期6～11月，以7～8月為盛花期；生長適溫22～30℃，喜高溫多濕環境"),
 ]
 
 CULTIVATION = [
@@ -2330,6 +2344,18 @@ CULTIVATION = [
     ("nuoliguo", "適合溫度", "種子發芽適溫28～35℃，植株生育適溫25～35℃，低於15℃生長停止，低於10℃寒害甚至死亡；台灣北部一般無法安全越冬，須有良好保溫措施", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659", "official", "2026-08-23"),
     ("nuoliguo", "生長週期", "種子播種至開花結果約需1.5～2年，量產需3年以上；植株本身幾乎無其他病害", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659", "official", "2026-08-23"),
     ("nuoliguo", "播種方式", "種子取出果實後，洗淨曬乾或陰乾，靜置2週以上使種子休眠後即可播種", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659", "official", "2026-08-23"),
+
+    # 石蓮花 - 農業知識入口網
+    ("shilianhua", "適合溫度與日照", "生長適溫15～35℃，需充足日照；強光下葉片較小厚實、節間短，遮蔭下葉片較大但較薄", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+    ("shilianhua", "土壤條件", "土壤宜肥沃、疏鬆、排水良好之砂質壤土；有機栽培建議選擇空氣清淨、土壤pH中性、水源無污染之環境並全程使用有機肥料", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+    ("shilianhua", "水肥管理", "可每日澆水以促進莖葉生長，但須避免根部積水，水量不宜過多否則花苞易腐爛，澆水應澆於根部；每月施肥一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+    ("shilianhua", "繁殖方式", "以分株或葉插繁殖，春、夏兩季最適合，但全年皆可繁殖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2725", "official", "2026-08-23"),
+
+    # 野薑花 - 農業知識入口網 花壇植物主題館
+    ("yejianghua", "植物特性", "薑科多年生草本，株高約1公尺，具肥厚地下根莖，長橢圓形葉片長約30～40公分", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+    ("yejianghua", "適合環境", "喜充足日照與高溫環境，可耐全日照、半遮蔭或遮蔭環境，喜高溫多濕，生長適溫約22～30℃；土壤宜砂質或壤質土，旺盛生長期須有充足水分供應並適度施肥", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+    ("yejianghua", "種植與繁殖", "以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；亦可用種子繁殖", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+    ("yejianghua", "花期與施肥", "花期6～11月，以7～8月為盛花期；種植前施有機肥作基肥，生育初期施高氮肥，中期施高磷鉀肥，冬季應減少澆水", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2968,6 +2994,8 @@ UNVERIFIED = [
     ("mianbaoguo", "苗木定植的確切季節月份原文未給出，season欄位改採果實成熟期（採收期）呈現，與其他果樹類作物「同株不同產物」處理方式一致；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證（目前僅知花蓮台東栽培）。"),
     ("foshougua", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；與龍鬚菜（longxucai）為同一植株的不同產物，之後在UI呈現時可考慮合併說明或交叉引用，避免重複判定為兩種不同作物。"),
     ("nuoliguo", "播種/定植的確切月份僅知需符合發芽適溫（28～35℃）條件，原文未給出具體月份，season欄位暫留空，需另行查證；土壤條件、株距、施肥資料本次均未查得，需另行補齊。"),
+    ("shilianhua", "株距、病蟲害資料本次均未查得，需另行補齊；石蓮花兼具食用（生食、打汁）與觀賞用途，之後在UI呈現時可補充說明其雙重用途。"),
+    ("yejianghua", "病蟲害資料本次未查得，需另行補齊；野薑花根莖與花朵亦有食用/香料用途（如包粽、提取香精），之後在UI呈現時可補充說明。"),
 ]
 
 
