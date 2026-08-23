@@ -1097,6 +1097,18 @@
       "name": "桔梗",
       "category": "花卉類",
       "status": "collected"
+    },
+    {
+      "crop_id": "ningmengxiangfengcao",
+      "name": "檸檬香蜂草",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "bosiju",
+      "name": "波斯菊",
+      "category": "花卉類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3478,6 +3490,32 @@
       "season_months_central": null,
       "season_months_south": null,
       "season_label": "田間定植/播種的確切季節月份原文未給出，需另行查證；藥用根部於春、秋兩季採收，去除細根後削皮或保留外皮，切片曬乾備用"
+    },
+    {
+      "crop_id": "ningmengxiangfengcao",
+      "name": "檸檬香蜂草",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "唇形科多年生草本香草，耐寒、栽培容易，較其他香草更耐熱，適應台灣濕熱夏季；官方資料明確列出分株、播種的季節，資料完整度佳。",
+      "season_months_north": "3,4,9,10",
+      "season_months_central": "3,4,9,10",
+      "season_months_south": "3,4,9,10",
+      "season_label": "分株繁殖適期為春、秋兩季；播種適期為春季；亦可扦插或壓條繁殖，扦插取5公分頂芽約2～3週可發根"
+    },
+    {
+      "crop_id": "bosiju",
+      "name": "波斯菊",
+      "category": "花卉類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "菊科一年生草本，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀；官方花壇植物主題館明確列出適合播種季節，資料完整度佳。",
+      "season_months_north": "9,10,11,12,1,2",
+      "season_months_central": "9,10,11,12,1,2",
+      "season_months_south": "9,10,11,12,1,2",
+      "season_label": "秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花"
     }
   ],
   "cultivation": [
@@ -10610,6 +10648,66 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=37324",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 714,
+      "crop_id": "ningmengxiangfengcao",
+      "field": "植物特性",
+      "value": "唇形科中型多年生草本，耐寒、栽培容易，株高約30～60公分，葉片卵形有鋸齒，花白色或淡黃色",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 715,
+      "crop_id": "ningmengxiangfengcao",
+      "field": "繁殖方式",
+      "value": "可用分株（春、秋）、扦插、壓條、播種（春）等多種方式繁殖；種子需光發芽，播種後不覆土，發芽率約50%；扦插取5公分頂芽插入乾淨介質，2～3週可發根，因葉薄需勤澆水並施予50%遮蔭",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 716,
+      "crop_id": "ningmengxiangfengcao",
+      "field": "耐候特性",
+      "value": "較其他香草植物更耐熱，即使土壤水分偏多也不易腐爛，適應台灣濕熱夏季氣候",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 717,
+      "crop_id": "bosiju",
+      "field": "適合季節與溫度",
+      "value": "秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14623",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 718,
+      "crop_id": "bosiju",
+      "field": "植物特性",
+      "value": "株高約50～80公分，花色豐富細緻，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14623",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 719,
+      "crop_id": "bosiju",
+      "field": "播種方式",
+      "value": "以撒播為主，每分地播種量約1公斤；播種後灌溉，並每隔5～6公尺開設排水溝兼助覆土；土壤宜排水良好、日照充足之壤土或砂質壤土，種植地應避開強風處",
+      "source_name": "農業知識入口網（花壇植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14623",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -13217,6 +13315,16 @@
       "id": 187,
       "crop_id": "jiegeng",
       "note": "田間定植/播種的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；桔梗兼具藥用與觀賞用途，之後在UI呈現時可補充說明。"
+    },
+    {
+      "id": 188,
+      "crop_id": "ningmengxiangfengcao",
+      "note": "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 189,
+      "crop_id": "bosiju",
+      "note": "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"
     }
   ]
 }

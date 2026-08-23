@@ -294,6 +294,9 @@ REGISTRY = [
     # 第二十六批（新增：特用作物/花卉類）
     ("mingriye", "明日葉", "特用作物", "collected"),
     ("jiegeng", "桔梗", "花卉類", "collected"),
+    # 第二十七批（新增：特用作物/花卉類）
+    ("ningmengxiangfengcao", "檸檬香蜂草", "特用作物", "collected"),
+    ("bosiju", "波斯菊", "花卉類", "collected"),
 ]
 
 def M(*months):
@@ -1335,6 +1338,17 @@ CROPS = [
          region_note="桔梗科多年生草本，具白色乳汁，根呈紡錘狀，兼具藥用（藥用部位為根，具宣肺化痰、利咽排膿功效）與觀賞用途；原文僅提供藥用根部的採收季節，未給出田間定植/播種的確切月份，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="田間定植/播種的確切季節月份原文未給出，需另行查證；藥用根部於春、秋兩季採收，去除細根後削皮或保留外皮，切片曬乾備用"),
+    # 第二十七批（新增）
+    dict(crop_id="ningmengxiangfengcao", name="檸檬香蜂草", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="唇形科多年生草本香草，耐寒、栽培容易，較其他香草更耐熱，適應台灣濕熱夏季；官方資料明確列出分株、播種的季節，資料完整度佳。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="分株繁殖適期為春、秋兩季；播種適期為春季；亦可扦插或壓條繁殖，扦插取5公分頂芽約2～3週可發根"),
+    dict(crop_id="bosiju", name="波斯菊", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="菊科一年生草本，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀；官方花壇植物主題館明確列出適合播種季節，資料完整度佳。",
+         season_months_north=M(9,10,11,12,1,2), season_months_central=M(9,10,11,12,1,2), season_months_south=M(9,10,11,12,1,2),
+         season_label="秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花"),
 ]
 
 CULTIVATION = [
@@ -2416,6 +2430,16 @@ CULTIVATION = [
     # 桔梗 - 農業知識入口網 藥用植物主題館
     ("jiegeng", "植物特性", "桔梗科多年生草本，具白色乳汁，根呈紡錘狀（胡蘿蔔狀）", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37324", "official", "2026-08-23"),
     ("jiegeng", "藥用部位與採收", "藥用部位為根，具宣肺化痰、利咽排膿功效；春、秋兩季採收，去除細根後削皮或保留外皮，切片曬乾備用", "農業知識入口網（藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37324", "official", "2026-08-23"),
+
+    # 檸檬香蜂草 - 農業知識入口網
+    ("ningmengxiangfengcao", "植物特性", "唇形科中型多年生草本，耐寒、栽培容易，株高約30～60公分，葉片卵形有鋸齒，花白色或淡黃色", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740", "official", "2026-08-23"),
+    ("ningmengxiangfengcao", "繁殖方式", "可用分株（春、秋）、扦插、壓條、播種（春）等多種方式繁殖；種子需光發芽，播種後不覆土，發芽率約50%；扦插取5公分頂芽插入乾淨介質，2～3週可發根，因葉薄需勤澆水並施予50%遮蔭", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740", "official", "2026-08-23"),
+    ("ningmengxiangfengcao", "耐候特性", "較其他香草植物更耐熱，即使土壤水分偏多也不易腐爛，適應台灣濕熱夏季氣候", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3740", "official", "2026-08-23"),
+
+    # 波斯菊 - 農業知識入口網 花壇植物主題館
+    ("bosiju", "適合季節與溫度", "秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
+    ("bosiju", "植物特性", "株高約50～80公分，花色豐富細緻，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
+    ("bosiju", "播種方式", "以撒播為主，每分地播種量約1公斤；播種後灌溉，並每隔5～6公尺開設排水溝兼助覆土；土壤宜排水良好、日照充足之壤土或砂質壤土，種植地應避開強風處", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -3061,6 +3085,8 @@ UNVERIFIED = [
     ("zhaohecao", "人工栽培播種月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；昭和草作為自播性野生植物，其「現在適合種」的判斷邏輯可能與一般栽培作物不同，之後在UI呈現時應加以說明。"),
     ("mingriye", "北部、中部是否適合栽培尚待查證（僅知花蓮地區資料）；田間定植（非育苗）月份、株距、施肥、病蟲害資料本次均未查得，需另行補齊；明日葉與已收錄的當歸（danggui）同屬繖形科近緣植物，之後在UI呈現時可考慮交叉引用。"),
     ("jiegeng", "田間定植/播種的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；桔梗兼具藥用與觀賞用途，之後在UI呈現時可補充說明。"),
+    ("ningmengxiangfengcao", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("bosiju", "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
 ]
 
 
