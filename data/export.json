@@ -1193,6 +1193,24 @@
       "name": "蒔蘿",
       "category": "特用作物",
       "status": "collected"
+    },
+    {
+      "crop_id": "yuyiganlan",
+      "name": "羽衣甘藍",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yanmai",
+      "name": "燕麥",
+      "category": "雜糧",
+      "status": "collected"
+    },
+    {
+      "crop_id": "chaoxianji",
+      "name": "朝鮮薊",
+      "category": "花菜類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3782,6 +3800,45 @@
       "season_months_central": "10,11,12,1",
       "season_months_south": "10,11,12,1",
       "season_label": "台灣稻作收穫後之秋冬裡作為最適種植生育期；直播每公頃約10台斤種子，發芽後疏苗至株距20～30公分；發芽後50～60天開花，種子產量約每公頃1,019～1,427公斤"
+    },
+    {
+      "crop_id": "yuyiganlan",
+      "name": "羽衣甘藍",
+      "category": "葉菜類",
+      "region_north": "桃園大溪有農友以友善有機農法栽種",
+      "region_central": null,
+      "region_south": "花蓮紅香部落協同生態農場種植約兩分地",
+      "region_note": "十字花科甘藍屬蔬菜，喜冷涼環境但栽培彈性大；資料來源為農產品銷售平台與種苗商農業技術頁面（非kmweb官方頁面），標記為qa等級；現今亦有業者以水耕技術達成周年生產不受季節限制。",
+      "season_months_north": "3,4,9,10",
+      "season_months_central": "3,4,9,10",
+      "season_months_south": "3,4,9,10",
+      "season_label": "春、秋兩季適合露地栽培，定植後約55天開始採收；水耕栽培可周年生產不受季節限制；行株距約45～50×35～45公分，定植後須澆足水"
+    },
+    {
+      "crop_id": "yanmai",
+      "name": "燕麥",
+      "category": "雜糧",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "雲林縣為燕麥加工與相關農產品重要地區",
+      "region_note": "台灣本土品種為國立台灣大學農藝系1979年（民國68年）選育之「燕麥台大選一號」；官方牧草主題館列有芻料燕麥生產評估資料，資料完整度佳；可作冬季芻料/綠肥使用，栽培簡易可不施肥料、不用農藥。",
+      "season_months_north": "10,11,12",
+      "season_months_central": "10,11,12",
+      "season_months_south": "10,11,12",
+      "season_label": "適合台灣冬季栽培，播種期為10月底至12月；台大選一號品種於9月中旬播種，約54天可抽穗"
+    },
+    {
+      "crop_id": "chaoxianji",
+      "name": "朝鮮薊",
+      "category": "花菜類",
+      "region_north": null,
+      "region_central": "台中市、南投縣山區有少量栽培（含梨山海拔2,000公尺試種）",
+      "region_south": null,
+      "region_note": "菊科多年生草本，食用部位為未開花之花苞（西洋蔬菜之皇）；官方桃園區農業改良場資料明確列出栽培環境與生育週期，資料完整度佳；平地種植成功率極低（夏季幾乎無法生長），商業生產集中冷涼山區，臺灣平地產季僅4月。",
+      "season_months_north": null,
+      "season_months_central": "8,9",
+      "season_months_south": null,
+      "season_label": "喜全日照冷涼環境，日溫24℃、夜溫13℃下生長最好；農民通常於夏末（約8月）育苗，約一個月後（約9月）定植；經低溫春化作用後於春天抽梗開花，適當條件下可作多年生栽培；臺灣平地產季僅4月，山區（如梨山2,000公尺）品質更佳"
     }
   ],
   "cultivation": [
@@ -11344,6 +11401,96 @@
       "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=52828",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 757,
+      "crop_id": "yuyiganlan",
+      "field": "適合季節與栽培方式",
+      "value": "春、秋兩季適合露地栽培，定植後約55天開始採收；現今亦有業者以水耕技術栽培，可周年生產不受季節限制",
+      "source_name": "直接跟農夫買（羽衣甘藍品種介紹）",
+      "source_url": "https://www.buydirectlyfromfarmers.tw/catalogue/kale-5nutrition_5394/",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 758,
+      "crop_id": "yuyiganlan",
+      "field": "株距與定植",
+      "value": "行株距約45～50×35～45公分，定植後須澆足水；可自行培養EM菌調整土壤菌叢以增加抵抗病蟲害能力",
+      "source_name": "上下游新聞（超級蔬菜羽衣甘藍，台灣農場找得到）",
+      "source_url": "https://www.newsmarket.com.tw/blog/119444/",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 759,
+      "crop_id": "yuyiganlan",
+      "field": "台灣栽培產地",
+      "value": "花蓮紅香部落協同生態農場種植約兩分地；桃園大溪有農友以友善有機農法栽種",
+      "source_name": "上下游新聞（超級蔬菜羽衣甘藍，台灣農場找得到）",
+      "source_url": "https://www.newsmarket.com.tw/blog/119444/",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 760,
+      "crop_id": "yanmai",
+      "field": "適合季節",
+      "value": "適合台灣冬季栽培，播種期為10月底至12月",
+      "source_name": "台灣大紀元（播下一分地種子 台灣燕麥現身）",
+      "source_url": "https://www.epochtimes.com.tw/n278682/播下一分地種子-台灣燕麥現身.html",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 761,
+      "crop_id": "yanmai",
+      "field": "本土品種",
+      "value": "台灣本土品種為國立台灣大學農藝系1979年選育之「燕麥台大選一號」，於9月中旬播種，約54天可抽穗；可有機栽種不需施用農藥",
+      "source_name": "台灣大紀元（播下一分地種子 台灣燕麥現身）",
+      "source_url": "https://www.epochtimes.com.tw/n278682/播下一分地種子-台灣燕麥現身.html",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 762,
+      "crop_id": "yanmai",
+      "field": "芻料生產",
+      "value": "台灣冬季芻料新選擇，可作為牧草/綠肥使用",
+      "source_name": "農業知識入口網（芻料燕麥生產評估）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=40948",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 763,
+      "crop_id": "chaoxianji",
+      "field": "適合溫度與環境",
+      "value": "喜全日照冷涼環境，日溫24℃、夜溫13℃下生長最好；夏季幾乎無法生長，平地種植成功率極低",
+      "source_name": "桃園區農業改良場（認識西洋蔬菜之皇－朝鮮薊）",
+      "source_url": "https://www.tydares.gov.tw/theme_data.php?theme=prevention&id=236&print=Y",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 764,
+      "crop_id": "chaoxianji",
+      "field": "栽培週期",
+      "value": "農民通常於夏末育苗，約一個月後定植；經低溫春化作用後，春天抽梗開花；適當條件下可作多年生栽培",
+      "source_name": "桃園區農業改良場（認識西洋蔬菜之皇－朝鮮薊）",
+      "source_url": "https://www.tydares.gov.tw/theme_data.php?theme=prevention&id=236&print=Y",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 765,
+      "crop_id": "chaoxianji",
+      "field": "台灣栽培現況",
+      "value": "僅少數農民種植，多做機能性保健食品原料；平地產季僅4月；已有農友在台中梨山海拔2,000公尺地區試種，花苞可達400公克上品",
+      "source_name": "農傳媒（歐洲蔬菜之皇在地栽培 高山大尺寸朝鮮薊現正盛產）",
+      "source_url": "https://www.agriharvest.tw/archives/39274",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -14031,6 +14178,21 @@
       "id": 203,
       "crop_id": "shiluo",
       "note": "株距以外的施肥細節本次未查得，需另行補齊；北中南分區資料未取得。"
+    },
+    {
+      "id": 204,
+      "crop_id": "yuyiganlan",
+      "note": "本次資料來源均非kmweb農業知識入口網等一級政府機關頁面，而是農產品銷售平台與新聞媒體報導，標記為qa等級，需另行以官方（如各區農業改良場）資料交叉核實；土壤條件、施肥、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 205,
+      "crop_id": "yanmai",
+      "note": "適合季節部分來源為新聞報導（qa等級），僅牧草主題館一筆為官方來源但未含具體播種月份，需另行以官方播種曆核實；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；燕麥主要作綠肥/牧草用途而非直接食用作物，之後在UI呈現時可補充說明其用途定位。"
+    },
+    {
+      "id": 206,
+      "crop_id": "chaoxianji",
+      "note": "本表season欄位僅中部（山區）有月份資料，北部、南部是否適合栽培尚待查證；栽培地點受海拔與氣候限制（平地夏季幾乎無法生長），與甜柿、蘋果等高冷地作物性質相近，「現在適合種」邏輯需額外考慮此限制；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；朝鮮薊在台灣栽培規模小眾，多作保健食品原料，之後在UI呈現時可補充說明其小眾定位。"
     }
   ]
 }
