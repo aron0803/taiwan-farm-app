@@ -1,147 +1,105 @@
 {
   "registry": [
     {
-      "crop_id": "baixiangguo",
-      "name": "百香果",
-      "category": "果樹",
+      "crop_id": "xiaobaicai",
+      "name": "小白菜",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "bale",
-      "name": "芭樂",
-      "category": "果樹",
+      "crop_id": "digualve",
+      "name": "地瓜葉",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "caomei",
-      "name": "草莓",
-      "category": "果樹",
+      "crop_id": "kongxincai",
+      "name": "空心菜",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "fengli",
-      "name": "鳳梨",
-      "category": "果樹",
+      "crop_id": "bocai",
+      "name": "菠菜",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "ganju",
-      "name": "柑橘",
-      "category": "果樹",
+      "crop_id": "tongao",
+      "name": "茼蒿",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "hongzao",
-      "name": "紅棗",
-      "category": "果樹",
+      "crop_id": "jielan",
+      "name": "芥藍",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "huolongguo",
-      "name": "火龍果",
-      "category": "果樹",
+      "crop_id": "gaolicai",
+      "name": "高麗菜",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "lanmei",
-      "name": "藍莓",
-      "category": "果樹",
+      "crop_id": "dabaicai",
+      "name": "大白菜",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "laoli",
-      "name": "酪梨",
-      "category": "果樹",
+      "crop_id": "azhai",
+      "name": "A菜（萵苣）",
+      "category": "葉菜類",
       "status": "collected"
     },
     {
-      "crop_id": "lianwu",
-      "name": "蓮霧",
-      "category": "果樹",
+      "crop_id": "huaqielan",
+      "name": "花椰菜",
+      "category": "花菜類",
       "status": "collected"
     },
     {
-      "crop_id": "lizhi",
-      "name": "荔枝",
-      "category": "果樹",
+      "crop_id": "lvhuaqielan",
+      "name": "青花菜（綠花椰）",
+      "category": "花菜類",
       "status": "collected"
     },
     {
-      "crop_id": "longyan",
-      "name": "龍眼",
-      "category": "果樹",
+      "crop_id": "luobo",
+      "name": "蘿蔔",
+      "category": "根莖類",
       "status": "collected"
     },
     {
-      "crop_id": "mangguo",
-      "name": "芒果",
-      "category": "果樹",
+      "crop_id": "huluobo",
+      "name": "胡蘿蔔",
+      "category": "根莖類",
       "status": "collected"
     },
     {
-      "crop_id": "mugua",
-      "name": "木瓜",
-      "category": "果樹",
+      "crop_id": "malingshu",
+      "name": "馬鈴薯",
+      "category": "根莖類",
       "status": "collected"
     },
     {
-      "crop_id": "ningmeng",
-      "name": "檸檬",
-      "category": "果樹",
+      "crop_id": "yutou",
+      "name": "芋頭",
+      "category": "根莖類",
       "status": "collected"
     },
     {
-      "crop_id": "pingguo",
-      "name": "蘋果",
-      "category": "果樹",
+      "crop_id": "jiang",
+      "name": "薑",
+      "category": "根莖類",
       "status": "collected"
     },
     {
-      "crop_id": "pipa",
-      "name": "枇杷",
-      "category": "果樹",
-      "status": "collected"
-    },
-    {
-      "crop_id": "putao",
-      "name": "葡萄",
-      "category": "果樹",
-      "status": "collected"
-    },
-    {
-      "crop_id": "shijia",
-      "name": "釋迦",
-      "category": "果樹",
-      "status": "collected"
-    },
-    {
-      "crop_id": "tianshi",
-      "name": "甜柿",
-      "category": "果樹",
-      "status": "collected"
-    },
-    {
-      "crop_id": "xiangjiao",
-      "name": "香蕉",
-      "category": "果樹",
-      "status": "collected"
-    },
-    {
-      "crop_id": "yangtao",
-      "name": "楊桃",
-      "category": "果樹",
-      "status": "collected"
-    },
-    {
-      "crop_id": "bianbu",
-      "name": "扁蒲（蒲瓜）",
-      "category": "果菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "donggua",
-      "name": "冬瓜",
-      "category": "果菜類",
+      "crop_id": "yangcong",
+      "name": "洋蔥",
+      "category": "根莖類",
       "status": "collected"
     },
     {
@@ -151,44 +109,8 @@
       "status": "collected"
     },
     {
-      "crop_id": "hugua",
-      "name": "胡瓜（花胡瓜）",
-      "category": "果菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "kugua",
-      "name": "苦瓜",
-      "category": "果菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "lajiao",
-      "name": "辣椒",
-      "category": "果菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "nangua",
-      "name": "南瓜",
-      "category": "果菜類",
-      "status": "collected"
-    },
-    {
       "crop_id": "qiezi",
       "name": "茄子",
-      "category": "果菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "qiukui",
-      "name": "秋葵",
-      "category": "果菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "sigua",
-      "name": "絲瓜",
       "category": "果菜類",
       "status": "collected"
     },
@@ -205,339 +127,27 @@
       "status": "collected"
     },
     {
-      "crop_id": "xigua",
-      "name": "西瓜",
+      "crop_id": "sigua",
+      "name": "絲瓜",
       "category": "果菜類",
       "status": "collected"
     },
     {
-      "crop_id": "yangxiangua",
-      "name": "洋香瓜（哈密瓜／香瓜）",
+      "crop_id": "donggua",
+      "name": "冬瓜",
       "category": "果菜類",
       "status": "collected"
     },
     {
-      "crop_id": "yuegua",
-      "name": "越瓜（醃瓜）",
+      "crop_id": "nangua",
+      "name": "南瓜",
       "category": "果菜類",
       "status": "collected"
     },
     {
-      "crop_id": "biqi",
-      "name": "荸薺（馬蹄）",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "huluobo",
-      "name": "胡蘿蔔",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jiang",
-      "name": "薑",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jianghuang",
-      "name": "薑黃",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jiaobaisun",
-      "name": "茭白筍",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "lianou",
-      "name": "蓮藕",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "lingjiao",
-      "name": "菱角",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "luobo",
-      "name": "蘿蔔",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "lusun",
-      "name": "蘆筍",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "malingshu",
-      "name": "馬鈴薯",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "niupang",
-      "name": "牛蒡",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "qiujingganlan",
-      "name": "球莖甘藍（結頭菜）",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "shanyao",
-      "name": "山藥",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "tiancaigen",
-      "name": "甜菜根",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "yangcong",
-      "name": "洋蔥",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "yutou",
-      "name": "芋頭",
-      "category": "根莖類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "hangju",
-      "name": "杭菊",
-      "category": "特用作物",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jinzhen",
-      "name": "金針",
-      "category": "特用作物",
-      "status": "collected"
-    },
-    {
-      "crop_id": "kafei",
-      "name": "咖啡",
-      "category": "特用作物",
-      "status": "collected"
-    },
-    {
-      "crop_id": "luoshenkui",
-      "name": "洛神葵",
-      "category": "特用作物",
-      "status": "collected"
-    },
-    {
-      "crop_id": "taiwanli",
-      "name": "台灣藜",
-      "category": "特用作物",
-      "status": "collected"
-    },
-    {
-      "crop_id": "xiancao",
-      "name": "仙草",
-      "category": "特用作物",
-      "status": "collected"
-    },
-    {
-      "crop_id": "huaqielan",
-      "name": "花椰菜",
-      "category": "花菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "lvhuaqielan",
-      "name": "青花菜（綠花椰）",
-      "category": "花菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "azhai",
-      "name": "A菜（萵苣）",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "bocai",
-      "name": "菠菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "dabaicai",
-      "name": "大白菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "digualve",
-      "name": "地瓜葉",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "gaolicai",
-      "name": "高麗菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "guomao",
-      "name": "過貓（過溝菜蕨）",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "huanggongcai",
-      "name": "皇宮菜（落葵）",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jiecai",
-      "name": "芥菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jielan",
-      "name": "芥藍",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jiucengta",
-      "name": "九層塔",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "kongxincai",
-      "name": "空心菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "longxucai",
-      "name": "龍鬚菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "qincai",
-      "name": "芹菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "qingjiangcai",
-      "name": "青江菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "shansu",
-      "name": "山蘇",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "tongao",
-      "name": "茼蒿",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "xiangcai",
-      "name": "香菜（芫荽）",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "xiaobaicai",
-      "name": "小白菜",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "yelian",
-      "name": "野蓮",
-      "category": "葉菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "cong",
-      "name": "蔥",
-      "category": "蔥蒜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "dasuan",
-      "name": "大蒜",
-      "category": "蔥蒜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "hongcongtou",
-      "name": "紅蔥頭",
-      "category": "蔥蒜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jiucai",
-      "name": "韭菜",
-      "category": "蔥蒜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "hongdou",
-      "name": "紅豆",
-      "category": "豆菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "huangdidou",
-      "name": "皇帝豆（萊豆）",
-      "category": "豆菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "jiangdou",
-      "name": "豇豆（長豆）",
-      "category": "豆菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "maodou",
-      "name": "毛豆",
-      "category": "豆菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "midou",
-      "name": "米豆",
-      "category": "豆菜類",
-      "status": "collected"
-    },
-    {
-      "crop_id": "shudou",
-      "name": "樹豆",
-      "category": "豆菜類",
+      "crop_id": "kugua",
+      "name": "苦瓜",
+      "category": "果菜類",
       "status": "collected"
     },
     {
@@ -553,8 +163,56 @@
       "status": "collected"
     },
     {
-      "crop_id": "dadou",
-      "name": "大豆（黃豆）",
+      "crop_id": "maodou",
+      "name": "毛豆",
+      "category": "豆菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "bale",
+      "name": "芭樂",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "ganju",
+      "name": "柑橘",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "xiangjiao",
+      "name": "香蕉",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "mangguo",
+      "name": "芒果",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "mugua",
+      "name": "木瓜",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "fengli",
+      "name": "鳳梨",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lianwu",
+      "name": "蓮霧",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yumi",
+      "name": "玉米",
       "category": "雜糧",
       "status": "collected"
     },
@@ -565,14 +223,368 @@
       "status": "collected"
     },
     {
-      "crop_id": "ganzhe",
-      "name": "甘蔗",
+      "crop_id": "jiucai",
+      "name": "韭菜",
+      "category": "蔥蒜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "cong",
+      "name": "蔥",
+      "category": "蔥蒜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "dasuan",
+      "name": "大蒜",
+      "category": "蔥蒜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "xigua",
+      "name": "西瓜",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jiecai",
+      "name": "芥菜",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "youcai",
+      "name": "油菜",
       "category": "雜糧",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lizhi",
+      "name": "荔枝",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "longyan",
+      "name": "龍眼",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "baixiangguo",
+      "name": "百香果",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "huolongguo",
+      "name": "火龍果",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "shanyao",
+      "name": "山藥",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "niupang",
+      "name": "牛蒡",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lusun",
+      "name": "蘆筍",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jiaobaisun",
+      "name": "茭白筍",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "hongdou",
+      "name": "紅豆",
+      "category": "豆菜類",
       "status": "collected"
     },
     {
       "crop_id": "huasheng",
       "name": "花生",
+      "category": "雜糧",
+      "status": "collected"
+    },
+    {
+      "crop_id": "putao",
+      "name": "葡萄",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "caomei",
+      "name": "草莓",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "qiukui",
+      "name": "秋葵",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "huanggongcai",
+      "name": "皇宮菜（落葵）",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jiucengta",
+      "name": "九層塔",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "xiangcai",
+      "name": "香菜（芫荽）",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lianou",
+      "name": "蓮藕",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yangtao",
+      "name": "楊桃",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "shijia",
+      "name": "釋迦",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "tianshi",
+      "name": "甜柿",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yangxiangua",
+      "name": "洋香瓜（哈密瓜／香瓜）",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "longxucai",
+      "name": "龍鬚菜",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "shansu",
+      "name": "山蘇",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "guomao",
+      "name": "過貓（過溝菜蕨）",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "tiancaigen",
+      "name": "甜菜根",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "biqi",
+      "name": "荸薺（馬蹄）",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "pingguo",
+      "name": "蘋果",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "pipa",
+      "name": "枇杷",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "hongzao",
+      "name": "紅棗",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "laoli",
+      "name": "酪梨",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "dadou",
+      "name": "大豆（黃豆）",
+      "category": "雜糧",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jinzhen",
+      "name": "金針",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "xiancao",
+      "name": "仙草",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "luoshenkui",
+      "name": "洛神葵",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "kafei",
+      "name": "咖啡",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lingjiao",
+      "name": "菱角",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yelian",
+      "name": "野蓮",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "shudou",
+      "name": "樹豆",
+      "category": "豆菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "taiwanli",
+      "name": "台灣藜",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "xiaomi",
+      "name": "小米",
+      "category": "雜糧",
+      "status": "collected"
+    },
+    {
+      "crop_id": "ningmeng",
+      "name": "檸檬",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "hongcongtou",
+      "name": "紅蔥頭",
+      "category": "蔥蒜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lajiao",
+      "name": "辣椒",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "qingjiangcai",
+      "name": "青江菜",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "qincai",
+      "name": "芹菜",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "bianbu",
+      "name": "扁蒲（蒲瓜）",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "hugua",
+      "name": "胡瓜（花胡瓜）",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jianghuang",
+      "name": "薑黃",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lanmei",
+      "name": "藍莓",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "huangdidou",
+      "name": "皇帝豆（萊豆）",
+      "category": "豆菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "qiujingganlan",
+      "name": "球莖甘藍（結頭菜）",
+      "category": "根莖類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yuegua",
+      "name": "越瓜（醃瓜）",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "jiangdou",
+      "name": "豇豆（長豆）",
+      "category": "豆菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "midou",
+      "name": "米豆",
+      "category": "豆菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "ganzhe",
+      "name": "甘蔗",
       "category": "雜糧",
       "status": "collected"
     },
@@ -583,21 +595,33 @@
       "status": "collected"
     },
     {
-      "crop_id": "xiaomi",
-      "name": "小米",
+      "crop_id": "hangju",
+      "name": "杭菊",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "lvdou",
+      "name": "綠豆",
       "category": "雜糧",
       "status": "collected"
     },
     {
-      "crop_id": "youcai",
-      "name": "油菜",
+      "crop_id": "heidou",
+      "name": "黑豆",
       "category": "雜糧",
       "status": "collected"
     },
     {
-      "crop_id": "yumi",
-      "name": "玉米",
-      "category": "雜糧",
+      "crop_id": "lvzhusun",
+      "name": "綠竹筍",
+      "category": "筍類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "aiyu",
+      "name": "愛玉",
+      "category": "特用作物",
       "status": "collected"
     }
   ],
@@ -1901,6 +1925,58 @@
       "season_months_central": "4,5,6,7",
       "season_months_south": "4,5,6,7",
       "season_label": "一般於4月清明節後開始種植，最晚可於7月前；花期11～12月；生長適溫15～28℃，耐旱不耐淹水"
+    },
+    {
+      "crop_id": "lvdou",
+      "name": "綠豆",
+      "category": "雜糧",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "兩篇官方文章對播種期的敘述不一致：一篇指2～3月播種、產期4～6月、盛產期8～9月，另一篇僅泛稱可春、夏、秋三作但未給出具體月份；本土栽培集中台南市佳里區等地，市面上多為進口綠豆，尚未取得北中南分區資料。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "播種月份兩篇官方資料互相矛盾（2～3月播種 vs 春夏秋三作皆可），需另行查證後才能標示月份；生長期短，約60～75天即可收成"
+    },
+    {
+      "crop_id": "heidou",
+      "name": "黑豆",
+      "category": "雜糧",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "官方栽培管理示範會紀實依整地方式區分播種時機（作畦栽培適合春夏作或颱風雨水多地區提早於秋作播種；撒播開溝栽培適合颱風雨水較少時延後於秋作播種），但未給出具體月份數字，也未區分北中南地區。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "依整地方式分早晚：作畦栽培適合春、夏作或颱風雨水多地區提早於秋作播種；撒播開溝栽培適合延後於秋作、颱風雨水較少時播種；原文未給出精確月份，需另行查證"
+    },
+    {
+      "crop_id": "lvzhusun",
+      "name": "綠竹筍",
+      "category": "筍類",
+      "region_north": "新北（三峽、五股、八里等）、台北（木柵、南港等）、桃園、新竹、基隆亦有栽培",
+      "region_central": "台中亦有栽培",
+      "region_south": "台南、屏東亦有栽培",
+      "region_note": "綠竹為多年生竹類，農民新植多以高壓、分株法繁殖既有竹叢，而非年年播種，原文未給出繁殖/定植的確切月份；此處月份採用「產季（採收期）」而非播種月份，與果樹類作物的處理方式相同。",
+      "season_months_north": "3,4,5,6,7,8,9,10",
+      "season_months_central": "3,4,5,6,7,8,9,10",
+      "season_months_south": "3,4,5,6,7,8,9,10",
+      "season_label": "全年產季約3～10月，以5～7月為盛產期；南部4月下旬至5月下旬（正筍期）、7月中旬（秋仔筍期）為兩個高峰，北部盛產高峰在6月中旬至7月中旬及8月下旬；此為採收期而非新植繁殖月份"
+    },
+    {
+      "crop_id": "aiyu",
+      "name": "愛玉",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "台灣特有山地植物，原產於海拔800～1,800公尺山區，栽培地點受海拔限制，與甜柿、蘋果等高冷地果樹性質相近；農業部苗栗區農業改良場已育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種。此處月份為隱花果產季（採收期）而非苗木定植月份，原文未給出定植的確切月份。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "隱花果主要產季集中於8～10月（由開花到可採收約需4～5個月）；苗木定植適期原文未給出確切月份，需另行查證；栽培地點受海拔限制（傳統產區800～1,800公尺），低海拔栽培品種已有苗栗1號、2號可選"
     }
   ],
   "cultivation": [
@@ -6333,6 +6409,176 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=40309",
       "source_type": "official",
       "fetched_date": "2026-08-19"
+    },
+    {
+      "id": 444,
+      "crop_id": "lvdou",
+      "field": "生長期",
+      "value": "生長期短，約60～75天即可收成，一年可有春作、夏作、秋作三次栽培期",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54231",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 445,
+      "crop_id": "lvdou",
+      "field": "播種與採收（一說）",
+      "value": "有資料指2～3月播種，約三個月可採收，產期4～6月、盛產期8～9月；採收時拔取全株曬乾的成熟種子，打落種子並簸淨雜質後即可上市",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54294",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 446,
+      "crop_id": "lvdou",
+      "field": "產地與市場現況",
+      "value": "本土栽培有限，主要產地之一為台南市佳里區；市面上多屬進口綠豆，本土豆因採收人力成本高、與進口低價競爭而產量受限",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54231",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 447,
+      "crop_id": "heidou",
+      "field": "作物分類",
+      "value": "為大豆的一種，依種皮顏色分為青仁黑豆、黃仁黑豆兩類",
+      "source_name": "農業知識入口網（使用者問答）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=8631",
+      "source_type": "qa",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 448,
+      "crop_id": "heidou",
+      "field": "播種期（依整地方式而異）",
+      "value": "作畦栽培建議於春、夏作種植，或颱風雨水較多地區提早於秋作播種；撒播開溝栽培建議延後於秋作、颱風雨水較少時播種",
+      "source_name": "農業知識入口網（黑豆台南3號栽培管理示範會紀實）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=13194&id=266781",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 449,
+      "crop_id": "heidou",
+      "field": "施肥",
+      "value": "若前期種植綠肥植物，後期作施肥量可減少約一半，有助降低栽培成本",
+      "source_name": "農業知識入口網（黑豆台南3號栽培管理示範會紀實）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=13194&id=266781",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 450,
+      "crop_id": "lvzhusun",
+      "field": "適合環境",
+      "value": "喜溫暖潮濕，主要栽培於平地及海拔500公尺以下坡度不大之山坡地、溪畔等地；根系淺，不耐乾旱及強風",
+      "source_name": "農業知識入口網（綠竹筍主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=2518",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 451,
+      "crop_id": "lvzhusun",
+      "field": "土壤條件",
+      "value": "土層深厚、土質疏鬆、排水良好",
+      "source_name": "農業知識入口網（綠竹筍主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=2518",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 452,
+      "crop_id": "lvzhusun",
+      "field": "主要產地",
+      "value": "全台栽培面積約7,575公頃，主要分布新北市（三峽、五股、八里等）、台北市（木柵、南港等），以及桃園、新竹、基隆、台中、台南、屏東等地",
+      "source_name": "農業知識入口網（綠竹筍主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=2518",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 453,
+      "crop_id": "lvzhusun",
+      "field": "產季",
+      "value": "全年產季約3～10月，以5～7月為盛產期；南部4月下旬至5月下旬（正筍期）、7月中旬（秋仔筍期）為兩個高峰，北部盛產高峰在6月中旬至7月中旬及8月下旬",
+      "source_name": "農業知識入口網（綠竹筍主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=2521",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 454,
+      "crop_id": "lvzhusun",
+      "field": "採收方式",
+      "value": "應於清晨採收，觀察土面稍有龜裂、筍尖略有水氣潤濕土面時挖掘，在筍最肥大處上方1～2公分處切斷以避免損傷基部芽體；延誤採收使筍露出地面見光會產生「出青」苦味（煮沸可分解，不影響食用安全）",
+      "source_name": "農業知識入口網（綠竹筍主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=2521",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 455,
+      "crop_id": "aiyu",
+      "field": "植物特性",
+      "value": "桑科榕屬台灣特有山地植物，氣根多，易纏繞於岩石或樹幹上，常攀附高大喬木",
+      "source_name": "農業知識入口網（種子世界館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=26230",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 456,
+      "crop_id": "aiyu",
+      "field": "適合環境",
+      "value": "原產於海拔800～1,800公尺山區，適應山區冷涼氣候",
+      "source_name": "農業知識入口網（種子世界館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=26230",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 457,
+      "crop_id": "aiyu",
+      "field": "果實發育",
+      "value": "隱花果從授粉到成熟約需90～130天，發育分5階段，第4期（瘦果成熟期）為採收最佳時期",
+      "source_name": "農業知識入口網（愛玉姑娘的家）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=24507",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 458,
+      "crop_id": "aiyu",
+      "field": "產季",
+      "value": "主要產季集中於8～10月",
+      "source_name": "農業知識入口網（愛玉姑娘的家）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=24507",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 459,
+      "crop_id": "aiyu",
+      "field": "採收時機",
+      "value": "由開花到可採收約需4～5個月，需在隱花果由暗綠色轉為紫色時採收，過早或過晚採收皆會使凝膠能力較差",
+      "source_name": "農業知識入口網（種子世界館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=26230",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 460,
+      "crop_id": "aiyu",
+      "field": "低海拔栽培品種",
+      "value": "農業部苗栗區農業改良場歷經15年育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種，可有機栽培量產",
+      "source_name": "農業知識入口網（愛玉姑娘的家）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/news.php?id=2805&news_id=19393",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -8520,6 +8766,26 @@
       "id": 103,
       "crop_id": "hangju",
       "note": "種植月份(4月清明後至7月前)來自搜尋摘要整理，未經WebFetch單一官方頁面直接核實，標記為qa；施肥、病蟲害等資料均缺，需另行補齊。"
+    },
+    {
+      "id": 104,
+      "crop_id": "lvdou",
+      "note": "兩篇官方文章對播種月份的敘述不一致（2～3月播種 vs 春夏秋三作皆可但未給月份），season欄位暫留空；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 105,
+      "crop_id": "heidou",
+      "note": "播種月份僅知依整地方式分早晚（作畦栽培偏早、撒播開溝栽培偏晚），未取得具體月份數字，season欄位暫留空；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 106,
+      "crop_id": "lvzhusun",
+      "note": "綠竹為多年生竹類，新植多以高壓、分株法繁殖既有竹叢，定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與果樹類作物處理方式相同；病蟲害資料本次僅由主題館索引頁查得名稱列表（蟲害如竹葉蟎、臺灣大象鼻蟲、長角緣椿象等17種，病害如黑斑病、銹病、竹白絹病等9種），未逐一查證症狀與防治方法原文，需另行補齊。"
+    },
+    {
+      "id": 107,
+      "crop_id": "aiyu",
+      "note": "苗木定植的確切月份、適合溫度、土壤條件、株距、施肥等基本欄位本次均未查得；愛玉授粉依賴專一的愛玉小蜂共生關係，此非一般病蟲害概念，病蟲害資料（如「愛玉子的病與蟲」頁面所列項目）本次未查證，需另行補齊；栽培地點受海拔限制（傳統產區800～1,800公尺），與甜柿、蘋果等高冷地果樹相同，「現在適合種」邏輯需額外考慮海拔限制。"
     }
   ]
 }

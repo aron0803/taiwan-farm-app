@@ -189,6 +189,11 @@ REGISTRY = [
     ("ganzhe", "甘蔗", "雜糧", "collected"),
     ("huma", "胡麻（芝麻）", "雜糧", "collected"),
     ("hangju", "杭菊", "特用作物", "collected"),
+    # 第五批（新增：雜糧/筍類/特用作物，新增「筍類」分類）
+    ("lvdou", "綠豆", "雜糧", "collected"),
+    ("heidou", "黑豆", "雜糧", "collected"),
+    ("lvzhusun", "綠竹筍", "筍類", "collected"),
+    ("aiyu", "愛玉", "特用作物", "collected"),
 ]
 
 def M(*months):
@@ -755,6 +760,29 @@ CROPS = [
          region_note="農業部「地方特色作物」清單將杭菊列為苗栗縣區域特色作物；主要產地在苗栗銅鑼；種植月份來自搜尋摘要整理（qa等級），田間定植規格已以WebFetch核實官方原文。",
          season_months_north=M(4,5,6,7), season_months_central=M(4,5,6,7), season_months_south=M(4,5,6,7),
          season_label="一般於4月清明節後開始種植，最晚可於7月前；花期11～12月；生長適溫15～28℃，耐旱不耐淹水"),
+    # 第五批（新增）
+    dict(crop_id="lvdou", name="綠豆", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="兩篇官方文章對播種期的敘述不一致：一篇指2～3月播種、產期4～6月、盛產期8～9月，另一篇僅泛稱可春、夏、秋三作但未給出具體月份；本土栽培集中台南市佳里區等地，市面上多為進口綠豆，尚未取得北中南分區資料。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種月份兩篇官方資料互相矛盾（2～3月播種 vs 春夏秋三作皆可），需另行查證後才能標示月份；生長期短，約60～75天即可收成"),
+    dict(crop_id="heidou", name="黑豆", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="官方栽培管理示範會紀實依整地方式區分播種時機（作畦栽培適合春夏作或颱風雨水多地區提早於秋作播種；撒播開溝栽培適合颱風雨水較少時延後於秋作播種），但未給出具體月份數字，也未區分北中南地區。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="依整地方式分早晚：作畦栽培適合春、夏作或颱風雨水多地區提早於秋作播種；撒播開溝栽培適合延後於秋作、颱風雨水較少時播種；原文未給出精確月份，需另行查證"),
+    dict(crop_id="lvzhusun", name="綠竹筍", category="筍類",
+         region_north="新北（三峽、五股、八里等）、台北（木柵、南港等）、桃園、新竹、基隆亦有栽培",
+         region_central="台中亦有栽培",
+         region_south="台南、屏東亦有栽培",
+         region_note="綠竹為多年生竹類，農民新植多以高壓、分株法繁殖既有竹叢，而非年年播種，原文未給出繁殖/定植的確切月份；此處月份採用「產季（採收期）」而非播種月份，與果樹類作物的處理方式相同。",
+         season_months_north=M(3,4,5,6,7,8,9,10), season_months_central=M(3,4,5,6,7,8,9,10), season_months_south=M(3,4,5,6,7,8,9,10),
+         season_label="全年產季約3～10月，以5～7月為盛產期；南部4月下旬至5月下旬（正筍期）、7月中旬（秋仔筍期）為兩個高峰，北部盛產高峰在6月中旬至7月中旬及8月下旬；此為採收期而非新植繁殖月份"),
+    dict(crop_id="aiyu", name="愛玉", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣特有山地植物，原產於海拔800～1,800公尺山區，栽培地點受海拔限制，與甜柿、蘋果等高冷地果樹性質相近；農業部苗栗區農業改良場已育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種。此處月份為隱花果產季（採收期）而非苗木定植月份，原文未給出定植的確切月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="隱花果主要產季集中於8～10月（由開花到可採收約需4～5個月）；苗木定植適期原文未給出確切月份，需另行查證；栽培地點受海拔限制（傳統產區800～1,800公尺），低海拔栽培品種已有苗栗1號、2號可選"),
 ]
 
 CULTIVATION = [
@@ -1400,6 +1428,31 @@ CULTIVATION = [
     ("hangju", "土壤條件", "排水良好、pH5.2～6.7的砂質壤土為佳；耐旱不耐淹水", "農業知識入口網（機能作物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=40308", "official", "2026-08-19"),
     ("hangju", "作畦與定植", "畦高30公分以上（減少萎凋病發生），畦寬約105～110公分、畦溝寬約45公分；採雙行三角種植，行株距約60×60公分，以分株苗為主", "農業知識入口網（機能作物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=40309", "official", "2026-08-19"),
     ("hangju", "花期與採收", "花期11～12月，於花序舌狀花展開7～8分時採摘，可分3～4次採收", "農業知識入口網（機能作物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=40309", "official", "2026-08-19"),
+
+    # 綠豆 - 農業知識入口網 食材你好/主題新聞
+    ("lvdou", "生長期", "生長期短，約60～75天即可收成，一年可有春作、夏作、秋作三次栽培期", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54231", "official", "2026-08-23"),
+    ("lvdou", "播種與採收（一說）", "有資料指2～3月播種，約三個月可採收，產期4～6月、盛產期8～9月；採收時拔取全株曬乾的成熟種子，打落種子並簸淨雜質後即可上市", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54294", "official", "2026-08-23"),
+    ("lvdou", "產地與市場現況", "本土栽培有限，主要產地之一為台南市佳里區；市面上多屬進口綠豆，本土豆因採收人力成本高、與進口低價競爭而產量受限", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54231", "official", "2026-08-23"),
+
+    # 黑豆 - 農業知識入口網（栽培管理示範會紀實／問答）
+    ("heidou", "作物分類", "為大豆的一種，依種皮顏色分為青仁黑豆、黃仁黑豆兩類", "農業知識入口網（使用者問答）", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8631", "qa", "2026-08-23"),
+    ("heidou", "播種期（依整地方式而異）", "作畦栽培建議於春、夏作種植，或颱風雨水較多地區提早於秋作播種；撒播開溝栽培建議延後於秋作、颱風雨水較少時播種", "農業知識入口網（黑豆台南3號栽培管理示範會紀實）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=13194&id=266781", "official", "2026-08-23"),
+    ("heidou", "施肥", "若前期種植綠肥植物，後期作施肥量可減少約一半，有助降低栽培成本", "農業知識入口網（黑豆台南3號栽培管理示範會紀實）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=2&type=13194&id=266781", "official", "2026-08-23"),
+
+    # 綠竹筍 - 農業知識入口網 綠竹筍主題館 subject id=2518/2521
+    ("lvzhusun", "適合環境", "喜溫暖潮濕，主要栽培於平地及海拔500公尺以下坡度不大之山坡地、溪畔等地；根系淺，不耐乾旱及強風", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2518", "official", "2026-08-23"),
+    ("lvzhusun", "土壤條件", "土層深厚、土質疏鬆、排水良好", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2518", "official", "2026-08-23"),
+    ("lvzhusun", "主要產地", "全台栽培面積約7,575公頃，主要分布新北市（三峽、五股、八里等）、台北市（木柵、南港等），以及桃園、新竹、基隆、台中、台南、屏東等地", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2518", "official", "2026-08-23"),
+    ("lvzhusun", "產季", "全年產季約3～10月，以5～7月為盛產期；南部4月下旬至5月下旬（正筍期）、7月中旬（秋仔筍期）為兩個高峰，北部盛產高峰在6月中旬至7月中旬及8月下旬", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2521", "official", "2026-08-23"),
+    ("lvzhusun", "採收方式", "應於清晨採收，觀察土面稍有龜裂、筍尖略有水氣潤濕土面時挖掘，在筍最肥大處上方1～2公分處切斷以避免損傷基部芽體；延誤採收使筍露出地面見光會產生「出青」苦味（煮沸可分解，不影響食用安全）", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=2521", "official", "2026-08-23"),
+
+    # 愛玉 - 農業知識入口網 愛玉姑娘的家／種子世界館
+    ("aiyu", "植物特性", "桑科榕屬台灣特有山地植物，氣根多，易纏繞於岩石或樹幹上，常攀附高大喬木", "農業知識入口網（種子世界館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=26230", "official", "2026-08-23"),
+    ("aiyu", "適合環境", "原產於海拔800～1,800公尺山區，適應山區冷涼氣候", "農業知識入口網（種子世界館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=26230", "official", "2026-08-23"),
+    ("aiyu", "果實發育", "隱花果從授粉到成熟約需90～130天，發育分5階段，第4期（瘦果成熟期）為採收最佳時期", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/subject.php?id=24507", "official", "2026-08-23"),
+    ("aiyu", "產季", "主要產季集中於8～10月", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/subject.php?id=24507", "official", "2026-08-23"),
+    ("aiyu", "採收時機", "由開花到可採收約需4～5個月，需在隱花果由暗綠色轉為紫色時採收，過早或過晚採收皆會使凝膠能力較差", "農業知識入口網（種子世界館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=26230", "official", "2026-08-23"),
+    ("aiyu", "低海拔栽培品種", "農業部苗栗區農業改良場歷經15年育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種，可有機栽培量產", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/news.php?id=2805&news_id=19393", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -1961,6 +2014,10 @@ UNVERIFIED = [
     ("ganzhe", "適合溫度、土壤詳細條件、株距、施肥、病蟲害等資料均缺，需另行補齊。"),
     ("huma", "播種月份為依生育期(80～90天)反推的估算值，非原文直接給出的精確月份，需另行查證核實；適合溫度、土壤條件、株距、施肥、病蟲害等資料均缺。"),
     ("hangju", "種植月份(4月清明後至7月前)來自搜尋摘要整理，未經WebFetch單一官方頁面直接核實，標記為qa；施肥、病蟲害等資料均缺，需另行補齊。"),
+    ("lvdou", "兩篇官方文章對播種月份的敘述不一致（2～3月播種 vs 春夏秋三作皆可但未給月份），season欄位暫留空；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("heidou", "播種月份僅知依整地方式分早晚（作畦栽培偏早、撒播開溝栽培偏晚），未取得具體月份數字，season欄位暫留空；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("lvzhusun", "綠竹為多年生竹類，新植多以高壓、分株法繁殖既有竹叢，定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與果樹類作物處理方式相同；病蟲害資料本次僅由主題館索引頁查得名稱列表（蟲害如竹葉蟎、臺灣大象鼻蟲、長角緣椿象等17種，病害如黑斑病、銹病、竹白絹病等9種），未逐一查證症狀與防治方法原文，需另行補齊。"),
+    ("aiyu", "苗木定植的確切月份、適合溫度、土壤條件、株距、施肥等基本欄位本次均未查得；愛玉授粉依賴專一的愛玉小蜂共生關係，此非一般病蟲害概念，病蟲害資料（如「愛玉子的病與蟲」頁面所列項目）本次未查證，需另行補齊；栽培地點受海拔限制（傳統產區800～1,800公尺），與甜柿、蘋果等高冷地果樹相同，「現在適合種」邏輯需額外考慮海拔限制。"),
 ]
 
 
