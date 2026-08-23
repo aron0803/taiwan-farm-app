@@ -222,6 +222,12 @@ REGISTRY = [
     ("huohehua", "火鶴花", "花卉類", "collected"),
     ("juhua", "菊花", "花卉類", "collected"),
     ("jiabaoguo", "嘉寶果（樹葡萄）", "果樹", "collected"),
+    # 第十批（新增：特用作物/菇蕈類/果樹）
+    ("youcha", "油茶", "特用作物", "collected"),
+    ("baimuer", "白木耳", "菇蕈類", "collected"),
+    ("sangshen", "桑椹", "果樹", "collected"),
+    ("luhui", "蘆薈", "特用作物", "collected"),
+    ("xiuzhengu", "秀珍菇", "菇蕈類", "collected"),
 ]
 
 def M(*months):
@@ -946,6 +952,33 @@ CROPS = [
          region_note="原產巴西的熱帶葡萄，生長緩慢，實生苗需6～10年才會結果，嫁接苗可縮短此幼年期；根系淺、極不耐旱，栽培土壤須排水良好；苗木定植的確切季節月份原文未給出，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長緩慢不宜強剪，密生過多枝條宜於秋冬季輕剪；適合弱酸性土壤pH5.5～6.5，需充足水分灌溉但排水須良好"),
+    # 第十批（新增）
+    dict(crop_id="youcha", name="油茶", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="山茶科山茶屬常綠小喬木，種子榨油即為苦茶油；原產溫暖濕潤氣候（年均溫14～24℃、相對濕度74～85%、年雨量1,000毫米以上、年日照1,800～2,000小時），台灣除沿海地區外多適合栽培，對土壤要求富彈性；種子繁殖時間與果實採收期連動，原文未給出明確定植月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；種子繁殖：果實採收後於通風室內陰乾3～5天，待果皮開裂即可取種即時播種；定植後第4年可開始少量採收種子，第8年顯著增產，第12年後穩定量產"),
+    dict(crop_id="baimuer", name="白木耳", category="菇蕈類",
+         region_north=None, region_central="台中亦有栽培（次要產地）",
+         region_south="台南為主要產地",
+         region_note="白木耳（銀耳）為台灣重要食藥用菇類，具潤肺養陰、化痰生津等傳統用途；台灣早期以段木栽培法少量生產，因近年取得段木困難、價格高昂已停產，目前市售白木耳多為中國大陸進口；台灣亦已開發本產白木耳及彩色木耳品種，可採段木或塑膠瓶罐栽培法生產，但具體溫度、太空包配方等技術細節本次未能從官方原文查證，需另行補齊。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="栽培技術細節（溫度、配方等）本次未查得，需另行查證；歷史上以段木栽培為主，現多改採塑膠瓶罐栽培法，屬控制環境生產模式"),
+    dict(crop_id="sangshen", name="桑椹", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="桑樹耐性強、病蟲害少；喜溫帶至熱帶氣候、海拔1,000公尺以下地區；扦插繁殖方法明確，但原文未給出扦插/定植的確切月份（僅知第二年即可開花結果），需另行查證確切種植季節。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="扦插/定植的確切月份原文未給出，需另行查證；生長適溫23～27℃，年雨量600～2,500毫米，日照9～13小時；扦插後30～45天發芽，第二年開花結果；施肥於12月（落葉後、萌芽前）或5月（修剪後）進行"),
+    dict(crop_id="luhui", name="蘆薈", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文明確指出可全年以分株法繁殖，故此筆季節欄位標示為全年皆可栽培，與四季皆可栽種的蔬菜類作物（如小白菜、空心菜）處理方式相同；喜全日照溫暖環境、耐旱怕積水。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="可全年以分株法繁殖（取母株基部帶莖幼株，切口陰乾後種植）；亦可扦插繁殖，取成熟植株7～10公分枝條陰乾4～5天後插入砂質土，20～30天生根"),
+    dict(crop_id="xiuzhengu", name="秀珍菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="秀珍菇（蠔菇）多以太空包於菇舍栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；對環境變化相當敏感，需維持穩定的風、溫度、濕度條件。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；出菇刺激期需相對濕度90%以上，菇體生長至約2公分後濕度可降至85～90%；高溫期可調降出菇室設定溫度2～3℃協助除濕"),
 ]
 
 CULTIVATION = [
@@ -1743,6 +1776,31 @@ CULTIVATION = [
     ("jiabaoguo", "水分管理", "根系淺、極不耐旱，栽培期間須充足水分灌溉；可耐長期多雨，但栽培土壤須排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13066", "official", "2026-08-23"),
     ("jiabaoguo", "土壤與施肥", "適合弱酸性土壤pH5.5～6.5，以深厚、排水良好之砂質壤土為佳；施肥於樹幹周圍挖環狀溝（寬深各15公分），均勻撒施有機肥後覆土，或以硫酸銨、過磷酸鈣、氯化鉀依1:2:1比例施用", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3386", "official", "2026-08-23"),
     ("jiabaoguo", "修剪", "生長緩慢不宜強剪，密生過多枝條宜於秋冬季輕剪；欲控制株高需留意修剪頂端枝條，修剪傷口癒合良好、之後會長出新枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=227955", "official", "2026-08-23"),
+
+    # 油茶 - 農業知識入口網
+    ("youcha", "適合環境", "原產溫暖濕潤氣候，年均溫14～24℃、相對濕度74～85%、年雨量1,000毫米以上、年日照1,800～2,000小時；台灣除沿海地區外多適合栽培，對土壤要求富彈性", "農業知識入口網（油茶栽培與利用）", "https://kmweb.moa.gov.tw/redirect_files.php?id=10935", "official", "2026-08-23"),
+    ("youcha", "種子繁殖", "果實採收後於通風室內陰乾（避免日曬），3～5天後果皮開裂即可取種立即播種", "農業知識入口網（油茶栽培與利用）", "https://kmweb.moa.gov.tw/redirect_files.php?id=10935", "official", "2026-08-23"),
+    ("youcha", "產量週期", "定植後第4年可開始少量採收種子，第8年顯著增產，第12年後穩定量產", "農業知識入口網（油茶栽培與利用）", "https://kmweb.moa.gov.tw/redirect_files.php?id=10935", "official", "2026-08-23"),
+
+    # 白木耳 - 農業知識入口網
+    ("baimuer", "產業現況", "台灣早期以段木栽培法少量生產白木耳，因近年取得段木困難、價格高昂已停產，目前市售白木耳多為中國大陸進口", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=35702", "qa", "2026-08-23"),
+    ("baimuer", "本產品種與栽培法", "台灣已開發本產白木耳及彩色木耳品種，可採段木栽培法或塑膠瓶罐栽培法生產，主要產地分布台南縣，次為台中縣", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=35702", "qa", "2026-08-23"),
+
+    # 桑椹 - 農業知識入口網 蠶桑館
+    ("sangshen", "適合環境", "喜溫帶至熱帶氣候、海拔1,000公尺以下地區；生長適溫23～27℃，年雨量600～2,500毫米，日照9～13小時", "農業知識入口網（蠶桑館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14132", "official", "2026-08-23"),
+    ("sangshen", "土壤條件", "以深厚、肥沃、排水良好之砂質壤土或壤土為佳，pH6.2～6.8", "農業知識入口網（蠶桑館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14132", "official", "2026-08-23"),
+    ("sangshen", "繁殖方式", "以種子或扦插、高壓等無性繁殖為主；扦插取15公分枝條（老枝5～6芽或新枝帶2片新葉），插入土中5公分深，保持濕潤、充足日照、疏鬆土壤，30～45天發芽，第二年開花結果", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=7108", "official", "2026-08-23"),
+    ("sangshen", "施肥", "12月（落葉後、萌芽前）或5月（修剪後）施肥，每公頃施有機肥500公斤；桑椹結果時另施1,700公斤複合肥（16-8-12）", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9864", "official", "2026-08-23"),
+
+    # 蘆薈 - 農業知識入口網
+    ("luhui", "土壤條件", "喜排水良好、不積水之砂質土壤，忌潮濕積水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=36", "official", "2026-08-23"),
+    ("luhui", "繁殖方式", "可全年以分株法繁殖，取母株基部帶莖幼株，切口陰乾後種植；亦可扦插繁殖，取成熟植株7～10公分枝條陰乾4～5天後插入砂質土，保持濕潤20～30天生根", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=6198", "official", "2026-08-23"),
+    ("luhui", "水肥管理", "耐旱、不需高量肥料，栽培介質混入有機肥作基肥，生長季（春至秋）每月施用稀釋1,000倍液肥一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10555", "official", "2026-08-23"),
+
+    # 秀珍菇 - 農業知識入口網
+    ("xiuzhengu", "環境管理", "對環境變化相當敏感，需維持穩定的風、溫度、濕度條件；可用挑高設計降低室內溫度、屋頂通風器創造對流效應", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
+    ("xiuzhengu", "濕度控制", "出菇刺激期需相對濕度90%以上，菇體生長至約2公分後濕度可降至85～90%；原則為減少水膜、水珠停留在菇體上的時間以降低細菌感染風險", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
+    ("xiuzhengu", "病蟲害防範設施", "高溫期可調降出菇室設定溫度2～3℃協助除濕；採雙重門設計與64目紗網防止病蟲害侵入", "農業知識入口網（菇之驕子秀珍菇栽培技術）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54772", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2332,6 +2390,11 @@ UNVERIFIED = [
     ("huohehua", "苗木定植的確切季節月份、土壤（介質）條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；火鶴花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
     ("juhua", "本表season欄位留空是因商業栽培以電照/遮光技術調節花期、可週年生產，非露地看天田作物，並非資料查證不足；北部、南部分區資料未取得；土壤條件、施肥、病蟲害資料本次未查得，需另行補齊；菊花屬觀賞花卉而非食用作物（不同於食用的杭菊），之後在UI呈現時應加以區別說明，避免與杭菊混淆。"),
     ("jiabaoguo", "苗木定植的確切季節月份、適合溫度、株距、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("youcha", "苗木定植的確切季節月份、適合溫度、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("baimuer", "本次未能從官方原文取得具體的太空包配方、栽培溫度等技術細節（僅查得產業沿革與產地摘要），標記為qa等級，需另行以官方原文補齊並提升為official；台灣目前市售白木耳多為進口，本土栽培規模與資料完整度均待查證更新。"),
+    ("sangshen", "扦插/定植的確切月份原文未給出（僅知第二年開花結果），season欄位暫留空，需另行查證；株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("luhui", "適合溫度、株距、病蟲害資料本次均未查得，需另行補齊；蘆薈兼具食用（保健飲品）與藥用/美容用途，之後在UI呈現時可考慮說明其多元用途定位。"),
+    ("xiuzhengu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；太空包基質配方、具體培養溫度數值、病蟲害資料本次未查得，需另行補齊。"),
 ]
 
 
