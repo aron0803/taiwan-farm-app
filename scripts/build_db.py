@@ -232,6 +232,11 @@ REGISTRY = [
     ("shuidao", "水稻", "雜糧", "collected"),
     ("zigalan", "紫甘藍", "葉菜類", "collected"),
     ("banli", "板栗", "果樹", "collected"),
+    # 第十二批（新增：果樹/蔥蒜類）
+    ("lizi", "李子", "果樹", "collected"),
+    ("meizi", "梅子", "果樹", "collected"),
+    ("zhucong", "珠蔥（分蔥）", "蔥蒜類", "collected"),
+    ("luqiao", "蕗蕎", "蔥蒜類", "collected"),
 ]
 
 def M(*months):
@@ -1000,6 +1005,32 @@ CROPS = [
          region_note="殼斗科落葉喬木，台灣稱「板栗」者多為中國栗品種；苗木定植的確切季節月份原文未給出，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="苗木定植的確切季節月份原文未給出，需另行查證；適合年均溫10.5～21.8℃地區，土壤宜選擇較厚、肥沃、近中性pH之砂質壤土，地勢平坦、排水良好、日照充足、坡度平緩處為佳"),
+    # 第十二批（新增）
+    dict(crop_id="lizi", name="李子", category="果樹",
+         region_north=None, region_central="需冷量低之台灣品種可栽培",
+         region_south="需冷量低之台灣品種可栽培",
+         region_note="李樹需冷量因品種而異，台灣栽培品種需冷量甚低，中南部即可種植；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；喜日照，對土壤要求不嚴（肥沃或貧瘠土壤皆可正常生長），栽培環境需通風良好、日照充足、排水佳；行株距建議5×5至7×7公尺，坡地貧瘠土壤可縮小為4×4公尺"),
+    dict(crop_id="meizi", name="梅子", category="果樹",
+         region_north=None, region_central="南投縣仁愛鄉、信義鄉為主要產地",
+         region_south="台東縣、台中市亦為主要產地",
+         region_note="日治時期日人引進大規模栽培，1961年信義鄉果農由蕉園轉作梅園；主要分布中南部及東部海拔300～1,000公尺地區；此處月份為採收期（產季）而非種植定植月份，原文未給出定植的確切月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="採收期（產季）約在3月中旬至4月下旬；苗木定植的確切季節月份原文未給出，需另行查證；適合中南部及東部海拔300～1,000公尺、土壤肥沃排水良好、氣候冷涼且日夜溫差大之地區"),
+    dict(crop_id="zhucong", name="珠蔥（分蔥）", category="蔥蒜類",
+         region_north=None, region_central=None,
+         region_south="台南、嘉義兩縣為主要產地，占全台總產量約96%",
+         region_note="原產西亞敘利亞一帶，栽培歷史悠久；可作蔥葉（50～75天採收，供炒食）或蔥球（成熟後採收，供炸食、煮湯、填餡、調味）兩種用途；繁殖方式（分株法／播種法）已明確查得，但原文未給出具體播種/分株月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種/分株的確切月份原文未給出，需另行查證；分株法約90天可採收，播種法約270天可採收"),
+    dict(crop_id="luqiao", name="蕗蕎", category="蔥蒜類",
+         region_north="新竹亦為主要產地之一",
+         region_central=None,
+         region_south="花蓮、雲林亦為主要產地",
+         region_note="石蒜科蔥屬多年生草本，別名薤、蕎頭、火蔥、小蒜、野蒜；以小鱗莖（種球）無性繁殖為主，栽培為二年生作物；有農諺「七蔥、八蒜、九蕗蕎，九九重陽以前就要種入土」，故以農曆9月（約國曆9～10月）作為播種適期。",
+         season_months_north=M(8,9,10), season_months_central=M(8,9,10), season_months_south=M(8,9,10),
+         season_label="秋冬季（約8～10月，農諺「九蕗蕎」須於農曆九月重陽節前種入土）播種，翌年3～6月地上莖葉枯萎、地下鱗莖膨大停止生長時採收；喜冷涼氣候，高於25℃則進入休眠停止生長"),
 ]
 
 CULTIVATION = [
@@ -1836,6 +1867,27 @@ CULTIVATION = [
     # 板栗 - 農業知識入口網
     ("banli", "主要產地", "嘉義縣中埔鄉為台灣唯一大規模栽培板栗的鄉鎮，每逢產季供不應求", "農業知識入口網", "https://kmweb.moa.gov.tw/redirect_files.php?id=167734", "official", "2026-08-23"),
     ("banli", "適合環境", "適合年均溫10.5～21.8℃地區；土壤宜選擇較厚、肥沃、近中性pH之砂質壤土，地勢平坦、排水良好、日照充足、坡度平緩處為佳", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8460", "official", "2026-08-23"),
+
+    # 李子 - 農業知識入口網
+    ("lizi", "需冷量", "不同品種需冷量差異大，部分品種可耐-35～-40℃低溫；台灣栽培品種需冷量甚低，中南部即可種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=424284", "official", "2026-08-23"),
+    ("lizi", "栽培環境", "喜日照，對土壤要求不嚴，肥沃或貧瘠土壤皆可正常生長；栽培環境需通風良好、日照充足、排水佳", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=424284", "official", "2026-08-23"),
+    ("lizi", "株距", "行株距建議5×5至7×7公尺；坡地貧瘠土壤可縮小為4×4公尺", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=424284", "official", "2026-08-23"),
+
+    # 梅子 - 農業知識入口網 梅子主題館
+    ("meizi", "主要產地", "主要分布中南部及東部海拔300～1,000公尺地區，南投縣仁愛鄉、信義鄉、台東縣、台中市為主要產地", "農業知識入口網（梅子主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=33477", "official", "2026-08-23"),
+    ("meizi", "產業沿革", "日治時期日人開始大規模栽培，1961年信義鄉果農由蕉園轉作梅園；早期採人工採收（樹下鋪帆布以竹竿敲擊落果，或攀樹逐一摘採）", "農業知識入口網（梅子主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=33477", "official", "2026-08-23"),
+    ("meizi", "採收期", "採收期（產季）約3月中旬至4月下旬", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=27", "official", "2026-08-23"),
+
+    # 珠蔥（分蔥）- 農業知識入口網 青蔥主題館
+    ("zhucong", "植物特性與用途", "原產西亞敘利亞一帶；可作蔥葉（50～75天採收，供炒食）或蔥球（成熟後採收，供炸食、煮湯、填餡、調味）兩種用途", "農業知識入口網（青蔥主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=23366", "official", "2026-08-23"),
+    ("zhucong", "主要產地", "台南、嘉義兩縣為主要產地，占全台總產量約96%", "農業知識入口網（青蔥主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=23366", "official", "2026-08-23"),
+    ("zhucong", "繁殖方式", "以播種或分株法繁殖，分株法產量有限，適合小規模自家栽培；分株法約90天可採收，播種法約270天可採收", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8578", "official", "2026-08-23"),
+
+    # 蕗蕎 - 農業知識入口網
+    ("luqiao", "植物特性", "石蒜科蔥屬多年生草本，別名薤、蕎頭、火蔥、小蒜、野蒜；喜冷涼氣候，高於25℃進入休眠停止生長", "農業知識入口網（蕗蕎與蒜傻傻分不清楚）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39630", "official", "2026-08-23"),
+    ("luqiao", "主要產地", "主要產地為花蓮、新竹、雲林", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54809", "official", "2026-08-23"),
+    ("luqiao", "繁殖與栽培", "以小鱗莖（種球）無性繁殖，栽培為二年生作物；農諺「七蔥、八蒜、九蕗蕎，九九重陽以前就要種入土」，播種後約3～4個月可採收", "農業知識入口網（原生蔬菜栽培繁殖及料理應用介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=315876", "official", "2026-08-23"),
+    ("luqiao", "採收方式", "地上莖葉枯萎、地下鱗莖膨大停止生長時為採收適期，可自農曆春節持續採收至4月", "農業知識入口網（原生蔬菜栽培繁殖及料理應用介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=315876", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2433,6 +2485,10 @@ UNVERIFIED = [
     ("shuidao", "「一期作1～6月、二期作7～8月」為整體生育期範圍描述，非單指插秧月份，season欄位暫留空以避免誤導使用者「現在適合種」的判斷，需另行查證各地區實際插秧月份（一般一期作插秧約1～2月、二期作插秧約7～8月）；北中南分區資料、土壤條件、病蟲害資料本次均未查得，需另行補齊；水稻為台灣最重要的糧食作物，此前資料庫竟未收錄，應優先補齊完整資料。"),
     ("zigalan", "季節月份為「冬季」的合理區間推算（10月至翌年2月），非原文直接給出的精確月份，需另行查證核實；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("banli", "苗木定植的確切季節月份、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否可栽培尚待查證（目前僅知嘉義中埔為唯一大規模產地）。"),
+    ("lizi", "苗木定植的確切季節月份、適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；北部是否可栽培尚待查證（僅知中南部品種需冷量低可種植）。"),
+    ("meizi", "本表season欄位所填為採收期（產季）而非種植/定植月份，苗木定植的確切季節月份原文未給出，需另行查證；適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("zhucong", "播種/分株的確切月份原文未給出，season欄位暫留空，需另行查證；北部、中部產地資料未取得（僅知南部台南嘉義占96%）；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
+    ("luqiao", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；中部產地資料未取得；播種月份依農諺「九蕗蕎」推算為農曆9月（約國曆9～10月），非官方精確公告月份，建議日後查證官方播種曆核實。"),
 ]
 
 
