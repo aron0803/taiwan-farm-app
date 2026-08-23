@@ -1229,6 +1229,42 @@
       "name": "滿天星",
       "category": "花卉類",
       "status": "collected"
+    },
+    {
+      "crop_id": "xiangchun",
+      "name": "香椿",
+      "category": "葉菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "cicong",
+      "name": "刺蔥",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "yuetao",
+      "name": "月桃",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "ludao",
+      "name": "陸稻",
+      "category": "雜糧",
+      "status": "collected"
+    },
+    {
+      "crop_id": "zhuma",
+      "name": "苧麻",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "huangteng",
+      "name": "黃藤",
+      "category": "特用作物",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3896,6 +3932,84 @@
       "season_months_central": null,
       "season_months_south": null,
       "season_label": "台灣建立平地秋冬產季、高冷地（約500公尺以上）春夏產季之周年輪替生產體系，透過調節可全年供應切花，但原文未給出具體播種/定植月份，需另行查證；生長適溫10～25℃，不耐高溫高濕"
+    },
+    {
+      "crop_id": "xiangchun",
+      "name": "香椿",
+      "category": "葉菜類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "楝科多年生落葉喬木，原住民族傳統食用嫩葉之作物；官方原住民族農產業主題館明確列出種子播種與扦插的季節，資料完整度佳。",
+      "season_months_north": "11,12,1,2,3,4,5",
+      "season_months_central": "11,12,1,2,3,4,5",
+      "season_months_south": "11,12,1,2,3,4,5",
+      "season_label": "種子播種於11月至翌年5月進行，秋冬季即可移栽；枝條扦插一般於春、夏季進行，剪取當年生半木質化枝條約15公分插於砂床；冬季有休眠現象，一般12月停止生長，翌年春天萌芽"
+    },
+    {
+      "crop_id": "cicong",
+      "name": "刺蔥",
+      "category": "特用作物",
+      "region_north": "台灣北部中低海拔山區亦有分布",
+      "region_central": "台灣中部中低海拔山區亦有分布",
+      "region_south": null,
+      "region_note": "別名紅刺蔥、鳥不踏，芸香科多年生落葉喬木，全株有刺；原住民通常種植於住家旁菜園以方便取食嫩梢；為雌雄異株植物，僅雌株會結果；苗木定植的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；花期8～9月，結果期10月；冬季氣溫低於15℃會自然落葉；嫩葉片具強烈香氣，常加入魚、雞湯調味並去腥"
+    },
+    {
+      "crop_id": "yuetao",
+      "name": "月桃",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "薑科多年生常綠草本，性喜高溫潮濕環境，可耐陰但不耐寒；原住民族傳統纖維料/包裹料作物，用途多元；苗木定植的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；喜高溫潮濕、耐陰不耐寒；新鮮葉片可用來墊粿或包粽，地上莖及葉鞘曬乾後可編織繩索、籃子或草蓆；種子稱「砂仁」，具清涼解毒特性，為「仁丹」成分之一"
+    },
+    {
+      "crop_id": "ludao",
+      "name": "陸稻",
+      "category": "雜糧",
+      "region_north": null,
+      "region_central": "南投山區原住民部落亦有栽培",
+      "region_south": "花蓮、台東山區原住民部落為主要栽培地區",
+      "region_note": "又稱旱稻，一年生草本作物，與水稻同種但不需水田栽培；具耐旱、耐瘠特性，適合農業栽培環境條件相對不理想的山地地區種植，於山地原住民部落栽培歷史悠久，相傳隨原住民自太平洋島嶼遷徙引入；播種季節與詳細栽培方式（間距、灌溉、施肥）原文未給出，需另行查證花蓮區農業改良場完整資料。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "播種季節原文未給出，需另行查證；耐旱、耐瘠，適合山地栽培環境；收穫後可製成飯食或麻糬"
+    },
+    {
+      "crop_id": "zhuma",
+      "name": "苧麻",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "蕁麻科植物，原產中國、韓國、日本、菲律賓及東南亞，為原住民族傳統纖維料作物（纖維可製成麻繩、麻布）；台灣另有野生青苧麻，與栽培種極為相似，可作替代或育種材料；苗木定植/播種的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植/播種的確切季節月份原文未給出，需另行查證；莖部纖維為傳統織布、製繩重要原料"
+    },
+    {
+      "crop_id": "huangteng",
+      "name": "黃藤",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "花蓮縣光復、瑞穗地區有經濟栽培",
+      "region_note": "棕櫚科藤本植物，全株密布尖刺，莖蔓可長達200公尺，栽培容易；野生黃藤分布台灣中低海拔山區森林，為原住民族傳統纖維料作物，莖部可編製家具、繩索等器具；苗木定植的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；藤本植物，栽培容易，全株密布尖刺，莖蔓可長達200公尺"
     }
   ],
   "cultivation": [
@@ -11638,6 +11752,176 @@
       "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=204",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 775,
+      "crop_id": "xiangchun",
+      "field": "植物特性",
+      "value": "楝科多年生落葉喬木，冬季有休眠現象，一般12月停止生長，翌年春天萌芽",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39508",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 776,
+      "crop_id": "xiangchun",
+      "field": "繁殖方式",
+      "value": "可用種子播種、根芽分株或枝條扦插；種子播種於11月至翌年5月進行，秋冬季即可移栽；扦插一般於春、夏季進行，剪取當年生半木質化枝條約15公分插於砂床",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39508",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 777,
+      "crop_id": "xiangchun",
+      "field": "食用方式",
+      "value": "嫩葉常以沙拉、涼拌等方式食用，或乾燥製成茶包飲用，並可磨粉作為調味品；中醫上具除熱、澀腸、止血及殺蟲效果",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39508",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 778,
+      "crop_id": "cicong",
+      "field": "主要分布",
+      "value": "分布於台灣北部、中部、東部之中低海拔山區，原住民通常種植於住家旁菜園以方便取食嫩梢",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39506",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 779,
+      "crop_id": "cicong",
+      "field": "植物特性",
+      "value": "多年生落葉喬木，全株有刺，冬季氣溫低於15℃會自然落葉；為雌雄異株植物，僅雌株會結果，花期8～9月，結果期10月",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39506",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 780,
+      "crop_id": "cicong",
+      "field": "食用方式",
+      "value": "嫩葉片具強烈香氣，常加入魚、雞湯中調味，並具有去除腥味的效果",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39506",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 781,
+      "crop_id": "yuetao",
+      "field": "植物特性與環境",
+      "value": "薑科多年生常綠草本，性喜高溫潮濕環境，可耐陰但不耐寒",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39511",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 782,
+      "crop_id": "yuetao",
+      "field": "傳統用途",
+      "value": "新鮮葉片可用來墊粿或包粽，地上莖及葉鞘曬乾後可編織繩索、籃子或草蓆等編織品",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39511",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 783,
+      "crop_id": "yuetao",
+      "field": "藥用價值",
+      "value": "種子稱「砂仁」，具清涼解毒特性，為傳統成藥「仁丹」的成分之一",
+      "source_name": "農業知識入口網（月桃-藥用植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=37339",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 784,
+      "crop_id": "ludao",
+      "field": "植物特性與沿革",
+      "value": "又稱旱稻，一年生草本作物，與水稻同種但不需水田栽培；於山地原住民部落栽培歷史悠久，相傳隨原住民自太平洋島嶼遷徙引入",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39492",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 785,
+      "crop_id": "ludao",
+      "field": "栽培環境",
+      "value": "具耐旱、耐瘠特性，適合農業栽培環境條件相對不理想的山地地區種植；主要分布花蓮、台東及南投等山區原住民部落",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39492",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 786,
+      "crop_id": "ludao",
+      "field": "食用方式",
+      "value": "收穫後可製成飯食或麻糬",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39492",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 787,
+      "crop_id": "zhuma",
+      "field": "植物特性與分布",
+      "value": "蕁麻科植物，原產中國、韓國、日本、菲律賓及東南亞；台灣另有野生青苧麻，與栽培種極為相似，可作替代或育種材料",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39515",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 788,
+      "crop_id": "zhuma",
+      "field": "傳統用途",
+      "value": "為原住民族傳統纖維料作物，莖部纖維為傳統織布、製繩之重要原料",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39515",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 789,
+      "crop_id": "huangteng",
+      "field": "植物特性",
+      "value": "棕櫚科藤本植物，全株密布尖刺，莖蔓可長達200公尺，栽培容易",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39513",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 790,
+      "crop_id": "huangteng",
+      "field": "分布與經濟栽培",
+      "value": "野生黃藤分布台灣中低海拔山區森林；花蓮縣光復、瑞穗地區有經濟栽培",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39513",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 791,
+      "crop_id": "huangteng",
+      "field": "傳統用途",
+      "value": "為原住民族傳統纖維料作物，莖部可編製家具、繩索等器具",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39513",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -14355,6 +14639,36 @@
       "id": 209,
       "crop_id": "mantianxing",
       "note": "生產體系原文未給出具體播種/定植月份數字，僅描述「平地秋冬、高冷地春夏」的周年輪替架構，season欄位暫留空，需另行查證確切月份；土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；滿天星屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"
+    },
+    {
+      "id": 210,
+      "crop_id": "xiangchun",
+      "note": "適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"
+    },
+    {
+      "id": 211,
+      "crop_id": "cicong",
+      "note": "苗木定植的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；南部分區資料未取得；為雌雄異株植物，僅雌株結果，此特性與木鱉果（mubieguo）相似，之後在UI呈現時可考慮說明。"
+    },
+    {
+      "id": 212,
+      "crop_id": "yuetao",
+      "note": "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺；月桃兼具食用（墊粿包粽）、藥用及編織纖維料等多元用途而非單純食用作物，之後在UI呈現時應加以說明其用途定位。"
+    },
+    {
+      "id": 213,
+      "crop_id": "ludao",
+      "note": "播種季節與詳細栽培方式（間距、灌溉、施肥）原文未給出，需另行查證花蓮區農業改良場完整資料；季節欄位暫留空；病蟲害資料本次未查得，需另行補齊；北部是否適合栽培尚待查證。"
+    },
+    {
+      "id": 214,
+      "crop_id": "zhuma",
+      "note": "苗木定植/播種的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺；苧麻為纖維料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"
+    },
+    {
+      "id": 215,
+      "crop_id": "huangteng",
+      "note": "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部分區資料未取得；黃藤為纖維料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"
     }
   ]
 }
