@@ -1067,6 +1067,24 @@
       "name": "野薑花",
       "category": "花卉類",
       "status": "collected"
+    },
+    {
+      "crop_id": "danggui",
+      "name": "當歸",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "maimendong",
+      "name": "麥門冬",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "zhaohecao",
+      "name": "昭和草",
+      "category": "葉菜類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3383,6 +3401,45 @@
       "season_months_central": "2,3",
       "season_months_south": "2,3",
       "season_label": "以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；花期6～11月，以7～8月為盛花期；生長適溫22～30℃，喜高溫多濕環境"
+    },
+    {
+      "crop_id": "danggui",
+      "name": "當歸",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "花蓮、台東及部分山區為主要栽培地區，已有50年以上栽培歷史",
+      "region_note": "台灣栽培品種為大和當歸（日本當歸），1964年自日本引進；官方當歸主題館明確列出栽培環境與播種月份，資料完整度佳。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": "10,11",
+      "season_label": "最適播種期為每年10～11月；喜冷涼濕潤氣候，忌高溫直射，最適栽培海拔500～800公尺；可直播或育苗移植"
+    },
+    {
+      "crop_id": "maimendong",
+      "name": "麥門冬",
+      "category": "特用作物",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "百合科多年生草本，台灣中低海拔山區原生野生草種，常作地被植物；原文指出分株繁殖適期為春至夏季，但未給出精確月份，此處以3～6月合理區間表示，需另行查證確認。",
+      "season_months_north": "3,4,5,6",
+      "season_months_central": "3,4,5,6",
+      "season_months_south": "3,4,5,6",
+      "season_label": "以地下根莖分株繁殖，適期為春至夏季（此為合理月份區間推算，非原文精確月份）；耐陰、耐旱、耐貧瘠，生長適溫18～28℃，可於潮濕陰涼林蔭下生長"
+    },
+    {
+      "crop_id": "zhaohecao",
+      "name": "昭和草",
+      "category": "葉菜類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "菊科一年生草本，原產南美洲及非洲，主要分布台灣中低海拔地區，為常見野菜，全株可食、風味似茼蒿，亦常作青草茶原料；作為自播性野生植物，原文未提供明確人工栽培播種月份，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "人工栽培播種月份原文未給出，需另行查證；作為野生自播植物，台灣中低海拔全年可見並隨時採摘嫩莖葉食用，經歸類為蔬菜類"
     }
   ],
   "cultivation": [
@@ -10375,6 +10432,96 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=14703",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 700,
+      "crop_id": "danggui",
+      "field": "品種與產業沿革",
+      "value": "台灣栽培品種為大和當歸（日本當歸），1964年自日本引進，於花蓮、台東及部分山區已有50年以上栽培歷史",
+      "source_name": "農業知識入口網（當歸主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=34710",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 701,
+      "crop_id": "danggui",
+      "field": "適合環境",
+      "value": "喜冷涼濕潤氣候，忌高溫及直射強光，最適栽培海拔500～800公尺；土壤宜排水良好、富含有機質之砂質壤土，pH5.5～7.5",
+      "source_name": "農業知識入口網（當歸主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=34705",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 702,
+      "crop_id": "danggui",
+      "field": "種植方式",
+      "value": "可採直播或育苗移植，最適播種期為每年10～11月",
+      "source_name": "農業知識入口網（當歸主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=34705",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 703,
+      "crop_id": "danggui",
+      "field": "近緣植物",
+      "value": "川芎為與當歸相近的繖形科多年生草本植物，具活血行氣、袪風止痛功效",
+      "source_name": "農業知識入口網（當歸主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=34911",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 704,
+      "crop_id": "maimendong",
+      "field": "植物特性",
+      "value": "百合科多年生草本，台灣中低海拔山區原生野生草種，具耐陰、耐旱、耐貧瘠特性，常作地被植物，可於潮濕陰涼林蔭下生長",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 705,
+      "crop_id": "maimendong",
+      "field": "適合溫度與土壤",
+      "value": "生長適溫18～28℃，栽培介質宜富含有機質、排水良好之砂質壤土",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 706,
+      "crop_id": "maimendong",
+      "field": "繁殖方式",
+      "value": "以地下根莖分株繁殖為主，適期為春至夏季；因分蘗能力強，地下根莖會不斷延伸，掘取帶葉帶根之新株即可另行種植",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 707,
+      "crop_id": "zhaohecao",
+      "field": "植物特性與分布",
+      "value": "菊科一年生草本，原產南美洲及非洲，主要分布台灣中低海拔地區",
+      "source_name": "農業知識入口網（民俗藥食同源作物 昭和草介紹）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=417996",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 708,
+      "crop_id": "zhaohecao",
+      "field": "食用方式",
+      "value": "全株可食，風味與茼蒿相近，亦為青草茶常見原料之一，經台灣食品主管機關歸類為蔬菜類",
+      "source_name": "農業知識入口網（民俗藥食同源作物 昭和草介紹）",
+      "source_url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=417996",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -12957,6 +13104,21 @@
       "id": 182,
       "crop_id": "yejianghua",
       "note": "病蟲害資料本次未查得，需另行補齊；野薑花根莖與花朵亦有食用/香料用途（如包粽、提取香精），之後在UI呈現時可補充說明。"
+    },
+    {
+      "id": 183,
+      "crop_id": "danggui",
+      "note": "北部、中部是否適合栽培尚待查證（僅知花蓮、台東及部分山區栽培）；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 184,
+      "crop_id": "maimendong",
+      "note": "分株繁殖月份為「春至夏季」的合理區間推算（3～6月），非原文直接給出的精確月份，需另行查證核實；土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"
+    },
+    {
+      "id": 185,
+      "crop_id": "zhaohecao",
+      "note": "人工栽培播種月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；昭和草作為自播性野生植物，其「現在適合種」的判斷邏輯可能與一般栽培作物不同，之後在UI呈現時應加以說明。"
     }
   ]
 }

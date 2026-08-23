@@ -287,6 +287,10 @@ REGISTRY = [
     # 第二十四批（新增：葉菜類/花卉類）
     ("shilianhua", "石蓮花", "葉菜類", "collected"),
     ("yejianghua", "野薑花", "花卉類", "collected"),
+    # 第二十五批（新增：特用作物/葉菜類）
+    ("danggui", "當歸", "特用作物", "collected"),
+    ("maimendong", "麥門冬", "特用作物", "collected"),
+    ("zhaohecao", "昭和草", "葉菜類", "collected"),
 ]
 
 def M(*months):
@@ -1299,6 +1303,23 @@ CROPS = [
          region_note="薑科多年生草本，株高約1公尺，具肥厚地下根莖；官方花壇植物主題館明確列出種植月份，資料完整度佳。",
          season_months_north=M(2,3), season_months_central=M(2,3), season_months_south=M(2,3),
          season_label="以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；花期6～11月，以7～8月為盛花期；生長適溫22～30℃，喜高溫多濕環境"),
+    # 第二十五批（新增）
+    dict(crop_id="danggui", name="當歸", category="特用作物",
+         region_north=None, region_central=None,
+         region_south="花蓮、台東及部分山區為主要栽培地區，已有50年以上栽培歷史",
+         region_note="台灣栽培品種為大和當歸（日本當歸），1964年自日本引進；官方當歸主題館明確列出栽培環境與播種月份，資料完整度佳。",
+         season_months_north=None, season_months_central=None, season_months_south=M(10,11),
+         season_label="最適播種期為每年10～11月；喜冷涼濕潤氣候，忌高溫直射，最適栽培海拔500～800公尺；可直播或育苗移植"),
+    dict(crop_id="maimendong", name="麥門冬", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="百合科多年生草本，台灣中低海拔山區原生野生草種，常作地被植物；原文指出分株繁殖適期為春至夏季，但未給出精確月份，此處以3～6月合理區間表示，需另行查證確認。",
+         season_months_north=M(3,4,5,6), season_months_central=M(3,4,5,6), season_months_south=M(3,4,5,6),
+         season_label="以地下根莖分株繁殖，適期為春至夏季（此為合理月份區間推算，非原文精確月份）；耐陰、耐旱、耐貧瘠，生長適溫18～28℃，可於潮濕陰涼林蔭下生長"),
+    dict(crop_id="zhaohecao", name="昭和草", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="菊科一年生草本，原產南美洲及非洲，主要分布台灣中低海拔地區，為常見野菜，全株可食、風味似茼蒿，亦常作青草茶原料；作為自播性野生植物，原文未提供明確人工栽培播種月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="人工栽培播種月份原文未給出，需另行查證；作為野生自播植物，台灣中低海拔全年可見並隨時採摘嫩莖葉食用，經歸類為蔬菜類"),
 ]
 
 CULTIVATION = [
@@ -2356,6 +2377,21 @@ CULTIVATION = [
     ("yejianghua", "適合環境", "喜充足日照與高溫環境，可耐全日照、半遮蔭或遮蔭環境，喜高溫多濕，生長適溫約22～30℃；土壤宜砂質或壤質土，旺盛生長期須有充足水分供應並適度施肥", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
     ("yejianghua", "種植與繁殖", "以帶2～3芽之根莖段於春季2～3月種植，行距120公分、株距50～100公分；亦可用種子繁殖", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
     ("yejianghua", "花期與施肥", "花期6～11月，以7～8月為盛花期；種植前施有機肥作基肥，生育初期施高氮肥，中期施高磷鉀肥，冬季應減少澆水", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14703", "official", "2026-08-23"),
+
+    # 當歸 - 農業知識入口網 當歸主題館
+    ("danggui", "品種與產業沿革", "台灣栽培品種為大和當歸（日本當歸），1964年自日本引進，於花蓮、台東及部分山區已有50年以上栽培歷史", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34710", "official", "2026-08-23"),
+    ("danggui", "適合環境", "喜冷涼濕潤氣候，忌高溫及直射強光，最適栽培海拔500～800公尺；土壤宜排水良好、富含有機質之砂質壤土，pH5.5～7.5", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34705", "official", "2026-08-23"),
+    ("danggui", "種植方式", "可採直播或育苗移植，最適播種期為每年10～11月", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34705", "official", "2026-08-23"),
+    ("danggui", "近緣植物", "川芎為與當歸相近的繖形科多年生草本植物，具活血行氣、袪風止痛功效", "農業知識入口網（當歸主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=34911", "official", "2026-08-23"),
+
+    # 麥門冬 - 農業知識入口網
+    ("maimendong", "植物特性", "百合科多年生草本，台灣中低海拔山區原生野生草種，具耐陰、耐旱、耐貧瘠特性，常作地被植物，可於潮濕陰涼林蔭下生長", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223", "official", "2026-08-23"),
+    ("maimendong", "適合溫度與土壤", "生長適溫18～28℃，栽培介質宜富含有機質、排水良好之砂質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223", "official", "2026-08-23"),
+    ("maimendong", "繁殖方式", "以地下根莖分株繁殖為主，適期為春至夏季；因分蘗能力強，地下根莖會不斷延伸，掘取帶葉帶根之新株即可另行種植", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=223", "official", "2026-08-23"),
+
+    # 昭和草 - 農業知識入口網
+    ("zhaohecao", "植物特性與分布", "菊科一年生草本，原產南美洲及非洲，主要分布台灣中低海拔地區", "農業知識入口網（民俗藥食同源作物 昭和草介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=417996", "official", "2026-08-23"),
+    ("zhaohecao", "食用方式", "全株可食，風味與茼蒿相近，亦為青草茶常見原料之一，經台灣食品主管機關歸類為蔬菜類", "農業知識入口網（民俗藥食同源作物 昭和草介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=417996", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2996,6 +3032,9 @@ UNVERIFIED = [
     ("nuoliguo", "播種/定植的確切月份僅知需符合發芽適溫（28～35℃）條件，原文未給出具體月份，season欄位暫留空，需另行查證；土壤條件、株距、施肥資料本次均未查得，需另行補齊。"),
     ("shilianhua", "株距、病蟲害資料本次均未查得，需另行補齊；石蓮花兼具食用（生食、打汁）與觀賞用途，之後在UI呈現時可補充說明其雙重用途。"),
     ("yejianghua", "病蟲害資料本次未查得，需另行補齊；野薑花根莖與花朵亦有食用/香料用途（如包粽、提取香精），之後在UI呈現時可補充說明。"),
+    ("danggui", "北部、中部是否適合栽培尚待查證（僅知花蓮、台東及部分山區栽培）；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("maimendong", "分株繁殖月份為「春至夏季」的合理區間推算（3～6月），非原文直接給出的精確月份，需另行查證核實；土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("zhaohecao", "人工栽培播種月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；昭和草作為自播性野生植物，其「現在適合種」的判斷邏輯可能與一般栽培作物不同，之後在UI呈現時應加以說明。"),
 ]
 
 
