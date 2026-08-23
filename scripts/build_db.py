@@ -336,6 +336,10 @@ REGISTRY = [
     ("youmang", "油芒", "雜糧", "collected"),
     ("shanlan", "山藍", "特用作物", "collected"),
     ("chixiaodou", "赤小豆", "豆菜類", "collected"),
+    # 第三十八批（新增：根莖類/特用作物/葉菜類，原住民族傳統作物）
+    ("gelunjin", "葛鬱金", "根莖類", "collected"),
+    ("goushu", "構樹", "特用作物", "collected"),
+    ("jiarenshen", "假人參", "葉菜類", "collected"),
 ]
 
 def M(*months):
@@ -1560,6 +1564,22 @@ CROPS = [
          region_note="豆科植物，栽培習性與紅豆相近，為原住民族傳統作物之一；播種至開花期需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候，但原文未給出精確播種月份數字，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="播種至開花需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候，但確切播種月份原文未給出，需另行查證；喜排水良好之壤土或砂質壤土，土壤pH6.5～7"),
+    # 第三十八批（新增）
+    dict(crop_id="gelunjin", name="葛鬱金", category="根莖類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="又稱竹芋、粉薯，為原住民族傳統根莖類作物；根莖富含澱粉，歷史上作為主食替代品或製作澱粉之用；苗木/塊莖定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="塊莖定植的確切季節月份原文未給出，需另行查證；根莖可生食或煮食、炒食，富含澱粉，傳統可加工製成粉圓原料（西谷米）"),
+    dict(crop_id="goushu", name="構樹", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="桑科台灣原生植物，分布於海拔1,000公尺以下低海拔地區；原住民族傳統多元用途作物；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；葉片可作家畜飼料，樹皮纖維可製紙，原住民族傳統以樹皮製作樹皮布與繩索；雄花序可入菜，甜美果實供原住民族食用"),
+    dict(crop_id="jiarenshen", name="假人參", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="馬齒莧科植物，分布台灣全島；根部肥厚形似人參；原住民族及漢人傳統野菜與藥用植物；播種/定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種/定植的確切季節月份原文未給出，需另行查證；莖葉柔軟多汁，可炒食或煮食作野菜；肥厚根部形似人參，可切片泡茶或浸酒"),
 ]
 
 CULTIVATION = [
@@ -2788,6 +2808,17 @@ CULTIVATION = [
     # 赤小豆 - 農業知識入口網
     ("chixiaodou", "栽培習性", "栽培習性與紅豆相近，播種至開花期需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=417", "official", "2026-08-23"),
     ("chixiaodou", "土壤條件", "喜排水良好之壤土或砂質壤土，土壤pH6.5～7", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=417", "official", "2026-08-23"),
+
+    # 葛鬱金 - 農業知識入口網 原住民族農產業主題館
+    ("gelunjin", "植物特性與用途", "又稱竹芋、粉薯，根莖富含澱粉；可生食或煮食、炒食，歷史上作為主食替代品或製作澱粉之用，可加工製成粉圓原料（西谷米）", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39500", "official", "2026-08-23"),
+
+    # 構樹 - 農業知識入口網 原住民族農產業主題館
+    ("goushu", "植物特性與分布", "桑科台灣原生植物，分布於海拔1,000公尺以下低海拔地區", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39514", "official", "2026-08-23"),
+    ("goushu", "傳統用途", "葉片可作家畜飼料，樹皮纖維可製紙，原住民族傳統以樹皮製作樹皮布與繩索；雄花序可入菜，甜美果實供原住民族食用", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39514", "official", "2026-08-23"),
+
+    # 假人參 - 農業知識入口網
+    ("jiarenshen", "植物特性與分布", "馬齒莧科植物，分布台灣全島，莖葉柔軟多汁，根部肥厚形似人參", "農業知識入口網（假人參-藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37184", "official", "2026-08-23"),
+    ("jiarenshen", "食用方式", "莖葉可炒食或煮食作野菜；肥厚根部可切片泡茶或浸酒", "農業知識入口網（假人參-藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37184", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -3464,6 +3495,9 @@ UNVERIFIED = [
     ("youmang", "播種季節、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
     ("shanlan", "苗木定植/播種的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；南部分區資料未取得；山藍為染料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"),
     ("chixiaodou", "確切播種月份原文未給出，season欄位暫留空，需另行查證；株距、施肥、病蟲害資料本次均未查得，需另行補齊；赤小豆與已收錄的紅豆（hongdou）為近緣但不同的豆類，之後在UI呈現時可考慮加以區別說明。"),
+    ("gelunjin", "塊莖定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("goushu", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺；構樹兼具飼料、造紙纖維、食用等多元用途，之後在UI呈現時可補充說明。"),
+    ("jiarenshen", "播種/定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺；假人參與已收錄的石蓮花（shilianhua）皆為多肉質野菜但科屬不同，之後在UI呈現時可考慮加以區別說明。"),
 ]
 
 
