@@ -215,6 +215,13 @@ REGISTRY = [
     ("jinzhengu", "金針菇", "菇蕈類", "collected"),
     ("juemingzi", "決明子", "特用作物", "collected"),
     ("wenxinlan", "文心蘭", "花卉類", "collected"),
+    # 第九批（新增：雜糧/特用作物/花卉類/果樹）
+    ("yiyi", "薏苡（薏仁）", "雜糧", "collected"),
+    ("xiangmao", "香茅", "特用作物", "collected"),
+    ("zisu", "紫蘇", "特用作物", "collected"),
+    ("huohehua", "火鶴花", "花卉類", "collected"),
+    ("juhua", "菊花", "花卉類", "collected"),
+    ("jiabaoguo", "嘉寶果（樹葡萄）", "果樹", "collected"),
 ]
 
 def M(*months):
@@ -905,6 +912,40 @@ CROPS = [
          region_note="文心蘭為盆花／切花產業，多於溫室栽培，對低溫的忍受度較蝴蝶蘭強，栽培容易；台灣常見品種週年均可開花，故無傳統露地「播種/定植月份」概念，苗木定植確切月份原文亦未給出。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="溫室栽培，多品種週年均可開花，非露地看天田作物；較佳生長溫度20～25℃，高於30℃生育不良、開花易有「一條龍」現象，低於10℃生長停滯；南西（Gower Ramsey）品種溫度適應範圍廣，15～35℃皆可良好生長"),
+    # 第九批（新增）
+    dict(crop_id="yiyi", name="薏苡（薏仁）", category="雜糧",
+         region_north=None, region_central="南投縣草屯鎮、台中市大雅區、彰化縣二林鎮為主要產地",
+         region_south="嘉義縣朴子市為主要產地",
+         region_note="薏苡（Coix lacryma-jobi L.）為禾本科一年生草本植物，原產於越南、緬甸、泰國及印度等東南亞地區；栽培方式分旱田直播與水田移植兩種，本次查得詳細的直播栽培流程與施肥用量，但未取得明確播種月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種月份原文未直接給出，需另行查證；旱田直播栽培以條播為主，行株距50×20或60×15公分，每公頃播種量約50公斤"),
+    dict(crop_id="xiangmao", name="香茅", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原產亞洲熱帶地區（印度、斯里蘭卡、印尼等），台灣自1950～1960年代曾大規模栽培提煉香茅油外銷，1960年代後因化學合成香料興起而競爭力下降、栽培面積大幅萎縮；分株繁殖月份已明確查得，但目前主要栽培地區資料未取得。",
+         season_months_north=M(3,4,9,10), season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="分株繁殖適期為春季（3～4月）與秋季（9～10月），取健壯成熟植株、莖部剪短至6～10公分"),
+    dict(crop_id="zisu", name="紫蘇", category="特用作物",
+         region_north=None, region_central="南投縣國姓鄉為主要產地之一",
+         region_south="嘉義縣水上鄉為主要產地之一（全株根莖葉入藥）",
+         region_note="1978年自日本引進苗栗縣公館鄉試種，1990年代栽培達鼎盛，主產地在苗栗公館、大湖及嘉義水上，因中國大陸等地低價競爭而栽培面積大幅減少；原文說明「春、秋兩季適合栽培」但未給精確月份，此處以3～4月、9～10月的合理區間表示，需另行查證確認。",
+         season_months_north=None, season_months_central=M(3,4,9,10), season_months_south=M(3,4,9,10),
+         season_label="春、秋兩季適合栽培（此為合理月份區間推算，非原文精確月份）；發芽適溫18～23℃，莖葉生長適溫20～26℃，開花適溫26～28℃；採收盛期約5月下旬至8月上旬，每5～7天可採收一次"),
+    dict(crop_id="huohehua", name="火鶴花", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣因具備火鶴花喜好的溫暖高濕環境（如南投埔里一帶），生產深具競爭優勢；多於溫室栽培，屬多年生觀賞花卉，苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長適溫日溫25～32℃、夜溫21～24℃，高於35℃葉片易灼傷、佛焰苞褪色，多數品種低於18℃即有寒害，夜溫低於15℃嚴重寒害；溫度高於30℃或低於15℃易導致落蕾"),
+    dict(crop_id="juhua", name="菊花", category="花卉類",
+         region_north=None, region_central="彰化縣為主要產地，占全國栽培面積94%，集中田尾、永靖、北斗等鄉鎮",
+         region_south=None,
+         region_note="菊花為短日植物，自然狀態下於日照漸短的秋冬季進行花芽分化與開花；商業栽培透過秋季夜間電照延長日照以維持營養生長，或夏季覆蓋黑布縮短日照以促進開花，藉此調節花期達到週年生產，故無傳統露地「播種/定植月份」概念。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="商業栽培以電照/遮光技術調節花期，可週年生產，非露地看天田作物；自然花期在秋冬季（短日誘導開花）；繁殖以頂芽扦插為主，取5～7公分、4～6片葉、莖粗0.3公分以上的嫩莖"),
+    dict(crop_id="jiabaoguo", name="嘉寶果（樹葡萄）", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原產巴西的熱帶葡萄，生長緩慢，實生苗需6～10年才會結果，嫁接苗可縮短此幼年期；根系淺、極不耐旱，栽培土壤須排水良好；苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；生長緩慢不宜強剪，密生過多枝條宜於秋冬季輕剪；適合弱酸性土壤pH5.5～6.5，需充足水分灌溉但排水須良好"),
 ]
 
 CULTIVATION = [
@@ -1667,6 +1708,41 @@ CULTIVATION = [
     ("wenxinlan", "適合溫度", "較佳生長溫度20～25℃，高於30℃植株生育明顯不良且開花易有「一條龍」現象，低於10℃生長停滯、開花速率延宕", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13629", "official", "2026-08-23"),
     ("wenxinlan", "品種溫度適應性", "南西（Oncidium Gower Ramsey）品種溫度適應範圍廣，15～35℃植株皆生長良好，週年均可開花", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13629", "official", "2026-08-23"),
     ("wenxinlan", "栽培特性", "台灣常見品種多屬栽培容易，對低溫的忍受度較蝴蝶蘭強", "農業知識入口網（文心蘭主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13635", "official", "2026-08-23"),
+
+    # 薏苡（薏仁）- 農業知識入口網 薏苡主題館
+    ("yiyi", "植物特性與產地", "禾本科一年生草本植物，原產東南亞（越南、緬甸、泰國、印度）；台灣主要栽培於南投縣草屯鎮、台中市大雅區、彰化縣二林鎮及嘉義縣朴子市", "農業知識入口網", "https://kmweb.moa.gov.tw/subject/subject.php?id=57884", "official", "2026-08-23"),
+    ("yiyi", "旱田直播栽培", "種子消毒清洗後浸泡3日（早晚換水），再催芽1晝夜；可用曳引機附掛播種機條播，行株距50×20或60×15公分，每公頃播種量約50公斤", "農業知識入口網（薏苡主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39198", "official", "2026-08-23"),
+    ("yiyi", "施肥", "生育所需肥料每公頃氮素150～200公斤、磷90公斤、鉀135公斤", "農業知識入口網（薏苡主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39198", "official", "2026-08-23"),
+
+    # 香茅 - 農業知識入口網
+    ("xiangmao", "植物特性", "多年生草本，株高可達2公尺，具檸檬香氣；喜溫暖氣候與充足日照", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+    ("xiangmao", "土壤條件", "喜疏鬆、肥沃、排水良好之砂質壤土", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+    ("xiangmao", "繁殖方式", "以分株法繁殖，春季（3～4月）與秋季（9～10月）為適期，選健壯成熟植株、莖部剪短至6～10公分", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+    ("xiangmao", "產業沿革", "台灣1950～1960年代曾大規模栽培提煉香茅油外銷，其後因化學合成香料興起、市場競爭力下降，栽培面積大幅萎縮", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=167717", "official", "2026-08-23"),
+
+    # 紫蘇 - 農業知識入口網 原住民族農產業主題館
+    ("zisu", "產業沿革", "1978年自日本引進苗栗縣公館鄉試種，1990年代栽培達鼎盛（苗栗公館、南投國姓一帶約10公頃），現主要栽培於苗栗公館、大湖及嘉義水上，因中國大陸等地低價競爭栽培面積大幅減少", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39509", "official", "2026-08-23"),
+    ("zisu", "適合溫度", "發芽適溫18～23℃，莖葉生長適溫20～26℃，開花適溫26～28℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9931", "official", "2026-08-23"),
+    ("zisu", "栽培要點", "土壤適應性強不挑土，以排水良好、肥沃土壤為佳；喜溫暖氣候、耐熱性佳；播種後需日照並注意保溫，生育初期宜勤鬆土、高溫期需適度遮蔭", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9931", "official", "2026-08-23"),
+    ("zisu", "採收方式", "枝梢長出2對嫩葉（一心四葉）即可採收，剪枝後約1週可再採收，盛產期約5月下旬至8月上旬，每5～7天採收一次", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9931", "official", "2026-08-23"),
+
+    # 火鶴花 - 農業知識入口網 火鶴花主題館
+    ("huohehua", "適合溫度", "生長適溫日溫25～32℃、夜溫21～24℃", "農業知識入口網（火鶴花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14757", "official", "2026-08-23"),
+    ("huohehua", "溫度極端影響", "高於35℃導致葉片灼傷、佛焰苞褪色、切花壽命縮短；多數品種低於18℃即有寒害（產量減少、佛焰苞畸形），夜溫低於15℃時多數品種嚴重寒害（新葉皺縮、葉柄斑點、佛焰苞嚴重畸形、下位葉黃化）", "農業知識入口網（火鶴花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14757", "official", "2026-08-23"),
+    ("huohehua", "落蕾問題", "溫度高於30℃或低於15℃皆容易導致落蕾，為溫度逆境所致的主要問題", "農業知識入口網（火鶴花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14757", "official", "2026-08-23"),
+    ("huohehua", "生產優勢", "台灣具備火鶴花喜好的溫暖高濕環境，生產深具競爭優勢", "農業知識入口網（天南星科主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=13256", "official", "2026-08-23"),
+
+    # 菊花 - 農業知識入口網 菊花主題館
+    ("juhua", "主要產地", "彰化縣為國內切花栽培面積最大縣市，占全國94%，集中田尾、永靖、北斗等鄉鎮；2013年全台栽培面積745公頃、產量逾1,769萬把，為切花銷售之首", "農業知識入口網（花之隱士）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=304466", "official", "2026-08-23"),
+    ("juhua", "生長習性", "為短日植物，日照漸短的秋冬季進行花芽分化與開花", "農業知識入口網（菊花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=19982", "official", "2026-08-23"),
+    ("juhua", "花期調節", "商業栽培以品種輪替搭配電照技術達週年生產：秋季夜間電照延長日照以維持營養生長並延後開花，夏季覆蓋黑布縮短日照以促進開花提早", "農業知識入口網（菊花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=19983", "official", "2026-08-23"),
+    ("juhua", "繁殖方式", "商業栽培以頂芽扦插為主，取5～7公分、4～6片葉、莖粗0.3公分以上的嫩莖，最容易發根", "農業知識入口網（菊花主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=19982", "official", "2026-08-23"),
+
+    # 嘉寶果（樹葡萄）- 農業知識入口網
+    ("jiabaoguo", "生長特性", "原產巴西的熱帶葡萄，生長緩慢，實生苗需6～10年才會結果，嫁接苗可縮短幼年期", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=366291", "official", "2026-08-23"),
+    ("jiabaoguo", "水分管理", "根系淺、極不耐旱，栽培期間須充足水分灌溉；可耐長期多雨，但栽培土壤須排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=13066", "official", "2026-08-23"),
+    ("jiabaoguo", "土壤與施肥", "適合弱酸性土壤pH5.5～6.5，以深厚、排水良好之砂質壤土為佳；施肥於樹幹周圍挖環狀溝（寬深各15公分），均勻撒施有機肥後覆土，或以硫酸銨、過磷酸鈣、氯化鉀依1:2:1比例施用", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3386", "official", "2026-08-23"),
+    ("jiabaoguo", "修剪", "生長緩慢不宜強剪，密生過多枝條宜於秋冬季輕剪；欲控制株高需留意修剪頂端枝條，修剪傷口癒合良好、之後會長出新枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledgebase.php?id=227955", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2250,6 +2326,12 @@ UNVERIFIED = [
     ("jinzhengu", "本表season欄位留空是因環控設施為控制環境周年生產，非露地看天田作物，並非資料查證不足；太空包配方、病蟲害資料本次未查得，需另行補齊。"),
     ("juemingzi", "播種月份原文未直接給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；決明子為藥用植物而非一般食用作物，之後在UI呈現時應加以說明用途定位。"),
     ("wenxinlan", "本表season欄位留空是因文心蘭為溫室栽培、多品種週年可開花，非露地看天田作物，並非資料查證不足；土壤（介質）條件、施肥、病蟲害資料本次未查得，需另行補齊；文心蘭屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("yiyi", "播種月份原文未直接給出，season欄位暫留空，需另行查證；適合溫度、水田移植栽培的細節、病蟲害資料本次均未查得，需另行補齊。"),
+    ("xiangmao", "目前主要栽培地區資料未取得（僅知1950～60年代曾大規模栽培外銷），適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("zisu", "季節月份為「春、秋兩季」的合理區間推算（3～4月、9～10月），非原文直接給出的精確月份，需另行查證核實；北部分區資料未取得；株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("huohehua", "苗木定植的確切季節月份、土壤（介質）條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；火鶴花屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
+    ("juhua", "本表season欄位留空是因商業栽培以電照/遮光技術調節花期、可週年生產，非露地看天田作物，並非資料查證不足；北部、南部分區資料未取得；土壤條件、施肥、病蟲害資料本次未查得，需另行補齊；菊花屬觀賞花卉而非食用作物（不同於食用的杭菊），之後在UI呈現時應加以區別說明，避免與杭菊混淆。"),
+    ("jiabaoguo", "苗木定植的確切季節月份、適合溫度、株距、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
 ]
 
 
