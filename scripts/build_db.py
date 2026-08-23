@@ -241,6 +241,10 @@ REGISTRY = [
     ("jieqiuwoju", "結球萵苣", "葉菜類", "collected"),
     ("helandou", "荷蘭豆", "豆菜類", "collected"),
     ("quedou", "鵲豆", "豆菜類", "collected"),
+    # 第十四批（新增：根莖類/筍類/果樹）
+    ("douvu", "豆薯", "根莖類", "collected"),
+    ("mengzongzhusun", "孟宗竹筍（冬筍）", "筍類", "collected"),
+    ("shufanqie", "樹番茄", "果樹", "collected"),
 ]
 
 def M(*months):
@@ -1054,6 +1058,24 @@ CROPS = [
          region_note="荷蘭統治時期引進台灣栽培之說，原住民與漢人其後廣泛栽培利用；因環境適應力強，逐漸馴化，低海拔丘陵地偶可見野生族群；種植時應避開梅雨季與颱風季。",
          season_months_north=M(4,5,6,7,8,9), season_months_central=M(3,4,5,6,7,8,9,10), season_months_south=M(3,4,5,6,7,8,9,10),
          season_label="北部播種適期4月上旬至9月上旬，中南部3月上旬至10月上旬，種植應避開梅雨季與颱風季；多具短日性，通常11月至翌年2月間開花"),
+    # 第十四批（新增）
+    dict(crop_id="douvu", name="豆薯", category="根莖類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="草質藤本植物，塊根可食用，但藤蔓的莖、葉與種子含劇毒魚藤酮類化合物，不可誤食；喜溫暖氣候（25～30℃最適合），適合春、夏溫暖季節種植，原文未進一步標示北中南分區差異。",
+         season_months_north=M(3,4,5,6,7,8), season_months_central=M(3,4,5,6,7,8), season_months_south=M(3,4,5,6,7,8),
+         season_label="適合春、夏溫暖季節種植，適溫25～30℃；自播種至塊根收穫約需150～180天"),
+    dict(crop_id="mengzongzhusun", name="孟宗竹筍（冬筍）", category="筍類",
+         region_central="南投縣為主要栽培地區",
+         region_south="嘉義縣為主要栽培地區",
+         region_north=None,
+         region_note="孟宗竹原產中國長江以南，台灣以南投縣及嘉義縣栽培為主；同一竹種依季節分為「春筍」（2～5月萌發）與「冬筍」（12月至翌年2月萌發），冬季其他竹種多不產筍，故冬筍產量少、價格高；此為採收期而非新植繁殖月份，與綠竹筍、桂竹筍、麻竹筍等其他筍類作物處理方式相同。",
+         season_months_north=None, season_months_central=M(12,1,2,3,4,5), season_months_south=M(12,1,2,3,4,5),
+         season_label="春筍於2～5月萌發，冬筍於12月至翌年2月萌發（冬季其他竹種多不產筍，故冬筍產量少、價格高）；此為採收期而非新植繁殖月份"),
+    dict(crop_id="shufanqie", name="樹番茄", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="茄科多年生半木質常綠植物，原產秘魯安地斯山脈，栽培需海拔1,000公尺以上高冷地；扦插苗於生根後在春季移植，但原文未給出移植的確切月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="扦插生根後於春季移植，原文未給出確切月份，需另行查證；栽培需海拔1,000公尺以上高冷地，定植後2年內可開始結果、3～4年進入盛產期，開花後5～6個月果實成熟"),
 ]
 
 CULTIVATION = [
@@ -1926,6 +1948,21 @@ CULTIVATION = [
     ("quedou", "別名與沿革", "別名藕豆、肉豆、峨眉豆、扁豆、延籬豆、藤豆；相傳荷治時期引進台灣栽培，其後原住民與漢人廣泛栽培利用，因環境適應力強逐漸馴化", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
     ("quedou", "生長習性", "喜溫暖氣候，多具短日性，通常於11月至翌年2月間開花，花色淡紫、淡紫紅或白色；耐旱性強，貧瘠土壤亦可穩定生產", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
     ("quedou", "播種方式", "北部適合播種期4月上旬至9月上旬，中南部3月上旬至10月上旬，種植應避開梅雨季與颱風季；一般旱田採撒播或條播，撒播用種量每公頃60～70公斤、條播40～50公斤", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
+
+    # 豆薯 - 農業知識入口網
+    ("douvu", "適合季節與溫度", "喜溫暖氣候，適溫25～30℃，適合春、夏溫暖季節種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=16107", "official", "2026-08-23"),
+    ("douvu", "栽培環境", "喜充足陽光，土壤宜富含有機質且排水良好，早晨或傍晚澆水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=16107", "official", "2026-08-23"),
+    ("douvu", "採收天數", "自播種至塊根收穫約需150～180天", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=16107", "official", "2026-08-23"),
+    ("douvu", "食用安全", "塊根可食用，但藤蔓的莖、葉與種子含劇毒魚藤酮類化合物，不可讓人與家畜誤食", "農業知識入口網（豆薯種子吃不得）", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=54739", "official", "2026-08-23"),
+
+    # 孟宗竹筍（冬筍）- 農業知識入口網 綠竹筍主題館
+    ("mengzongzhusun", "產季", "春筍於2～5月萌發，冬筍於12月至翌年2月萌發；冬季其他竹種多不產筍，故冬筍產量少、價格高", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21442", "official", "2026-08-23"),
+    ("mengzongzhusun", "主要產地", "原產中國長江以南，台灣以南投縣及嘉義縣栽培為主", "農業知識入口網（綠竹筍主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=21442", "official", "2026-08-23"),
+
+    # 樹番茄 - 農業知識入口網
+    ("shufanqie", "栽培環境", "栽培需海拔1,000公尺以上高冷地，土壤宜疏鬆、肥沃、排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
+    ("shufanqie", "繁殖方式", "選健康的1～2年生枝條，剪取約20公分插穗育苗，待生根後於春季移植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
+    ("shufanqie", "生長週期與株距", "定植後2年內可開始結果，3～4年進入盛產期，開花後5～6個月果實成熟；株距約3～4公尺；品種分黃色與紅色兩類", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2530,6 +2567,9 @@ UNVERIFIED = [
     ("jieqiuwoju", "適合溫度、土壤條件、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺（僅知高冷地夏季亦可栽培）；結球萵苣與已收錄的A菜（葉萵苣類型）同屬萵苣主題館資料，之後可考慮在UI呈現時說明兩者為同一作物的不同類型。"),
     ("helandou", "北部、南部分區資料未取得（僅知中部彰化為最大產地）；株距、施肥、病蟲害資料本次均未查得，需另行補齊；荷蘭豆（扁莢）與已收錄的甜豆（圓莢，tiandou）、豌豆（wandou）為近緣但不同食用類型的豌豆，之後可考慮在UI呈現時加以區別說明。"),
     ("quedou", "適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；鵲豆兼具食用與觀賞價值，之後在UI呈現時可補充說明其雙重用途。"),
+    ("douvu", "北中南分區資料未取得；土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；食用安全資訊（藤蔓莖葉種子有毒）已於cultivation_facts補齊，UI呈現時應保留此警示。"),
+    ("mengzongzhusun", "定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與綠竹筍、桂竹筍、麻竹筍等其他筍類作物處理方式相同；土壤條件、施肥、病蟲害資料本次均未查得，需另行補齊；北部分區資料未取得。"),
+    ("shufanqie", "移植的確切季節月份僅知「春季」，原文未給精確數字，season欄位暫留空，需另行查證；土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊；栽培受海拔限制（需1,000公尺以上高冷地），與甜柿、蘋果等高冷地果樹相同，「現在適合種」邏輯需額外考慮海拔限制。"),
 ]
 
 
