@@ -1145,6 +1145,18 @@
       "name": "貓薄荷",
       "category": "特用作物",
       "status": "collected"
+    },
+    {
+      "crop_id": "shuimitao",
+      "name": "水蜜桃",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "shuili",
+      "name": "水梨",
+      "category": "果樹",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3630,6 +3642,32 @@
       "season_months_central": "9,10,2,3",
       "season_months_south": "9,10,2,3",
       "season_label": "扦插繁殖最佳季節為立秋後及早春（氣溫下降時取成熟植株莖段扦插，1.5～2個月可發展成株）；9、10月亦適合換盆，生長快速；台灣夏季生長緩慢，接近夏季應摘除花苞避免植株衰弱"
+    },
+    {
+      "crop_id": "shuimitao",
+      "name": "水蜜桃",
+      "category": "果樹",
+      "region_north": "拉拉山（海拔1,000～1,400公尺）為代表性栽培區",
+      "region_central": null,
+      "region_south": null,
+      "region_note": "薔薇科落葉小喬木，台灣水蜜桃集中於中部以北山地，分布於海拔300～2,400公尺；栽培成功關鍵在依海拔適地適種（不同海拔需冷量不同），代表性栽培區包括武陵農場（高海拔）與拉拉山（中海拔）；苗木定植的確切季節月份原文未給出，僅知冬季修剪期為11月上中旬至翌年1月中旬，需另行查證定植月份。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；依海拔需冷量不同：高海拔（如武陵農場，約1,950公尺）需冷量約850小時，中海拔（如拉拉山，1,000～1,400公尺）需冷量300～500小時，低海拔（85～500公尺）需冷量100～250小時；冬季修剪期為11月上中旬至翌年1月中旬"
+    },
+    {
+      "crop_id": "shuili",
+      "name": "水梨",
+      "category": "果樹",
+      "region_north": "宜蘭亦為主要產地",
+      "region_central": "台中東勢、苗栗大湖為主要產地，1975年東勢果農張榕生首創高接梨技術",
+      "region_south": "嘉義亦為主要產地",
+      "region_note": "台灣現栽培低需冷量品種（主要為橫山梨，適合低海拔栽培）與高接梨（利用日本品種新興梨、豐水梨、新世紀梨等接穗嫁接於本地梨樹，栽培於高冷地）兩類；此處月份為採收期而非苗木定植/嫁接月份，原文未給出後者確切月份，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "採收期：豐水梨、新世紀梨等高接梨品種5～7月採收，高冷地栽培品種8～9月採收，晚熟品種（雪梨）12月採收（此為採收期非苗木定植/高接嫁接月份，需另行查證後者）"
     }
   ],
   "cultivation": [
@@ -10992,6 +11030,66 @@
       "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=4693",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 737,
+      "crop_id": "shuimitao",
+      "field": "栽培環境與分布",
+      "value": "台灣水蜜桃集中於中部以北山地，分布於海拔300～2,400公尺；適應性強，山地、平原均可依適宜砧木、品種栽培",
+      "source_name": "農業知識入口網（水蜜桃產業之永續經營）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=32451",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 738,
+      "crop_id": "shuimitao",
+      "field": "需冷量（依海拔）",
+      "value": "高海拔（如武陵農場，約1,950公尺）需冷量約850小時；中海拔（如拉拉山，1,000～1,400公尺）需冷量300～500小時；低海拔（85～500公尺）需冷量100～250小時",
+      "source_name": "農業知識入口網（水蜜桃產業之永續經營）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=32451",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 739,
+      "crop_id": "shuimitao",
+      "field": "修剪時期",
+      "value": "冬季修剪期為11月上中旬至翌年1月中旬",
+      "source_name": "農業知識入口網（水蜜桃產業之永續經營）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=32451",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 740,
+      "crop_id": "shuili",
+      "field": "產業沿革",
+      "value": "1975年台中東勢果農張榕生首創高接梨生產技術，此後台灣梨產業蓬勃發展，主要產區分布台中、苗栗、宜蘭、嘉義",
+      "source_name": "農業知識入口網（高接梨之生產流程）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=25193",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 741,
+      "crop_id": "shuili",
+      "field": "品種類型",
+      "value": "台灣現栽培兩類：低需冷量品種（主要為橫山梨，適合低海拔栽培）與高接梨（將日本品種新興梨、新世紀梨、豐水梨等接穗嫁接於本地梨樹，栽培於高冷地）",
+      "source_name": "農業知識入口網（臺灣梨之來源）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=25184",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 742,
+      "crop_id": "shuili",
+      "field": "採收期",
+      "value": "高接梨品種（豐水梨、新世紀梨等）5～7月採收，高冷地栽培品種8～9月採收，晚熟品種（雪梨）12月採收",
+      "source_name": "農業知識入口網（高接梨之生產流程）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=25193",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -13639,6 +13737,16 @@
       "id": 195,
       "crop_id": "maobohe",
       "note": "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；貓薄荷主要作為貓咪玩賞植物栽培而非人類食用，之後在UI呈現時應加以說明其用途定位。"
+    },
+    {
+      "id": 196,
+      "crop_id": "shuimitao",
+      "note": "苗木定植的確切季節月份原文未給出（僅知冬季修剪期），season欄位暫留空，需另行查證；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；栽培地點受海拔與需冷量限制，「現在適合種」邏輯需額外考慮此因素，與甜柿、蘋果等高冷地果樹性質相近；此前資料庫遺漏此重要溫帶水果，現已補上。"
+    },
+    {
+      "id": 197,
+      "crop_id": "shuili",
+      "note": "本表season欄位所填為採收期而非苗木定植/高接嫁接的季節月份，原文未給出後者確切月份，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；此前資料庫遺漏此重要溫帶水果，現已補上；高接梨為特殊產業技術（嫁接日本品種穗於本地梨樹），與一般果樹新植定植的概念不同，之後在UI呈現時應加以說明。"
     }
   ]
 }
