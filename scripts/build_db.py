@@ -237,6 +237,10 @@ REGISTRY = [
     ("meizi", "梅子", "果樹", "collected"),
     ("zhucong", "珠蔥（分蔥）", "蔥蒜類", "collected"),
     ("luqiao", "蕗蕎", "蔥蒜類", "collected"),
+    # 第十三批（新增：葉菜類/豆菜類）
+    ("jieqiuwoju", "結球萵苣", "葉菜類", "collected"),
+    ("helandou", "荷蘭豆", "豆菜類", "collected"),
+    ("quedou", "鵲豆", "豆菜類", "collected"),
 ]
 
 def M(*months):
@@ -1031,6 +1035,25 @@ CROPS = [
          region_note="石蒜科蔥屬多年生草本，別名薤、蕎頭、火蔥、小蒜、野蒜；以小鱗莖（種球）無性繁殖為主，栽培為二年生作物；有農諺「七蔥、八蒜、九蕗蕎，九九重陽以前就要種入土」，故以農曆9月（約國曆9～10月）作為播種適期。",
          season_months_north=M(8,9,10), season_months_central=M(8,9,10), season_months_south=M(8,9,10),
          season_label="秋冬季（約8～10月，農諺「九蕗蕎」須於農曆九月重陽節前種入土）播種，翌年3～6月地上莖葉枯萎、地下鱗莖膨大停止生長時採收；喜冷涼氣候，高於25℃則進入休眠停止生長"),
+    # 第十三批（新增）
+    dict(crop_id="jieqiuwoju", name="結球萵苣", category="葉菜類",
+         region_north=None, region_central=None, region_south="高冷地夏季亦可栽培",
+         region_note="官方萵苣主題館依「嫩莖萵苣／不結球萵苣／結球萵苣／葉萵苣」四種類型分別提供栽培資料，結球萵苣為其中一種；原文未進一步細分北中南分區，但明確標示播種期範圍與行株距。",
+         season_months_north=M(9,10,11,12,1,2,3), season_months_central=M(9,10,11,12,1,2,3), season_months_south=M(9,10,11,12,1,2,3),
+         season_label="播種期為每年9月至翌年3月（涼爽秋冬季），高冷地夏季亦可栽培；早秋或晚春播種植株較小，且較易產生抽苔現象"),
+    dict(crop_id="helandou", name="荷蘭豆", category="豆菜類",
+         region_north=None, region_central="彰化縣為最大產地",
+         region_south=None,
+         region_note="荷蘭豆（豌豆之扁莢食用類型）喜冷涼乾燥氣候，目前以冬季裡作為主，中部地區為主要產地；官方資料明確列出播種期與盛產月份。",
+         season_months_north=M(10,11,12,1,2,3), season_months_central=M(10,11,12,1,2,3), season_months_south=M(10,11,12,1,2,3),
+         season_label="播種期為10月至翌年3月，發芽適溫20～30℃，盛產期12月至翌年3月；生長適溫9～23℃，超過25℃生長不良、著莢率降低，開花適溫約15℃，幼苗可耐-4℃低溫"),
+    dict(crop_id="quedou", name="鵲豆", category="豆菜類",
+         region_north="適合播種期為4月上旬至9月上旬",
+         region_central="適合播種期為3月上旬至10月上旬",
+         region_south="適合播種期為3月上旬至10月上旬",
+         region_note="荷蘭統治時期引進台灣栽培之說，原住民與漢人其後廣泛栽培利用；因環境適應力強，逐漸馴化，低海拔丘陵地偶可見野生族群；種植時應避開梅雨季與颱風季。",
+         season_months_north=M(4,5,6,7,8,9), season_months_central=M(3,4,5,6,7,8,9,10), season_months_south=M(3,4,5,6,7,8,9,10),
+         season_label="北部播種適期4月上旬至9月上旬，中南部3月上旬至10月上旬，種植應避開梅雨季與颱風季；多具短日性，通常11月至翌年2月間開花"),
 ]
 
 CULTIVATION = [
@@ -1888,6 +1911,21 @@ CULTIVATION = [
     ("luqiao", "主要產地", "主要產地為花蓮、新竹、雲林", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=54809", "official", "2026-08-23"),
     ("luqiao", "繁殖與栽培", "以小鱗莖（種球）無性繁殖，栽培為二年生作物；農諺「七蔥、八蒜、九蕗蕎，九九重陽以前就要種入土」，播種後約3～4個月可採收", "農業知識入口網（原生蔬菜栽培繁殖及料理應用介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=315876", "official", "2026-08-23"),
     ("luqiao", "採收方式", "地上莖葉枯萎、地下鱗莖膨大停止生長時為採收適期，可自農曆春節持續採收至4月", "農業知識入口網（原生蔬菜栽培繁殖及料理應用介紹）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=315876", "official", "2026-08-23"),
+
+    # 結球萵苣 - 農業知識入口網 萵苣主題館
+    ("jieqiuwoju", "適合季節", "播種期為每年9月至翌年3月，高冷地夏季亦可栽培", "農業知識入口網（萵苣主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=8568", "official", "2026-08-23"),
+    ("jieqiuwoju", "株距", "行株距約40～45×25～30公分", "農業知識入口網（萵苣主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=8568", "official", "2026-08-23"),
+    ("jieqiuwoju", "季節性狀況", "早秋或晚春播種時植株較小，且較易產生抽苔現象", "農業知識入口網（萵苣主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=8568", "official", "2026-08-23"),
+
+    # 荷蘭豆 - 農業知識入口網
+    ("helandou", "適合季節", "播種期10月至翌年3月，盛產期12月至翌年3月，目前以冬季裡作為主", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=177", "official", "2026-08-23"),
+    ("helandou", "適合溫度", "發芽適溫20～30℃，生長適溫9～23℃，開花適溫約15℃；超過25℃生長不良、著莢率降低，幼苗可耐-4℃低溫", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=177", "official", "2026-08-23"),
+    ("helandou", "區域分布與土壤", "中部地區為主要產地，彰化縣栽培面積最大；喜冷涼乾燥氣候，不耐濕，排水不良地區不宜栽培，適合砂質或黏質壤土，土壤pH宜5.5～6.7", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=177", "official", "2026-08-23"),
+
+    # 鵲豆 - 農業知識入口網 原住民族農產業主題館
+    ("quedou", "別名與沿革", "別名藕豆、肉豆、峨眉豆、扁豆、延籬豆、藤豆；相傳荷治時期引進台灣栽培，其後原住民與漢人廣泛栽培利用，因環境適應力強逐漸馴化", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
+    ("quedou", "生長習性", "喜溫暖氣候，多具短日性，通常於11月至翌年2月間開花，花色淡紫、淡紫紅或白色；耐旱性強，貧瘠土壤亦可穩定生產", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
+    ("quedou", "播種方式", "北部適合播種期4月上旬至9月上旬，中南部3月上旬至10月上旬，種植應避開梅雨季與颱風季；一般旱田採撒播或條播，撒播用種量每公頃60～70公斤、條播40～50公斤", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39497", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2489,6 +2527,9 @@ UNVERIFIED = [
     ("meizi", "本表season欄位所填為採收期（產季）而非種植/定植月份，苗木定植的確切季節月份原文未給出，需另行查證；適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("zhucong", "播種/分株的確切月份原文未給出，season欄位暫留空，需另行查證；北部、中部產地資料未取得（僅知南部台南嘉義占96%）；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
     ("luqiao", "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；中部產地資料未取得；播種月份依農諺「九蕗蕎」推算為農曆9月（約國曆9～10月），非官方精確公告月份，建議日後查證官方播種曆核實。"),
+    ("jieqiuwoju", "適合溫度、土壤條件、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺（僅知高冷地夏季亦可栽培）；結球萵苣與已收錄的A菜（葉萵苣類型）同屬萵苣主題館資料，之後可考慮在UI呈現時說明兩者為同一作物的不同類型。"),
+    ("helandou", "北部、南部分區資料未取得（僅知中部彰化為最大產地）；株距、施肥、病蟲害資料本次均未查得，需另行補齊；荷蘭豆（扁莢）與已收錄的甜豆（圓莢，tiandou）、豌豆（wandou）為近緣但不同食用類型的豌豆，之後可考慮在UI呈現時加以區別說明。"),
+    ("quedou", "適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；鵲豆兼具食用與觀賞價值，之後在UI呈現時可補充說明其雙重用途。"),
 ]
 
 
