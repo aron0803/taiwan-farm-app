@@ -1265,6 +1265,24 @@
       "name": "黃藤",
       "category": "特用作物",
       "status": "collected"
+    },
+    {
+      "crop_id": "youmang",
+      "name": "油芒",
+      "category": "雜糧",
+      "status": "collected"
+    },
+    {
+      "crop_id": "shanlan",
+      "name": "山藍",
+      "category": "特用作物",
+      "status": "collected"
+    },
+    {
+      "crop_id": "chixiaodou",
+      "name": "赤小豆",
+      "category": "豆菜類",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -4010,6 +4028,45 @@
       "season_months_central": null,
       "season_months_south": null,
       "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；藤本植物，栽培容易，全株密布尖刺，莖蔓可長達200公尺"
+    },
+    {
+      "crop_id": "youmang",
+      "name": "油芒",
+      "category": "雜糧",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "學名Eccoilopus cotulifer，禾本科多年生草本，為原住民族傳統作物；耐旱能力佳，適合向陽坡地環境；播種季節原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "播種季節原文未給出，需另行查證；耐旱能力佳，於土地貧瘠、缺乏水資源區域生長良好，與雜草競爭力強；種實可供食用或作為飼料使用"
+    },
+    {
+      "crop_id": "shanlan",
+      "name": "山藍",
+      "category": "特用作物",
+      "region_north": "分布台灣中北部低海拔闊葉林或人工栽培",
+      "region_central": "分布台灣中北部低海拔闊葉林或人工栽培",
+      "region_south": null,
+      "region_note": "學名Strobilanthes cusia，爵床科植物，別名馬藍、板藍、山菁、大青、大菁、大藍、青藍，為原住民族及漢人傳統染料作物（藍靛染料原料）；苗木定植/播種的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植/播種的確切季節月份原文未給出，需另行查證；為傳統藍染工藝之藍靛染料重要原料植物"
+    },
+    {
+      "crop_id": "chixiaodou",
+      "name": "赤小豆",
+      "category": "豆菜類",
+      "region_north": null,
+      "region_central": null,
+      "region_south": null,
+      "region_note": "豆科植物，栽培習性與紅豆相近，為原住民族傳統作物之一；播種至開花期需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候，但原文未給出精確播種月份數字，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "播種至開花需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候，但確切播種月份原文未給出，需另行查證；喜排水良好之壤土或砂質壤土，土壤pH6.5～7"
     }
   ],
   "cultivation": [
@@ -11922,6 +11979,76 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39513",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 792,
+      "crop_id": "youmang",
+      "field": "植物特性",
+      "value": "學名Eccoilopus cotulifer，禾本科多年生草本，株高可達60公分以上，莖徑約2～6公厘，葉片背面被毛，葉長約35公分、寬約1.3公分，花為圓錐花序長約20公分，種子為穎果",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39494",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 793,
+      "crop_id": "youmang",
+      "field": "栽培環境",
+      "value": "耐旱能力佳，於土地貧瘠、缺乏水資源區域生長良好，與雜草競爭力強，最適合向陽坡地環境",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39494",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 794,
+      "crop_id": "youmang",
+      "field": "利用價值",
+      "value": "種實可供食用或供飼料使用，為原住民傳統農作物",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39494",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 795,
+      "crop_id": "shanlan",
+      "field": "植物特性與別名",
+      "value": "學名Strobilanthes cusia，爵床科植物，別名馬藍、板藍、山菁、大青、大菁、大藍、青藍",
+      "source_name": "農業知識入口網（馬藍-藥用植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=37232",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 796,
+      "crop_id": "shanlan",
+      "field": "分布與用途",
+      "value": "分布於台灣中北部低海拔闊葉林或人工栽培；為傳統藍染工藝之藍靛染料重要原料植物",
+      "source_name": "農業知識入口網（馬藍-藥用植物主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=37232",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 797,
+      "crop_id": "chixiaodou",
+      "field": "栽培習性",
+      "value": "栽培習性與紅豆相近，播種至開花期需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=417",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 798,
+      "crop_id": "chixiaodou",
+      "field": "土壤條件",
+      "value": "喜排水良好之壤土或砂質壤土，土壤pH6.5～7",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=417",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -14669,6 +14796,21 @@
       "id": 215,
       "crop_id": "huangteng",
       "note": "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部分區資料未取得；黃藤為纖維料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"
+    },
+    {
+      "id": 216,
+      "crop_id": "youmang",
+      "note": "播種季節、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"
+    },
+    {
+      "id": 217,
+      "crop_id": "shanlan",
+      "note": "苗木定植/播種的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；南部分區資料未取得；山藍為染料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"
+    },
+    {
+      "id": 218,
+      "crop_id": "chixiaodou",
+      "note": "確切播種月份原文未給出，season欄位暫留空，需另行查證；株距、施肥、病蟲害資料本次均未查得，需另行補齊；赤小豆與已收錄的紅豆（hongdou）為近緣但不同的豆類，之後在UI呈現時可考慮加以區別說明。"
     }
   ]
 }

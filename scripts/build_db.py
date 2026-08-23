@@ -332,6 +332,10 @@ REGISTRY = [
     ("ludao", "陸稻", "雜糧", "collected"),
     ("zhuma", "苧麻", "特用作物", "collected"),
     ("huangteng", "黃藤", "特用作物", "collected"),
+    # 第三十七批（新增：雜糧/特用作物/豆菜類，原住民族傳統作物）
+    ("youmang", "油芒", "雜糧", "collected"),
+    ("shanlan", "山藍", "特用作物", "collected"),
+    ("chixiaodou", "赤小豆", "豆菜類", "collected"),
 ]
 
 def M(*months):
@@ -1538,6 +1542,24 @@ CROPS = [
          region_note="棕櫚科藤本植物，全株密布尖刺，莖蔓可長達200公尺，栽培容易；野生黃藤分布台灣中低海拔山區森林，為原住民族傳統纖維料作物，莖部可編製家具、繩索等器具；苗木定植的確切季節月份原文未給出，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="苗木定植的確切季節月份原文未給出，需另行查證；藤本植物，栽培容易，全株密布尖刺，莖蔓可長達200公尺"),
+    # 第三十七批（新增）
+    dict(crop_id="youmang", name="油芒", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="學名Eccoilopus cotulifer，禾本科多年生草本，為原住民族傳統作物；耐旱能力佳，適合向陽坡地環境；播種季節原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種季節原文未給出，需另行查證；耐旱能力佳，於土地貧瘠、缺乏水資源區域生長良好，與雜草競爭力強；種實可供食用或作為飼料使用"),
+    dict(crop_id="shanlan", name="山藍", category="特用作物",
+         region_north="分布台灣中北部低海拔闊葉林或人工栽培",
+         region_central="分布台灣中北部低海拔闊葉林或人工栽培",
+         region_south=None,
+         region_note="學名Strobilanthes cusia，爵床科植物，別名馬藍、板藍、山菁、大青、大菁、大藍、青藍，為原住民族及漢人傳統染料作物（藍靛染料原料）；苗木定植/播種的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植/播種的確切季節月份原文未給出，需另行查證；為傳統藍染工藝之藍靛染料重要原料植物"),
+    dict(crop_id="chixiaodou", name="赤小豆", category="豆菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="豆科植物，栽培習性與紅豆相近，為原住民族傳統作物之一；播種至開花期需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候，但原文未給出精確播種月份數字，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="播種至開花需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候，但確切播種月份原文未給出，需另行查證；喜排水良好之壤土或砂質壤土，土壤pH6.5～7"),
 ]
 
 CULTIVATION = [
@@ -2753,6 +2775,19 @@ CULTIVATION = [
     ("huangteng", "植物特性", "棕櫚科藤本植物，全株密布尖刺，莖蔓可長達200公尺，栽培容易", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39513", "official", "2026-08-23"),
     ("huangteng", "分布與經濟栽培", "野生黃藤分布台灣中低海拔山區森林；花蓮縣光復、瑞穗地區有經濟栽培", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39513", "official", "2026-08-23"),
     ("huangteng", "傳統用途", "為原住民族傳統纖維料作物，莖部可編製家具、繩索等器具", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39513", "official", "2026-08-23"),
+
+    # 油芒 - 農業知識入口網 原住民族農產業主題館
+    ("youmang", "植物特性", "學名Eccoilopus cotulifer，禾本科多年生草本，株高可達60公分以上，莖徑約2～6公厘，葉片背面被毛，葉長約35公分、寬約1.3公分，花為圓錐花序長約20公分，種子為穎果", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39494", "official", "2026-08-23"),
+    ("youmang", "栽培環境", "耐旱能力佳，於土地貧瘠、缺乏水資源區域生長良好，與雜草競爭力強，最適合向陽坡地環境", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39494", "official", "2026-08-23"),
+    ("youmang", "利用價值", "種實可供食用或供飼料使用，為原住民傳統農作物", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39494", "official", "2026-08-23"),
+
+    # 山藍 - 農業知識入口網
+    ("shanlan", "植物特性與別名", "學名Strobilanthes cusia，爵床科植物，別名馬藍、板藍、山菁、大青、大菁、大藍、青藍", "農業知識入口網（馬藍-藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37232", "official", "2026-08-23"),
+    ("shanlan", "分布與用途", "分布於台灣中北部低海拔闊葉林或人工栽培；為傳統藍染工藝之藍靛染料重要原料植物", "農業知識入口網（馬藍-藥用植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=37232", "official", "2026-08-23"),
+
+    # 赤小豆 - 農業知識入口網
+    ("chixiaodou", "栽培習性", "栽培習性與紅豆相近，播種至開花期需溫暖氣候，莢果充實成熟期則喜涼爽乾燥氣候", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=417", "official", "2026-08-23"),
+    ("chixiaodou", "土壤條件", "喜排水良好之壤土或砂質壤土，土壤pH6.5～7", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=plant_illustration&id=417", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -3426,6 +3461,9 @@ UNVERIFIED = [
     ("ludao", "播種季節與詳細栽培方式（間距、灌溉、施肥）原文未給出，需另行查證花蓮區農業改良場完整資料；季節欄位暫留空；病蟲害資料本次未查得，需另行補齊；北部是否適合栽培尚待查證。"),
     ("zhuma", "苗木定植/播種的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺；苧麻為纖維料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"),
     ("huangteng", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部分區資料未取得；黃藤為纖維料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"),
+    ("youmang", "播種季節、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("shanlan", "苗木定植/播種的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；南部分區資料未取得；山藍為染料作物而非食用作物，之後在UI呈現時應加以說明其用途定位。"),
+    ("chixiaodou", "確切播種月份原文未給出，season欄位暫留空，需另行查證；株距、施肥、病蟲害資料本次均未查得，需另行補齊；赤小豆與已收錄的紅豆（hongdou）為近緣但不同的豆類，之後在UI呈現時可考慮加以區別說明。"),
 ]
 
 
