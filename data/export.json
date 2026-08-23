@@ -1043,6 +1043,18 @@
       "name": "麵包果（麵包樹）",
       "category": "果樹",
       "status": "collected"
+    },
+    {
+      "crop_id": "foshougua",
+      "name": "佛手瓜",
+      "category": "果菜類",
+      "status": "collected"
+    },
+    {
+      "crop_id": "nuoliguo",
+      "name": "諾麗果",
+      "category": "果樹",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3307,6 +3319,32 @@
       "season_months_central": null,
       "season_months_south": null,
       "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；果實成熟期為7～8月（此為採收期非播種月份），成熟果實外皮黃綠色，澱粉含量豐富但不可生食，需經烤、蒸、炸或煮湯（常見與魚乾同煮）"
+    },
+    {
+      "crop_id": "foshougua",
+      "name": "佛手瓜",
+      "category": "果菜類",
+      "region_north": null,
+      "region_central": "南投埔里為主要栽培地區之一",
+      "region_south": "嘉義、高雄淺山坡地亦有栽培",
+      "region_note": "佛手瓜與已收錄的龍鬚菜（longxucai）為同一葫蘆科植物：佛手瓜為其果實，龍鬚菜為其嫩莖採收後的稱呼；1935年自日本引進台灣，主要栽培於花蓮吉安、南投埔里、嘉義、高雄等淺山坡地；此筆播種/定植月份與龍鬚菜條目相同（同一植株），供交叉參考。",
+      "season_months_north": "11,12,1,2,3",
+      "season_months_central": "11,12,1,2,3",
+      "season_months_south": "11,12,1,2,3",
+      "season_label": "最佳種植季節為11月至翌年3月，高溫期生長不良、易死亡；生長適溫18～28℃，低於12℃停止生長、高於30℃生長衰弱；以成熟果實半埋沙中壓條繁殖，約兩週後自芽眼萌發新芽"
+    },
+    {
+      "crop_id": "nuoliguo",
+      "name": "諾麗果",
+      "category": "果樹",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "國內有原生種，主要種植於南部區域",
+      "region_note": "檄樹的果實，原生分布遍及太平洋群島、東南亞、澳洲及印度，台灣南部亦有原生種；北部因冬季低溫一般無法安全越冬，需良好保溫措施，此為適合栽培的溫度限制而非確切播種月份。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "種子播種至開花結果約需1.5～2年，量產需3年以上；種子發芽適溫28～35℃，植株生育適溫25～35℃，低於15℃生長停止，低於10℃寒害甚至死亡，北部一般無法安全越冬需良好保溫措施；種子取出洗淨曬乾或陰乾後，需靜置2週以上休眠才可播種"
     }
   ],
   "cultivation": [
@@ -10129,6 +10167,96 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39530",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 683,
+      "crop_id": "foshougua",
+      "field": "與龍鬚菜的關係",
+      "value": "佛手瓜（果實）與龍鬚菜（嫩莖）為同一葫蘆科植物的不同部位；別名合掌瓜、佛掌瓜，原產南墨西哥及中美洲，1935年自日本引進台灣",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39534",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 684,
+      "crop_id": "foshougua",
+      "field": "主要產地",
+      "value": "主要栽培於花蓮吉安、南投埔里、嘉義、高雄等淺山坡地",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39534",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 685,
+      "crop_id": "foshougua",
+      "field": "適合季節與溫度",
+      "value": "最佳種植季節為11月至翌年3月，高溫期生長不良、易死亡；生長適溫18～28℃，低於12℃停止生長、高於30℃生長衰弱",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=40",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 686,
+      "crop_id": "foshougua",
+      "field": "繁殖方式",
+      "value": "以成熟果實半埋於沙中進行壓條繁殖，維持濕潤約兩週後自芽眼萌發新芽",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=4744",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 687,
+      "crop_id": "foshougua",
+      "field": "採收方式",
+      "value": "食用嫩莖長約15～20公分時採收，夏季約每3天採收一次、冬季約每10天採收一次；定植後45～50天可開始採收嫩莖",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/redirect_files.php?theme=knowledgebase&id=411253",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 688,
+      "crop_id": "nuoliguo",
+      "field": "植物特性與分布",
+      "value": "檄樹之果實，原生分布遍及太平洋群島、東南亞、澳洲及印度，台灣南部亦有原生種",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 689,
+      "crop_id": "nuoliguo",
+      "field": "適合溫度",
+      "value": "種子發芽適溫28～35℃，植株生育適溫25～35℃，低於15℃生長停止，低於10℃寒害甚至死亡；台灣北部一般無法安全越冬，須有良好保溫措施",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 690,
+      "crop_id": "nuoliguo",
+      "field": "生長週期",
+      "value": "種子播種至開花結果約需1.5～2年，量產需3年以上；植株本身幾乎無其他病害",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 691,
+      "crop_id": "nuoliguo",
+      "field": "播種方式",
+      "value": "種子取出果實後，洗淨曬乾或陰乾，靜置2週以上使種子休眠後即可播種",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=2659",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -12691,6 +12819,16 @@
       "id": 178,
       "crop_id": "mianbaoguo",
       "note": "苗木定植的確切季節月份原文未給出，season欄位改採果實成熟期（採收期）呈現，與其他果樹類作物「同株不同產物」處理方式一致；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證（目前僅知花蓮台東栽培）。"
+    },
+    {
+      "id": 179,
+      "crop_id": "foshougua",
+      "note": "土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；與龍鬚菜（longxucai）為同一植株的不同產物，之後在UI呈現時可考慮合併說明或交叉引用，避免重複判定為兩種不同作物。"
+    },
+    {
+      "id": 180,
+      "crop_id": "nuoliguo",
+      "note": "播種/定植的確切月份僅知需符合發芽適溫（28～35℃）條件，原文未給出具體月份，season欄位暫留空，需另行查證；土壤條件、株距、施肥資料本次均未查得，需另行補齊。"
     }
   ]
 }
