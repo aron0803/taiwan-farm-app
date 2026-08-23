@@ -194,6 +194,13 @@ REGISTRY = [
     ("heidou", "黑豆", "雜糧", "collected"),
     ("lvzhusun", "綠竹筍", "筍類", "collected"),
     ("aiyu", "愛玉", "特用作物", "collected"),
+    # 第六批（新增：特用作物/根莖類/雜糧/葉菜類/菇蕈類，新增「菇蕈類」分類）
+    ("cha", "茶", "特用作物", "collected"),
+    ("shushu", "樹薯", "根莖類", "collected"),
+    ("gaoliang", "高粱", "雜糧", "collected"),
+    ("chuanqi", "川七", "葉菜類", "collected"),
+    ("xianggu", "香菇", "菇蕈類", "collected"),
+    ("muer", "黑木耳", "菇蕈類", "collected"),
 ]
 
 def M(*months):
@@ -783,6 +790,37 @@ CROPS = [
          region_note="台灣特有山地植物，原產於海拔800～1,800公尺山區，栽培地點受海拔限制，與甜柿、蘋果等高冷地果樹性質相近；農業部苗栗區農業改良場已育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種。此處月份為隱花果產季（採收期）而非苗木定植月份，原文未給出定植的確切月份。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="隱花果主要產季集中於8～10月（由開花到可採收約需4～5個月）；苗木定植適期原文未給出確切月份，需另行查證；栽培地點受海拔限制（傳統產區800～1,800公尺），低海拔栽培品種已有苗栗1號、2號可選"),
+    # 第六批（新增）
+    dict(crop_id="cha", name="茶", category="特用作物",
+         region_north=None, region_central=None, region_south=None,
+         region_note="茶樹為多年生常綠木本植物，主要以扦插苗建立新茶園，繁殖育苗需時多年，原文未給出苗木定植的確切月份；適合環境條件（氣候、地形）已查得，但北中南分區資料尚未取得。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植適期原文未給出確切月份，需另行查證；適合雨量充沛、多雲霧、濕度高、排水良好之丘陵地栽培，生育適溫20～30℃、相對濕度80～90%"),
+    dict(crop_id="shushu", name="樹薯", category="根莖類",
+         region_north=None, region_central="台中以南各縣普遍栽培", region_south="台中以南各縣普遍栽培，花蓮亦有栽培",
+         region_note="原文說明樹薯為一年生或多年生灌木，耐貧瘠乾旱土壤，主要栽培於台中以南各縣及花蓮，並歸化生長於全台平地至丘陵地，但未給出具體播種/扦插月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="原文未明確標示播種/扦插月份，需另行查證；喜高溫多濕，耐性強，可生長於貧瘠、乾旱土壤"),
+    dict(crop_id="gaoliang", name="高粱", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="我國高粱主要栽培於金門（栽培面積約1,700公頃），與小麥、花生輪作（高粱110天、接續小麥120天、再留地力予花生）；原文說明播種期早於花生，但未給出具體月份數字，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="主要栽培於金門，與小麥、花生輪作，生育期約110天；播種期早於花生但原文未給出確切月份，需另行查證；主要品種為台中5號（飼料兼釀酒用）"),
+    dict(crop_id="chuanqi", name="川七", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文為官方栽培技術頁面，提供株距、施肥等具體規格，但未明確標示適合播種/扦插的季節月份，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="原文未明確標示適合播種/扦插季節，需另行查證；土壤適應性廣，商業栽培以排水良好之砂質壤土較佳，需立支架栽培"),
+    dict(crop_id="xianggu", name="香菇", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="香菇多以太空包（木屑填充太空包）栽培，屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；子實體生長需低溫環境，此為出菇溫度條件而非「現在適合種」的種植月份。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；菌絲生長適溫22～26℃，子實體發育需較低溫（5～24℃，約15℃最佳），低於12℃菇體厚實品質佳，約4℃時菇傘易龜裂成「花菇」為最高等級"),
+    dict(crop_id="muer", name="黑木耳", category="菇蕈類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="黑木耳亦多以太空包栽培（木屑78%、米糠20%、碳酸鈣1%、蔗糖1%），屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；接種後28～30天可出菇。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；栽培溫度25±2℃、濕度60～85%，每日澆水1～2次，接種後約28～30天可採收"),
 ]
 
 CULTIVATION = [
@@ -1453,6 +1491,38 @@ CULTIVATION = [
     ("aiyu", "產季", "主要產季集中於8～10月", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/subject.php?id=24507", "official", "2026-08-23"),
     ("aiyu", "採收時機", "由開花到可採收約需4～5個月，需在隱花果由暗綠色轉為紫色時採收，過早或過晚採收皆會使凝膠能力較差", "農業知識入口網（種子世界館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=26230", "official", "2026-08-23"),
     ("aiyu", "低海拔栽培品種", "農業部苗栗區農業改良場歷經15年育成適合低海拔栽培的「苗栗1號」「苗栗2號」品種，可有機栽培量產", "農業知識入口網（愛玉姑娘的家）", "https://kmweb.moa.gov.tw/subject/news.php?id=2805&news_id=19393", "official", "2026-08-23"),
+
+    # 茶 - 農業知識入口網 茶葉主題館
+    ("cha", "植物特性", "常綠木本植物，適應力強，生長、產量與品質皆與氣候、土壤、地形等環境條件密切相關", "農業知識入口網（茶葉主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=7154", "official", "2026-08-23"),
+    ("cha", "適合環境", "適合雨量充沛、多雲霧、濕度高、排水良好之丘陵地栽培，生育適溫20～30℃、相對濕度80～90%", "農業知識入口網（茶葉主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=7154", "official", "2026-08-23"),
+    ("cha", "繁殖方式", "茶樹育種為多年期工作，扦插為簡便經濟、廣泛用於大量茶苗繁殖的方法", "農業知識入口網（茶葉主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=7155", "official", "2026-08-23"),
+
+    # 樹薯 - 農業知識入口網 原住民族農產業主題館
+    ("shushu", "植物特性", "一年生或多年生灌木，喜高溫多濕，耐性強，可生長於貧瘠、乾旱土壤", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39501", "official", "2026-08-23"),
+    ("shushu", "主要產地", "台中以南各縣及花蓮普遍栽培，並歸化生長於全台平地至丘陵地帶", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39501", "official", "2026-08-23"),
+    ("shushu", "栽培沿革", "日治時代以前僅少量栽培，1902年引進新品種試種後逐漸普遍；戰後因味精工業、製酒、飼料市場及養鰻事業需求，栽培面積大幅增加", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39501", "official", "2026-08-23"),
+
+    # 高粱 - 農業知識入口網
+    ("gaoliang", "主要產地", "我國高粱主要栽培於金門，現栽培面積約1,700公頃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3157", "official", "2026-08-23"),
+    ("gaoliang", "輪作與生育期", "金門與小麥、花生輪作：高粱生育期約110天，接續種植小麥約120天，最後留地力予紅土花生；播種期早於花生", "農業知識入口網（酒鄉高粱情）", "https://kmweb.moa.gov.tw/theme_data.php?theme=agri_story&id=98", "official", "2026-08-23"),
+    ("gaoliang", "主要品種", "目前金門種植品種以「台中5號」為主，飼料兼釀酒用，耐旱、抗病、機器容易採收，單位面積產量較高", "農業知識入口網（酒鄉高粱情）", "https://kmweb.moa.gov.tw/theme_data.php?theme=agri_story&id=98", "official", "2026-08-23"),
+    ("gaoliang", "播種方式", "撒播為主，播種後待長成幼苗時進行疏苗，刪除多餘株苗、留住壯碩主苗，再加以灌溉、施肥", "農業知識入口網（酒鄉高粱情）", "https://kmweb.moa.gov.tw/theme_data.php?theme=agri_story&id=98", "official", "2026-08-23"),
+
+    # 川七 - 農業知識入口網
+    ("chuanqi", "土壤條件", "土壤適應性廣，容易栽培；商業栽培以排水良好之砂質壤土較佳", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+    ("chuanqi", "種植方式", "需立支架栽培，採雙行立支架方式較便利，行距80或75公分、株距45或60公分，每分地約需種苗2,220～2,800株", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+    ("chuanqi", "整枝", "植株高約20公分時開始第一次摘心，之後每生長20公分即再摘心一次，以增加分枝", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+    ("chuanqi", "施肥", "整地時應重施有機肥，每分地至少施用600公斤，並配合化學肥料（如台肥1號複合肥20-5-10）每次施用40公斤", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3771", "official", "2026-08-23"),
+
+    # 香菇 - 農業知識入口網 菇類與植物工廠主題館
+    ("xianggu", "菌絲生長溫度", "菌絲生長溫度範圍5～34℃，以22～26℃最適宜", "農業知識入口網（菇類與植物工廠主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35701", "official", "2026-08-23"),
+    ("xianggu", "子實體發育溫度", "子實體發育需較低溫，範圍5～24℃，以約15℃最適宜；20℃以上生長快但菇體薄、柄長品質較差，12℃以下生長較慢但菇體厚實品質佳，約4℃時菇傘易龜裂成花瓣狀「花菇」為最高等級", "農業知識入口網（菇類與植物工廠主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35701", "official", "2026-08-23"),
+    ("xianggu", "太空包栽培流程", "太空包割包澆水後維持濕度85%以上，約3.5個月可出菇；採收後「扣包」休養，7～10天後可再次出菇，反覆採收6～8次", "農業知識入口網（菇類與植物工廠主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=35701", "official", "2026-08-23"),
+
+    # 黑木耳 - 農業知識入口網
+    ("muer", "太空包配方", "木屑78%、米糠20%、碳酸鈣1%、蔗糖1%，栽培溫度25±2℃、濕度60～85%", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55306", "official", "2026-08-23"),
+    ("muer", "栽培用材", "主要使用楓香、相思樹、樟樹等闊葉樹木屑，棉籽殼、玉米芯、稻草等亦適用", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55306", "official", "2026-08-23"),
+    ("muer", "水分管理", "每日澆水1～2次，接種後約28～30天可出菇採收", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1106", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2018,6 +2088,12 @@ UNVERIFIED = [
     ("heidou", "播種月份僅知依整地方式分早晚（作畦栽培偏早、撒播開溝栽培偏晚），未取得具體月份數字，season欄位暫留空；適合溫度、土壤條件、株距、病蟲害資料本次均未查得，需另行補齊。"),
     ("lvzhusun", "綠竹為多年生竹類，新植多以高壓、分株法繁殖既有竹叢，定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與果樹類作物處理方式相同；病蟲害資料本次僅由主題館索引頁查得名稱列表（蟲害如竹葉蟎、臺灣大象鼻蟲、長角緣椿象等17種，病害如黑斑病、銹病、竹白絹病等9種），未逐一查證症狀與防治方法原文，需另行補齊。"),
     ("aiyu", "苗木定植的確切月份、適合溫度、土壤條件、株距、施肥等基本欄位本次均未查得；愛玉授粉依賴專一的愛玉小蜂共生關係，此非一般病蟲害概念，病蟲害資料（如「愛玉子的病與蟲」頁面所列項目）本次未查證，需另行補齊；栽培地點受海拔限制（傳統產區800～1,800公尺），與甜柿、蘋果等高冷地果樹相同，「現在適合種」邏輯需額外考慮海拔限制。"),
+    ("cha", "苗木定植的確切月份、土壤pH條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺；茶為台灣重要經濟作物，品種與製茶方式（綠茶、包種、烏龍、紅茶等）差異大，之後可考慮依茶種細分資料。"),
+    ("shushu", "播種/扦插的確切月份、適合溫度、土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺，僅知主要栽培於台中以南及花蓮。"),
+    ("gaoliang", "播種月份僅知早於花生，未取得具體月份數字，season欄位暫留空；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；金門與台灣本島氣候不同，此筆資料是否適用本島種植尚待查證。"),
+    ("chuanqi", "播種/扦插的確切季節月份、適合溫度、採收天數、病蟲害資料本次均未查得，需另行補齊；川七（藤三七/落葵薯）與皇宮菜（落葵）為不同科屬但外型與食用方式相近的植物，容易混淆，之後可考慮在UI呈現時加以區別說明。"),
+    ("xianggu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；適合太空包基質配方、露地段木栽培法、病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
+    ("muer", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；適合pH條件、病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
 ]
 
 
