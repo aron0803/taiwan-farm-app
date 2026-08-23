@@ -277,6 +277,10 @@ REGISTRY = [
     ("lingzhi", "靈芝", "菇蕈類", "collected"),
     ("tianju", "甜菊", "特用作物", "collected"),
     ("mubieguo", "木鱉果", "果菜類", "collected"),
+    # 第二十二批（新增：果樹）
+    ("boluomi", "波羅蜜", "果樹", "collected"),
+    ("renxinguo", "人心果", "果樹", "collected"),
+    ("mianbaoguo", "麵包果（麵包樹）", "果樹", "collected"),
 ]
 
 def M(*months):
@@ -1247,6 +1251,25 @@ CROPS = [
          region_note="多年生草質藤本植物，生長快速、抗病蟲害，但不耐低溫與強風，每年冬後地上部逐漸枯萎進入休眠，翌年春暖後再萌發；雌雄異株，需同時栽種雄株與雌株才能結果。",
          season_months_north=None, season_months_central=None, season_months_south=M(3,4),
          season_label="種子繁殖：去殼後於3～4月種植，採棚架栽培；花期5～6月，果實9～11月成熟；亦可扦插繁殖"),
+    # 第二十二批（新增）
+    dict(crop_id="boluomi", name="波羅蜜", category="果樹",
+         region_north=None, region_central=None,
+         region_south="以中南部種植產量較多",
+         region_note="桑科常綠喬木，原產印度、東南亞；台灣平地及低海拔山區皆可種植，但苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；適合全日或半日照溫暖環境，喜溫暖潮濕、較耐寒，土壤適應廣、耐鹽但忌淹水；繁殖用播種、空中壓條、嫁接法"),
+    dict(crop_id="renxinguo", name="人心果", category="果樹",
+         region_north=None, region_central=None,
+         region_south="嘉義、台南、雲林為主要栽培地區",
+         region_note="山欖科常綠喬木，原產熱帶美洲；主要繁殖法（圈枝育苗）全年皆可進行，但因發根需高溫多濕環境，以7～8月最適宜，此為繁殖適期而非苗木定植的季節。",
+         season_months_north=None, season_months_central=None, season_months_south=M(7,8),
+         season_label="圈枝育苗（空中壓條）全年皆可進行，但發根需高溫多濕環境，以7～8月最適宜；對土壤要求不嚴，耐鹽性強適合沿海地區栽培"),
+    dict(crop_id="mianbaoguo", name="麵包果（麵包樹）", category="果樹",
+         region_north=None, region_central=None,
+         region_south="花蓮、台東為主要栽培地區，蘭嶼達悟族傳統於祖靈地混植栽培",
+         region_note="桑科常綠大喬木，全株含乳汁；達悟族傳統栽培於父系團體林地，與龍眼、樹漆、大葉肉豆蔻、蘭嶼紅心木等混植；苗木定植的確切季節月份原文未給出，需另行查證，此處月份為果實成熟期（採收期）。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；果實成熟期為7～8月（此為採收期非播種月份），成熟果實外皮黃綠色，澱粉含量豐富但不可生食，需經烤、蒸、炸或煮湯（常見與魚乾同煮）"),
 ]
 
 CULTIVATION = [
@@ -2264,6 +2287,21 @@ CULTIVATION = [
     ("mubieguo", "主要產地", "目前長濱、成功等鄉鎮農民零星栽培，花東地區原住民常於自家庭院栽培採收嫩果", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
     ("mubieguo", "花果期", "花期5～6月，果實於9～11月成熟", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39519", "official", "2026-08-23"),
     ("mubieguo", "土壤條件與繁殖", "適合富含有機質之壤土至砂質壤土，土質過重或排水不良地區不適合栽培；種子須去殼後於3～4月種植，採棚架栽培，亦可扦插繁殖；雌雄異株，需同時栽種雄株與雌株才能結果", "農業知識入口網（苦瓜主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=38149", "official", "2026-08-23"),
+
+    # 波羅蜜 - 農業知識入口網
+    ("boluomi", "植物特性", "常綠喬木，株高可達8～20公尺，果實長橢圓形、著生於樹幹（幹生果），具特殊氣味，果肉香甜", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631", "official", "2026-08-23"),
+    ("boluomi", "栽培環境", "適合全日或半日照溫暖環境，台灣平地及低海拔山區皆可種植，以中南部產量較多；土壤須深厚且富含有機質；喜溫暖潮濕、較本屬其他種類耐寒，土壤適應廣、耐鹽但忌淹水", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631", "official", "2026-08-23"),
+    ("boluomi", "繁殖方式", "以播種、空中壓條、嫁接法繁殖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631", "official", "2026-08-23"),
+
+    # 人心果 - 農業知識入口網
+    ("renxinguo", "植物特性", "山欖科常綠喬木，原產熱帶美洲", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727", "official", "2026-08-23"),
+    ("renxinguo", "栽培環境", "對土壤要求不嚴，砂質或砂質壤土為佳，石灰質土壤亦可；耐鹽性強，適合沿海地區栽培；目前主要栽培於嘉義、台南、雲林等地", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727", "official", "2026-08-23"),
+    ("renxinguo", "繁殖方式", "以播種、嫁接、空中壓條（圈枝育苗）繁殖；種子取出果實洗淨略乾後播於沙床催芽，苗高15～20公分時小心移植育苗；圈枝育苗為目前主要繁殖法，全年皆可進行，但發根需高溫多濕環境，以7～8月最適宜", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727", "official", "2026-08-23"),
+
+    # 麵包果（麵包樹）- 農業知識入口網 原住民族農產業主題館
+    ("mianbaoguo", "植物特性", "桑科常綠大喬木，株高可達10～15公尺，全株含乳汁", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39530", "official", "2026-08-23"),
+    ("mianbaoguo", "主要產地與傳統利用", "主要栽培於花蓮、台東；蘭嶼達悟族傳統將麵包樹栽培於父系團體林地，與龍眼、樹漆、大葉肉豆蔻、蘭嶼紅心木等混植，木材質輕且具防水性，為達悟族傳統造船材料之一", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39530", "official", "2026-08-23"),
+    ("mianbaoguo", "果實成熟與食用", "果實成熟期為7～8月，成熟果實外皮呈黃綠色；澱粉含量豐富但不可生食，常見料理方式為烤、蒸、炸或煮湯（尤以與魚乾同煮最常見）", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39530", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2897,6 +2935,9 @@ UNVERIFIED = [
     ("lingzhi", "本表season欄位留空是因太空包/瓶栽為控制環境周年生產，非露地看天田作物，並非資料查證不足；具體太空包配方、栽培溫度、病蟲害資料本次未查得，需另行補齊；靈芝兼具食用與藥用（保健食品原料）用途，之後在UI呈現時可補充說明。"),
     ("tianju", "土壤條件、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；甜菊為天然代糖植物而非一般食用作物，之後在UI呈現時應說明其用途定位。"),
     ("mubieguo", "北部、中部是否適合栽培尚待查證（目前僅知花東零星栽培）；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；雌雄異株特性（需同時栽種雄株與雌株才能結果）為重要栽培限制，之後在UI呈現時應加以說明。"),
+    ("boluomi", "苗木定植的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部是否適合栽培尚待查證（僅知中南部產量較多）。"),
+    ("renxinguo", "苗木定植（非繁殖育苗）的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證。"),
+    ("mianbaoguo", "苗木定植的確切季節月份原文未給出，season欄位改採果實成熟期（採收期）呈現，與其他果樹類作物「同株不同產物」處理方式一致；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證（目前僅知花蓮台東栽培）。"),
 ]
 
 

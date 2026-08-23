@@ -1025,6 +1025,24 @@
       "name": "木鱉果",
       "category": "果菜類",
       "status": "collected"
+    },
+    {
+      "crop_id": "boluomi",
+      "name": "波羅蜜",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "renxinguo",
+      "name": "人心果",
+      "category": "果樹",
+      "status": "collected"
+    },
+    {
+      "crop_id": "mianbaoguo",
+      "name": "麵包果（麵包樹）",
+      "category": "果樹",
+      "status": "collected"
     }
   ],
   "crops": [
@@ -3250,6 +3268,45 @@
       "season_months_central": null,
       "season_months_south": "3,4",
       "season_label": "種子繁殖：去殼後於3～4月種植，採棚架栽培；花期5～6月，果實9～11月成熟；亦可扦插繁殖"
+    },
+    {
+      "crop_id": "boluomi",
+      "name": "波羅蜜",
+      "category": "果樹",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "以中南部種植產量較多",
+      "region_note": "桑科常綠喬木，原產印度、東南亞；台灣平地及低海拔山區皆可種植，但苗木定植的確切季節月份原文未給出，需另行查證。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；適合全日或半日照溫暖環境，喜溫暖潮濕、較耐寒，土壤適應廣、耐鹽但忌淹水；繁殖用播種、空中壓條、嫁接法"
+    },
+    {
+      "crop_id": "renxinguo",
+      "name": "人心果",
+      "category": "果樹",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "嘉義、台南、雲林為主要栽培地區",
+      "region_note": "山欖科常綠喬木，原產熱帶美洲；主要繁殖法（圈枝育苗）全年皆可進行，但因發根需高溫多濕環境，以7～8月最適宜，此為繁殖適期而非苗木定植的季節。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": "7,8",
+      "season_label": "圈枝育苗（空中壓條）全年皆可進行，但發根需高溫多濕環境，以7～8月最適宜；對土壤要求不嚴，耐鹽性強適合沿海地區栽培"
+    },
+    {
+      "crop_id": "mianbaoguo",
+      "name": "麵包果（麵包樹）",
+      "category": "果樹",
+      "region_north": null,
+      "region_central": null,
+      "region_south": "花蓮、台東為主要栽培地區，蘭嶼達悟族傳統於祖靈地混植栽培",
+      "region_note": "桑科常綠大喬木，全株含乳汁；達悟族傳統栽培於父系團體林地，與龍眼、樹漆、大葉肉豆蔻、蘭嶼紅心木等混植；苗木定植的確切季節月份原文未給出，需另行查證，此處月份為果實成熟期（採收期）。",
+      "season_months_north": null,
+      "season_months_central": null,
+      "season_months_south": null,
+      "season_label": "苗木定植的確切季節月份原文未給出，需另行查證；果實成熟期為7～8月（此為採收期非播種月份），成熟果實外皮黃綠色，澱粉含量豐富但不可生食，需經烤、蒸、炸或煮湯（常見與魚乾同煮）"
     }
   ],
   "cultivation": [
@@ -9982,6 +10039,96 @@
       "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=38149",
       "source_type": "official",
       "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 674,
+      "crop_id": "boluomi",
+      "field": "植物特性",
+      "value": "常綠喬木，株高可達8～20公尺，果實長橢圓形、著生於樹幹（幹生果），具特殊氣味，果肉香甜",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 675,
+      "crop_id": "boluomi",
+      "field": "栽培環境",
+      "value": "適合全日或半日照溫暖環境，台灣平地及低海拔山區皆可種植，以中南部產量較多；土壤須深厚且富含有機質；喜溫暖潮濕、較本屬其他種類耐寒，土壤適應廣、耐鹽但忌淹水",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 676,
+      "crop_id": "boluomi",
+      "field": "繁殖方式",
+      "value": "以播種、空中壓條、嫁接法繁殖",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=1631",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 677,
+      "crop_id": "renxinguo",
+      "field": "植物特性",
+      "value": "山欖科常綠喬木，原產熱帶美洲",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 678,
+      "crop_id": "renxinguo",
+      "field": "栽培環境",
+      "value": "對土壤要求不嚴，砂質或砂質壤土為佳，石灰質土壤亦可；耐鹽性強，適合沿海地區栽培；目前主要栽培於嘉義、台南、雲林等地",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 679,
+      "crop_id": "renxinguo",
+      "field": "繁殖方式",
+      "value": "以播種、嫁接、空中壓條（圈枝育苗）繁殖；種子取出果實洗淨略乾後播於沙床催芽，苗高15～20公分時小心移植育苗；圈枝育苗為目前主要繁殖法，全年皆可進行，但發根需高溫多濕環境，以7～8月最適宜",
+      "source_name": "農業知識入口網",
+      "source_url": "https://kmweb.moa.gov.tw/knowledge_view.php?id=5727",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 680,
+      "crop_id": "mianbaoguo",
+      "field": "植物特性",
+      "value": "桑科常綠大喬木，株高可達10～15公尺，全株含乳汁",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39530",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 681,
+      "crop_id": "mianbaoguo",
+      "field": "主要產地與傳統利用",
+      "value": "主要栽培於花蓮、台東；蘭嶼達悟族傳統將麵包樹栽培於父系團體林地，與龍眼、樹漆、大葉肉豆蔻、蘭嶼紅心木等混植，木材質輕且具防水性，為達悟族傳統造船材料之一",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39530",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
+    },
+    {
+      "id": 682,
+      "crop_id": "mianbaoguo",
+      "field": "果實成熟與食用",
+      "value": "果實成熟期為7～8月，成熟果實外皮呈黃綠色；澱粉含量豐富但不可生食，常見料理方式為烤、蒸、炸或煮湯（尤以與魚乾同煮最常見）",
+      "source_name": "農業知識入口網（原住民族農產業主題館）",
+      "source_url": "https://kmweb.moa.gov.tw/subject/subject.php?id=39530",
+      "source_type": "official",
+      "fetched_date": "2026-08-23"
     }
   ],
   "pests": [
@@ -12529,6 +12676,21 @@
       "id": 175,
       "crop_id": "mubieguo",
       "note": "北部、中部是否適合栽培尚待查證（目前僅知花東零星栽培）；適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；雌雄異株特性（需同時栽種雄株與雌株才能結果）為重要栽培限制，之後在UI呈現時應加以說明。"
+    },
+    {
+      "id": 176,
+      "crop_id": "boluomi",
+      "note": "苗木定植的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部是否適合栽培尚待查證（僅知中南部產量較多）。"
+    },
+    {
+      "id": 177,
+      "crop_id": "renxinguo",
+      "note": "苗木定植（非繁殖育苗）的確切季節月份、適合溫度、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證。"
+    },
+    {
+      "id": 178,
+      "crop_id": "mianbaoguo",
+      "note": "苗木定植的確切季節月份原文未給出，season欄位改採果實成熟期（採收期）呈現，與其他果樹類作物「同株不同產物」處理方式一致；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北部、中部是否適合栽培尚待查證（目前僅知花蓮台東栽培）。"
     }
   ]
 }
