@@ -245,6 +245,11 @@ REGISTRY = [
     ("douvu", "豆薯", "根莖類", "collected"),
     ("mengzongzhusun", "孟宗竹筍（冬筍）", "筍類", "collected"),
     ("shufanqie", "樹番茄", "果樹", "collected"),
+    # 第十五批（新增：果樹/根莖類/葉菜類）
+    ("yangmei", "楊梅", "果樹", "collected"),
+    ("lianzi", "蓮子", "根莖類", "collected"),
+    ("hongfengcai", "紅鳳菜", "葉菜類", "collected"),
+    ("longkui", "龍葵", "葉菜類", "collected"),
 ]
 
 def M(*months):
@@ -1076,6 +1081,28 @@ CROPS = [
          region_note="茄科多年生半木質常綠植物，原產秘魯安地斯山脈，栽培需海拔1,000公尺以上高冷地；扦插苗於生根後在春季移植，但原文未給出移植的確切月份，需另行查證。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="扦插生根後於春季移植，原文未給出確切月份，需另行查證；栽培需海拔1,000公尺以上高冷地，定植後2年內可開始結果、3～4年進入盛產期，開花後5～6個月果實成熟"),
+    # 第十五批（新增）
+    dict(crop_id="yangmei", name="楊梅", category="果樹",
+         region_north=None, region_central=None, region_south=None,
+         region_note="楊梅科常綠喬木，台灣原生兩種：尖葉楊梅與小葉楊梅（恆春楊梅）；植株強健、耐風耐污染耐病蟲害、耐旱；苗木定植/播種的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植/播種的確切季節月份原文未給出，需另行查證；喜溫暖至炎熱氣候，需排水良好與充足日照；果實於春夏之際成熟（此為結果期，非播種定植月份）"),
+    dict(crop_id="lianzi", name="蓮子", category="根莖類",
+         region_north=None, region_central=None,
+         region_south="南部適合種植期為2月中旬至4月中旬",
+         region_note="蓮子（種子）繁殖須於春夏完成，秋天以後不能再種；蓮藕/蓮花商業栽培則以根莖（藕節）繁殖較為便利，一節可延伸出20～30公尺蓮田；蓮子與已收錄的蓮藕（lianou）同為蓮花不同部位/用途的產物，之後可考慮在UI呈現時說明兩者關聯。",
+         season_months_north=None, season_months_central=None, season_months_south=M(2,3,4),
+         season_label="種子繁殖須於春夏完成，秋天以後不可再種；南部適合種植期為2月中旬至4月中旬（根莖繁殖法）；蓮花喜高溫（年均溫20～30℃）、微酸性土壤、全日照、無風環境"),
+    dict(crop_id="hongfengcai", name="紅鳳菜", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文明確指出全年皆可種植與採收（1月至12月皆可扦插），為都市農耕（頂樓、陽台、窗台）推薦的年度栽培蔬菜之一，故此筆季節欄位標示為全年皆可栽種，與四季皆可栽種的蔬菜類作物（如小白菜、空心菜）處理方式相同。",
+         season_months_north=ALL_YEAR, season_months_central=ALL_YEAR, season_months_south=ALL_YEAR,
+         season_label="全年皆可種植，以15公分嫩莖扦插繁殖，生長期約25～30天，全年皆可採收"),
+    dict(crop_id="longkui", name="龍葵", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="原文指出人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；另有敘述「龍葵可全年栽種」，兩者並不完全一致，此處以較具體的「秋冬春最適合」季節資料為主，需另行查證確認精確播種月份。",
+         season_months_north=M(9,10,11,12,1,2,3,4), season_months_central=M(9,10,11,12,1,2,3,4), season_months_south=M(9,10,11,12,1,2,3,4),
+         season_label="人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；生長適溫20～32℃；種子繁殖：9～10月採集成熟果實陰乾腐熟果皮，翌年春季取種、4月播種，株距33×3公分、深約3公分"),
 ]
 
 CULTIVATION = [
@@ -1963,6 +1990,28 @@ CULTIVATION = [
     ("shufanqie", "栽培環境", "栽培需海拔1,000公尺以上高冷地，土壤宜疏鬆、肥沃、排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
     ("shufanqie", "繁殖方式", "選健康的1～2年生枝條，剪取約20公分插穗育苗，待生根後於春季移植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
     ("shufanqie", "生長週期與株距", "定植後2年內可開始結果，3～4年進入盛產期，開花後5～6個月果實成熟；株距約3～4公尺；品種分黃色與紅色兩類", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=5674", "official", "2026-08-23"),
+
+    # 楊梅 - 農業知識入口網
+    ("yangmei", "植物特性", "常綠喬木，株高可達15公尺，台灣原生尖葉楊梅與小葉楊梅（恆春楊梅）兩種；植株強健，耐風、耐污染、耐病蟲害、耐旱", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=15317", "official", "2026-08-23"),
+    ("yangmei", "適合環境", "喜溫暖至炎熱氣候，需排水良好與充足日照", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=15317", "official", "2026-08-23"),
+    ("yangmei", "繁殖方式", "可用播種或扦插法繁殖", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3769", "official", "2026-08-23"),
+    ("yangmei", "結果期", "春夏之際結出紅色或暗紅色球形核果，外皮似草莓般凹凸，果肉酸甜可鮮食、加工蜜餞或釀酒", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=2629", "official", "2026-08-23"),
+
+    # 蓮子 - 農業知識入口網 蓮主題館
+    ("lianzi", "種子繁殖方式", "種子（黑色種皮較圓端）須先鑿開種皮、小心去除外層不傷及生長點，浸水並每日換水，待水面展開2～3片葉後移植入土；整個種植過程須在春夏完成，秋天以後不能再種植", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=10909", "official", "2026-08-23"),
+    ("lianzi", "根莖繁殖方式", "以根莖及藕節苗繁殖較便利，一節可延伸出20～30公尺蓮田；種植每公頃約需1,000～1,200節（約500公斤），南部適合種植期為2月中旬至4月中旬", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8978", "official", "2026-08-23"),
+    ("lianzi", "適合環境", "喜高溫（年均溫20～30℃）與微酸性土壤，需全日照，因抗風性弱須種植於無風環境", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8978", "official", "2026-08-23"),
+
+    # 紅鳳菜 - 農業知識入口網
+    ("hongfengcai", "適合溫度與土壤", "生長適溫20～30℃，土壤宜疏鬆、肥沃、富含有機質且排水良好", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4317", "official", "2026-08-23"),
+    ("hongfengcai", "繁殖與採收", "以15公分嫩莖扦插繁殖，全年皆可進行，生長期約25～30天，全年皆可採收", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=4317", "official", "2026-08-23"),
+    ("hongfengcai", "都市農耕適用性", "為都市農耕（頂樓、陽台、窗台）推薦的全年可栽培蔬菜之一", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=city_farming&id=89", "official", "2026-08-23"),
+
+    # 龍葵 - 農業知識入口網 原住民族農產業主題館
+    ("longkui", "植物特性", "一年生草本植物，株高約40～80公分，葉互生呈卵形或橢圓形，全緣或波狀鋸齒；莖多分枝呈綠色略帶三稜形；聚繖花序腋生，花白色或淡紫色，每花序4～10朵花", "農業知識入口網（原住民族農產業主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39528", "official", "2026-08-23"),
+    ("longkui", "適合季節與溫度", "人工栽培以秋、冬、春季節最為適合，夏季為生殖生長期（開花結果）；生長適溫20～32℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
+    ("longkui", "土壤條件", "栽培土壤可為砂礫質至黏質，以富含有機質、排水良好之壤土為佳，pH6.5～7.0最適宜", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
+    ("longkui", "種子繁殖", "9～10月採集成熟果實，置於陰涼潮濕處使果皮自然腐解，翌年春季取種搓洗乾淨後於4月播種，株距33×3公分、播種深度約3公分", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3604", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2570,6 +2619,10 @@ UNVERIFIED = [
     ("douvu", "北中南分區資料未取得；土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊；食用安全資訊（藤蔓莖葉種子有毒）已於cultivation_facts補齊，UI呈現時應保留此警示。"),
     ("mengzongzhusun", "定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與綠竹筍、桂竹筍、麻竹筍等其他筍類作物處理方式相同；土壤條件、施肥、病蟲害資料本次均未查得，需另行補齊；北部分區資料未取得。"),
     ("shufanqie", "移植的確切季節月份僅知「春季」，原文未給精確數字，season欄位暫留空，需另行查證；土壤pH、施肥、病蟲害資料本次均未查得，需另行補齊；栽培受海拔限制（需1,000公尺以上高冷地），與甜柿、蘋果等高冷地果樹相同，「現在適合種」邏輯需額外考慮海拔限制。"),
+    ("yangmei", "苗木定植/播種的確切季節月份原文未給出，season欄位暫留空，需另行查證；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("lianzi", "北部、中部種植期資料未取得（僅知南部2月中旬至4月中旬）；施肥、病蟲害資料本次均未查得，需另行補齊；蓮子與已收錄的蓮藕（lianou）為同一蓮花植物的不同產物/用途，之後在UI呈現時可考慮合併說明或交叉引用。"),
+    ("hongfengcai", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("longkui", "「秋冬春最適合」與「可全年栽種」兩種敘述並存但不完全一致，此處採用較具體的秋冬春季節資料，需另行查證確認精確播種月份；株距已查得（種子繁殖法），但施肥、病蟲害資料本次未查得，需另行補齊；龍葵為野菜，食用前需確認其成熟果實（未熟果實含茄鹼類毒素）與正確食用部位，之後在UI呈現時應加以提醒。"),
 ]
 
 
