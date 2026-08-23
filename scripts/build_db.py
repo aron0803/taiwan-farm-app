@@ -201,6 +201,13 @@ REGISTRY = [
     ("chuanqi", "川七", "葉菜類", "collected"),
     ("xianggu", "香菇", "菇蕈類", "collected"),
     ("muer", "黑木耳", "菇蕈類", "collected"),
+    # 第七批（新增：雜糧/筍類/豆菜類/特用作物/花卉類，新增「花卉類」分類）
+    ("xiaomai", "小麥", "雜糧", "collected"),
+    ("qiaomai", "蕎麥", "雜糧", "collected"),
+    ("mazhusun", "麻竹筍", "筍類", "collected"),
+    ("tiandou", "甜豆", "豆菜類", "collected"),
+    ("keke", "可可", "特用作物", "collected"),
+    ("hudielan", "蝴蝶蘭", "花卉類", "collected"),
 ]
 
 def M(*months):
@@ -821,6 +828,43 @@ CROPS = [
          region_note="黑木耳亦多以太空包栽培（木屑78%、米糠20%、碳酸鈣1%、蔗糖1%），屬控制環境下的周年生產模式，非露地看天田作物，故無傳統「播種月份」概念；接種後28～30天可出菇。",
          season_months_north=None, season_months_central=None, season_months_south=None,
          season_label="太空包栽培為控制環境生產，全年皆可進行，非露地看天田作物；栽培溫度25±2℃、濕度60～85%，每日澆水1～2次，接種後約28～30天可採收"),
+    # 第七批（新增）
+    dict(crop_id="xiaomai", name="小麥", category="雜糧",
+         region_north=None, region_central=None,
+         region_south=None,
+         region_note="台灣小麥主要栽培於金門（每年約1,700～1,800公頃，為單一縣市栽培面積最高地區），主要作為金門高粱酒製曲原料；本島栽培資料尚未取得，此筆月份資料僅代表金門地區。",
+         season_months_north=None, season_months_central=None, season_months_south=M(11),
+         season_label="金門地區通常於11月中旬播種，生育期約145～153天，隔年4～5月間收穫；主要品種為台中選2號"),
+    dict(crop_id="qiaomai", name="蕎麥", category="雜糧",
+         region_north=None, region_central=None, region_south=None,
+         region_note="台灣主要作冬期裡作栽培，甜蕎常兼作冬季景觀作物與蜜蜂冬季蜜源；原文未給出精確播種月份數字（僅引用古代農書「五月耕地」等非台灣本地資料），需另行查證台灣官方播種曆。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="台灣主要作冬期裡作栽培，原文未給出精確播種月份，需另行查證；生育期不超過90天，常見品種為甜蕎、苦蕎"),
+    dict(crop_id="mazhusun", name="麻竹筍", category="筍類",
+         region_north="基隆亦有栽培（單位面積收量全國最低）",
+         region_central="台中、雲林、南投為主要產地",
+         region_south="台南市南化區為最主要產區，嘉義縣產量亦高",
+         region_note="麻竹為多年生竹類，與綠竹筍同屬「筍類」但為不同竹種，官方產期資料以「產季（採收期）」呈現，非新植繁殖月份；南化地區筍農雖4月起有產期，但當地主要生產筍絲、筍乾等加工原料而非鮮筍，5、6月才開始大量收成。",
+         season_months_north=M(6,7,8,9), season_months_central=M(6,7,8,9), season_months_south=M(6,7,8,9),
+         season_label="官方標示產期為6～9月；主要產地台南市南化區、雲林縣、嘉義縣、台中市、南投縣、基隆市；此為採收期而非新植繁殖月份"),
+    dict(crop_id="tiandou", name="甜豆", category="豆菜類",
+         region_north="冬季寒冷多雨，栽培困難",
+         region_central="彰化縣栽培面積最大（福興、秀水、埔鹽、二林等地），因秋冬氣候溫涼適合豌豆生育，栽培最多",
+         region_south="氣溫較高，栽培較少",
+         region_note="甜豌豆耐寒不耐熱，多於秋冬季節播種栽培；原文以「秋冬季節」描述，此處月份為秋冬季節的合理區間推算（9～12月），非原文直接給出的精確月份，需另行查證確認。",
+         season_months_north=M(9,10,11,12), season_months_central=M(9,10,11,12), season_months_south=M(9,10,11,12),
+         season_label="多於秋冬季節播種栽培（耐寒不耐熱），此為合理月份區間推算，非原文精確月份；生長適溫9～23℃，超過25℃生長不良、結莢減少；幼苗可耐-4℃低溫"),
+    dict(crop_id="keke", name="可可", category="特用作物",
+         region_north=None, region_central=None,
+         region_south="屏東縣為台灣最大可可產區，栽培面積近300公頃，分布內埔、高樹、里港、鹽埔、九如、長治、屏東市、麟洛、竹田、萬巒、潮州、東港、恆春等鄉鎮，以客庄鄉鎮較集中",
+         region_note="可可苗畏強光，多以檳榔樹或香蕉樹遮蔭間作栽培，3～4年後部分砍除檳榔樹以增加光照利於結果；此為既有栽培模式描述，苗木定植的確切季節月份原文未給出，需另行查證。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="苗木定植的確切季節月份原文未給出，需另行查證；栽培以檳榔園或香蕉園間作遮蔭方式為主，3～4年後逐漸增加光照"),
+    dict(crop_id="hudielan", name="蝴蝶蘭", category="花卉類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="蝴蝶蘭為盆花產業，多於溫室控制環境栽培，透過人工調節夜溫誘導花芽分化，可全年任何時期催花生產，故無傳統露地「播種/定植月份」概念；台灣為全球重要蝴蝶蘭種苗與切花外銷產地。",
+         season_months_north=None, season_months_central=None, season_months_south=None,
+         season_label="溫室控制環境栽培，全年皆可透過低溫處理催花生產，非露地看天田作物；營養生長適溫25～30℃，生殖生長期需日溫25℃／夜溫20℃以下誘導花芽分化，10℃以下停止生長，開花對低溫敏感"),
 ]
 
 CULTIVATION = [
@@ -1523,6 +1567,35 @@ CULTIVATION = [
     ("muer", "太空包配方", "木屑78%、米糠20%、碳酸鈣1%、蔗糖1%，栽培溫度25±2℃、濕度60～85%", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55306", "official", "2026-08-23"),
     ("muer", "栽培用材", "主要使用楓香、相思樹、樟樹等闊葉樹木屑，棉籽殼、玉米芯、稻草等亦適用", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=variety&id=55306", "official", "2026-08-23"),
     ("muer", "水分管理", "每日澆水1～2次，接種後約28～30天可出菇採收", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1106", "official", "2026-08-23"),
+
+    # 小麥 - 農業知識入口網
+    ("xiaomai", "適合季節", "金門地區通常於11月中旬播種，生育期145～153天，隔年4～5月間收穫", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3157", "official", "2026-08-23"),
+    ("xiaomai", "主要產地", "金門縣每年平均種植約1,700～1,800公頃小麥，為單一縣市栽培面積最高地區，主要作為金門高粱酒製曲原料", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=3157", "official", "2026-08-23"),
+    ("xiaomai", "主要品種", "目前金門地區種植品種均為台中選2號", "農業知識入口網（小麥主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=39079", "official", "2026-08-23"),
+
+    # 蕎麥 - 農業知識入口網
+    ("qiaomai", "植物特性", "蓼科一年生草本植物，常見栽培品種為甜蕎、苦蕎，生育期皆不超過90天", "農業知識入口網（雜糧新寵兒-蕎麥）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=&type=13194&keyword=&id=427196", "official", "2026-08-23"),
+    ("qiaomai", "台灣栽培方式", "主要作冬期裡作栽培，甜蕎常兼作冬季景觀作物及蜜蜂冬季蜜源，平均每公頃約可產1,000～1,200公斤種子", "農業知識入口網（雜糧新寵兒-蕎麥）", "https://kmweb.moa.gov.tw/knowledgebase.php?func=&type=13194&keyword=&id=427196", "official", "2026-08-23"),
+
+    # 麻竹筍 - 農業知識入口網
+    ("mazhusun", "主要產地", "全國產地包括台南市南化區、台中市、雲林縣、南投縣、基隆市，南化區為最主要產區；114年統計產量最高三縣市為雲林縣、嘉義縣、台南市", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=110", "official", "2026-08-23"),
+    ("mazhusun", "產季", "官方標示產期為6～9月；南化地區筍農雖4月起有產期，但5、6月才開始大量收成，因當地主要生產筍絲、筍乾等加工原料而非鮮筍", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=110", "official", "2026-08-23"),
+    ("mazhusun", "各地收量", "宜蘭縣公頃收量最高（約18,720公斤/公頃），基隆市最低（約4,538公斤/公頃），各地差異明顯", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=production_map&id=110", "official", "2026-08-23"),
+
+    # 甜豆 - 農業知識入口網
+    ("tiandou", "適合季節", "耐寒不耐熱，多於秋冬季節播種栽培", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+    ("tiandou", "適合溫度", "生長適溫9～23℃，幼苗可耐-4℃低溫，超過25℃時生長不良、結莢減少", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+    ("tiandou", "區域分布", "栽培集中中部地區，因秋冬氣候溫涼適合豌豆生育；彰化縣栽培面積最大，主要集中福興、秀水、埔鹽、二林等地；北部冬季寒冷多雨栽培困難，南部氣溫較高栽培較少", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+    ("tiandou", "土壤條件", "需良好排水，不耐濕，土壤pH值宜5.5～6.7；開花結莢期需充足光照", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=9296", "official", "2026-08-23"),
+
+    # 可可 - 農業知識入口網
+    ("keke", "主要產地", "屏東縣為台灣最大可可產區，栽培面積近300公頃，分布內埔、高樹、里港、鹽埔、九如、長治、屏東市、麟洛、竹田、萬巒、潮州、東港、恆春等鄉鎮，客庄鄉鎮較集中", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=56261", "official", "2026-08-23"),
+    ("keke", "栽培方式", "可可苗畏強光，多以檳榔樹遮蔭或種植於香蕉樹旁間作栽培，3～4年後部分砍除檳榔樹以增加光照，利於可可結出飽滿果實", "農業知識入口網", "https://kmweb.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri_life&id=56261", "official", "2026-08-23"),
+
+    # 蝴蝶蘭 - 農業知識入口網
+    ("hudielan", "生長溫度", "可生長環境溫度範圍10～38℃，適應生長溫度20～30℃，營養生長最適溫度25～30℃", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1477", "official", "2026-08-23"),
+    ("hudielan", "溫度耐受", "夏季高於35℃、冬季低於10℃生長停止，無法忍受15℃以下低溫；花朵對低溫極敏感，12℃下3天即輕微寒害，10℃下7天會縮短切花瓶插壽命", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=1477", "official", "2026-08-23"),
+    ("hudielan", "花期調節", "生殖生長期需日溫25℃／夜溫20℃以下誘導花芽分化；催花可用20～25℃涼溫處理約一個月促進花梗長出，再移回25～30℃溫室，可見小花苞後提高至日30℃／夜25℃利於開花；低溫處理不足則營養芽比例增加、花朵數減少，但溫度過低會使花梗發育變慢、花朵畸形", "農業知識入口網", "https://kmweb.moa.gov.tw/knowledge_view.php?id=8918", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -2094,6 +2167,12 @@ UNVERIFIED = [
     ("chuanqi", "播種/扦插的確切季節月份、適合溫度、採收天數、病蟲害資料本次均未查得，需另行補齊；川七（藤三七/落葵薯）與皇宮菜（落葵）為不同科屬但外型與食用方式相近的植物，容易混淆，之後可考慮在UI呈現時加以區別說明。"),
     ("xianggu", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；適合太空包基質配方、露地段木栽培法、病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
     ("muer", "本表season欄位留空是因太空包為控制環境周年生產，非露地看天田作物，並非資料查證不足；適合pH條件、病蟲害（雜菌感染等）資料本次未查得，需另行補齊。"),
+    ("xiaomai", "本筆資料僅代表金門地區栽培情況，台灣本島栽培資料尚未取得；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("qiaomai", "播種月份原文未給出精確數字（僅泛稱冬期裡作，及引用古代農書「五月耕地」等非台灣本地資料），season欄位暫留空，需另行查證台灣官方播種曆；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；北中南分區資料亦缺。"),
+    ("mazhusun", "定植/繁殖的確切月份原文未直接給出，本表season改採產季（採收期），與綠竹筍、果樹類作物處理方式相同；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("tiandou", "季節月份為「秋冬季節」的合理區間推算（9～12月），非原文直接給出的精確月份，需另行查證核實；株距、施肥、採收天數、病蟲害資料本次均未查得，需另行補齊。"),
+    ("keke", "苗木定植的確切季節月份、適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；可可為台灣近十年興起的新興特用作物，栽培規模與資料完整度仍在發展中，之後應持續追蹤官方資料更新。"),
+    ("hudielan", "本表season欄位留空是因蝴蝶蘭為溫室控制環境周年生產、可全年催花，非露地看天田作物，並非資料查證不足；土壤（介質）條件、施肥、病蟲害（介殼蟲、軟腐病等）資料本次未查得，需另行補齊；蝴蝶蘭屬觀賞花卉而非食用作物，之後在UI呈現時可能需與食用作物分開歸類說明。"),
 ]
 
 
