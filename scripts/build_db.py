@@ -297,6 +297,9 @@ REGISTRY = [
     # 第二十七批（新增：特用作物/花卉類）
     ("ningmengxiangfengcao", "檸檬香蜂草", "特用作物", "collected"),
     ("bosiju", "波斯菊", "花卉類", "collected"),
+    # 第二十八批（新增：葉菜類）
+    ("binghua", "冰花", "葉菜類", "collected"),
+    ("fanxing", "番杏", "葉菜類", "collected"),
 ]
 
 def M(*months):
@@ -1349,6 +1352,17 @@ CROPS = [
          region_note="菊科一年生草本，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀；官方花壇植物主題館明確列出適合播種季節，資料完整度佳。",
          season_months_north=M(9,10,11,12,1,2), season_months_central=M(9,10,11,12,1,2), season_months_south=M(9,10,11,12,1,2),
          season_label="秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花"),
+    # 第二十八批（新增）
+    dict(crop_id="binghua", name="冰花", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="番杏科松葉菊屬雙子葉一年生植物，原產東非與南非；原文列出生育與育苗適溫，但未給出明確播種月份數字，此處以生育適溫範圍（5～25℃，即秋、冬、早春）合理推算，需另行查證確認；夏季氣溫超出適溫範圍，水耕栽培須加裝降溫設備。",
+         season_months_north=M(10,11,12,1,2,3,4), season_months_central=M(10,11,12,1,2,3,4), season_months_south=M(10,11,12,1,2,3,4),
+         season_label="生育適溫5～25℃、育苗適溫20℃（此處月份為適溫範圍對應秋冬早春之合理推算，非原文精確月份）；夏季水耕栽培須加裝降溫設備；可土耕或盆植於溫室，播種後約2個月成熟可採收"),
+    dict(crop_id="fanxing", name="番杏", category="葉菜類",
+         region_north=None, region_central=None, region_south=None,
+         region_note="番杏科植物，別名紐西蘭菠菜、白番杏，原生於海灘，耐鹽、耐乾熱高溫；官方資料明確列出播種月份，資料完整度佳。",
+         season_months_north=M(2,3,4,5,6,7,8), season_months_central=M(2,3,4,5,6,7,8), season_months_south=M(2,3,4,5,6,7,8),
+         season_label="播種適期為2～8月；以有機質豐富、保水保肥力強之壤土種植生長較好，行株距15～25×15～25公分"),
 ]
 
 CULTIVATION = [
@@ -2440,6 +2454,16 @@ CULTIVATION = [
     ("bosiju", "適合季節與溫度", "秋、冬、早春皆適合種植，發芽適溫18～25℃；春植不宜過晚，夏季高溫多濕雨季易使植株偏重營養生長而不易開花", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
     ("bosiju", "植物特性", "株高約50～80公分，花色豐富細緻，自播種至開花僅需40～50天，適合盆栽、花壇及花海景觀", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
     ("bosiju", "播種方式", "以撒播為主，每分地播種量約1公斤；播種後灌溉，並每隔5～6公尺開設排水溝兼助覆土；土壤宜排水良好、日照充足之壤土或砂質壤土，種植地應避開強風處", "農業知識入口網（花壇植物主題館）", "https://kmweb.moa.gov.tw/subject/subject.php?id=14623", "official", "2026-08-23"),
+
+    # 冰花 - 農業知識入口網
+    ("binghua", "植物特性", "番杏科松葉菊屬雙子葉一年生植物，原產東非與南非，葉片表面具晶瑩剔透的囊狀細胞", "農業知識入口網（臺灣冰花番杏你吃過了沒）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=373911", "official", "2026-08-23"),
+    ("binghua", "適合溫度", "生育適溫5～25℃，育苗適溫20℃；台灣夏季以水耕方式栽種需加設降溫設備", "農業知識入口網（臺灣冰花番杏你吃過了沒）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=373911", "official", "2026-08-23"),
+    ("binghua", "栽培方式與採收", "可採土耕或盆栽方式，於塑膠布溫室中栽培；播種後約經2個月生長至成熟期即可採收", "農業知識入口網（臺灣冰花番杏你吃過了沒）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=373911", "official", "2026-08-23"),
+
+    # 番杏 - 農業知識入口網
+    ("fanxing", "植物特性", "番杏科植物，別名紐西蘭菠菜、白番杏，原生於海灘，具耐鹽、耐乾熱高溫環境之特性", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
+    ("fanxing", "適合季節與土壤", "播種適期為2～8月；以有機質豐富、保水保肥力強之壤土種植生長較好", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
+    ("fanxing", "株距", "行株距15～25公分×15～25公分", "農業知識入口網（海灘野菜－番杏）", "https://kmweb.moa.gov.tw/knowledgebase.php?id=244190", "official", "2026-08-23"),
 ]
 
 PESTS = [
@@ -3087,6 +3111,8 @@ UNVERIFIED = [
     ("jiegeng", "田間定植/播種的確切季節月份原文未給出，season欄位暫留空，需另行查證；適合溫度、土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊；桔梗兼具藥用與觀賞用途，之後在UI呈現時可補充說明。"),
     ("ningmengxiangfengcao", "土壤pH、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
     ("bosiju", "土壤pH以外的詳細條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("binghua", "季節月份為生育適溫範圍（5～25℃）對應秋冬早春之合理推算，非原文直接給出的精確播種月份，需另行查證核實；土壤條件、株距、施肥、病蟲害資料本次均未查得，需另行補齊。"),
+    ("fanxing", "適合溫度、施肥、病蟲害資料本次均未查得，需另行補齊；番杏與已收錄的皇宮菜（huanggongcai）、川七（chuanqi）皆為藤蔓/匍匐性葉菜但科屬不同，之後在UI呈現時可考慮加以區別說明。"),
 ]
 
 
